@@ -1,2 +1,211 @@
-# Consideraciones Finales {-}
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# RESULTADOS ESPERADOS DE LA CONSULTORIA {.unnumbered}
+
+Esquemáticamente, a lo largo de las distintas ediciones de la EVyTH, se
+han producido un conjunto de resultados como ser informes (de
+resultados), o bien, bases de datos o (eventualmente) el cuestionario
+incorporando modificaciones introducidas.
+
+Los informes de resultados pueden clasificarse, a su vez, en informes de
+confección periódica y continua, o de confección esporádica y para
+atender estudios puntuales. El cuadro a continuación (ver Cuadro 18)
+especifica cada uno de los informes en función de esta clasificación.
+
+**Cuadro 18. Clasificación de los productos entregados en el marco de la
+EVyTH** pag 66 El Pliego exige la confección y entrega de todos los
+informes caracterizados como "periódicos" sumando, además, aquellos
+informes de expectativas de períodos de relevancia turística (temporada
+invernal y de verano), así como el de "Comportamiento Turístico de las
+personas". Los demás informes mencionados en el cuadro anterior, no son
+parte de El Pliego y, por lo tanto, no serán confeccionados (sin
+perjuicio de que, en un futuro y de considerarse relevantes por el
+personal técnico del Organismo Contratante, podrá acordarse su
+confección).
+
+## **INFORMESACONFECCIONAR**
+
+Se enumera a continuación los informes que se realizarán, de acuerdo a
+El Pliego, a partir de la información que se recabe durante el
+transcurso de la EVyTH-21. De acuerdo con la hoja 33 de El Pliego, estos
+informes de carácter obligatorios son los siguientes:
+
+-   **Informes períodos**, a saber:
+
+-   Informe de estimaciones mensuales, de anticipo mensual y anticipo
+    trimestral, según corresponda (Informe Mensual).
+
+-   Informe de estimaciones trimestrales (Informe Trimestral).
+
+-   Informe de estimaciones anuales (Informe Anual) que incluye la
+    elaboración del Anuario Estadístico de la EVyTH.
+
+Asimismo, El Pliego también (ver páginas 34) exige la entrega de
+informes no periódicos como lo son los informes de estimaciones de
+expectativas de viajes para los períodos de relevancia turística
+Invierno/Verano (10 días hábiles anteriores a su inicio) y el de
+"Comportamiento Turístico de los Hogares".
+
+Siguiendo El Pliego, a continuación, se resumen las características
+principales de cada uno de estos informes a entregar en términos de su
+contenido, periodicidad, momento de entrega, etc.
+
+### **LOS INFORMES PERIÓDICOS A ENTREGAR**
+
+Los informes periódicos son aquellos cuya confección se realizará
+regularmente y en forma pautada a partir de un cronograma
+preestablecido. Los informes periódicos pueden ser documentos
+describiendo y analizando los resultados obtenidos a partir del
+relevamiento o conteniendo un detalle de los trabajos realizados en el
+campo.
+
+#### **INFORMES PERIÓDICOS DE RESULTADOS**
+
+Estos estudios periódicos de resultados serán publicados con frecuencia
+mensual, trimestral o anual. Siguiendo El Pliego (ver página 33), estos
+informes contendrán la información que se resumen en el Cuadro 19.
+Además, luego, se describe, para cada uno de ellos, el período temporal
+considerado en los resultados, el tamaño muestral utilizado para
+obtenerlos y el momento de la publicación. **Cuadro 19: Contenido de los
+Informes de Resultados** pag 68
+
+##### \*\* INFORME PERIÓDICO DE PUBLICACIÓN MENSUAL A SER ENTREGADO\*\*
+
+I. Informe de Resultados Definitivos Mensuales con Anticipo Mensual y
+Trimestral: se confeccionará a los 20 días de finalizar cada mes de
+relevamiento (de cada onda). Incluirá los Resultados Definitivos
+Mensuales, los Resultados de Anticipo Mensual y, cada tres meses, los
+resultados de Anticipo Trimestral.
+
+1.  Resultados Definitivos Mensuales: a partir de los 5.200 casos
+    relevados (producto del solapamiento de las ondas). Esto implica que
+    los datos definitivos de un mes de referencia "M", serán publicados
+    a los 80 días de finalizado el relevamiento correspondiente a dicho
+    mes (es decir, a los "M + 80 días"). Ver Cuadro 20.
+2.  Resultados Anticipo Mensual: a partir de los 2.600 casos relevados.
+    Por lo tanto, los resultados de un mes de referencia "M" serán
+    brindados, a modo de anticipo, a los 50 días de finalizado el
+    relevamiento correspondiente a dicho mes (es decir, a los "M + 50
+    días"). Ver Cuadro 20.
+3.  Resultados de Anticipo Trimestral (cada tres meses): se
+    confeccionará a los 20 días de finalizada la onda que completa un
+    trimestre calendario donde el último mes contiene media muestra
+    (2.600 casos relevados). Por lo tanto, la información de un
+    trimestre de referencia determinado, serán brindados, a modo de
+    anticipo, a los 50 días de finalizado el relevamiento
+    correspondiente al último mes que compone dicho trimestre. Estos
+    resultados se incluirán en el "Informe de Resultados Definitivos
+    Mensuales con Anticipo Mensual y Trimestral" del mes
+    correspondiente. Ver Cuadro 22.
+
+##### **INFORME PERIÓDICO DE PUBLICACIÓN TRIMESTRAL**
+
+El **Informe de Resultados Trimestrales** se confeccionará a los 20 días
+de finalizar el relevamiento del trimestre completo (es decir, el mes
+que completa el trimestre en consideración acumula una muestra de 5.200
+casos). Es decir, los resultados de este trimestre de referencia serán
+brindados en forma definitiva a los 80 días de finalizado el
+relevamiento correspondiente a dicho trimestre. Ver Cuadro 21.
+
+##### **INFORME PERIÓDICOS DE PUBLICACIÓN ANUAL**
+
+El **Informe de Resultados Anual** se sintetizará la información
+reflejada en los informes mensuales. Se finalizará y entregará en el mes
+siguiente de terminado el último relevamiento que completa el mes de
+diciembre de cada año (es decir, su confección es finalizada durante el
+mes de marzo de cada año).
+
+A continuación, se presentan tres cuadros con el cronograma de entrega
+de los informes de resultados para cada una de las ondas, considerando
+los períodos de relevamiento y las ventanas de observación detallados
+anteriormente. En efecto, el Cuadro 20 sintetiza las fechas en que se
+entregarán los Informes Mensuales con resultados finales y de anticipo a
+producirse a los veinte días de finalizado el relevamiento, en el
+ejemplo Mt+1+20d. Los Resultados de Anticipo Mensual se entregarán con
+los resultados obtenidos de media muestra y se corresponde al mes de
+referencia inmediatamente anterior al del mes de relevamiento, en el
+ejemplo del Mt-1, y los Resultados Finales Mensuales, en el ejemplo Mt,
+y el informe de Desarrollo de Campo, en el ejemplo %Mt+1%.
+
+En el Cuadro 21 se describe que a los veinte días de relevadas las
+muestras enteras de los dos primeros meses del trimestre en cuestión y
+media muestra del tercer mes del trimestre se entregarán los Resultados
+de Anticipo Trimestral, que serán incluidos en el Informe Mensual
+correspondiente. A los veinte días de concluido el relevamiento de la
+muestra completa del trimestre (15.600 casos) se entregará el Informe
+Trimestral Final.
+
+Finalmente, los informes de expectativas de viaje para fechas especiales
+(verano e invierno) serán entregados 10 días hábiles anteriores a su
+inicio, según lo indicado en el Pliego. **Cuadro 20: Cronograma de
+Entrega. Informes Mensuales de Anticipo y Final e Informe de Campo** pag
+71
+
+**Cuadro 21: Cronograma de Entrega. Informes Trimestrales** pag 72
+
+#### **INFORME PERIÓDICO DE CAMPO**
+
+El Informe de Campo brindará detalle en forma mensual de la evolución
+del campo. Entre la información que contendrá, describe principalmente:
+
+1) el grado de cumplimiento con la muestra planteada comparando la
+muestra teórica con la efectivamente lograda (por aglomerado),
+
+2) la efectividad del marco muestral[^resultados-esperados-1],
+
+[^resultados-esperados-1]: Se define como la razón (expresada en
+    porcentaje) entre aquellas llamadas/números telefónicos que no son
+    línea inexistente o local comercial y el total de llamadas.
+
+3) efectividad de del contacto[^resultados-esperados-2],
+
+[^resultados-esperados-2]: Se define como la razón (expresada en
+    porcentaje) entre las llamadas/números telefónicos, contactados y
+    las llamadas/números telefónicos que no son línea inexistente o
+    local comercial. Los hogares contactados son aquellos que responden
+    el llamado, acepten o no realizar la encuesta.
+
+4) efectividad de encuesta[^resultados-esperados-3],
+
+[^resultados-esperados-3]: Se define como la razón (expresada en
+    porcentaje) entre las llamadas / números telefónicos que accedieron
+    a responder la encuesta y las llamadas / números telefónicos,
+    contactados.
+
+5) la duración de la encuesta según tipo de viaje.
+
+En definitiva, el objetivo del informe es que el personal del Organismo
+Contratante pueda
+comprender lo acontecido en el campo en cada mes de relevamiento.
+
+## **PRODUCTOSASERCONFECCIONADOSAPARTIRDELRELEVAMIENTODELAEVYTH-21**
+
+Se enumera a continuación los productos a realizar a partir de los datos relevados durante el relevamiento de la EVyTH-20.
+
+### **BASE DE DATOS PARA EL USUARIO**
+
+Contendrá la información recolectada durante el relevamiento mensual (incluyendo las imputaciones, validaciones, expansiones al universo y procesamientos necesarios) durante todo el período de relevamiento. Incluye las cinco sub-bases descriptas anteriormente.
+
+### **FORMULARIO REFLEJANDO ACTUALIZACIONES INTRODUCIDAS**
+
+A lo largo del proceso de relevamiento el cuestionario de la EVyTH podrá sufrir modificaciones (generalmente menores y obviamente, en conformidad con el cuerpo técnico del Organismo Contratante). Estas alteraciones serán introducidas, generándose un nuevo cuestionario a ser entregado con el informe metodológico final.
+
+### **MANUAL DEL ENCUESTADOR Y GUÍA DE EJERCICIOS**
+
+El Manual del Encuestador tiene como objetivo brindarle a los encuestadores las herramientas conceptuales de forma tal de garantizar la homogeneización de la terminología utilizada al efectuar las encuestas. Es por ello que, el Manual, constituye un protocolo tendiente a resguardar la calidad de la información relevada. Por otra parte, además, el Manual cumple el rol de otorgarles a los encuestadores una introducción al manejo de la herramienta CATI para el cargado de la información en tiempo real. Esta preparación conceptual es luego completada con la capacitación en campo donde los encuestadores, siguiendo la Guía de Ejercicios, simulan el cargado de distintas encuestas en el sistema informático al tiempo que resuelve casos prácticos que podrían presentarse durante el relevamiento.
+
+Este Manual y su correspondiente guía de ejercicios será utilizado para brindar el curso de capacitación al equipo técnico del Organismo Contratante y, obviamente, será entregado al finalizar la consultoría como parte del informe metodológico final.
+
+### **FORMULARIO DE EXPECTATIVAS CON CAMBIOS INTRODUCIDOS**
+
+Misma lógica que el caso anterior para el Cuestionario de Expectativas de fechas relevantes turísticamente (verano e invierno): puede sufrir alguna variación y será entregado al finalizar la consultoría junto al informe metodológico final.
+
+### **SOFTWARE PARA EL CARGADO DE DATOS (CATI)**
+
+Las modificaciones eventuales que pueda sufrir el sistema CATI desarrollado por MacroConsulting al cabo del relevamiento de la EVyTH-21, será también entregado al finalizar la consultoría. Esto hace a sentido en función de que este sistema regularmente sufre mejoras y actualizaciones.
+
 
