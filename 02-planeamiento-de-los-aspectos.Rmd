@@ -763,5 +763,5 @@ Es preciso aclarar que tanto la calibración correspondiente al anticipo (con re
 
 Para salvar posibles inconsistencias en los cuadros a publicar, los pesos calibrados son tratados por un algoritmo de redondeo para eliminar la componente decimal con los que salen del proceso iterativo sin destruir las concordancias alcanzadas.
 
-
+Pagina 40
 
