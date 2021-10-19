@@ -34,3 +34,14 @@ evaluación-de-destinos-alternativos
 desagregación-del-gasto-de-viajes-y-visitas
 relevamientos-ad-hoc-informes-no-básicos
 consistencia-y-validación
+procedimiento-de-imputación
+proceso-de-calibración
+coeficiente-de-variación
+introducción
+cálculo-del-coeficiente-de-variación
+organización-y-equipos-de-trabajo
+equipos-de-trabajo
+manejo-de-la-muestra-en-el-campo
+control-de-campo.-supervisión-capacitación-y-premios
+transferencia-de-conocimiento-y-capacitación
+solución-tecnológica-instrumento-de-recolección-de-datos

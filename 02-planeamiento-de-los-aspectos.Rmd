@@ -204,7 +204,7 @@ Con el fin de considerar únicamente aquellos registros que corresponden a los h
 
 -   Finalmente, en el caso de la Ciudad Autónoma de Buenos Aires, se utilizó una base de datos de códigos postales mediante la cual se agregó a cada registro de la base de la GTN su barrio correspondiente.
 
--   En base a esta metodología se actualizó el Marco de Muestreo utilizado para la Prueba Piloto, la EVyTH-11, la EVyTH-12, EVyTH-13 EVyTH-14, EVyTH-15, EVyTH-16 EVyTH-17, EVyTH-18, EVyTH-19 y la EVyTH-20 para considerar los cambios y renovaciones que podrían haber ocurrido desde mediados de 2011 en adelante.
+-   En base a esta metodología se actualizó el Marco de Muestreo utilizado para la Prueba Piloto, la EVyTH-11, la EVyTH-12, EVyTH-13, EVyTH-14, EVyTH-15, EVyTH-16 EVyTH-17, EVyTH-18, EVyTH-19 y la EVyTH-20 para considerar los cambios y renovaciones que podrían haber ocurrido desde mediados de 2011 en adelante.
 
 ### **PERIODICIDAD, VENTANA DE OBSERVACIÓN, PERÍODOS DE REFERENCIA Y ESQUEMA DE ROTACIÓN MUESTRAL**
 
@@ -666,63 +666,43 @@ Para el presente trabajo se utiliza y adapta la macro CALMAR[^planeamiento-de-lo
 La macro mencionada trabaja con cuatro funciones G, de las cuales para la EVyTH se trabajará sólo con tres.
 A continuación, se brinda una pequeña descripción de cada una de ellas.
 
-[^planeamiento-de-los-aspectos-24]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en:
-    <http://www.restore.ac.uk/PEAS/saspackage.php>
+[^planeamiento-de-los-aspectos-24]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: <http://www.restore.ac.uk/PEAS/saspackage.php>
 
 1.  Método Lineal: G(x)=(1/2)(x-1)2; x; F(u)=1+u
 
 2.  Método multiplicativo (o método ranking):
 
-G(x)  x log x  x  1;
-iii.
+G(x)  x log x  x  1; iii.
 Método logit: Fijar dos constantes L y U, tal que L\<1\<U, y sea
 
 x  0;F(u)  exp(u)  0\
 A  (U  L) / (1  L)(U  1) .
 Luego
 
-G(x) 1 (x  L)log x  L  (U  x)log U  x 
-A 1L U1
+G(x) 1 (x  L)log x  L  (U  x)log U  x  A 1L U1
 
 
 
 si L\<x\<U, y G(x)   en otro caso.
-La función F correspondiente es:
-F(u) L(U1)U(1L)exp(Au)
+La función F correspondiente es: F(u) L(U1)U(1L)exp(Au)
 
-U 1(1 L)exp(Au)
-que toma valores entre L y U
+U 1(1 L)exp(Au) que toma valores entre L y U
 
-La función logit descripta en el punto iii), constituye una función inusual que surge del deseo
-de restringir el rango de los nuevos pesos wk para evitar los pesos extremos, los cuales
-pueden ser eliminados a través de una apropiada elección de L y U.
+La función logit descripta en el punto iii), constituye una función inusual que surge del deseo de restringir el rango de los nuevos pesos wk para evitar los pesos extremos, los cuales pueden ser eliminados a través de una apropiada elección de L y U.
 
-Para el proceso de calibración de la EVyTH se intentará, no siempre con éxito (de acuerdo
-con nuestra experiencia en las ediciones de la EVyTH anteriores), utilizar el método i, dado
-que el proceso iterativo solamente involucra un paso.
-La dificultad que posee este método
-es que, en muchos casos y debido a la estructura interna de la muestra con respecto a las variables de calibración, brinda pesos negativos los cuales obviamente no tienen sentido
-dentro del muestreo.
-Es por ello que para aquellas Regiones donde se encuentran estas
-dificultades, se adoptará por aplicar el método ii), el cual posee la ventaja de evitar los
-pesos negativos.
+Para el proceso de calibración de la EVyTH se intentará, no siempre con éxito (de acuerdo con nuestra experiencia en las ediciones de la EVyTH anteriores), utilizar el método i, dado que el proceso iterativo solamente involucra un paso.
+La dificultad que posee este método es que, en muchos casos y debido a la estructura interna de la muestra con respecto a las variables de calibración, brinda pesos negativos los cuales obviamente no tienen sentido dentro del muestreo.
+Es por ello que para aquellas Regiones donde se encuentran estas dificultades, se adoptará por aplicar el método ii), el cual posee la ventaja de evitar los pesos negativos.
 
-El método iii se aplica en aquellas Regiones donde los nuevos pesos calculados por el método
-i o ii resulten extremos.
+El método iii se aplica en aquellas Regiones donde los nuevos pesos calculados por el método i o ii resulten extremos.
 Se intenta, en la mayoría de las Regiones, que los pesos resultantes
 
-cumplan con la siguiente condición: 0.7  wk dk  1.5 , necesitando en algunas Regiones
-ampliar dichos márgenes.
+cumplan con la siguiente condición: 0.7  wk dk  1.5 , necesitando en algunas Regiones ampliar dichos márgenes.
 
-Se propone efectuar la calibración en forma independiente en cada Región dado que las
-muestras son independientes y además se pretende brindar estimaciones de cada una de
-ellas.
+Se propone efectuar la calibración en forma independiente en cada Región dado que las muestras son independientes y además se pretende brindar estimaciones de cada una de ellas.
 
-Con respecto a la información auxiliar a emplear para la calibración y el ajuste de las
-estructuras internas de la muestra, se pretende recurrir a proyecciones de población en
-base al INDEC.
-Se propone, entonces, tener en cuenta los siguientes totales a nivel de cada
-una de las siete Regiones:
+Con respecto a la información auxiliar a emplear para la calibración y el ajuste de las estructuras internas de la muestra, se pretende recurrir a proyecciones de población en base al INDEC.
+Se propone, entonces, tener en cuenta los siguientes totales a nivel de cada una de las siete Regiones:
 
 -   Total de personas por sexo.
 
@@ -752,16 +732,527 @@ Nivel Educativo está conformado por cuatro grupos siendo los mismos:
 
 -   "Terciario Completo/Universitario Completo/Posgrado/Maestría/Docto
 
-Importa aclarar que los Totales de Población y Viviendas a utilizar en la calibración se
-obtienen de Proyecciones elaboradas por INDEC, las cuales actualizarán a medida que se
-disponga de la información del Censo Nacional de Población, Hogares y Viviendas
-desarrollado en el 2010.
+Importa aclarar que los Totales de Población y Viviendas a utilizar en la calibración se obtienen de Proyecciones elaboradas por INDEC, las cuales actualizarán a medida que se disponga de la información del Censo Nacional de Población, Hogares y Viviendas desarrollado en el 2010.
 
-Por otra parte, para cada uno de los meses de relevamiento, se realizarán 2 calibraciones. Una calibración, inmediatamente al final del relevamiento con el objetivo de dar el anticipo nacional de las principales estimaciones de interés correspondiente a los viajes realizados durante el mes anterior al de relevamiento. La segunda calibración se realizará al final del bimestre donde se dan todas las estimaciones definitivas a nivel regional para el mes que haya duplicado la muestra (5.200 encuestas). Es decir, si el mes de relevamiento fuera enero, por ejemplo, se consulta por los viajes realizados (que finalizaron) en el mes de diciembre y noviembre (1 y 2 meses atrás del mes de relevamiento). Al final del relevamiento de ese mes (enero) se brinda un anticipo nacional para el mes de diciembre con un tamaño de muestra de 2.600 hogares. Luego, durante el próximo mes de relevamiento (febrero), el período de referencia serán los meses de diciembre y enero, por lo que, al finalizar, producto del solapamiento descripto anteriormente (ver sección 2.6.2), se habrán relevado 5.200 hogares para el mes de diciembre (2.600 durante el relevamiento de enero y 2.600 casos durante el relevamiento de febrero). Por lo tanto, al finalizar el relevamiento de febrero se brindará una estimación definitiva con nivel de desagregación geográfica regional para el mes de diciembre y un anticipo nacional (con 2.600 casos) para el período de referencia de enero.
+Por otra parte, para cada uno de los meses de relevamiento, se realizarán 2 calibraciones.
+Una calibración, inmediatamente al final del relevamiento con el objetivo de dar el anticipo nacional de las principales estimaciones de interés correspondiente a los viajes realizados durante el mes anterior al de relevamiento.
+La segunda calibración se realizará al final del bimestre donde se dan todas las estimaciones definitivas a nivel regional para el mes que haya duplicado la muestra (5.200 encuestas).
+Es decir, si el mes de relevamiento fuera enero, por ejemplo, se consulta por los viajes realizados (que finalizaron) en el mes de diciembre y noviembre (1 y 2 meses atrás del mes de relevamiento).
+Al final del relevamiento de ese mes (enero) se brinda un anticipo nacional para el mes de diciembre con un tamaño de muestra de 2.600 hogares.
+Luego, durante el próximo mes de relevamiento (febrero), el período de referencia serán los meses de diciembre y enero, por lo que, al finalizar, producto del solapamiento descripto anteriormente (ver sección 2.6.2), se habrán relevado 5.200 hogares para el mes de diciembre (2.600 durante el relevamiento de enero y 2.600 casos durante el relevamiento de febrero).
+Por lo tanto, al finalizar el relevamiento de febrero se brindará una estimación definitiva con nivel de desagregación geográfica regional para el mes de diciembre y un anticipo nacional (con 2.600 casos) para el período de referencia de enero.
 
-Es preciso aclarar que tanto la calibración correspondiente al anticipo (con representatividad nacional) y definitiva (con desagregación por región) de cada uno de los meses, se realizará en forma independiente en cada una de las Regiones. Por lo tanto, la calibración del anticipo se llevará a cabo en cada una de las regiones, brindándose resultados nacionales, y luego, al mes siguiente, se volverá a realizar una calibración en cada región con el total de la muestra definitiva (para lo que no se consideran los ponderadores estimados durante el anticipo).
+Es preciso aclarar que tanto la calibración correspondiente al anticipo (con representatividad nacional) y definitiva (con desagregación por región) de cada uno de los meses, se realizará en forma independiente en cada una de las Regiones.
+Por lo tanto, la calibración del anticipo se llevará a cabo en cada una de las regiones, brindándose resultados nacionales, y luego, al mes siguiente, se volverá a realizar una calibración en cada región con el total de la muestra definitiva (para lo que no se consideran los ponderadores estimados durante el anticipo).
 
 Para salvar posibles inconsistencias en los cuadros a publicar, los pesos calibrados son tratados por un algoritmo de redondeo para eliminar la componente decimal con los que salen del proceso iterativo sin destruir las concordancias alcanzadas.
 
-Pagina 40
+## **COEFICIENTE DE VARIACIÓN**
 
+### **INTRODUCCIÓN**
+
+La metodología de la EVyTH-13 incorporó el cálculo de estadísticos (o indicadores) con la finalidad de brindarle al usuario de los datos una medida del grado de precisión de las estimaciones calculadas para cada uno de los informes de resultados.
+Esto es especialmente relevante con el fin de brindarle al lector noción sobre cuán preciso es el estimador que irá a utilizar (o citar) de forma tal que este pueda medir los "riesgos" que ello implique.
+
+Se propone para la presente edición de la EVyTH, la EVyTH-2021, continuar con la misma metodología.
+En el apartado que sigue a continuación se describe la lógica utilizada para el cálculo de esta medida de precisión y se listan las estimaciones para las cuales se calcularán esta medida.
+
+### **CÁLCULO DEL COEFICIENTE DE VARIACIÓN**
+
+Los estudios por muestreo a gran escala con objetivos múltiples se enfrentan generalmente con el problema de proveer a los usuarios de datos de diversa formación en estadística, una medida de calidad de los datos.
+Dentro de este contexto es deseable presentar indicadores de calidad o bien acercar a los usuarios información o técnicas para que ellos los calculen de una manera "amigable", sin la complejidad siempre presente del cálculo del error muestral.
+
+Desde la perspectiva del diseño muestral y considerando la metodología descripta anteriormente, a la EVyTH se la podría encuadrar dentro de los diseños estratificados con selección sistemática dentro de cada uno de los estratos (ocho estratos en total siendo estos las Regiones del Ministerio de Turismo, Capital Federal, Partidos Gran Buenos Aires, Resto Pcia. Buenos Aires, Córdoba, Litoral, Norte, Cuyo, Patagonia).
+Si bien el método de selección sistemática es recomendable y eficiente para muestras telefónicas, su uso implica que no exista estimadores no sesgados de varianza.
+Para sortear esta dificultad a la hora del cálculo de los errores muestrales se propone plantear el supuesto de que la población está en "orden aleatoria".
+Bajo este supuesto se pueden utilizar los estimadores de un muestreo estratificado con selección simple al azar.
+Con esto se resuelve el problema de cómo estimar los desvíos estándares[^planeamiento-de-los-aspectos-25] de cada estimador.
+
+[^planeamiento-de-los-aspectos-25]: La fórmula del estimador del desvío estándar cambia según el estimador que se utilice y el diseño muestral aplicado.
+    Para el caso del diseño aquí propuesto, el desvío estándar para el estimador de una proporción es: DE(pˆ)  W2 h h (1 f ) donde Wpˆ h es el peso relativo del estrato h, h es el estimador de la proporción en el estrato h, nh es el tamaño de muestra en el estrato h, (1 fh )es el factor de corrección finita en el estrato h.
+    (hacer \*formula\*)
+
+También al error muestral se lo puede presentar en forma relativa, a partir del Coeficiente de Variación convenientemente expresado en porcentaje.
+Se define al coeficiente de variación de un estimador como el cociente entre el desvío estándar del estimador y el estimador propiamente dicho; o sea
+
+**(hacer formula)** CV()  ˆ o en su defecto multiplicado por 100 para expresarlo en porcentaje Bajo esta forma es mucho más fácil interpretar el error de muestreo que empleando al desvío estándar propiamente dicho, como se lo presentó anteriormente.
+Bajo este "termómetro" existe una escala que al menos se sostiene en la práctica para marcar una buena o mala estimación.
+Es así que está aceptado en la comunidad estadística que valores superiores al 15% del CV comienzan a señalar un deterioro en la precisión, aunque existen situaciones donde valores aún cercanos a 20% se lo puede considerar con una precisión adecuada dependiendo de la variable bajo estudio y de las necesidades prácticas del usuario de los datos.
+En el caso particular de la EVyTH, los informes presentaron el cálculo de los CV para cada estimador relevante (según el informe que se trate), aclarándose para aquellos que presenten un CV superior al 30% que "el resultado debe considerase a título indicativo puesto que la estimación no presenta el mínimo de precisión preestablecido".
+
+En general ninguna estimación coincide exactamente con el valor del parámetro, salvo casualidades de por medio o bien si se tiene características muy especiales de la población.
+Por lo tanto, existe una alternativa que pone en evidencia la incertidumbre con la cual uno debe manejarse.En lugar de decir, por ejemplo, que a  lo estimamos por ˆ , se puede plantear que estimamos  a través del intervalo c a c con cierta probabilidad.
+**formulas pag 42**
+
+Este es un intervalo alrededor del parámetro, usualmente se lo abrevia ˆc, con "c" conocido como el margen de error para la estimación y lo calcula el estadístico a partir de la muestra extraída.
+De esta forma se puede hablar de un estimador por intervalo del parámetro.
+Desde el punto de vista conceptual, en ocasiones se prefiere emplear este tipo de estimador que al estimador puntual tratado hasta aquí.
+Esta segunda alternativa permite una respuesta prudente: uno no se arriesga a proponer un valor puntual bien particular sino un rango de valores posibles.
+Es por esto que las estimaciones frecuentemente también se las presentan en términos de lo que se denomina un intervalo de confianza, para expresar la precisión de manera significativa.
+
+Un intervalo de confianza constituye una medida del nivel de confianza de que el verdadero valor para la población quede dentro de ese rango específico de valores.
+
+Por ejemplo, para construir un intervalo de confianza con un nivel del 90% se lo construye empleando una constante fijada por el nivel de riesgo que decide aceptar el estadístico y una aproximación del desvío estándar del estimador en cuestión.
+**formula**  1.64DE()
+
+No se está limitado a elegir un nivel de confianza del 90%, lo puede hacer del 95%, 75%, 50% u otro, en cuyos casos en la práctica sólo hay que modificar la constante que multiplica al desvío.
+
+A partir de esta explicación, además de los CV, en los distintos informes producidos a partir del relevamiento de la EVyTH, se calcularán intervalos de confianza puesto que facilitan la comprensión acerca del grado de precisión de los distintos estimadores calculados para aquellos lectores no instruidos en el tema.
+
+El Cuadro a continuación (Cuadro 7) destalla los Coeficientes de Variación que serán calculados según cada informe producido en el marco de la EVyTH-2021.
+
+**Cuadro 7: Coeficientes de Variación calculados según cada Informe de la EVyTH** pag 43
+
+A los efectos de que el lector de este informe metodológico pueda comprender fácilmente la forma en que se implementará la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV (tal como se ha presentado en los informes mensuales de la EVyTH-13).
+
+**Cuadro 8. Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013** pag 44
+
+**Cuadro 9. Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.** pag 45
+
+## *ORGANIZACIÓN Y EQUIPOS DE TRABAJO*
+
+### *EQUIPOS DE TRABAJO*
+
+A partir de la experiencia desarrollada por MacroConsulting durante las diferentes ediciones de la EVyTH, se cuenta con una precisa estimación de la dimensión de los equipos que deben ser abocados a las diferentes tareas de forma tal de ganar la máxima eficiencia posible y, así, minimizar los costos del operativo.
+Sobre la base de esta experiencia, se propone conformar el siguiente equipo para llevar los trabajos para desarrollar la EVyTH-2021 (ver Cuadro 10 a continuación):
+
+**Cuadro 10: Estructura organizativa del equipo** pag 46
+
+A continuación, se brinda las principales cualidades de cada uno de los miembros de este equipo para brindar una representación del grado de experiencia exigido a cada puesto:
+
+1)  Coordinador General. Juan Pablo Tarelli es Licenciado en Economía y Abogado (ambos títulos cursados en la Universidad de Buenos Aires). Posee amplia experiencia en trabajos de consultoría económica, relevamientos y estadísticas en el sector de turismo. El resumen de la experiencia relevante para este trabajo es el siguiente:
+
+<!-- -->
+
+a)  Ha sido coordinador general del Observatorio de Precios Turísticos
+
+b)  Ha sido Coordinador General de la Prueba Piloto para la Encuesta de Turismo Doméstico en Hogares Residentes (prueba piloto de la EVyTH Estival 2011).
+
+c)  Ha sido Coordinador General de la Encuesta de Turismo Doméstico en Hogares Residentes - Período Estival 2011.\
+
+d)  Ha sido Coordinador General de la Encuesta de Turismo Doméstico en Hogares Residentes - Período Estival 2011.
+
+e)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2012.
+
+f)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2013.
+
+g)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2014.
+
+h)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2015.
+
+i)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2016.
+
+j)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2017.
+
+k)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2018.
+
+l)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2019.
+
+m)  Ha sido Coordinador General de la Encuesta de Viajes y Turismo de los Hogares -- año 2020.
+
+n)  Ha coordinado el equipo para la confección de índices de precios hoteleros obtenidos a partir de los datos obtenidos en la EOH.
+
+<!-- -->
+
+2)  **Jefe de Metodología** Diego Born es licenciado en Sociología por la Universidad de Buenos Aires (UBA) (2005) y Magister en Ciencias Sociales con orientación en Educación por la FLACSO (2010), candidato a Doctor en Ciencias Sociales por la UBA.
+    Actualmente se desempeña como consultor en la Dirección de Información y Estadística de la Dirección General de Cultura y Educación de la Provincia de Buenos Aires, donde coordina las tareas de análisis de la información y la implementación de operativos especiales.
+    Integra equipos de investigación sobre temáticas sociales y educativas en la Universidad Pedagógica de la Provincia de Buenos Aires (UNIPE) y en la Facultad de Ciencias Sociales de la UBA, donde también es docente.
+    Formó parte del equipo de metodología y análisis de la Dirección de Gastos e Ingresos de los Hogares del Instituto Nacional de Estadísticas y Censos (INDEC) (2004-2008).
+    Entre 2006 y 2008 se desempeñó en dicha institución como coordinador metodológico de la Encuesta de Viajes y Turismo a Hogares (EVyTH-06).
+    Durante el año 2011, fue Jefe de Metodología de la Prueba Piloto de la Encuesta de Turismo Doméstico en Hogares Residentes (prueba piloto de la EVyTH) y luego de la Encuesta de Turismo Doméstico en Hogares Residentes - Período Estival 2011, estando a cargo de la misma función en las ediciones 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 y 2020 de dicha encuesta (relevamientos para realizados para el ORGANISMO CONTRATANTE).
+    En todos los casos, sus tareas han sido la elaboración de cuestionarios y materiales de capacitación, el seguimiento del trabajo de campo, la implementación relevamientos ad-hoc y de modificaciones metodológicas, el análisis de consistencia y el procesamiento de la información recabada y la redacción de los informes de resultados.
+    Se ha desempeñado como asesor en metodología para la realización de encuestas de opinión pública (sobre cuestiones educativas y referidas a la coyuntura sociopolítica) en la Unidad Ejecutora Provincial de la Dirección General de Cultura y Educación de la Provincia de Buenos Aires.
+
+3)  **Jefe de Estadísticas** Sergio Passamonti es licenciado en Estadísticas y posee amplia experiencia en diseño de muestras tanto para organismos públicos como empresas privadas.
+    Ha participado activamente dentro de la Dirección de Metodología Estadística del INDEC durante la EVyTH 06 y otros relevamientos llevados conjuntamente entre el INDEC y la SECTUR.
+    Ejerció como jefe de estadística en la Prueba Piloto, en la EVyTH-11, en la EVyTH-12, en la EVyTH-13, en la EVyTH-14, en la EVyTH-15, en la EVyTH-16, en la EVyTH-17, en la EVyTH18.
+    en la EVyTH-19 y en la EVyTH-20.
+    Es también consultor del Ministerio de Educación de la Ciudad Autónoma de Buenos Aires.
+    En el ámbito privado brinda asesoramiento a las empresas Petrobrás Energía y Carboclor en las distintas encuestas por muestreo que llevan adelante.
+
+4)  **Jefe de Campo** Gonzalo Gustavo Fahey es egresado en Tecnología en Diagnóstico por Imágenes de la Universidad del Salvador.
+    Cuenta con una amplia experiencia como encuestador.
+    En particular, se ha desempeñado como encuestador desde la EVyTH-12 hasta la EVyTH-17.
+    Fue ascendido a Jefe de Campo en la EVyTH-17.
+
+5)  **Jefe de Informática y Comunicaciones** Ignacio Hanesman se desempeña como consultor full-time en MacroConsulting S.A. Se ha recibido de Licenciado en Economía en la Facultad de Ciencias Económicas de la Universidad de Buenos Aires en julio de 2004 y actualmente cursa maestría en Políticas Públicas en la Universidad Torcuato Di Tella.
+    Su especialidad dentro de la consultora es la confección de modelos de simulación tarifaria, la realización y el análisis de bases de datos relacionales y multidimensionales y el diseño de plataformas web.
+    Experto en sistemas de información para uso de relevamientos on-line y procesamiento de grandes volúmenes de datos.
+
+6)  **Jefe de Coordinación Técnica y Administrativa** Pablo Tanous estudió periodismo y actualmente está cursando la carrera de historia.
+    Cuenta con experiencia en relevamiento y encuestas de turismo.
+    Se ha desempeñado, primero, como encuestador y luego como supervisor de encuestadores durante diferentes ediciones de la EVyTH.
+    Desde la edición de 2019 de la EVyTH es jefe de coordinación técnica y administrativo además de participar en la elaboración de los informes de resultados.
+    Precisamente, durante este relevamiento, se desempeña, además, como parte del equipo metodológico en la realización de informes y en la creación de bases de datos de estadísticas de turismo
+
+7)  **Supervisora** Maia Franco es estudiante de Profesorado de Inglés e inglés técnico.
+    Cuenta con una amplia experiencia como encuestadora y supervisora.
+    En particular, se ha desempeñado como encuestadora durante la EVyTH-13 y EVyTH-14 para ser ascendida a supervisora durante la EVyTH-15, EVyTH-16, EVyTH-17, EVyTH-18, EVyTH- 19 y la EVyTH-20.
+
+8)  **Encuestadores** MacroConsulting cuenta con una valiosa experiencia a partir de la realización de la Prueba Piloto.
+    Sus encuestadores ya han adquirido experiencia en el relevamiento de datos para Cuestionario (han relevado durante la EVyTH-11, en la EVyTH-12, la EVyTH-13, la EVyTH-14, la EVyTH-15, la EVyTH-16, la EVyTH-17, la EVyTH-18. la EVyTH-19 y en la EVyTH-20).
+    Todos los encuestadores son instruidos (ver Manual del Encuestador y Cuadernillo de ejercicios) al comenzar, así como también durante el relevamiento.
+
+9)  **Mantenimiento de IT** Damián Martín es graduado de la Escuela de Educación Técnica y posee amplios conocimientos en lo concerniente al mantenimiento de software y hardware de PC's para la realización de encuestas telefónicas.
+
+A continuación, en los siguientes cuadros (ver Cuadro 11 y Cuadro 12), se expone un diagrama de tareas que realizará cada equipo, destacándose las tareas durante el relevamiento (en el Cuadro sería el momento "t") y una vez finalizado éste (a partir del momento "t+1", en adelante).
+A grandes rasgos, durante la Etapa de Campo, las tareas desarrolladas son las siguientes:
+
+1)  El Equipo de Encuestadores realiza el relevamiento de las encuestas (en cada mes se obtiene como mínimo una muestra de 2.600 encuestas).
+2)  Mientras se realiza el relevamiento, el jefe y Supervisor de Campo son quienes controlan la calidad del proceso.
+3)  Una vez finalizada esta etapa, el Jefe de Campo procesa la base exportada del Lime Survey, con el fin de generar las variables relevantes para la construcción de las 5 sub- bases. Además de ello, durante la etapa de relevamiento, se realizan controles de calidad en tiempo real y capacitaciones a los encuestadores.
+4)  El Equipo Informático, durante este proceso, es quien se encarga del soporte técnico, y el procesamiento y mantenimiento de las bases.
+
+En general, durante la Etapa de Resultados, las tareas llevadas a cabo son las siguientes: 1) Una vez procesadas las bases,el Equipo Metodológico selecciona los hogares válidos en función de la información disponible del jefe del hogar (datos necesarios: sexo, edad y nivel educativo).
+2) El Equipo Metodológico se encarga de la consistencia y validación de la base de personas, base de viajes y base de visitantes.
+3) Equipo Estadístico genera los factores de expansión.
+4) Luego del procesamiento de las bases por parte del Equipo Metodológico (base de personas, viajes y hogares), el Equipo Estadístico se encarga de realizar la imputación del gasto del viaje e ingreso del hogar.
+5) Una vez finalizada la validación y consistencia, por un lado,y la generación de factores de expansión y la imputación, por el otro, el Equipo Metodológico realiza el procesamiento de las 5 sub-bases finales a ser utilizadas por el usuario final.
+6) El Coordinador General confecciona los informes.
+7) El Equipo Metodológico carga los informes al Sistema de Consultas.
+
+**Cuadro 11: Diagrama de Tareas a Confeccionar** PAG 50
+
+**Cuadro 12: Resumen de Tareas y Actividades a desarrollar a lo largo de la EVyTH**
+
+Las tareas del Jefe de Campo fueron implementadas a modo de mejorar cualitativamente el relevamiento de datos.
+En esencia su rol es ser el nexo entre el equipo de trabajo del campo y el equipo metodológico.
+El objetivo es garantizar la calidad de la información recabada.
+Para ello, supervisa, por ejemplo, en tiempo real a los encuestadores (tanto a los remotos como a los "in-situ", organiza cursos regulares de capacitación, participa activamente en la realización del informe de campo mensual (ver más adelante una descripción sucinta sobre este informe), participa de la instrucción de nuevos encuestadores, mensualmente les brinda a los encuestadores detalle de aquellos aspectos que deben mejorar; etc.
+
+Las tareas de la Supervisora de Campo incluyen la asistencia permanente a los encuestadores en cuestiones conceptuales y técnicas, los controles administrativos y la supervisión de la información recabada.
+Además, su tarea consiste en realizar un seguimiento diario de la evolución de la muestra de forma tal de garantizar que todas las regiones (localidades censales) contenidas en la muestra sean relevadas según el tamaño pautado y de manera equilibrada durante toda la onda, especialmente durante los días de relevamiento de expectativas de viaje.
+
+Para facilitar el procedimiento anterior, para los casos de las regiones de CABA y Provincia de Buenos Aires, se subdivide (siguiendo la experiencia recabada) la muestra en subregiones (en CABA, norte, centro y sur respetando la situación socioeconómica y para el caso de la Provincia de Buenos Aires, en 6 subregiones según sea conurbano norte, sur, y oeste).
+
+Con cada comienzo de onda la Supervisora realiza el seguimiento de la cantidad de hogares encuestados de forma tal de garantizar que se encuesten el número de hogares necesarios por subregión y a medida que avanza la onda y logra dicho número, pasa al interior de la subregión con el mismo objetivo hasta garantizar que se han encuestado la cantidad de hogares para la localidad (en el caso de CABA[^planeamiento-de-los-aspectos-26] son los barrios y en el caso de la Provincia de Buenos Aires, son las localidades censales).
+
+[^planeamiento-de-los-aspectos-26]: La región CABA está dividida en 15 comunas.
+    Trabajando con la mediana del ingreso per cápita se consideran 3 zonas:
+
+    -   Zona Norte: Compuesta por las comunas 2 (Recoleta), 14 (Palermo) y 13 (Belgrano, Núñez, Colegiales).
+
+    -   Zona Centro: Compuesta por las comunas 1 (Retiro, San Nicolas, Puerto Madero, Monserrat, San Telmo, Constitución), 3 (Balvanera, San Cristóbal), 5 (Almagro, Boedo), 6 (Caballito), 11 (Villa Devoto, Villa del Parque, Villa Santa Rita, Villa Gral. Mitre), 12 (Saavedra, Coghlan, Villa Urquiza, Villa Pueyrredón) y 15 (Villa Crespo, Chacarita, Villa Ortuzar, Parque Chas, Agronomía y Paternal)
+
+    -   Zona Sur: Compuesta por las comunas 4 (La Boca, Barracas, Nueva Pompeya, Parque Patricios), 7 (Flores, Parque Chacabuco), 8 (Villa Soldati, Villa Lugano, Villa Riachuelo), 9 (Mataderos, Parque Avellaneda, Liniers) y 10 (Versalles, Villa Real, Monte Castro, Villa Luro, Vélez Sarsfield y Villa Luro).
+
+Se planifica llevar adelante el relevamiento de campo con un equipo estable de 10 encuestadores que encuestarán durante 4 horas diarias.
+Además, de resultar necesario, se podrán incorporar encuestadores externos (o remotos) que trabajarán por objetivos semanales de modo de saldar los requisitos en términos de cantidad de encuestas necesarias[^planeamiento-de-los-aspectos-27].
+Estos encuestadores "remotos" relevarán con el mismo sistema informático y ateniéndose a los mismos controles por parte del equipo de supervisión, pero fuera de las instalaciones de la consultora[^planeamiento-de-los-aspectos-28]
+.
+
+[^planeamiento-de-los-aspectos-27]: En promedio se le solicitaron, aproximadamente, 25 encuestas por semana.
+
+[^planeamiento-de-los-aspectos-28]: Como se verá a continuación el sistema informático admite la posibilidad de acceder al cuestionario por vía remota de manera segura.
+    Esto permite adaptar el relevamiento para que sea realizado por los encuestadores desde sus casas, en modalidad "teletrabajo", en los casos que así se requiera (por ejemplo, ante la necesidad del "aislamiento social preventivo y obligatorio" decretada por el gobierno a través del Decreto N° 297/20 en virtud de la pandemia generada por el COVID-19 - SARS-CoV-2).
+
+En cada onda, se comenzará por llamar a los hogares catalogados como "titulares".
+Se realizan seis intentos de llamados espaciados en el tiempo (cada dos días y con dos horas de diferencia respecto del llamado anterior) de forma tal que al cabo de primera semana y media se agote la muestra titular, excepto por aquellos hogares que hubiesen solicitado ser rellamados luego de este plazo.
+Al cabo de aquel plazo se comenzará a llamar a los hogares incluidos en la muestra para suplir a los hogares titulares.
+Al finalizar aproximadamente una semana más se pasará a relevar a los hogares dentro de la muestra destinada a remplazar a los hogares que oficiaron de primeros suplentes.
+Con esta lógica se cubrirá la cantidad de encuestas efectivas necesarias según la metodología descripta anteriormente.
+
+A continuación, se presenta un cuadro (ver Cuadro 13) donde se detalla el esquema de llamados según si el número de teléfono se corresponde o no con un hogar y si éste se dispone o no a responder la encuesta.
+
+**Cuadro 13. Esquema de llamados y reemplazos** pag 53
+
+El relevamiento se llevará a cabo todos los días laborables entre las 17:00hs y las 21:00hs (con la posibilidad de comenzar antes en caso que sea necesario).
+La experiencia de MacroConsulting indica que la mayoría de los hogares rechaza responder más allá de las 21.30hs y, por otra parte, es muy frecuente no encontrar a los miembros del hogar antes de las 16:30hs[^planeamiento-de-los-aspectos-29].
+
+[^planeamiento-de-los-aspectos-29]: También, durante la Prueba Piloto, se ha probado realizar encuestas durante los fines de semana.
+    Se ha constatado una baja tasa de respuesta en comparación con los días hábiles por lo que el campo se está llevando a cabo durante estos días.
+
+La experiencia a partir de las distintas ediciones de la EVyTH, ha mostrado también que, por la longitud del Formulario Base, se requieren en promedio entre 5 y 14 minutos en completarlo cuando el hogar presenta al menos un viaje (con o sin pernocte).
+Esto señala que no es recomendable que los encuestadores permanezcan largas horas por día relevando hogares.
+En consecuencia, como se dijo anteriormente, el trabajo de campo se llevará a cabo con un equipo de 12 encuestadores en las instalaciones de relevamiento que se desempeñarán durante 4 horas por día hábil.
+Además, también como se señaló anteriormente, se deja abierta la posibilidad de incorporar encuestadores remotos a modo de refuerzo que son sujetos a la misma supervisión que los encuestadores in situ.
+
+### **MANEJO DE LA MUESTRA EN EL CAMPO**
+
+Tal como se solicita en El Pliego, la muestra de hogares con número telefónico para realizar las encuestas será organizada en ocho regiones estratificadas según aglomerado y localidad.
+A cada aglomerado se le asignará una cantidad específica de encuestas a realizar cuya proporcionalidad se mantendrá a lo largo de toda la EVyTH.
+Como se mencionó anteriormente, siguiendo con lo indicado en El Pliego, los aglomerados se corresponderán con las capitales de provincia y aquellos los aglomerados urbanos de más de 100.000 habitantes.
+Para lograr una mejor representatividad en los casos de las regiones de CABA y Partidos del GBA se dividirá la muestra en subregiones: en CABA se agregarán los barrios según región norte, centro y sur respetando la situación socioeconómica y para el caso de los Partidos se crearán 6 subregiones según conurbano norte, sur y oeste (ver Anexo a la presente metodología).
+
+Para garantizar la cantidad de encuestas necesarias, cada unidad muestral tendrá un hogar titular y cinco hogares suplentes a los que se llamará en caso que este hogar decidiera no realizar la encuesta.
+Cada onda comenzará por llamar a los hogares titulares de la muestra.
+En caso que este hogar no responda, se realizarán otros cinco intentos de llamados espaciados en el tiempo[^planeamiento-de-los-aspectos-30], cada dos días y con dos horas de diferencia respecto del llamado anterior.
+De este modo, durante la primera semana se llamarán a los números titulares y a los primeros suplentes.
+La segunda semana de relevamiento se incorporarán los hogares pertenecientes a los segundos y terceros suplentes (en algunos casos también a los cuartos suplentes).
+La tercera semana se llamará también a hogares pertenecientes al grupo de los cuartos y quintos suplentes.
+Durante la última semana de relevamiento se llamarán a hogares pertenecientes a todos los grupos de la muestra, salvo en contadas excepciones.
+
+[^planeamiento-de-los-aspectos-30]: El sistema informático permite a los supervisores asignar minutos de diferencia entre llamados según cada registro.
+    Por ejemplo, si un llamado se registra como ocupado, ese número queda inhabilitado por 30 minutos y al cabo de ese tiempo el sistema rehabilita el número para que pueda volver a llamarse.
+
+A modo de ejemplo se presenta a continuación un cuadro ilustrativo (ver Cuadro 14) del uso de números telefónicos pertenecientes a hogares de los distintos grupos de la muestra (en términos de titulares o suplentes) por semana de relevamiento durante la EVyTH-2013[^planeamiento-de-los-aspectos-31].
+
+[^planeamiento-de-los-aspectos-31]: El cuadro muestra todos los casos en que se hayan realizado al menos un llamado perteneciente a la muestra titular o suplente.
+
+Así, por ejemplo, para la región CABA se observa que en todas las ondas se llamó a los números pertenecientes a la muestra titular (Titular); en las ondas 2 a 7 se llamó a los hogares titulares y a toda la muestra de los primeros suplentes (S1).
+En las ondas 3 y 5 no se llamó a los segundos suplentes (S2) sino hasta la segunda semana de relevamiento.
+En la tercer y cuarta semana de relevamiento se incorporaron los terceros y cuartos suplentes (S3 y S4 respectivamente).
+En general, en todas las regiones, salvo en CABA, durante la cuarta semana se continuó llamando a hogares pertenecientes a la muestra titular debido a que los hogares pidieron ser rellamados en ese momento específico.
+
+**Cuadro 14. Llamados realizados a hogares de la muestra según titularidad. Ondas 1 a 7.** pag55
+
+Merece la pena mencionar que la incorporación de los hogares suplentes está correlacionada con la tasa de efectividad de marco (números de teléfono que responden a los requisitos para contestar la encuesta) y la tasa de efectividad de encuestas (relación entre los hogares que responden la encuesta y los que podrían haberla respondido) de cada aglomerado.
+Por ejemplo, en aglomerados con baja efectividad de encuestas, como CABA, los hogares suplementes se incorporan antes y, por lo tanto, la muestra titular se inhabilita más temprano.
+
+El sistema estará programado (como en las ediciones pasadas de la EVyTH) para asignar llamados comenzando por los hogares titulares contenidos en la muestra y, si éste rechazara ser encuestado o resulta ser una línea inexistente o no responde al cabo del sexto intento, se asignará un llamado al primer suplente.
+Si a su vez este suplente no respondiera la encuesta (por el motivo que sea), pasa al segundo suplente y así sucesivamente.
+En otras palabras, el orden de aparición de los números de teléfono depende del orden de prioridad asignado.
+
+### **CONTROL DE CAMPO. SUPERVISIÓN, CAPACITACIÓN Y PREMIOS**
+
+Al igual que la edición pasada de la EVyTH (la 2020), la presente edición contará con un equipo para llevar a cabo una minuciosa supervisión tanto en la calidad de las encuestas (enfocada en los conceptos propios del relevamiento) como en la cantidad de encuestas por aglomerado (algo que también ya se había implementado en la EVyTH en su edición 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 y 2020).
+
+Diariamente se realizará el seguimiento de la cantidad de hogares encuestados de forma tal de garantizar que se cubrirá el número de hogares necesarios por región agregada o localidad, según correspondiera.
+Este seguimiento diario implicará mantener la proporcionalidad de encuestas efectivas de cada una de las regiones, tanto para las encuestas de la EVyTH tradicional como para las encuestas realizadas para medir el turismo durante períodos de relevancia turística (temporadas de verano e invierno).
+De este modo se garantizará que al llegar al final de la onda todas las regiones habrán cumplido con la cuota esperada evitando sesgos temporales y mejorando la calidad de las estimaciones.
+
+La asignación de aglomerados responderá a tasas de efectividad de contacto por día y bloque horario registradas en las ediciones precedentes a esta EVyTH.
+
+Por otro lado, se realizarán controles respecto a la calidad del relevamiento de la información.
+Además de escuchar las encuestas en vivo, desde la supervisión, se escucharán encuestas ex post controlando que la información ha sido cargada correctamente en la base de datos.
+
+La información estadística del campo permitirá que mensualmente se controle calidad del relevamiento de variables claves como son cantidad de viajes por tipo, gasto total de viaje e ingresos relevados por cada encuestador.
+Esto permite mejorar la calidad de las imputaciones y expansiones realizadas por el equipo estadístico.
+
+Se prevé la realización de seminarios de capacitación regulares a los encuestadores y supervisores.
+De estos seminarios estará a cargo el equipo Metodológico.
+Estos encuentros servirán para trabajar sobre el cuestionario y conceptos claves además de presentar casos testigo para ejemplificar aquellas cuestiones que deben ser mejoradas (o aquellas que han sido resueltas con corrección).
+
+La EVyTH-2020 continuará con la experiencia acumulada durante las ediciones EVyTH-11, EVyTH-12, EVyTH-13, EVyTH-14, EVyTH-15, EVyTH-16, EVyTH-17, EVyTH-18, EVyTH-19 y la EVyTH-20 a través de las cuales se notaron excelentes resultados en la cantidad (y calidad) de los datos relevados por los encuestadores a partir de implementar un esquema de incentivos económicos.
+En efecto, desde la EVyTH-11 se consideró un premio para el primer mes de relevamiento (el relevamiento se dividió en trimestres a los efectos de asignar los premios) en donde todos los encuestadores tenía la posibilidad de ganar el incentivo (siempre cuando hayan cumplido con una exigencia de alcanzar una cantidad mínima de encuestas diarias promedio); un segundo premio, en el segundo mes del que sólo pudieron participar quienes no hubieran sido premiados en el primero y cumplieran con el mínimo de encuestas estipuladas y, por último, un premio trimestral (que duplicaba el dinero de los premios mensuales) del que todos los que hubieran cumplido con el mínimo de encuestas diarias promedio pudieron participar.
+Desde la mitad de la EVyTH-20 este sistema se modificó a uno bimestral, sacando el premio trimestral.
+De este modo, todos los encuestadores tendrán interés en hacer la mayor cantidad de encuestas posibles todos los meses siguiendo los controles de supervisión.
+Durante la EVyTH-12 se incluyó la variable "calidad" al sistema de premios que pondera no sólo la cantidad de encuestas que realiza cada encuestador sino también a quienes releven mayor cantidad de viajes.
+En función de los buenos resultados mostrados por parte de este sistema, se propone respetar el esquema durante la actual edición de la EVyTH.
+
+También, desde la mitad de la edición 2020 de la EVyTH, se implementó un premio (cada dos meses) al equipo de encuestadores en su conjunto al cumplirse cierta meta de encuestas para el período preestablecido.
+Este esquema incentiva el trabajo en equipo al tiempo que también crea una dinámica de control interno y, por tanto, de cohesión.
+
+La novedad en términos de procesos durante la edición 2013 de la EVyTH, fue la implementación de un mecanismo de supervisión de los informes de resultados a ser entregados mensualmente de forma tal de minimizar la cantidad de errores (tanto sustanciales como formales).
+En el cuadro a continuación, Cuadro 15, se pueden observar las tareas puntuales de revisión de resultados que ha realizado el equipo de MacroConsulting durante la pasada edición de la EVyTH, para así lograr entregar los productos con la mejor calidad posible.
+Dicho proceso de revisión ha sido realizado días antes de la entrega de los resultados finales al Organismo Contratante.
+La lógica del proceso de revisión se basa en aplicar la sencilla regla por la cual aquel que participó en la confección de un informe (o parte), queda automáticamente excluido del proceso de revisión, interviniendo un miembro del equipo metodológico especialmente designado a tales efectos.
+Otra pauta fundamental de este esquema de control es la fijación de tareas secuenciales y mecánicas de verificación que especifican exactamente las cuestiones a chequear o corroborar (acompañadas por un esquema del tipo "check-list").
+
+Este proceso de control consta de tres grandes instancias que se describen a continuación:
+
+-   SPSS: Se controla que no existan errores en el procesamiento de las bases de datos.
+
+-   EXCEL: se verifica que las tablas de Excel correspondan con los resultados obtenidos del Output del SPSS.
+    Además de ello, se comprueba que los totales de las tablas no contengan errores (para ello se implementó un control interno en cada uno de los Excel que alerta cuando algún dato es incorrecto).\
+
+-   WORD: primeramente, se controla que las tablas y los gráficos pegados en el archivo Word sean las correspondientes al archivo de Excel.
+    Luego, se chequean los valores de las variables principales (cantidad de turistas, cantidad de excursionistas, cantidad de pernoctes, gasto total, etc.).
+    Seguidamente, se realiza una segunda revisión de redacción y contenido (con pautas prefijadas de verificación y acompañadas de un "check-list").
+    Por último, se verifica que la fecha y mes se correspondan a dicho informe, y junto con ello, se realiza una revisión de los títulos y del formato en general (también en base a reglas preestablecidas que facilitan esta tarea al brindarle sistematicidad).
+
+**Cuadro 15: Metodología aplicada para la revisión de resultados de la EVyTH** pag 59
+
+A juzgar por los excelentes resultados observados a partir de la implementación de este mecanismo de verificación del contenido (y formato) de los informes presentados, se propone su implementación para la presente edición de la EVyTH.
+
+## **TRANSFERENCIA DE CONOCIMIENTO Y CAPACITACIÓN**
+
+Tal como se detalla en La Oferta de MacroConsulting, se realizará un curso de capacitación con el fin de transferir el conocimiento adquirido al personal técnico del Organismo Contratante.
+En efecto, se llevará a cabo un curso presencial con miras a transferir el conocimiento necesario sobre el uso de las herramientas utilizadas durante el relevamiento.
+El curso estará diseñado de forma tal de que el personal técnico del Organismo Contratante pueda realizar todas las tareas necesarias para continuar con el relevamiento autónomamente en caso de que así fuera necesario.
+A partir de experiencias pasadas, se propone tentativa el siguiente contenido (y su correspondiente cronograma) para el curso de capacitación:
+
+DÍA 1: METODOLOGÍA DE LA EVyTH.
+
+-   10:00hs a 11:00hs.
+    Diseño muestral.
+    Universo bajo estudio.
+    Periodicidad.
+    Periodo de referencia.
+    Esquema de rotación muestral.
+
+-   11:00hs a 12:30hs.
+    Conceptos Fundamentales de la Encuesta.
+    Viaje.
+    Visita de un día.
+    Entorno habitual.
+    Hogar.
+    Jefe de hogar.
+
+-   12:30hs a 14:30hs.
+    Almuerzo.
+
+-   14:30hs a 16:00hs.
+    Consistencia y Validación.
+    Imputación.
+    Imputación del gasto.
+    Imputación del ingreso.
+    Calibración.
+    Variables utilizadas para la calibración.
+
+-   16:00hs a 16:30hs.
+    Merienda.
+
+-   16:30hs a 18:00hs.
+    Cuestionario.
+    Modificaciones implementadas.
+    Propuestas de modificación.
+    Relevamientos ad hoc de fechas especiales.
+
+-   18:00hs a 19:30hs.
+    Lime-Survey y aspectos fundamentales sobre el manejo del sistema informático.\
+
+DÍA 2: IMPLEMENTACIÓN DEL RELEVAMIENTO DE LA EVYTH.
+
+-   10:00hs a 11:00hs.
+    Encuesta.
+    Softwares Operador.
+    Recorrido por la Encuesta en la PC.
+
+-   11:00hs a 12:30hs.
+    Organización del campo.
+    Características del equipo de relevamiento.
+    Operador Remoto.
+    Solución a problemas de relevamiento.
+
+-   12:30hs a 14:00hs.
+    Almuerzo.
+
+-   14:00hs a 16:00hs.
+    Sistema informático de supervisión.
+    Softwares Supervisión.
+    Asignación de regiones de la muestra.
+    Esquema de llamados.
+    Supervisión de lamadas.
+    Solución a principales problemas técnicos.
+
+-   16:00hs a 16:30hs.
+    Merienda.
+
+-   16:30hs a 17:30hs.
+    Mecanismo de control e intercambio de información.
+    Sistema de control para el Organismo Contratante.
+    Intercambio de información.
+
+-   17:30hs a 18:00hs.
+    Manejo de la base usuario.
+
+-   18:00hs a 18:30hs.
+    Conclusión.
+    Preguntas.
+    Conclusiones finales.
+
+Algunos puntos a resaltar sobre el temario anterior son:
+
+-   Se propone llevar adelante un curso de Lime-Survey al final de la consultoría para transferir al personal técnico del Organismo Contratante el conocimiento necesario sobre el programa y las especificidades que puedan surgir del cargado del cuestionario (por ejemplo, programación en Javascript, codificación de preguntas, etc.).
+    Se incluirá en el curso un explicativo con el manejo de la base de datos que contendrá el relevamiento del campo (el motor de base de datos será MySQL).
+
+-   Adicionalmente, al finalizar el relevamiento se ofrecerá una capacitación sobre el manejo de las bases resultantes del relevamiento.
+    A continuación, se presenta una breve descripción de sus características.
+    La base usuario final estará estructurada (al igual que en las ediciones pasadas de la EVyTH) a través de 5 sub-bases; a saber:
+
+-   Base Muestra.
+    Esta base será estrictamente confidencial y cada registro corresponderá a un hogar respondente.
+    Contendrá información acerca del número telefónico del hogar encuestado, la ubicación geográfica de la vivienda (provincia, región y aglomerado) y la fecha de realización de la entrevista.
+
+-   Base de Hogares.
+    Cada registro corresponderá a un hogar respondente.
+    Contendrá el factor de expansión del hogar, periodo de referencia sobre el cual se indaga por la realización de viajes, ingreso total y per cápita del hogar.
+
+-   Base de Personas.
+    Cada registro corresponderá a un miembro de un hogar.
+    Contendrá la información sobre las características sociodemográficas, nivel educativo, situación laboral de las personas y cobertura de salud, además de información resumen sobre su comportamiento turístico durante los dos meses que conforman el periodo de referencia de la onda en que fue encuestado el hogar.
+
+-   Base de Viajes.
+    Cada registro corresponderá a un viaje del hogar.
+    Contiene información sobre el tipo de viaje, mes, cantidad de miembros del hogar, cantidad de noches de duración del viaje, tipo de alojamiento y de transporte utilizado, motivo por el cual se realizó el viaje, contratación y contenido del paquete turístico, utilización de Internet e información consultada, factores que determinaron la elección del destino, actividades turísticas realizadas durante el viaje, calificación de los servicios turísticos utilizados durante el viaje, a cargo de quién estuvieron los gastos del viaje, gasto total del viaje afrontado por el hogar (expresado en pesos).
+
+-   Base de Viajes-Personas (Visitantes).
+    La finalidad de esta base será permitir la unión de la información referida a las personas y los viajes, por lo que cada registro corresponde a un viaje hecho por una persona (es decir, para cada viaje hay tantos registros como personas hayan participado del mismo).
+
+La construcción de cada una de estas bases surge luego del procesamiento y la consistencia de la información contenida en la base originada por el Lime Survey, tareas que se realizan escalonadamente con las de ponderación e imputación de gastos de los viajes e ingresos de los hogares (tal como se señaló anteriormente, esta tarea está a cargo el Equipo de Metodología).
+Dicho procesamiento contiene varias etapas, entre las que cabe señalar: selección de las encuestas que cumplen con los criterios de validez y completitud; eliminación de los desplazamientos captados que no son viajes turísticos (por haber sido realizados dentro del entorno habitual del hogar, sea en términos de distancia o frecuencia, o bien por estar relacionados con cuestiones laborales excluidas, por definición, del universo de viajes turísticos); armonización de las variables relevadas en forma distinta según el tipo de viaje; generación de variables resumen y de variables agregadas, etc.
+
+-   Base acumulada.
+    Además de las bases usuarios que corresponden a cada onda finalizada, se entregarán las bases conteniendo la información acumulada desde el comienzo del relevamiento, con el fin de facilitar el procesamiento de la información por parte del personal técnico del Organismo Contratante.
+
+    Se entregará un informe explicativo del manejo de estas 5 bases al final la consultoría.
+
+## **SOLUCIÓN TECNOLÓGICA: INSTRUMENTO DE RECOLECCIÓN DE DATOS**
+
+A lo largo de los distintos operativos de las EVyTH, MacroConsulting desarrolló un sistema CATI con el fin de relevar la información a través de encuestas telefónicas recolectadas mediante un mecanismo informático capaz de automatizar la vinculación entre la llamada y el cargado de los datos.
+Esta metodología, a diferencia de la encuesta directa, permite la obtención de información de manera más rápida y a menores costos.
+
+El sistema desarrollado se estructura sobre la base de un software de código abierto en PHP como el Lime Survey sobre un motor de base de datos MySQL (no requiere licencia alguna y es de código abierto).
+Lime Survey es un programa para la aplicación de encuestas en línea.
+Las encuestas incluyen ramificación a partir de condiciones, plantillas y diseño personalizado usando un sistema de plantillas web, y provee utilidades básicas de análisis estadístico para el tratamiento de los resultados obtenidos.
+Las encuestas pueden tener tanto un acceso público como un acceso controlado estrictamente por las claves que pueden ser utilizadas una sola vez (tokens) asignadas a cada persona que participa en la encuesta.
+A este programa se le ha adicionado la posibilidad de realizar preguntas más complejas e incluso validaciones internas del cuestionario a través de códigos en Javascript (ver proceso de validación explicado anteriormente)[^planeamiento-de-los-aspectos-32].
+
+[^planeamiento-de-los-aspectos-32]: Por ejemplo, el sistema de cargado no le permite al encuestador cargar más nombres de los miembros de hogar que los declarados inicialmente (en todo caso se puede volver atrás y corregir el dato correspondiente); existe un control sobre la apertura del gasto total del viaje (la suma de cada elemento del gasto no puede superar el gasto total declarado); se constata (aproximadamente) si el viaje superó el límite (20 o 40 km según el caso) de la definición de entorno habitual; etc.
+
+El sistema además permite la administración automática (según nivel de usuario) de la base de registros, de la base de teléfonos y de los llamados a realizar (junto con el Lime Survey).
+En el Cuadro 16 a continuación, se presenta un esquema con los componentes principales que integran el sistema: **Cuadro 16. Sistema informático CATI a utilizar** pag 63
+
+Todo el sistema está confeccionado bajo el sistema operativo LINUX (por lo que no se requieren licencias).
+El servidor - PBX tiene la capacidad de administrar tres tipos de bases: la base de teléfonos con la muestra, la base de Lime Survey (MySQL), la base de registros (es decir, la que recopila la información de lo sucedido con la llamada --ocupado, llamar más adelante, etc.) y un sistema de administración de usuarios y administradores.
+
+El Servidor brinda la posibilidad al usuario final (encuestador) de elegir si llamar a través de líneas analógicas, líneas IP o por intermedio de Skype.
+La razón de ser de esta flexibilidad es que:
+
+1.  El costo según la zona geográfica varía con cada solución tecnológica;
+2.  cada solución tecnológica funciona mejor según la zona geográfica.
+
+El Jefe de Campo tiene la posibilidad de administrar solución tecnológica para realizar llamadas según el puesto y, a su vez, decide qué cuota de llamadas le otorga a cada uno (en cantidad y en ubicación geográfica) de los encuestadores.
+
+El encuestador tiene visible en la pantalla del Lime Survey con la encuesta cargada (ya incorporando los filtros y validación que correspondan) y pueden visualizar datos básicos del llamado a realizar (los llamados son asignados automáticamente por el sistema según la administración que realice el jefe de campo).
+Al realizar una llamada escoge el resultado de la misma: si fue exitosa, si resultó ocupado, si el encuestado solicitó ser rellamado en otro momento, etc.
+Cada resultado de llamado es cargado al servidor, generándose de esta forma un registro de llamadas.
+
+El sistema de llamadas tiene un usuario administrador que permite exportar la base de registros, la base del Lime Survey (con las encuestas cargadas) y un sistema de síntesis de la evolución del campo (cantidad de llamadas exitosas, rechazos, rellamados, etc.).
+A su vez, el Lime Survey, permite contar con estadísticas en tiempo real que le permite al Supervisor analizar qué tipos de viajes se cargaron, cuántos, características de los mismos, etc.
+
+Como se puede observar del gráfico anterior, todas las llamadas pasan a través del Servidor que, a través de la PBX, tiene la posibilidad de grabar las llamadas y/o escucharlas en tiempo real (mientras un encuestador está realizándola)[^planeamiento-de-los-aspectos-33].
+
+[^planeamiento-de-los-aspectos-33]: En caso de ser necesario se pueden grabar atendiendo a los máximos resguardos de seguridad.
+
+Todas estas funcionalidades (acceso a las grabaciones, a escuchar las encuestas en tiempo real, la base y las estadísticas de Lime Survey, etc.) pueden ser compartidas con alguien fuera del sistema si así se requiriera a través de una VPN (implementando las normas de seguridad habituales para estos casos).
+
+Para una explicación en detalle de las funcionalidades del sistema (tanto para el rol de administrador como el de encuestador), ver sección 6.8.
+
+Siguiendo lo solicitado por El Pliego, el software CATI está disponible para ser auditado por el Organismo Contratante cuando éste así lo disponga.[^planeamiento-de-los-aspectos-34]
+
+[^planeamiento-de-los-aspectos-34]: El Pliego establece lo siguiente: "El método de recolección de información deberá ser a través del sistema CATI (Computer Assisted Telephone Interviewing)" (ver hoja 30).
+    Luego (ver hoja 33 de El Pliego) se fija como parte de los productos a entregar al Organismo Contratante estableciéndose que: "Cuestionario realizado durante la encuesta en caso de producirse cambios en el formulario base mensual o de expectativas, programado en sistemas de código abierto" (el resaltado es nuestro).
+    Por lo que, de existir cambios al Cuestionario, se debe entregar el software correspondiente con el formulario programado.
+
+## **EL SISTEMA DE CONTROL Y CONSULTA DE LA EVYTH**
+
+Siguiendo la experiencia pasada por parte de MacroConsulting al ejecutar anteriores ediciones de la EVyTH, se ha desarrollado para la presente edición de la EVyTH un sistema WEB que permite, primordialmente, el seguimiento y control de la muestra en tiempo real, así como también acceder a los resultados de cada operativo.
+Este sistema ya está utilizable por los miembros técnicos del equipo del Organismo Contratante y puede ser consultado en el momento que se desee.
+
+A través de este sistema, el usuario habilitado, tiene la posibilidad de:
+
+-   conocer la cantidad de encuestas efectivas realizadas por aglomerado, así como la proporción de llamados y números telefónicos que se han realizado en un día en particular (o desde que se comenzó el relevamiento) y cuáles han sido sus tasas de efectividad, de marco muestral y de encuestas efectivas por región y aglomerado;
+
+-   acceder en tiempo real a las encuestas que se estén realizando en campo;
+
+-   escuchar todas las grabaciones de las encuestas que han resultado efectivas; y
+
+-   consultar los formularios cargados con todas las respuestas desde el inicio de la EVyTH.
+
+Finalmente, el sistema pone a disposición del Organismo Contratante un directorio (de acceso vía internet) que permita compartir archivos (informes, bases de dato, etc.).
+En este directorio quedan disponibles, para el usuario habilitado por MacroConsulting, todos los informes confeccionados, las bases usuarias y la información adicional requerida.
+
+El Cuadro 17 a continuación muestra una captura de pantalla del sistema a modo de referencia.
+
+**Cuadro 17. Sistema de consultas de la EVyTH**
+
+Es importante notar que para acceder al sistema se requiere conectarse a una Intranet (VPN) que contempla todas las normas de seguridad requeridas y cumple los estándares más rigurosos en materia de seguridad con el fin de preservar la confidencialidad de los datos[^planeamiento-de-los-aspectos-35].
+
+[^planeamiento-de-los-aspectos-35]: Debe notarse que todos los datos sensibles brindados por el hogar encuestado durante la EVyTH, son catalogados como de "secreto estadístico", según los términos de la ley 17.622.
+
+Al finalizar la consultoría se entregará al personal técnico del Organismo Contratante un manual de uso de este sistema de consultas (que será confeccionado especialmente para la capacitación dada al personal técnico del Organismo Contratante con el fin de realizar la correspondiente transferencia de conocimiento).
+Es relevante notar que la confección del sistema descripto anteriormente responde a lo requerido en hoja 33 de El Pliego, cuando dispone que "la consultora deberá "diseñar, desarrollar e implementar el sistema de control de la muestra de forma tal que el personal técnico" del Organismo Contratante pueda seguir el relevamiento.
+
+Como se indicó anteriormente el sistema ya está a disposición del equipo técnico del Organismo Contratante (a quienes también ya se les ha otorgado las claves para su acceso).
