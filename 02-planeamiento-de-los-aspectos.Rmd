@@ -4,147 +4,764 @@ editor_options:
     wrap: sentence
 ---
 
-# **Encuestas Nacionales** {#encuestas-nacionales}
+# **PLANEAMIENTO DE LOS ASPECTOS METODOLÓGICOS Y TÉCNICOS DE LA EVYTH**
 
-**Características y Alcance**
+A continuación, se detallan los aspectos metodológicos sobre los cuales se estructurará el relevamiento de la EVyTH-21.
+Por consiguiente, se brinda una descripción pormenorizada sobre la unidad de observación a considerar, el marco muestral a utilizar, el diseño muestral a adoptar, el proceso de calibración a implementar, etc.
+Se pretende con este capítulo dar cumplimiento por El Pliego en términos de explicitar la metodología a utilizarse durante el relevamiento.
+Además de prefijar el marco, creemos también importante el contenido de este capítulo con miras a asentar un precedente que sirva de legado para que futuros relevamientos puedan replicar la metodología y procedimientos involucrados en la toma de datos y su posterior procesamiento para así conservar la consistencia y consecuente comparabilidad de los resultados.
 
-Actualmente, el Ministerio de Turismo y Deportes de la Nación (MINTURDEP) cuenta con tres encuestas que le permiten mensurar y caracterizar el turismo, tanto a nivel nacional como a nivel regional[^encuestas-nacionales-1]. Estos estudios son la Encuesta de Viajes y Turismo de los Hogares (**EVyTH**), la Encuesta de Ocupación Hotelera (**EOH**) y la Encuesta de Turismo Internacional (**ETI**).
+## **UNIDADES DE OBSERVACIÓN**
 
-[^encuestas-nacionales-1]: Las regiones turísticas definidas en sus operativos estadísticos son las siguientes: Ciudad de Buenos Aires, Provincia de Buenos Aires, Córdoba, Litoral (Corrientes, Chaco, Entre Ríos, Formosa, Misiones y Santa Fe), Norte (Catamarca, Jujuy, Salta, Santiago Del Estero, Tucumán y La Rioja), Cuyo (Mendoza, San Juan, San Luis) y Patagonia (Chubut, La Pampa, Neuquén, Río Negro, Santa Cruz y Tierra Del Fuego).
+Siguiendo las definiciones establecidas por El Pliego (las que son tomadas, a su vez, de la Prueba Piloto, la EVyTH-11, la EVyTH-12, la EVyTH-13, la EVyTH-14, la EVyTH-15, la EVyTH- 16, la EVyTH-17, la EVyTH-18, la EVyTH-19 y la EVyTH-20), las unidades de observación de la EVyTH son las personas que residen en hogares particulares dentro del territorio argentino.
+Se considera hogar particular a aquel hogar constituido por una persona o grupo de personas, parientes o no, que conviven en una misma vivienda bajo un régimen de tipo familiar y consumen alimentos con cargo al mismo presupuesto.
+Asimismo, se considera miembros del hogar a las personas que habitan en una misma vivienda bajo un régimen de tipo familiar, comparten sus gastos de alimentación, habitan la vivienda desde hace 6 o más meses o, si viven en ella hace menos de 6 meses, han fijado o piensan fijar allí su residencia.
 
-En este capítulo se presentan las principales características metodológicas y las limitaciones que presentan cada una de ellas, tanto en general como para su utilización a niveles provinciales.
+## **MARCO CONCEPTUAL: DEFINICIÓN DE VIAJE**
 
-No obstante, cabe adelantar aquí que tanto la óptica de análisis como la cobertura de estos operativos difiere.
+Siguiendo las definiciones habituales y las recomendaciones internacionales de la Organización Mundial del Turismo, a los efectos del relevamiento de la EVyTH, se define como viaje de turismo a todo aquel desplazamiento realizado por todos, algunos o al menos uno de los miembros del hogar fuera de su entorno habitual (las segundas viviendas por definición no forman parte).
+Debe tenerse en cuenta que:
 
-En cuanto a la óptica, la EVyTH y la ETI son encuestas de demanda, realizadas a los visitantes luego de finalizado su viaje (EVyTH) o al momento de finalización (ETI), mientras que la EOH es una encuesta realizada desde la perspectiva de la oferta, relevada en establecimientos hoteleros y para-hoteleros.
+-   Debe tener una duración inferior a un año y quien viajó no haber fijado su residencia en el lugar de destino.
 
-En relación a la cobertura, si bien algunas formas de turismo coinciden, debe tenerse presente que los universos a los que refieren son distintos.
-Por ejemplo, el turismo interno (desde la óptica provincial) relevado por la EVyTH contempla los viajes de los residentes en los grandes aglomerados de una provincia a cualquier destino dentro de esa provincia; en cambio, el turismo interno que contempla la EOH cuenta los viajeros que residen en cualquier lugar de la provincia que arriban a las localidades de la provincia incluidas en su muestra.
+-   Comprende los traslados, estancias y todas las actividades que las personas realizan en el lugar de destino.
 
-## EVyTH {#evyth}
+-   Puede haber ido a un sólo destino o haber tenido varias etapas.
 
-La **Encuesta de Viajes y Turismo de los Hogares (EVyTH)** es un operativo realizado por el MINTURDEP, cuyo objetivo principal es proporcionar información sobre los viajes turísticos de los residentes de Argentina hacia dentro y fuera del país: cuándo viajan, a dónde van, qué medios de transporte utilizan, dónde se alojan, cuáles son los motivos por los que viajan, cómo organizan sus viajes, qué actividades turísticas realizan, cuánto gastan, etc.
+Los motivos del viaje pueden ser esparcimiento, ocio o recreación; visita a familiares y amigos; negocios o motivos profesionales; estudios y formación; razones de salud, religión u otros (trámites, compras, etc.).
 
-Se trata de una encuesta realizada en forma telefónica a hogares, en la que se indaga por los viajes realizados por todas las personas que componen el hogar a lugares ubicados fuera de su entorno habitual.
-El primer relevamiento se desarrolló durante todo el año 2006; el segundo tuvo lugar durante el primer trimestre de 2011; y finalmente, a partir de enero de 2012, la encuesta se realiza en forma continua.
+Se incluyen tanto los viajes en los que el viajero pernocta al menos una noche en el lugar visitado como las visitas de un día (excusiones sin pernocte).
 
-La muestra abarca a hogares residentes en los "grandes aglomerados urbanos" definidos en la Encuesta Permanente a Hogares del INDEC (63%[^encuestas-nacionales-2] del total de la población argentina, aproximadamente), excluyendo de este modo a los residentes en ciudades medianas y pequeñas, en pueblos y en zonas rurales.
+Se considera viaje a todos los desplazamientos que cumplan con las condiciones enumeradas anteriormente y en los que hayan participado todos, algunos o uno de los miembros actuales del hogar encuestado.
 
-[^encuestas-nacionales-2]: El Área Metropolitana de Buenos Aires (AMBA), conformada por la Ciudad de Buenos Aires y los Partidos del Gran Buenos Aires, tiene una cobertura del 100%, mientras que en el conjunto del Interior del país la cobertura es de aproximadamente el 44%.
+El entorno habitual comprende la zona cercana al lugar de residencia habitual del hogar más todos los lugares visitados frecuentemente, aunque no sean cercanos a su lugar de residencia.
+Operacionalmente, la distancia que abarca el entorno habitual se define como el radio de 20 Km.
+desde la ciudad/localidad en que se encuentra la vivienda principal del hogar, a excepción del Gran Buenos Aires (la Ciudad Autónoma de Buenos Aires más los 24 Partidos que conforman el Conurbano de esta provincia), donde la distancia que determina el entorno habitual es el radio de 40 Km.
+de la localidad donde reside habitualmente el hogar.
+La frecuencia mínima de visita a un sitio, para que éste sea considerado como parte del entorno habitual, es de una vez por semana.
+Por lo tanto, los viajes que aquí consideramos son los realizados a destinos ubicados a más de 20/40 Km.
+de la localidad donde está la vivienda principal y que fueron visitados con una frecuencia no semanal.
 
-Lógicamente, aquellos visitantes residentes en el exterior del país tampoco son alcanzados por este operativo.
-Debido a que la encuesta se realiza en el lugar de residencia u origen de los visitantes y dada la cobertura geográfica del operativo, el análisis por origen de los visitantes estará limitado a los visitantes que provienen de los grandes aglomerados urbanos del país.
-En cambio, el análisis de los resultados por destino contemplará a todas las ciudades o localidades del país.
+En el caso de los desplazamientos internacionales, el criterio de distancia mínima es reemplazado por el de traspaso de la frontera administrativa.
+No obstante, el criterio de frecuencia sigue rigiendo, por lo cual, si una persona habitualmente traspasa la frontera una o más veces por semana, se considera que estos desplazamientos son parte de su entorno habitual.
 
-La EVyTH indaga por el destino principal del viaje (donde pasó más noches) a nivel de ciudad o localidad.
-Si el viaje incluyó alojamiento con pernocte en otras localidades además de la principal, las mismas no son identificadas, aunque sí es posible conocer la cantidad de otras localidades donde se pernoctó.
+Un desplazamiento a un lugar fuera del entorno habitual, en términos de distancia y frecuencia, puede no ser un viaje.
+Estas exclusiones rigen en todos los casos, incluso cuando el viaje se realice a una segunda vivienda del hogar[^planeamiento-de-los-aspectos-1].
 
-El diseño muestral de la EVyTH es probabilístico, y se encuadra en un diseño estratificado con selección sistemática al azar dentro de cada uno de los estratos.
-Los estratos están conformados por las regiones turísticas utilizadas habitualmente por el MINTURDEP (con la salvedad de que se consideran dos subregiones en el caso de la Provincia de Buenos Aires: los Partidos del Gran Buenos Aires y el Interior de la Provincia de Buenos Aires).
+[^planeamiento-de-los-aspectos-1]: Si una persona realizó un desplazamiento cuyo motivo principal fue trabajar como empleado de una empresa o institución residente en el lugar visitado (a cambio de un salario, se trate de un empleo en "blanco" o no) no se considerará visitante de ese lugar y, por tanto, no se registrará el viaje.
+    No se considera "empleado" si quien viaja por trabajo brinda un servicio por el cual percibe honorarios, o bien si recibe dinero en concepto de "viáticos", es decir, una asignación para cubrir los gastos del viaje (pasajes, alojamiento, alimentación, etc.).
+    Por ejemplo, no se consideran viajeros cuando son empleados en el lugar de destino:
 
-Los resultados de la EVyTH se presentan con períodos de referencia trimestrales.
-Los mismos surgen de la agregación de datos calculados a nivel mensual en muestras independientes.
-A nivel nacional, las estimaciones mensuales se realizan sobre una muestra de alrededor de 5.200 hogares, integrados por unas 16 mil personas.
+    -   trabajadores en temporada en hoteles, explotaciones agropecuarias, etc.;
 
-Debido a que la encuesta fue diseñada para obtener resultados a niveles regionales, las estimaciones provinciales deben ser consideradas con cautela dado que la cantidad de hogares encuestados en los aglomerados de cada provincia varía sustancialmente.
-Llógicamente, a mayor cantidad de muestra, las estimaciones presentarán mayor fiabilidad (menor error estadístico, véase Figura 2.1).
+    -   trabajadores temporarios en internados, hospitales y similares;
+
+    -   estudiantes que viajan por períodos inferiores a 12 meses y trabajan para mantenerse (tanto quienes reciben un salario por su trabajo como quienes ayudan a una familia en las labores de la casa y el cuidado de los niños a cambio de la estancia y el mantenimiento);
+
+    -   quienes viajan como acompañantes (familiares, servicio doméstico, etc.) de aquellos que lo hacen por cualquiera de los motivos ya enunciados, aunque hayan realizado actividades turísticas.
+
+    <!-- -->
+
+        En cambio, si se consideran que realizaron viajes aquellas personas que viajaron por trabajo, pero no fueron empleados en el
+        lugar de destino, por ejemplo:
+
+    -   conferenciantes, artistas de espectáculos y consultores;\
+
+    -   un abogado que defiende en un juicio a una persona o empresa del lugar visitado;
+
+    -   un cirujano que viaja a realizar una operación por única vez.
+
+        No se consideran viajes aquellos desplazamientos realizados por las personas para quienes el traslado es parte de su trabajo.
+
+        Por ejemplo, los pilotos de avión, conductores de camión o de ómnibus de larga distancia, viajantes de comercio y similares (incluyendo personal de seguridad, de asistencia -- azafatas-, etc.).
+
+El Cuadro 2 a continuación resume la definición de entorno habitual discutida anteriormente.
+
+**Cuadro 2: Definición de Entorno Habitual**
+
+## **UNIDADES DE ANÁLISIS**
+
+El marco conceptual antes definido permitirá obtener conclusiones a partir de diversas unidades de análisis.
+A continuación, se las repasan junto con una breve descripción de cada una de ellas:
+
+-   *Hogar*: es la persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación con cargo a un mismo presupuesto.
+
+-   *Persona*: cada uno de los individuos integrantes de un hogar.
+
+-   *Viaje*: significa cada desplazamiento que realiza una persona fuera del entorno habitual pernoctando en el/los lugar/es de destino.
+
+-   *Visita de un día*: es el recorrido de una persona fuera del entorno habitual sin pernoctar en el lugar de destino.
+
+-   *Pernoctación*: se trata de una noche de alojamiento de una persona.
+
+Ver en la sección 6.5.1 (el Manual del Encuestador) para más detalles de cada concepto.
+
+## **UNIVERSO BAJO ESTUDIO**
+
+Según lo estipulado por El Pliego, el universo bajo estudio de la encuesta serán los aglomerados urbanos que tengan más de 100.000 habitantes.
+En aquellas provincias donde no haya ningún aglomerado que cumpla dicha condición, se incorporará el aglomerado compuesto por la capital de la misma[^planeamiento-de-los-aspectos-2].
+Por lo tanto, se considerarán 32 aglomerados según la descripción que se anexa en el Cuadro 22 del Anexo.
+Los aglomerados se agruparán en las siguientes Regiones[^planeamiento-de-los-aspectos-3],
+[^planeamiento-de-los-aspectos-4]:
+
+[^planeamiento-de-los-aspectos-2]: Se sigue aquí la metodología utilizada durante la EVyTH-06.
+
+[^planeamiento-de-los-aspectos-3]: Las regiones están definidas a partir del criterio que la Secretaría de Turismo (y luego el Organismo Contratante) ha venido utilizando para sus relevamientos (EVyTH-06, Encuesta de Ocupación Hotelera, Plan Federal Estratégico de Turismo Sustentable, etc.).
+
+[^planeamiento-de-los-aspectos-4]: Se debió decidir en qué regiones incluir los aglomerados urbanos "San Nicolás -- Villa Constitución" y "Viedma -- Carmen de Patagones" puesto que las ciudades se encuentran en distintas provincias y, por ende, en diferentes regiones (según la definición que sigue).
+    Se incluye al primer aglomerado (San Nicolás -- Villa Constitución) en la Región Buenos Aires, mientras que el segundo (Viedma -- Carmen de Patagones), en la Región Patagonia.
+
+-   Región Ciudad de Buenos Aires.
+
+-   Partidos del Conurbano de la Provincia de Buenos Aires.
+
+-   Región Interior de la Provincia de Buenos Aires: compuesto por todos los aglomerados pertenecientes a dicha Provincia, excepto Partidos del Conurbano de la Provincia de Buenos Aires.
+
+-   Región Córdoba: compuesto por todos los aglomerados pertenecientes a la Provincia de Córdoba.
+
+-   Región Litoral: compuesto por todos los aglomerados pertenecientes a las Provincias de Santa Fe, Entre Ríos, Corrientes, Misiones, Formosa y Chaco.
+
+-   Región Norte: compuesto por todos los aglomerados pertenecientes a las provincias de Jujuy, Salta, Tucumán, Santiago del Estero, Catamarca y La Rioja.
+
+-   Región Cuyo: compuesto por todos los aglomerados pertenecientes a las provincias de Mendoza, San Luis, San Juan.
+
+-   Región Patagónica: compuesto por todos los aglomerados pertenecientes a las provincias de La Pampa, Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del Fuego[^planeamiento-de-los-aspectos-5].
+
+[^planeamiento-de-los-aspectos-5]: Cabe aclarar que se incluirán el aglomerado "San Nicolás -- Villa Constitución" en la Región Provincia de Buenos Aires, mientras que el aglomerado "Viedma -- Carmen de Patagones" será incluido en la Región Patagonia.
+
+A continuación, se presenta un cuadro que, a modo ilustrativo, indica los aglomerados que serán relevados.
+Para mayor detalle véase el Anexo.
+
+**Cuadro 3: Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio**
+
+## **DISEÑO MUESTRAL**
+
+El diseño muestral a considerar durante el relevamiento de la EVyTH se estructura en las siguientes pautas:
+
+1)  Cada una de las regiones definidas es considerará como estrato y se seleccionará muestras independientes en cada uno de ellos.
+2)  El método de selección a implementar es el sistemático.
+3)  Si fuera imposible disponer de información auxiliar que permita realizar estratificaciones socioeconómicas en cada una de las regiones, previo a la selección, se procederá a ordenar las bases de manera tal de salvar este inconveniente con el objetivo de lograr "una estratificación implícita".
+4)  Cada región, entonces, se ordenará por Aglomerado -- Partido/Departamento -- Localidad -- Característica Telefónica.
+
+## **TAMAÑO MUESTRALY MANEJO DE LOS REEMPLAZOS**
+
+La Prueba Piloto de la EVyTH, contribuyó significativamente a probar numerosas cuestiones vinculadas al proceso de encuestamiento, a saber: tecnología a utilizar, dimensionamiento de equipos, delineamiento del cuestionario, etc.
+Tuvo, también, un muy valioso aporte desde el punto de vista del muestreo.
+En efecto, la Prueba Piloto estuvo centrada en probar si el padrón telefónico con el que se contó constituye un buen marco de muestreo para extraer la muestra definitiva.
+Luego, la EVyTH-11 implementó la metodología especificada a partir de la Prueba Piloto y se concluyó que necesitan entre cinco y seis números telefónicos por hogar para obtener una encuesta efectiva.
+
+Consecuentemente, en base a estos resultados y en cumplimiento con lo establecido por El Pliego[^planeamiento-de-los-aspectos-6], la EVyTH-21 considerará una muestra titular de 2.600 hogares distribuidos a lo largo de cada Región - Aglomerado -- Partido/Departamento - Localidad (ver Cuadro 3).
+Asimismo, en caso de que la muestra titular no pueda ser completada (por ausencia de respondentes, rechazo a responder la encuesta o errores del marco), se seleccionarán, con el mismo diseño muestral, seis hogares adicionales como reemplazos por hogar titular[^planeamiento-de-los-aspectos-7]
+. Los reemplazos deberán coincidir en la Región, Aglomerado, Partido/Departamento y Localidad y serán utilizados luego de, al menos, seis intentos de comunicación insatisfactorios con la muestra inicial
+. En conclusión, se tomarán 6 reemplazos y, por lo tanto, la muestra tendrá un tamaño de 15.000 hogares con sus respectivos números de teléfono (por onda)
+.
+
+[^planeamiento-de-los-aspectos-6]: Véase Pliego página 28
+
+[^planeamiento-de-los-aspectos-7]: La posibilidad de disponer de la Guía Telefónica Nacional actualizada reduce considerablemente este problema ya que, por ejemplo, elimina los teléfonos deshabilitados y, de ese modo, el relevamiento resulta más eficiente.
+
+De esta forma, con el mecanismo de períodos de referencia y ventanas de observación que se implementará (ver más adelante sección 2.6.2), se logrará que, para un mes determinado, se duplique el tamaño de muestra (es decir, se relevarán 5.200 hogares)[^planeamiento-de-los-aspectos-8].
+La muestra completa (incluyendo reemplazos) estará en constante disposición del Departamento de Estadísticas del Organismo Contratante bajo las reservas del secreto estadístico contemplado en El Pliego.
+
+[^planeamiento-de-los-aspectos-8]: Esta metodología se inspira en la Familitur de España y sigue lo pautado por El Pliego.
+
+Finalmente, en base a resultados de las experiencias anteriores de la Encuesta, y en cumplimiento con lo establecido por El Pliego, las expectativas de viajes para los periodos de alta demanda de turismo como el invierno y el verano considerarán una muestra titular de 1.500 hogares distribuidos a lo largo de cada Región - Aglomerado -- Partido/Departamento - Localidad.
+
+### **MARCO DE MUESTREO**
+
+La EVyTH se instrumentará a través de un sistema C.A.T.I. (Computer Assisted Telephone Interviewing).
+Para ello, se utilizará como marco de muestreo la Guía Telefónica Nacional (GTN) del año 2011 (actualizada a 2012/13/14/15/16/17/18/19/20).
+MacroConsulting cuenta con una Guía ya consistida y validada.
+
+Los Licenciatarios de Telefonía Básica es la fuente consultada para obtener la GTN.
+La GTN está compuesta por los siguientes campos:
+
+-   Rubro/Actividad
+
+-   Apellido y Nombre
+
+-   Domicilio
+
+-   Teléfono
+
+-   CP
+
+-   Ciudad
+
+-   Localidad
+
+-   Provincia
+
+Con el fin de considerar únicamente aquellos registros que corresponden a los hogares (y no tener en cuenta comercios, empresas, entidades gubernamentales, etc.), se realizaron ciertos filtros a dicha base de datos.
+
+-   En primer lugar, se eliminaron todos aquellos datos cuyo campo "Rubro/Actividad" no fuera "Part/Com".
+    Luego se procedió a eliminar los registros en los que o bien la primera o bien la última palabra del campo "Apellido y Nombre" hicieran referencia a empresas, comercios, entes gubernamentales, etc.
+    Por ejemplo, se descartaron aquellos datos cuya última palabra fuera "S.A.", "S.R.L.", etc., dado que hacen referencia a sociedades.
+    Otros ejemplos son los registros cuya primera palabra del campo "Apellido y Nombre" fuera "Hospital", "Gobierno", etc.
+    De esta forma se eliminaron gran parte de los datos que no correspondieran a hogares.
+
+-   Se eliminaron los datos repetidos, considerándose como tales aquellos con un mismo nombre y dirección.
+
+-   Finalmente, en el caso de la Ciudad Autónoma de Buenos Aires, se utilizó una base de datos de códigos postales mediante la cual se agregó a cada registro de la base de la GTN su barrio correspondiente.
+
+-   En base a esta metodología se actualizó el Marco de Muestreo utilizado para la Prueba Piloto, la EVyTH-11, la EVyTH-12, EVyTH-13 EVyTH-14, EVyTH-15, EVyTH-16 EVyTH-17, EVyTH-18, EVyTH-19 y la EVyTH-20 para considerar los cambios y renovaciones que podrían haber ocurrido desde mediados de 2011 en adelante.
+
+### **PERIODICIDAD, VENTANA DE OBSERVACIÓN, PERÍODOS DE REFERENCIA Y ESQUEMA DE ROTACIÓN MUESTRAL**
+
+#### **PERIODICIDAD, VENTANA DE OBSERVACIÓN Y PERÍODOS DE REFERENCIA**
+
+Para llevar adelante el campo de la EVyTH, siguiendo lo pautado por El Pliego, se propone utilizar una periodicidad de muestreo mensual; es decir, todos los meses se releva una muestra seleccionada de acuerdo a la metodología descripta anteriormente.
+
+Además, se contemplará una ventana de observación[^planeamiento-de-los-aspectos-9] bimestral para los meses a ser relevados, es decir, períodos de recordación de dos meses consecutivos.
+Las ventanas de observación de períodos cortos, como este caso, eliminan la necesidad de recordación por tiempos prolongados, lo que favorece la veracidad de la información.
+
+[^planeamiento-de-los-aspectos-9]: El período para el cual se brinda información se denomina ventana de observación.
+
+Tomar períodos bimestrales como ventanas de observación permite generar un sistema de solapamiento que brinda mayor robustez a las conclusiones que se alcancen.
+
+Para dar mayor detalle del mecanismo a implementar en términos de ventanas de observación y solapamiento, se transcribe en el Cuadro 4, la conceptualización del esquema.
+
+**Cuadro 4: Periodicidad, Ventana de Observación y Períodos de Referencia**
+
+De acuerdo con El Pliego, la EVyTH debe desarrollarse "durante doce ondas consecutivas, a razón de una onda por mes calendario"[^planeamiento-de-los-aspectos-10].
+El mes calendario de comienzo del relevamiento es marzo de 2021.
+Por lo tanto, para ese mes (que sería la Onda 1 de la EVyTH-21), se encuestará la muestra (titular) de 2.600 hogares (con los remplazos que hicieran falta) y se consultará por los períodos de referencia correspondiente a los dos meses calendarios anteriores; es decir, enero y febrero de 2021.
+Durante el segundo mes de relevamiento, abril de 2021 (Onda 2), se procederá de forma similar para los viajes realizados en los dos meses anteriores (febrero y marzo de 2021).
+Consecuentemente el Mes 2 (abril de 2021) quedará "solapada" la muestra, habiéndose encuestado 5.200 hogares para este mes (es decir, luego del segundo mes de relevamiento).
+De este modo se garantizará que, para las estimaciones contenidas en los informes correspondiente a cada mes, en el apartado de Anticipo Mensual (véase sección 3.1.1.1.1) serán obtenidas a partir de 2.600 encuestas efectivas, mientras que para las estimaciones mensuales finales la muestra quedará duplicada a 5.200 (lo que garantizará la robustez del resultado).
+[^planeamiento-de-los-aspectos-11]
+
+[^planeamiento-de-los-aspectos-10]: Véase Pliego pág.
+    25.
+
+[^planeamiento-de-los-aspectos-11]: Siguiendo lo especificado en El Pliego (ver página 29).
+
+#### **ESQUEMA DE ROTACIÓN MUESTRAL**
+
+Con el objetivo de mejorar la comparación interanual de las principales variables a relevar, se renovará periódicamente el conjunto de hogares a encuestar (panel de respondentes)[^planeamiento-de-los-aspectos-12].
+Conceptualmente, el esquema de rotación de una encuesta tiene incidencia sobre los siguientes aspectos:
+
+[^planeamiento-de-los-aspectos-12]: La forma en que se produce esta renovación se denomina esquema de rotación.
+
+-   Precisión de las estimaciones del cambio entre dos períodos diferentes.
+
+-   Precisión de las estimaciones obtenidas al agregar muestra.
+
+-   Nivel de no respuesta (por cansancio del panel).
+
+El solapamiento de las muestras entre dos períodos consecutivos (o sea el porcentaje de muestra en común) juega en sentido contrario para los primeros dos aspectos: si un esquema tiene un alto porcentaje de solapamiento entre un período y el siguiente, puede medir adecuadamente los cambios, pero disminuir su precisión para una agregación a lo largo de varios períodos.
+Por el contrario, un bajo solapamiento mejora la precisión cuando se agrega muestra, pero disminuye la precisión de la estimación del cambio entre períodos sucesivos.
+
+El objetivo primordial de la EVyTH es medir la evolución de los viajes que, es sabido, es una variable que presenta una gran estacionalidad.
+Consecuentemente, la medición de la evolución no se realizará a partir de comparar dos meses consecutivos (excepto algunos meses en particular), sino que anualmente o agregando períodos (estival, invernal, etc.).
+
+Tal como se describió anteriormente, de acuerdo a El Pliego, el manejo muestral exige escoger la muestra antes de cada mes de relevamiento de modo tal de obtener muestras independientes, pero solapadas.
+El esquema de rotación que se implementará consistirá en incluir en la muestra del mes 1 del año t, la muestra titular de los hogares respondentes del mismo periodo (mes 1) del año anterior (t-1), no con el objetivo de estudiar el comportamiento de esos hogares en particular, sino de modo tal de hacer que las variaciones interanuales no presenten diferencias extremas[^planeamiento-de-los-aspectos-13].
+De esta forma se maximiza la precisión en cuanto a los cambios suscitados entre un año y otro.
+Un sistema de rotación muestral como este, permite evitar el cansancio del panel respondente ya que se repetirán los hogares luego de doce meses.
+De esta manera, se logrará una mejor ponderación entre ganancia en precisión (al rotar la muestra) y medición del cambio entre dos períodos (dos años).
+
+[^planeamiento-de-los-aspectos-13]: Este esquema ya fue propuesto como parte de La Oferta de MacroConsulting.
+
+Es relevante señalar que durante la EVyTH-12 se llevó a cabo una prueba piloto de esta metodología "de panel" entre los meses de abril y mayo (ondas 3 y 4).
+Los resultados fueron positivos ya que no se encontraron sesgos en las características de los respondentes[^planeamiento-de-los-aspectos-14], a la vez que se aumentó la tasa de efectividad de las encuestas[^planeamiento-de-los-aspectos-15]
+. En efecto, en comparación con las ondas en las que no fue implementada esta metodología de panel (es decir, para las ondas 1 a 4 de la EVyTH-11 y ondas 1 y 2 de la EVyTH-12), la tasa de efectividad de encuesta para los hogares titulares durante las ondas en las que sí se adoptó, (es decir, ondas 3 y 4) fue del doble
+. Mientras que se halló que poco más de dos de cada diez hogares de la muestra titular decidieron responder la encuesta en las primeras ondas, casi cinco de cada diez decidieron hacerlo en las ondas 3 y 4 durante el relevamiento de la EVyTH-12
+. Además, se realizó un control por características sociodemográficas del miembro respondente para verificar que no se hubiera sesgado la muestra
+. Las variables consideradas fueron
+:
+
+[^planeamiento-de-los-aspectos-14]: El control consistió en evaluar las características principales de los respondentes de la encuesta durante las primeras cuatro ondas de relevamiento del año 2011 y del año 2012.
+    El objetivo fue estudiar si se producía algún sesgo demográfico al utilizar muestras panel.
+    Los relevamientos de las ondas 3 y 4 (relevamientos de abril y mayo) de la EVyTH-12 fueron panel (incluyeron a los hogares respondentes del mismo periodo del año anterior), mientras que las ondas 1 y 2 (febrero y marzo) no lo fueron.
+
+    Los resultados del estudio demostraron que no se encontraron variaciones significativas en ningunas de las variables estudiadas (edad promedio edad en tramos, relación de parentesco del miembro respondente con el jefe de hogar, asistencia a establecimiento educativo, máximo nivel educativo alcanzado, situación ocupacional) entre los meses con muestra panel y los meses sin muestra panel.
+
+[^planeamiento-de-los-aspectos-15]: Se estudiaron las características de los respondentes no notándose diferencias estadísticamente significativas entre los respondentes que aceptaron ser encuestados el año anterior respecto del mismo grupo que aceptó ser encuestado en el 2012.
+
+-   edad promedio del miembro respondente
+
+-   jefe de hogar o relación de parentesco con el jefe de hogar
+
+-   asistencia a establecimiento educativo
+
+-   máximo nivel educativo alcanzado
+
+-   situación ocupacional
+
+El estudio arrojó el resultado antes comentado: no se encontraron mayores diferencias socio-económicas entre aquellos que accedieron a contestar las preguntas de esta edición de la encuesta con aquellos que lo hicieron en las ondas con distinta metodología.
+
+## **CUESTIONARIO**
+
+Siguiendo lo especificado por El Pliego[^planeamiento-de-los-aspectos-16] a continuación se expone el Cuestionario que se implementará durante el relevamiento de la EVyTH.
+El mismo consiste en un Cuestionario Base (o sección "pétrea") que, básicamente, pretende relevar los viajes realizados en los últimos dos meses y un Cuestionario "ad-hoc" que tiene la función de captar eventuales viajes futuros para fechas especiales como son los periodos de Verano/Invierno.
+
+[^planeamiento-de-los-aspectos-16]: El Pliego especifica: "Se anexa formulario base para el relevamiento de la encuesta mensual y el de expectativas de viajes.
+
+    Los cambios en los formularios base, que no se deban a cambios en los períodos de referencia de las distintas ondas, se realizarán únicamente a solicitud del personal técnico de la Secretaría, aunque en la propuesta se podrán realizar sugerencias de modificación del formulario que serán consideradas al evaluar las ofertas" (ver hoja 30).
+
+### **ANTECEDENTE DE LA ACTUAL EDICIÓN DE LA EVYTH**
+
+El Cuestionario implementado en la EVyTH-06, constituyó el modelo sobre el cual se trabajó para llegar al cuestionario aplicado en la Prueba Piloto, en la EVyTH-11, en la EVyTH-12, en la EVyTH-13, en la EVyTH-14, en la EVyTH-15, EVyTH-16, en la EVyTH-17, en la EVyTH-18, en la EVyTH-19 y en la EVyTH-20 que son los antecedentes a la actual edición de la EVyTH.
+
+Al observarse el Formulario anexado a El Pliego, se puede notar que la estructura conceptual del cuestionario ha perdurado desde su comienzo en 2010 aunque, sin embargo, seguramente fue preciso realizar algunas modificaciones atendiendo a situaciones de diversa índole[^planeamiento-de-los-aspectos-17].
+Los cambios que ha sufrido el cuestionario se resumen a continuación y resultan en el Formulario Base anexado a este informe (ver sección 6.6).
+[^planeamiento-de-los-aspectos-18]
+
+[^planeamiento-de-los-aspectos-17]: Circunstancias a las que se le debe adicionar el hecho de que ahora el relevamiento es telefónico (a diferencia de la EVyTH-06, que se realizó cara a cara).
+
+[^planeamiento-de-los-aspectos-18]: Este Formulario Base ya incorpora la actualización de los tramos de gastos (según tipo de viaje) y de ingreso (así como también los cambios necesarios a las preguntas de comportamiento turístico).
+
+En primer lugar, al comenzar la edición 2012 de la EVyTH se incorporó un relevamiento "ad- hoc" (complementario al cuestionario básico) con el fin de relevar las expectativas de viaje de los hogares argentinos durante fechas especiales dentro de cada mes de relevamiento.
+
+Para esta edición se anexa el formulario de expectativas para viajes de las temporadas de invierno y verano (ver sección 6.7).
+
+En segundo lugar, durante la EVyTH-12, se incorporó al cuestionario base implementado durante la EVyTH-11, la categoría "educación especial sin nivel" a la pregunta de nivel educativo.
+Esto permitió categorizar con mayor precisión a todos los encuestados.
+
+En tercer lugar, se modificó la manera de formular algunas preguntas para hacerlas más comprensibles.
+Por ejemplo, en la pregunta sobre duración del viaje de corta duración a segundas viviendas se remplazó "¿Cuántas noches pasaron en la vivienda?" por "¿Cuál fue la duración del viaje, desde que salieron hasta que regresaron a su hogar?" .
+
+En cuarto lugar, se reemplazó en la pregunta "¿Qué medio de transporte utilizaron para ir hasta allá? La categoría "Automóvil o similar (propio)" por solo "automóvil", por prestarse a confusión.
+
+En quinto lugar, en el bloque donde se indaga sobre las características de los miembros del hogar, se realizó una modificación respecto a las características ocupacionales del miembro del hogar.
+Se cambió la categoría "jubilado/a" por "jubilado/a o pensionado/a".
+
+En sexto lugar, se actualizaron los tramos de gasto e ingresos del hogar.
+Debido a la evolución en el ingreso de los hogares y del consecuente gasto turístico, resultó necesario realizar un ajuste en los montos de tramos de gasto de total del viaje y del ingreso del hogar.
+Además, se cuenta con información acumulada que permite realizar un análisis exhaustivo al interior de la propia fuente con el fin de optimizar las escalas de los tramos.
+
+Otra modificación realizada al cuestionario base (o sección "pétrea") fue la re estructuración de las preguntas sobre las razones que llevaron al hogar a elegir el destino al que finalmente viajaron y si ya habían visitado ese lugar con anterioridad.
+Ambas preguntas fueron incorporadas en julio de 2012 con el fin de obtener información más específica y certera sobre los fundamentos que impulsaron al hogar a optar por ese destino y no por cualquier otro.
+Así, los hogares deben definir si los atractivos naturales del lugar, la oferta histórica y cultural, la cercanía, los precios, la sugerencia de familiares o amigos que fueron allí antes, la residencia de familiares o amigos o la publicidad audiovisual influyeron en la decisión del destino.
+Además, se indaga sobre la eventual evaluación de otro destino y sobre la visita previa de alguno de los miembros del hogar a ese destino.
+
+Finalmente, se reformuló la pregunta sobre Comportamiento Turístico: para aquellos que viajaron en el año anterior, se indaga si viajaron dentro de Argentina y/o al Exterior (en reemplazo de la pregunta sobre si habían viajado por ocio o para visitar familiares -y la razón motivo) dado que esto no aportaba información valiosa.
+
+### **DESCRIPCIÓN DEL FORMULARIO**
+
+En la presente sección, se describe el cuestionario (anexado a El Pliego), que se utilizará para la presente edición de la EVyTH.
+Este puede ser dividido en dos grandes secciones: un bloque "pétreo" (cuyo contenido solo esporádicamente sufre alguna alteración menor) y otro bloque conformado por preguntas que cambian en función de relevamientos "ad-hoc" que resultan de interés según el período y la ocasión.
+Si bien esta sección es utilizada para indagar sobre la expectativa que los encuestados tienen en relación a la posibilidad de realizar algún viaje en un momento futuro (como los períodos de alta estacionalidad turística), puede ser utilizada, también, para llevar adelante encuestas de opinión u de otra índole[^planeamiento-de-los-aspectos-19] (durante la EVyTH-20 se indago sobre los perjuicios que tuvo la pandemia a causa del virus COVID-19 y sobre futuros viajes pos pandemia).
+
+[^planeamiento-de-los-aspectos-19]: Su característica básica es que es completamente flexible permitiendo realizar relevamientos "ad-hoc" de forma fácil.
+
+#### **CUESTIONARIO BASE (SECCIÓN "PÉTREA")**
+
+Como se indicó anteriormente, la sección del cuestionario que se describe a continuación prácticamente no ha sufrido alteraciones desde el comienzo de la primera edición de la EVyTH en el año 2010[^planeamiento-de-los-aspectos-20] (para su consulta ver sección 6.6).
+La idea es minimizar los cambios de contenido a esta parte del cuestionario con el fin de lograr la mayor compatibilidad entre los datos relevados en distintos momentos del tiempo y, de esta forma, generar una serie de tiempo lo más extensa posible.
+Esta sección "pétrea" del cuestionario, se compone de 9 Bloques; a saber:
+
+[^planeamiento-de-los-aspectos-20]: Ver sección anterior donde se describen las modificaciones introducidas a esta sección.
+
+1.  Bloque "Característicasdelosmiembrosdelhogar".Estebloqueestásubdivido en tres.
+
+    (i) Al inicio de la encuesta, sólo se indaga por la cantidad de personas que integran el hogar y las iniciales (de forma tal de mantener el anonimato) de cada uno de los miembros del hogar.
+    (ii) Al final del cuestionario, luego de indagar por la realización de viajes y visitas y sus características, se indaga por las características de los miembros del hogar, bajo el supuesto de que, con el devenir de la encuesta, el entrevistado gana confianza y se muestra menos renuente a responder estas preguntas. En este mismo sub-bloque se indaga por el comportamiento turístico en el año calendario anterior a la encuesta (año 2020)[^planeamiento-de-los-aspectos-21]; (iii) La indagación por los ingresos totales del hogar, que cierra la encuesta, se incluye como otro sub-bloque también al finalizar el Formulario Base.
+
+2.  Bloque "Segundas Viviendas".
+    Se indaga únicamente por las segundas viviendas que el hogar dispuso y utilizó durante el periodo de referencia.
+
+3.  Bloque "Viajes de corta duración a segundas viviendas": 1 a 3 noches (VCDS).
+
+4.  Bloque"Viajesdelargaduraciónasegundasviviendas":4nochesomás(LDSV).
+
+5.  Bloque"Visitasdeundíaasegundasviviendas"(VDSV).
+
+6.  Bloque"ViajesnoreiteradosenArgentina"(VA).
+
+7.  Bloque"Viajesnoreiteradosalexterior"(VE).
+
+8.  Bloque "Viajes a destinos reiterados" (DR).
+    Este bloque funciona como "reserva", es decir, no se pregunta directamente al entrevistado si realizaron viajes de este tipo, sino que el encuestador lo completa en caso de detectar la existencia de este tipo de viajes en la indagación de los bloques anteriores (VA y VE).
+
+9.  Bloque"Visitasdeundía".
+
+[^planeamiento-de-los-aspectos-21]: Este aspecto se indaga durante los meses de febrero hasta mayo inclusive.
+
+10.Bloque sobre viaje en períodos turísticos especiales.
+Este relevamiento complementario indaga por la posibilidad de que alguno de los miembros del hogar haya realizado viajes en la/s fecha/s especiales durante los meses de referencia (por ejemplo, períodos de temporada de verano/invierno).
+Es un bloque del cuestionario base que se "activa" automáticamente cuando, en los meses de referencia, ha habido un fin de semana largo.
+En función de ello, se consulta explícitamente si el encuestado ha viajado durante ese momento específico del mes.
+
+11.Comportamiento turístico de las personas.
+Finalmente, el formulario también incorpora, solo durante los meses de febrero a mayo, una sección donde se indaga por viajes realizados durante al año anterior a modo de conocer el comportamiento turístico de las personas.
+Con la información recabada en esta sección se confecciona el informe sobre Comportamiento Turístico de las Personas (ver sección 3 más adelante).
+
+Sinópticamente, la lógica del Formulario Base puede resumirse a través del Cuadro 5:
+
+**Cuadro 5: Esquematización del Cuestionario utilizado durante la EVyTH**
+
+El cuestionario base contiene su propia terminología para caracterizar a los viajes (en sentido amplio).
+Así, por ejemplo, cuando el visitante pernocta al menos una noche en el lugar de destino, se especifica como "viajes" y "viajeros" propiamente dichos.
+Cuando la persona no pernocta en el lugar de destino, se hace referencia a "visitas de un día" y "visitantes" o "excursionistas".
+Por lo tanto, en función de una serie de variables, se han definido diferentes tipos de viajes.
+Estas variables son:
+
+1.  Cantidad de noches en el lugar visitado. Se consideran las noches pasadas en alojamientos del lugar visitado.
+2.  Tipos de Alojamiento donde pernoctaron. Se clasifican en dos grupos:
+
+<!-- -->
+
+a.  "Segundas viviendas"
+b.  "Otros tipos de alojamientos": aquí se incluyen todos los tipos de alojamiento diferentes a las segundas viviendas (hoteles de todas las categorías, camping, casas de familiares o amigos, viviendas alquiladas por temporadas, etc.).
+
+<!-- -->
+
+3.  UbicacióndelDestinoPrincipal,segúnsea:
+
+<!-- -->
+
+a.  En Argentina (ciudad/localidad).
+b.  En otro país.
+
+<!-- -->
+
+4.  Viajes Similares en los últimos 2 meses. De acuerdo a la cantidad de viajes realizados a un mismo destino con características similares (miembros participantes, cantidad de noches, tipo de alojamiento, motivo principal, etc.) los viajes se clasifican en:
+
+<!-- -->
+
+a.  "Reiterados": cuando hayan realizado 3 o más viajes en los últimos 2 meses.
+b.  "No reiterados": cuando se hayan realizado uno o dos viajes en los últimos 2 meses.
+
+La información que se solicita depende del tipo de viaje que se trate y se registra en un Bloque específico del Formulario Base.
+Esta clasificación responde a la estrategia definida para mejorar la indagación y captación de los distintos viajes que las personas pueden realizar.
+En función de las variables mencionadas, llegamos a la siguiente clasificación:
+
+**Cuadro 6: Caracterización de los Viajes a ser Relevados y Ubicación en el Formulario Base**
+
+En la última columna del cuadro precedente se señalan dos situaciones: (a) en ciertos tipos de viajes (CDSV, VDSV, VR, VD), dentro de cada bloque, se indaga por la cantidad de viajes o visitas realizadas a cada lugar visitado y luego se realizan algunas preguntas sobre el último de los viajes o visitas a cada lugar; (b) en otros tipos de viajes (LDSV, VA, VE) se consulta directamente por cada uno de los viajes realizados.
+Esto es así porque por la propia definición de los tipos de viaje que componen el primer grupo se trata de viajes muy parecidos entre sí; en cambio, en el segundo grupo, los viajes englobados dentro de un mismo tipo pueden ser totalmente distintos.
+
+Excepto algún caso particular, existe un núcleo de preguntas que no varía según el tipo de viaje realizado por el hogar.
+Por ejemplo, se consulta por destino, tipo de alojamiento, actividades, etc.
+
+#### **SECCIÓN "AD-HOC" DEL CUESTIONARIO**
+
+Como fuera mencionado anteriormente, esta sección del cuestionario fue incorporada en la edición de 2013 de la EVyTH y tuvo como función primordial relevar las expectativas de viaje de los hogares argentinos durante fechas especiales dentro de cada mes de relevamiento, así como también, durante los periodos de alta demanda de turismo como el invierno y el verano.
+La decisión de incorporar este relevamiento complementario se basó en la importancia de conocer anticipadamente (ex ante) los viajes que los hogares argentinos prevén realizar ante la implementación de una política pública como la incorporación y/o reestructuración de nuevos feriados nacionales por parte del gobierno nacional[^planeamiento-de-los-aspectos-22], así como también para los periodos vacacionales como el periodo invernal y el periodo estival.
+Por esta razón, al finalizar el cuestionario "pétreo", se incorpora una sección (o cuestionario "ad-hoc") sobre expectativas de viajes durante los períodos relevantes.
+
+[^planeamiento-de-los-aspectos-22]: De acuerdo con Decreto 245/2011 y la Ley 26.721.
+
+De acuerdo con El Pliego, la edición de la EVyTH (EVyTH-21) prevé el relevamiento de expectativas de viajes para las quincenas de temporada invernal (contemplando las expectativas de viajes que se realicen durante los meses de julio y agosto de 2021) y de verano (considerando las expectativas de viajes que se realizarán entre los meses de diciembre hasta marzo inclusive).
+
+El relevamiento sobre expectativas para medir el caudal turístico y principales características del viaje en fechas especiales, se llevará a cabo durante quince días hábiles anteriores a la fecha de entrega del informe de resultados (siguiendo el Pliego, la entrega debe realizarse diez días antes del inicio de la temporada turística de invierno y verano).
+En cada fecha clave, se relevará la cantidad de turistas, el destino (región turística para Argentina y "Exterior" para países extranjero), el motivo, el tipo de alojamiento y la duración del viaje para una muestra de 1.500 casos relevados.
+Estas preguntas se realizan al final del bloque de preguntas sobre los miembros del hogar del cuestionario base y antes de la pregunta sobre ingresos del mismo cuestionario.
+De esta manera, se mantiene la pregunta de menor respuesta, ingresos del hogar, en el último lugar para así obtener mayores posibilidades de concluir la encuesta en su totalidad.
+Para su consulta ver sección 6.7).
+
+### **INCORPORACIONES SUGERIDAS AL FORMULARIO BASE**
+
+A continuación, se listan y comentan en términos generales algunas propuestas concretas que podrían incorporarse en el Formulario Base a lo largo del relevamiento a llevarse a cabo durante 2021.
+La implementación eventual de estas propuestas queda sujeta al criterio del personal técnico del Organismo Contratante.
+
+#### **ÍNDICE DE CONFIANZA DEL TURISTA**
+
+Se propone implementar un nuevo módulo de preguntas destinado a la construcción de un Índice de Confianza del Turista de carácter continuo, y cuyos valiosos frutos podrán observarse cuando haya transcurrido al menos un año.
+Deberá ser algo simple, que se realizará a todos los entrevistados al finalizar la encuesta base.
+A continuación, una primera propuesta que deberá ser evaluada por el personal técnico del Organismo Contratante y testeada a través de una Prueba Piloto:
+
+P1) En los próximos tres meses, ¿alguno de ustedes viajará por vacaciones, ocio, para visitar familiares o por otro motivo?
+(no leer opciones, si dice "no sé" repreguntar si cree más probable que viajen o no)
+
+1)  Si (pase a P1C)
+2)  No (pase a P2)
+3)  No Sabe, aunque es más probable que viajen
+4)  No sabe, aunque es más probable que no viajen
+5)  No sabe, y no puede decir si es más probable que viajen o no. 9) No Responde (pase a P2)
+
+P2A) En todo el año 2021, ¿cree que ustedes viajarán por turismo más o menos que lo que han viajado en 2020?
+
+1)  Más
+2)  Menos
+3)  Lo mismo
+4)  NO VIAJAN POR TURISMO (pase a P3) 8) No sabe
+5)  No responde
+
+P2B) ¿Y considera que en el año 2021 podrán viajar más o menos que lo que viajarán durante este año?
+
+1)  Más
+2)  Menos
+3)  Lo mismo
+4)  No sabe
+5)  No responde
+
+#### **INDAGACIÓN SOBRE LOS HOGARES QUE SE INCORPORAN AL TURISMO**
+
+La comparación de los resultados obtenidos en las ediciones anteriores de esta encuesta da cuenta de un incremento en la proporción de personas y hogares que realizan viajes turísticos a partir de 2006.
+En este escenario cabría la posibilidad de indagar sobre cuál es la proporción de hogares que están viajando por primera vez.
+El abanico de formas metodológicas para mensurar esta cuestión es amplio y complejo a la vez, lo que ameritaría discusiones profundas sobre la forma de implementarlo, así como los tipos de viajes turísticos a considerar (cualquier tipo o sólo los de ocio, por ejemplo).
+Por ejemplo, podría preguntarse a los hogares si es la primera vez que visitan ese destino.
+
+#### **MOTIVO CONGRESOS PARA AQUELLOS QUE VIAJAN POR TRABAJO**
+
+Algunas ciudades se caracterizan por su particular atracción como destinos para congresos y convenciones.
+El cuestionario actual no permite identificar cuántos de los viajes que son realizados como motivo de trabajo se corresponden con viajes para asistir a congresos/convenciones por trabajo.
+Sería posible incorporar una pregunta que saldara esta deuda.
+
+#### **PROFUNDIZACIÓN DE LOS ASPECTOS REFERIDOS A LOS VIAJES AL EXTERIOR DEL PAÍS POR PARTE DE LOS RESIDENTES QUE NO ESTÁN SIENDO CAPTADOS POR LA ETI**
+
+Actualmente, la Encuesta de Turismo Internacional releva los viajes de los residentes al exterior que se realizan desde los principales aeropuertos del país (Ezeiza, Aeroparque y Córdoba) y desde la terminal portuaria de la Ciudad de Buenos Aires.
+Por tal motivo, una parte sustancial de los viajes que los residentes realizan hacia países limítrofes por otros medios de locomoción (automóvil y ómnibus, particularmente) no son captados por dicho relevamiento.
+Una forma posible de subsanar esta laguna de información sería agregar algunas breves preguntas que permitan conocer las principales características de estos viajes, además de las que se relevan habitualmente para todos los viajes al exterior.
+Si bien por razones de fiabilidad estadística los resultados obtenidos para un mes no serán suficientes, la acumulación luego de una serie de ondas (semestral, anual) permitirá contar con una cantidad de información sustancial para realizar análisis exploratorios.
+
+#### **PROPENSIÓN AL TURISMO DE LOS HOGARES**
+
+Podría resultar de interés tener alguna apreciación sobre las actividades turísticas del hogar en un marco temporal que exceda los meses específicos sobre los que se indaga acerca de la realización de viajes y se acerque más a captar la importancia que el turismo tiene para ese hogar.
+Por ejemplo, podría indagarse acerca de si habitualmente suelen tomarse vacaciones en la temporada de verano, si viajan en algún o algunos feriados turísticos y si además realizan viajes fuera de estas fechas.
+En consonancia con esto, cabría indagar, por ejemplo, con cuanto tiempo de anticipación planean sus vacaciones estivales, y desde cuando comienzan a ahorrar para tal fin.
+Este módulo podría relevarse en los meses de temporada baja.
+
+#### **ETAPAS DEL VIAJE**
+
+Una de las preguntas planteadas en el Formulario Base se refiere a cuántos lugares visitaron además del destino principal.
+Una posible implementación sería que se indague sobre cuáles fueron las provincias y localidades visitadas, en el caso de que se realicen viajes al exterior cuales fueron los países respectivamente.
+
+#### **UTILIZACIÓN DE INTERNET**
+
+Se sugiere modificar la pregunta actual sobre la utilización de Internet para consultar o contratar información relacionada al viaje.
+Se propone indagar si la contratación de alojamiento pago, medio de transporte público y paquete fue por medio de Internet o no.
+Y, en caso de no haber adquirido ese tipo de servicios y/o las respuestas resultaran negativas, se realizaría una pregunta genérica sobre el uso de internet, por ejemplo: "¿USTED O ALGUNA DE LAS PERSONAS QUE PARTICIPÓ DEL VIAJE, USARON INTERNET PARA ORGANIZAR EL VIAJE O CONSULTAR INFORMACIÓN SOBRE CÓMO VIAJAR, DÓNDE COMER, QUÉ HACER, EL CLIMA, ETC.?".
+
+*Nota 1*: se podría distinguir entre contratación en línea vía OTA (Booking, Despegar, Plataforma 10, etc.) y gestión/reserva por internet distinto de OTA (por ej., contratar una cabaña por haber visto en la web y en base a eso contactar al dueño directo).
+
+*Nota 2*: Se haría necesario definir si se continúa indagando esto sólo para los viajes por ocio no a segunda vivienda o si se extendería a todos los viajes (incluso, también a las visitas de un día).
+
+#### **PARTE INTERNA DE VIAJES EMISIVOS**
+
+Se sugiere evaluar la factibilidad de incluir pregunta simple que capte la existencia o no de un destino interno en viajes emisivos.
+Por ejemplo: "¿SU VIAJE AL EXTERIOR INCLUYÓ AL MENOS UNA NOCHE ALOJADOS EN ALGUNA LOCALIDAD ARGENTINA?".
+
+#### **EVALUACIÓN DE DESTINOS ALTERNATIVOS**
+
+Se propone reemplazar el enunciado actual por una redacción más coloquial, a fines de obtener un mejor nivel de respuesta.
+Por ejemplo: "¿DESDE EL INICIO HABÍAN DEFINIDO VIAJAR A ESTE LUGAR, O TAMBIÉN PENSARON EN OTROS LUGARES ANTES DE DECIDIRSE A VISITAR.....?".
+Las opciones de respuesta serían: 1-Destino decidido desde el inicio; 2- Pensaron en otros lugares.
+
+#### **DESAGREGACIÓN DEL GASTO DE VIAJES Y VISITAS**
+
+Como propuesta a implementar en el Formulario Base, se puede considerar la desagregación del gasto.
+En el cuestionario implementado en la EVyTH-21, una de las preguntas referidas al gasto era la siguiente: "Aproximadamente, ¿Cuánto gastaron en total en el viaje, incluyendo los gatos de todos los miembros del hogar en transporte, alojamiento, comidas, excursiones, etc.?"; se sugiere incorporar preguntas para la apertura del mismo gasto total (que continuaría indagándose, al inicio para que no se vea afectado el nivel de respuesta por las preguntas desglosadas).
+A continuación, se detalle el desglose que se sugiere realizar:
+
+1)  Transporte: incluye gastos en servicios de transporte público (micro, ómnibus, tren, avión, etc.) como nafta y peajes. En todos los casos, refiere al transporte entre origen-destino (y, eventualmente, entre etapas del viaje). Esto es primordial pues permite discriminar el gasto en destino.
+2)  Alojamiento: en todo tipo de alojamientos por los que se deba pagar (hoteles y similares, camping, viviendas de alquiler temporario, otros pagos).
+3)  Resto: Bajo esta variable se reunirían los gastos que no se incluyen en los ítems anteriores, como ser alimentación, excursiones, entradas a espectáculos, regalos y suvenires, etc. Sólo para los viajes y visitas internos.
+
+### **RELEVAMIENTOS AD HOC: INFORMES NO BÁSICOS**
+
+A partir de la reunión de capacitación con el personal técnico del Organismo Contratante realizada con motivo de dar cierre a la EVyTH-17, surge la necesidad de replantear algunos ejes temáticos de los informes "ad hoc", incorporados a la Encuesta durante las pasadas experiencias de la EVyTH.
+La lista de nuevas variables definitivas a incorporar en el relevamiento debe estar sujeta a las necesidades que plantee el equipo técnico del Organismo Contratante, sin embargo, a continuación, se enumeran posibles temáticas a incorporar:
+
+1.  Destino Ideal: Se podría incorporar, por ejemplo, en los relevamientos de expectativas de invierno y verano, una pregunta por el destino ideal de los hogares suponiendo que el hogar dispusiera de los recursos necesarios (tiempo, dinero, etc.).
+    Se replica experiencia pasada, si bien los resultados no revisten mayor interés (pues no variarán mucho de lo que se conoce), el Organismo Contratante los puede encontrar positivos para su comunicación.
+
+2.  Conocimiento y Deseo de Conocer Destinos Turísticos Estratégicos del País: Mediante la implementación de un módulo ad hoc, dirigido sólo a la persona que responde la encuesta (no a la totalidad de miembros del hogar) podría indagarse acerca del conocimiento o no, y sobre las ganas de visitar por primera vez o de regresar a destinos turísticos estratégicos de Argentina (Cataratas del Iguazú, Bariloche, Quebrada de Humahuaca, Sierras de Córdoba, Glaciar Perito Moreno, por ejemplo).
+    La respuesta del entrevistado, para cada lugar, quedaría englobada en alguna de las siguientes categorías: No lo conoce y tiene interés en visitarlo, No lo conoce y no tiene interés en visitarlo, lo conoce y le gustaría visitarlo nuevamente, lo conoce, pero no volvería.
+    Al término de un periodo temporal amplio (semestral, por ejemplo) se tendría una muestra lo suficientemente significativa para analizar esta información no sólo para el total de los aglomerados sino también de acuerdo a las regiones y a diferentes características de las personas.
+    Por razones referidas a la duración de la entrevista, este módulo podría incorporarse en los meses en que se releva información sobre viajes turísticos realizados en los meses de temporada baja.
+    Misma lógica podría seguirse para destinos "estratégicos", como Iberá.
+
+3.  Estudio de los hábitos turísticos de la población: amén de si viajan o no, clasificar a los hogares viajeros según frecuencia, tipos de viaje (uno largo anual, varios cortos, etc.), destinos (cercanos/lejanos; Argentina/Exterior), trayectorias (si siempre viajaron, si lo empezaron a hacer en los últimos años, etc.), etc.
+
+4.  Incorporación "temporal" de preguntas en cuestionario base: esta es otra modalidad de relevamiento ad hoc, y consistiría en profundizar por un determinado tiempo (vinculado a la precisión requerida/tamaño de muestra mínima) sobre algún aspecto del viaje.
+    Por ejemplo, un breve módulo sobre la importancia de la gastronomía en viajes internos, profundizar sobre algunas características de los viajes emisivos para aumentar la comprensión sobre todo de los "no ETI", etc.
+
+Por otra parte, algunos informes no periódicos no requieren ser realizados una vez al año (por ejemplo, el informe de Destinos) ya que presentan un gran componente estructural y, al mismo tiempo, realizar este informe con información agregada de al menos 3 años permitirá robustecer los resultados al agregar muestra durante un período más prologando.
+Por esto se sugiere realizar algunos cambios:
+
+1.  Comportamiento turístico: Se sugiere incorporar información sobre destino en Argentina/Exterior.
+
+2.  Destinos: Se sugiere realizar este informe con información agregada 2012-2020 (8 años completos) y modificar el nombre a "Eje PFETS".
+    Además, se sugiere revisar otras clasificaciones (tipo de atractivo, demográfico, oferta).
+
+## **CONSISTENCIA Y VALIDACIÓN**
+
+Con el objeto de garantizar la calidad de la información se utilizará, tal como se expuso en La Oferta, un proceso de validación y consistencia de los ficheros resultantes de la encuesta para aplicarse previo a cualquier imputación o tratamiento de información faltante.
+Dicho proceso se implementará mediante un programa que permita gestionar el proceso de validación y las correspondientes correcciones en los casos de hallar inconsistencias que ha sido diseñado especialmente para la EVyTH (este sistema ya ha sido probado con éxito en ediciones anteriores de la EVyTH --como, por ejemplo, en la EVyTH-11, EVyTH-12, EVyTH- 13, EVyTH-14, EVyTH-15, EVyTH-16, EVyTH-17, EVyTH-18, EVyTH-19 y la EVyTH-20).
+En este tipo de procesos, el objetivo es controlar los valores o el campo de variación (rango de valores) de cada variable del cuestionario.
+En una primera etapa la validación se realiza exclusivamente para cada uno de los individuos registrados, independientemente de su interrelación con la información relevada en otros individuos del mismo hogar.
+Esto significa que esta validación inicial se realiza en forma independiente para cada individuo y para cada variable del cuestionario.
+En las preguntas cerradas se controla que los códigos introducidos se encuentren dentro del rango de valores correspondientes a dicha variable.
+Por ejemplo, en la variable "NIVEL DE INSTRUCCIÓN", sólo deben presentarse los códigos 01 a 10 y el código 99 para el caso de no respuesta.
+Una segunda etapa del proceso de validación y consistencia consiste en la validación cruzada de la información contenida entre variables relevadas en un mismo individuo.
+Es decir, se analizan las interrelaciones lógicas entre dos o más preguntas de un mismo individuo.
+Por ejemplo, si no responde en la pregunta sobre si trabaja o no, pero luego responde que es "ama de casa", entonces debería corresponder la respuesta "No" a la pregunta sobre si trabaja.
+
+El proceso de validación también implica el manejo de las encuestas parcialmente completas.
+Se propone implementar un criterio para determinar cuáles encuestas no pueden ser utilizadas para extraer información y cuáles si, de forma tal de minimizar la pérdida de datos.
+Se considera una encuesta válida cuando el respondente haya contestado todas las preguntas referidas al comportamiento turístico del hogar dentro del periodo de referencia correspondiente y, al menos, haya respondido sobre las características básicas del jefe (sexo, edad, nivel educativo).
+Si bien la gran mayoría de los entrevistados responden hasta el final de la encuesta (y, por ende, se cuenta con las características de cada una de las personas que integran el hogar), en algunas ocasiones el respondente se niega a suministrar información personal.
+Como se mencionó, en estos casos el criterio para dar por válida una encuesta es que al menos se haya obtenido la información básica sobre el jefe.
+En base a la información recolectada hasta allí (cantidad de integrantes, características del jefe, observaciones del encuestador sobre el sexo y/o la edad de las personas restantes - información que suele surgir durante el desarrollo de la entrevista), el Jefe de Estadística procede a imputar las características básicas de las personas del hogar faltantes.
+Por último, existirá un proceso de validación "ex -- post".
+Este mecanismo consiste en estudiar cada una de las variables discriminadas en función de distintos cortes (etarios, regionales, etc.) con el fin de analizar respuestas que se ubiquen fuera de los rangos definidos como "normales".
+
+## **PROCEDIMIENTO DE IMPUTACIÓN**
+
+Una vez finalizada la etapa de validación y consistencia de la información comienzan las tareas de imputación de la falta de respuesta en las variables de cada base de datos.
+En la sección a continuación se realiza una breve descripción del proceso de imputación de las principales variables relevadas por la EVyTH (ingreso total del hogar y gasto del viaje); mientras que en el apartado 6.2.3 se realiza una descripción más pormenorizada.
+Desde el punto de vista conceptual, el método de imputación que se utilizará, al sustituir valores perdidos, requiere que la imputación no modifique las características de la variable en estudio.
+Por este motivo es recomendable demostrar, luego de la imputación, que no se han generado cambios relevantes en la distribución de la variable imputada.
+En una primera instancia se procede a estudiar y evaluar la imputación de las variables "Ingreso Total del Hogar" y "Gasto en Viajes", sin embargo, lo aplicado en esta situación será empleado en otras variables de interés (por ejemplo, edad, sexo y situación laboral).
+Para el caso de la variable Ingreso Total del Hogar, considerando que se trata de una variable categórica ordinal, para su imputación se utilizará un modelo de Regresión Logística Politómica con Variable Respuesta Ordinal.
+Este procedimiento se lleva a cabo en SAS®[^planeamiento-de-los-aspectos-23].
+
+[^planeamiento-de-los-aspectos-23]: La metodología de imputación que se propone en la sección tiene la ventaja de que ya fue testeada con las bases de la EVyTH-06, de la Prueba Piloto de la EVyTH-11, la EVyTH-12, la EVyTH-13 la EVyTH-14, la EVyTH-15, la EVyTH-16, la EVyTH- 17, EVyTH-18, EVyTH-19 y la EVyTH-20.
+
+Para el caso de la imputación de la variable "Gasto del Viaje", al ser una variable continua (no está categorizada), la metodología a implementar para su imputación sigue un modelo de regresión en dos etapas puesto que debe contemplarse que la variable ingreso es una variable con distribución marcadamente sesgada (por lo que una técnica que asuma una distribución Normal no debería ser adecuada sin una previa transformación que asegure dicho supuesto).
+Esta metodología busca, en la primera etapa, "colocar" el valor del gasto faltante en una categoría de gasto, en función de los valores observados en las variables explicativas mientras que, en la segunda etapa, se selecciona un valor de esa categoría para "asignar" al registro.
+Por otra parte, entre las variables explicativas que se tomaron en cuenta (ver más detalles en sección 6.2.3) para su imputación se encuentran: distancia recorrida, cantidad de noches, cantidad de miembros del hogar, tipo de alojamiento, medio de transporte utilizado, motivo del viaje, tiempo de organización del viaje, mes en que se realizó el viaje, entre otras.
+
+## **PROCESO DE CALIBRACIÓN**
+
+Una etapa crítica en toda encuesta por muestreo es la expansión de la información.
+Una selección adecuada, y el posterior desarrollo, de una metodología para ponderar los datos muestrales es importante, ya que debe atender simultáneamente varias necesidades.
+Las distintas temáticas estudiadas, y la necesidad de lograr estimaciones adecuadas para cada una de ellas, obliga a que ésta sea lo más eficiente posible, en términos de precisión, cuidando no privilegiar a algunas en perjuicio de otras.
+Al mismo tiempo, su implementación debe ser simple, flexible y económica en tiempos de ejecución y cálculo.
+
+Uno de los problemas más comunes en las encuestas complejas de gran envergadura es que una vez desarrollado el trabajo de campo existen algunos subgrupos de la población objetivos sub o sobre-representados.
+
+Esta dificultad lleva a que los sesgos puedan ser importantes, impidiendo una interpretación correcta de las estimaciones o imposibilitando la comparación de los resultados con fuentes alternativas.
+
+Para corregir esto, en la práctica es habitual corregir los pesos o factores de expansión iniciales (las inversas de las probabilidades de inclusión) con la ayuda de información auxiliar.
+El hecho de contar con dicha información auxiliar en la etapa de estimación permite el empleo de estimadores que la involucran.
+Dentro de este tipo de estimadores están los que se obtienen a través de los métodos de calibración.
+Éstos, en su forma más general, tienen como objetivo crear nuevos pesos que resultan de modificar o calibrar las ponderaciones iniciales por diseño.
+
+El empleo adecuado de la técnica de calibración permite:
+
+-   Reducir el error cuadrático medio de las estimaciones.
+
+-   Corregir posibles sesgos en la etapa de selección.
+
+-   Dar una solución al problema de "no-respuesta".
+
+-   Lograr, a partir de las restricciones impuestas, una deseable consistencia, o concordancia, entre los totales conocidos y los obtenidos a través de la muestra, de las variables auxiliares.
+
+La calibración consiste básicamente en la resolución de un problema de minimización numérica.
+Dicho problema queda planteado con la elección de una distancia, entre los nuevos ponderadores y los originales, y la utilización de un conjunto de restricciones impuestas sobre las variables auxiliares que intervienen en el ajuste.
+
+**(Nota para mi yo del futuro, acá van una seria de fórmulas de la Pag 37 en adelante)** Sea una función G que cumple con ciertas propiedades, y donde $G(wk/dk)$ mide la distancia existente entre el peso original dk y el nuevo peso $wk$, y donde $ dk G(wk / dk )$ es la medida de la distancia para la muestra completa s.
+El problema de optimización es minimizar $sdkG(wk /dk)'swkxk Uxk$ donde el vector es el multiplicador de Lagrange.
+
+Diferenciando con respecto a wk, se obtiene g(wk / dk )  x 'k λ  0 , donde g(x)  dG(x) / dx .
+Luego, resolviendo para wk se obtiene wk  dk F(x 'k λ) , donde F(u)  g1(u) representa la función inversa de g(.).
+Para calcular los nuevos pesos, se determina el valor de λ resolviendo las ecuaciones de calibración dkF(x'k λ)xk  xk sU (1.1) donde el vector λ constituye la única incógnita.
+El sistema puede ser resuelto por métodos numéricos.
+Una solución general está constituida por el método de Newton.
+(λ)d F(x' λ)1x kkk ˆ Sea s s , podemos escribir (1.1) como s(λ)  tx  tx , donde ˆ tx  U xk , y tx  s dkxk es el estimador de Horvitz-Thompson.
+Sea 's(λ)  s(λ)/λ .
+Luego comenzamos el proceso iterativo fijando λ0  0 , y obteniendo los valores λv , correspondientes a cada paso v (v=1,2,...) del proceso iterativo, mediante 1ˆ  λv1 λv 's(λv) t t (λ) x x s v (1.2) Teniendoencuentaques(0)0;'s(0)Ts sdkxkx'k ,laprimeriteraciónbrindael ˆ 1 s x x v valor λ  T1(t  t ) , mientras que las iteraciones sucesivas brindan valores λ de acuerdo a la fórmula (1.2), hasta que el criterio de convergencia es cumplido.
+En forma resumida, el proceso de calibración consta de los siguientes pasos:
+
+1.  Dados los datos (yk , xk ) observados para los elementos de la muestra, o sea, k  s , y dada una función de distancia G (y la correspondiente función F), resolver el sistema (1.1) para λ.
+2.  Una vez determinado λ, calcular los pesos calibrados wk  dk F(x 'k λ) y el estimador de calibración.
+
+Con respecto a las funciones de distancias, en la literatura se mencionan siete funciones distintas de distancia G, y su correspondiente F.
+Para el presente trabajo se utiliza y adapta la macro CALMAR[^planeamiento-de-los-aspectos-24], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias.
+La macro mencionada trabaja con cuatro funciones G, de las cuales para la EVyTH se trabajará sólo con tres.
+A continuación, se brinda una pequeña descripción de cada una de ellas.
+
+[^planeamiento-de-los-aspectos-24]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en:
+    <http://www.restore.ac.uk/PEAS/saspackage.php>
+
+1.  Método Lineal: G(x)=(1/2)(x-1)2; x; F(u)=1+u
+
+2.  Método multiplicativo (o método ranking):
+
+G(x)  x log x  x  1;
+iii.
+Método logit: Fijar dos constantes L y U, tal que L\<1\<U, y sea
+
+x  0;F(u)  exp(u)  0\
+A  (U  L) / (1  L)(U  1) .
+Luego
+
+G(x) 1 (x  L)log x  L  (U  x)log U  x 
+A 1L U1
+
+
+
+si L\<x\<U, y G(x)   en otro caso.
+La función F correspondiente es:
+F(u) L(U1)U(1L)exp(Au)
+
+U 1(1 L)exp(Au)
+que toma valores entre L y U
+
+La función logit descripta en el punto iii), constituye una función inusual que surge del deseo
+de restringir el rango de los nuevos pesos wk para evitar los pesos extremos, los cuales
+pueden ser eliminados a través de una apropiada elección de L y U.
+
+Para el proceso de calibración de la EVyTH se intentará, no siempre con éxito (de acuerdo
+con nuestra experiencia en las ediciones de la EVyTH anteriores), utilizar el método i, dado
+que el proceso iterativo solamente involucra un paso.
+La dificultad que posee este método
+es que, en muchos casos y debido a la estructura interna de la muestra con respecto a las variables de calibración, brinda pesos negativos los cuales obviamente no tienen sentido
+dentro del muestreo.
+Es por ello que para aquellas Regiones donde se encuentran estas
+dificultades, se adoptará por aplicar el método ii), el cual posee la ventaja de evitar los
+pesos negativos.
+
+El método iii se aplica en aquellas Regiones donde los nuevos pesos calculados por el método
+i o ii resulten extremos.
+Se intenta, en la mayoría de las Regiones, que los pesos resultantes
+
+cumplan con la siguiente condición: 0.7  wk dk  1.5 , necesitando en algunas Regiones
+ampliar dichos márgenes.
+
+Se propone efectuar la calibración en forma independiente en cada Región dado que las
+muestras son independientes y además se pretende brindar estimaciones de cada una de
+ellas.
+
+Con respecto a la información auxiliar a emplear para la calibración y el ajuste de las
+estructuras internas de la muestra, se pretende recurrir a proyecciones de población en
+base al INDEC.
+Se propone, entonces, tener en cuenta los siguientes totales a nivel de cada
+una de las siete Regiones:
+
+-   Total de personas por sexo.
+
+-   Total de personas por grupos de edad.
+
+-   Total de personas por nivel educativo.
+
+-   Total de viviendas.
+
+Los grupos de edad están compuestos de la siguiente manera:
+
+-   0--17años,
+
+-   18 -- 34 años,
+
+-   35--54años y
+
+-   mayores de 55 años.
+
+Nivel Educativo está conformado por cuatro grupos siendo los mismos:
+
+-   "Sin Instrucción/Hasta Primario Incompleto",
+
+-   "Primario Completo/Secundario Incompleto",
+
+-   "Secundario Completo/Terciario Incompleto/Universitario Incompleto" y
+
+-   "Terciario Completo/Universitario Completo/Posgrado/Maestría/Docto
+
+Importa aclarar que los Totales de Población y Viviendas a utilizar en la calibración se
+obtienen de Proyecciones elaboradas por INDEC, las cuales actualizarán a medida que se
+disponga de la información del Censo Nacional de Población, Hogares y Viviendas
+desarrollado en el 2010.
+
+Por otra parte, para cada uno de los meses de relevamiento, se realizarán 2 calibraciones. Una calibración, inmediatamente al final del relevamiento con el objetivo de dar el anticipo nacional de las principales estimaciones de interés correspondiente a los viajes realizados durante el mes anterior al de relevamiento. La segunda calibración se realizará al final del bimestre donde se dan todas las estimaciones definitivas a nivel regional para el mes que haya duplicado la muestra (5.200 encuestas). Es decir, si el mes de relevamiento fuera enero, por ejemplo, se consulta por los viajes realizados (que finalizaron) en el mes de diciembre y noviembre (1 y 2 meses atrás del mes de relevamiento). Al final del relevamiento de ese mes (enero) se brinda un anticipo nacional para el mes de diciembre con un tamaño de muestra de 2.600 hogares. Luego, durante el próximo mes de relevamiento (febrero), el período de referencia serán los meses de diciembre y enero, por lo que, al finalizar, producto del solapamiento descripto anteriormente (ver sección 2.6.2), se habrán relevado 5.200 hogares para el mes de diciembre (2.600 durante el relevamiento de enero y 2.600 casos durante el relevamiento de febrero). Por lo tanto, al finalizar el relevamiento de febrero se brindará una estimación definitiva con nivel de desagregación geográfica regional para el mes de diciembre y un anticipo nacional (con 2.600 casos) para el período de referencia de enero.
+
+Es preciso aclarar que tanto la calibración correspondiente al anticipo (con representatividad nacional) y definitiva (con desagregación por región) de cada uno de los meses, se realizará en forma independiente en cada una de las Regiones. Por lo tanto, la calibración del anticipo se llevará a cabo en cada una de las regiones, brindándose resultados nacionales, y luego, al mes siguiente, se volverá a realizar una calibración en cada región con el total de la muestra definitiva (para lo que no se consideran los ponderadores estimados durante el anticipo).
+
+Para salvar posibles inconsistencias en los cuadros a publicar, los pesos calibrados son tratados por un algoritmo de redondeo para eliminar la componente decimal con los que salen del proceso iterativo sin destruir las concordancias alcanzadas.
 
 
-```{r cantidades, echo=FALSE, fig.cap="Cantidad y participación" }
-knitr::include_graphics('imagenes/figura2.1.png')
-```
 
-::: {.note}
-Para más información de la EVyTH podes consultar los informes técnicos de resultados y las series estadísticas en:
-
-[Data abierta](http://datos.yvera.gob.ar/dataset/encuesta-viajes-turismo-hogares-evyth){target="_blank"}
-
-[Informes técnicos](https://www.yvera.tur.ar/estadistica/info/encuesta-de-viajes-y-turismo-de-los-hogares-evyth){target="_blank"}
-
-[Encuesta Permanente a Hogares del INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-OperacionesEstadisticas){target="_blank"}
-:::
-
-## EOH {#eoh}
-
-La **Encuesta de Ocupación Hotelera (EOH)** es un relevamiento realizado en forma continua desde el 2004, bajo la coordinación del MINTURDEP y el [Instituto Nacional de Estadísticas y Censos (INDEC)](https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-13-56){target="_blank"}, que tiene como objetivo medir el impacto del turismo interno e internacional sobre la actividad de los establecimientos hoteleros y para-hoteleros.
-Con periodicidad mensual, mide, entre otras variables, la cantidad de pernoctes, de viajeros residentes y no residentes, la estadía promedio por viajero y la tasa de ocupación en plazas y habitaciones.
-Además, permite distinguir la información de acuerdo al origen de los viajeros (provincia o país de residencia).
-
-Este operativo releva 49 de las localidades con mayor oferta hotelera y para-hotelera del país, dentro de las siete regiones turísticas definidas por el MINTURDEP.
-Por tanto, su cobertura respecto a la contabilización del turismo se debe considerar desde el punto de vista del destino del viaje (independientemente del origen o lugar de residencia del viajero).
-
-Cabe señalar que, como muestra la Figura 2.2, el peso de las localidades incluidas en este estudio sobre el total del sector hotelero y parahotelero de cada provincia muestra importantes diferencias entre las mismas.
-
-
-```{r cobertura, echo=FALSE, fig.cap="cobertura de la EOH" }
-knitr::include_graphics('imagenes/figura2.2.png')
-```
-
-Los tipos de establecimientos incluidos en la muestra son, dentro de los hoteleros, los hoteles de 1 a 5 estrellas y los apart-hoteles; y, dentro de los para-hoteleros, los hoteles sindicales, albergues, cabañas, bungalows, hospedajes, bed & breakfast, hosterías, etc.
-Cabe señalar que la EOH excluye de su universo a los establecimientos pequeños (menos de 4 habitaciones o de 12 plazas inclusive).
-
-Todos los viajeros que se alojen en estos tipos de establecimientos dentro de las localidades consideradas, serán relevados por la encuesta.
-
-Sin embargo, además de las localidades no incluidas en el diseño muestral de la encuesta, cabe recordar que, aún en las localidades consideradas, quedan por fuera del operativo las viviendas de alquiler temporario y los campings, así como también las segundas viviendas y las viviendas de familiares y amigos, y otros lugares de alojamiento de menor relevancia.
-Por otro lado, considera solamente a las personas que pernoctaron en el destino, dejando fuera a los excursionistas.
-
-Asimismo, al analizar viajeros hospedados (o huéspedes), a partir de la informacion brindada por los hoteleros, no es posible que se distingua, dado la dificultad de su clasificación, entre los visitantes y los otros viajeros alojados en los establecimientos.
-
-::: {.note}
-Para más información de los informes de resultados, series estadísticas y la metodología, vistá:
-
-[Informes de prensa en Yvera](https://www.yvera.tur.ar/estadistica/info/encuesta-de-ocupacion-hotelera-eoh){target="_blank"}
-
-[Data Abierta](http://datos.yvera.tur.ar/dataset/encuesta-ocupacion-hotelera-parahotelera-eoh){target="_blank"}
-
-[Doc metodológico (INDEC)](https://www.indec.gob.ar/ftp/cuadros/economia/eoh_aspectos_metodologicos.pdf){target="_blank"} 
-:::
-
-## ETI {#eti}
-
-La **Encuesta de Turismo Internacional (ETI)** es otro operativo realizado en forma continua desde el año 2004, coordinado conjuntamente por el MINTURDEP y el [INDEC](https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-13-55){target="_blank"}.
-
-Tiene por objetivo general conocer las características de los viajes (el motivo, la duración, el/los destino/s, el/los tipos de alojamientos utilizados, etc.), y de los viajeros (lugar de residencia, conformación del grupo viajero, etc.), así como los gastos en alojamiento, alimentación, traslados, transportes y compras que realizan los viajeros en los lugares visitados.
-
-Releva a los viajeros no residentes en la Argentina que visitaron el país (al salir del país) y a los viajeros residentes en Argentina que viajan al exterior (al volver al país).
-
-Cubre el movimiento internacional de seis puntos de entrada y salida del país: Aeropuerto de Ezeiza, Aeroparque Jorge Newbery, Aeropuerto de Córdoba (Pajas Blancas), Aeropuerto de Mendoza (El Plumerillo), Puerto de Buenos Aires y el paso fronterizo terrestre Sistema Cristo Redentor, que representan aproximadamente la mitad del flujo internacional de viajeros, dejando fuera de análisis los ingresos y egresos por otros puntos de frontera.
-En este sentido, es preciso tener en cuenta que el comportamiento y las características de los viajes de quienes ingresan o egresan por los puntos de acceso cubiertos por la encuesta, es diferente al de los viajeros que lo hacen por otros puntos.
-
-A partir del año 2019 la pregunta de los destinos visitados (itinerario) en Argentina es de tipo abierta y se registra todos aquellos lugares donde el turista realiza al menos una pernoctación junto con el tipo de alojamiento utilizado.
-Hasta el año 2018 la encuesta contemplaba 13 destinos principales (localidad o zona o provincia, según el caso) y una categoría que engloba a todos los destinos regionales no contemplados entre los anteriores.
-Por esta razón, los datos históricos, en la mayoría de los casos, no se encuentran disponibles con apertura provincial.
-
-::: {.note}
-Para más información de los informes de resultados, series estadísticas y la metodología, vistá:
-
-[Informes de prensa en Yvera](https://www.yvera.tur.ar/estadistica/info/turismo-internacional){target="_blank"}
-
-[Doc metodológico](https://www.yvera.tur.ar/estadistica/documentos/descarga/5d5c00efe6866641938689.pdf){target="_blank"}
-
-[ETI - INDEC](https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-13-55){target="_blank"}
-
-:::
-
-
-## Síntesis
-
-**Principales características y cobertura de las Encuestas Nacionales de Turismo**
-
-La Figura 2.3 presenta en forma comparativa las principales características de cada una de las tres Encuestas Nacionales de Turismo (ENT) que releva el MINTURDEP.
-
-```{r ent, echo=FALSE, fig.cap="Principales características de las Encuestas Nacionales de Turismo (ENT)" }
-knitr::include_graphics('imagenes/figura2.3.png')
-```
-
-Asimismo, la Figura 2.4 da cuenta de cuáles son los segmentos de visitantes de los que se puede dar cuenta "teóricamente" (sin entrar en el análisis de la robustez de las estimaciones, más aún considerando niveles provinciales) a partir de estos estudios.
-Como puede observarse, hay una importante cantidad de segmentos (sombreados en rojo) para los que ninguna fuente actualmente puede brindar información.
-
-```{r coberturaENT, echo=FALSE, fig.cap="Cobertura teórica por parte de las ENT de los visitantes según origen y destino."}
-knitr::include_graphics('imagenes/figura2.4.jpg')
-```
-
-::: {.note}
-Para ver un ejemplo de cómo el MINTURDEP utiliza los datos de estas encuestas para obtener resultados a nivel de provincia se pueden visitar las fichas de [Estadísticas de turismo por provincia](https://www.yvera.tur.ar/estadistica/info/estadisticas-de-turismo-por-provincias){target="_blank"}.
-
-:::

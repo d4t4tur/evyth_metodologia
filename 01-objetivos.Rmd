@@ -15,13 +15,13 @@ El Pliego) y en la propuesta de trabajo de MacroConsulting presentada
 durante el Proceso Licitatorio (en adelante La Propuesta), estipulado
 por el Concurso Público Nacional de Etapa Única No 28-0004-CPU19, con el
 propósito de realizar la Encuesta de Viajes y Turismo (en adelante
-EVyTH)[^flujo-turistico-1]. Para el relevamiento y posterior estudio de
-los viajes de los argentinos se hará uso de técnicas mundialmente
-aceptadas y se considerará la experiencia acumulada en nuestro país. La
-propuesta de trabajo sobre la que se propone llevar adelante la EVyTH,
-se estructura sobre las siguientes pautas básicas:
+EVyTH)[^objetivos-1]. Para el relevamiento y posterior estudio de los
+viajes de los argentinos se hará uso de técnicas mundialmente aceptadas
+y se considerará la experiencia acumulada en nuestro país. La propuesta
+de trabajo sobre la que se propone llevar adelante la EVyTH, se
+estructura sobre las siguientes pautas básicas:
 
-[^flujo-turistico-1]: El presente informe se enmarca dentro de los
+[^objetivos-1]: El presente informe se enmarca dentro de los
     requerimientos exigidos por El Pliego (ver página 33).
 
 1)  Diseño muestral en el cual se pautará el marco a utilizar, unidad de
@@ -75,9 +75,9 @@ y Turismo de los Hogares --EVyTH- durante doce ondas consecutivas, a
 razón de una onda por mes calendario, para relevar los viajes turísticos
 realizados, sus características, así como también las expectativas de
 viajes durante los períodos relevantes (temporada invernal y
-estival)"[^flujo-turistico-2].
+estival)"[^objetivos-2].
 
-[^flujo-turistico-2]: Ver hoja 25 de El Pliego.
+[^objetivos-2]: Ver hoja 25 de El Pliego.
 
 Por lo tanto, se pretende con la EVyTH medir la evolución de los viajes
 realizados por los hogares residentes en los grandes aglomerados urbanos
@@ -191,18 +191,17 @@ caracterizar el fenómeno. Una de las herramientas fundamentales para
 este objetivo lo constituyen las investigaciones cuantitativas
 implementadas a partir de encuestas. Tal como ha sucedido en el caso
 argentino desde inicios de este siglo, las primeras experiencias
-estuvieron dirigidas a captar el turismo
-internacional[^flujo-turistico-3] y a mensurar la llegada de viajeros a
-las plazas hoteleras de las ciudades más importantes y de los
-principales destinos turísticos[^flujo-turistico-4].
+estuvieron dirigidas a captar el turismo internacional[^objetivos-3] y a
+mensurar la llegada de viajeros a las plazas hoteleras de las ciudades
+más importantes y de los principales destinos turísticos[^objetivos-4].
 
-[^flujo-turistico-3]: Por ejemplo, la Encuesta de Turismo Internacional
-    (ETI) que actualmente lleva adelante el Organismo Contratante
+[^objetivos-3]: Por ejemplo, la Encuesta de Turismo Internacional (ETI)
+    que actualmente lleva adelante el Organismo Contratante
     conjuntamente con el INDEC.
 
-[^flujo-turistico-4]: En Argentina existe la Encuesta de Ocupación
-    Hotelera (relevamiento realizado conjuntamente entre el Organismo
-    Contratante y el INDEC).
+[^objetivos-4]: En Argentina existe la Encuesta de Ocupación Hotelera
+    (relevamiento realizado conjuntamente entre el Organismo Contratante
+    y el INDEC).
 
 Sin embargo, este tipo de investigaciones dejan abierta una importante
 brecha en lo que refiere al conocimiento del comportamiento turístico de
@@ -219,3 +218,132 @@ los hogares en turismo) y luego a partir de encuestas específicas, en
 los últimos años han tenido lugar diversas experiencias cuyo objetivo
 radica en cuantificar y caracterizar los viajes realizados, a partir de
 encuestas a hogares.
+
+En el caso argentino, la primera experiencia de este tipo fue realizada
+en conjunto por el INDEC (Instituto Nacional de Estadística y Censos) y
+la por entonces Secretaría de Turismo de la Nación. Dicha investigación,
+la EVyTH-06, prácticamente sin antecedentes en la región, conjugaba las
+ricas y extensas experiencias internacionales en la materia, en especial
+de la FAMILITUR española, conjuntamente con la sólida trayectoria
+técnica en la realización de encuestas a hogares del INDEC. La EVyTH-06
+se configuró como una encuesta proyectada para dar cuenta, bajo las
+recomendaciones técnicas de la Organización Mundial del Turismo, de las
+particularidades de los viajes y el turismo que los residentes en el
+país realizan.
+
+La prueba piloto de la EVyTH-06 se llevó a cabo en 2005, y el
+relevamiento de la encuesta definitiva se realizó entre fines de 2006 e
+inicios de 2007, en 10.000 hogares residentes en las capitales de cada
+una de las provincias y en los aglomerados que, sin ser capitales,
+tuvieran 100.000 habitantes o más.
+
+La segunda experiencia fue recabada a fines del año 2010. Este
+relevamiento, denominado Prueba Piloto para la Encuesta de Turismo
+Doméstico en Hogares Residentes, permitió la fijación de las bases
+metodológicas para llevar adelante una nueva encuesta que permitiese
+medir la evolución de los viajes realizados por los hogares residentes y
+sus particularidades. La mencionada encuesta fue puesta en marcha en
+junio de 2011 (luego de su correspondiente Prueba Piloto) y se concentró
+en medir el período estival de ese mismo año (enero a marzo de 2011). Le
+siguió un período de relevamiento adicional para computar los viajes y
+sus características durante el periodo de abril. Posteriormente,
+MacroConsulting articuló una nueva EVyTH para el periodo 2011/2012.
+Aquí, además de relevar y caracterizar los viajes realizados durante los
+dos meses calendario anterior al mes de relevamiento, se propuso agregar
+el relevamiento de expectativas de viaje para fechas especiales y
+realizar análisis adicionales. Por ejemplo, se realizó un estudio sobre
+las características de los viajes con más de una etapa; también se
+estudiaron los destinos turísticos más visitados entre enero y
+septiembre de 2012, que sirvió como primera aproximación a la
+distribución geográfica de los turistas argentinos; y finalmente, se
+implementaron estudios particulares de las temporadas invernales y de
+verano. Por último, durante los años 2013 a 2016, MacroConsulting llevó
+a cabo la EVyTH, confeccionando informes de relevancia sustantiva para
+la caracterización del turismo nacional como lo fueron el informe de
+viajes multidestinos, el estudio sobre destinos turísticos, informe de
+resultados anuales, entre otros.
+
+Consecuentemente con estos antecedentes, el marco metodológico que se
+propone seguir para esta versión "2021" de la EVyTH, está inspirado
+primordialmente en las siguientes fuentes:
+
+1)  La Encuesta de Viajes y Turismo en Hogares realizada conjuntamente
+    por el Instituto Nacional de Estadística y Censos y la Secretaría de
+    Turismo de la Nación durante el año 2006 (EVyTH-06).
+2)  Los trabajos realizados a fines de 2010 para la Prueba Piloto para
+    la Encuesta de Turismo Doméstico en Hogares Residentes (Prueba
+    Piloto).
+3)  La Encuesta de Turismo Doméstico en Hogares Residentes para medir el
+    período estival de 2011 (la EVyTH-11).
+4)  La Encuesta de Turismo Doméstico en Hogares Residentes para medir el
+    período de abril de 2011.
+5)  La Encuesta de Turismo Doméstico a Hogares Residentes para el
+    periodo 2011/2012 (la EVyTH-12).
+6)  La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-13).
+7)  La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-14).
+8)  La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-15).
+9)  La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-16).
+10) La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-17).
+11) La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-18).
+12) La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-19).
+13) La Encuesta de Viajes y Turismo de los Hogares (la EVyTH-20).
+
+#### **ANTECEDENTES INTERNACIONALES DE LA EVYTH**
+
+La relevancia de las encuestas continuas de turismo doméstico ha sido
+recogida por la Organización Mundial del Turismo (OMT) cuando en el
+párrafo 2.72 de las Recomendaciones Internacionales sobre Estadísticas
+de Turismo 2008 se indica que "Las encuestas a hogares basadas en
+muestras estratificadas usando criterios espaciales, demográficos y
+socio- económicos puede ser un instrumento eficiente y apropiado para
+medir la actividad del turismo doméstico y su gasto relacionado".
+
+El órgano rector de la estadística de la Unión Económica Europea
+(EUROSTAT), ha receptado estas recomendaciones exigiendo como Directiva
+Comunitaria una encuesta de turismo interno para cada país miembro. De
+esta forma, a modo de ejemplo, se pueden citar los casos de España (con
+la "Familitur") y el Reino Unido (con la "United Kingdom Tourism
+Survey").
+
+A propósito de ello, se observa en el Cuadro 1, el resultado del
+relevamiento realizado con el fin de identificar aquellos países que han
+instrumentado encuestas de turismo similares a la EVyTH. Como se
+observa, con color azul se han marcado aquellos países que miden el
+Turismo Nacional a través de encuestas específicas de turismo, sin
+perjuicio de que la frecuencia de las mediciones no necesariamente es
+realizada con periodicidad mínima anual (es decir, en esta categoría
+pueden encontrarse países que realizan solo esporádicamente encuestas
+específicas de turismo). Entre estos países podemos citar a México,
+China y Brasil[^objetivos-5]. La segunda clasificación (en color celeste
+claro), contiene aquellos países que miden el Turismo Nacional,
+periódicamente, con una frecuencia mínima anual. Sin embargo, dentro de
+esta clasificación pueden hallarse países que no han implementado una
+encuesta específica para medir el turismo (por ejemplo, algunos países
+dentro de esta clasificación miden el turismo a través de encuestas
+permanentes a hogares). Algunos de los países que se encuentran en esta
+categoría son Croacia, Paraguay y Uruguay.
+
+[^objetivos-5]: Por ejemplo, en Brasil existe una encuesta específica de
+    turismo tendiente a medir el Turismo Nacional (la Estudio de Demanda
+    Turística Nacional) cuya frecuencia no es, como mínimo, regularmente
+    anual (en efecto, se cuentan con datos para los siguientes años:
+    1998, 2002, 2006, 2007 y 2012).
+
+La tercera clasificación, de color turquesa, es una intersección entre
+las dos caracterizaciones antes mencionadas (es decir, entre el color
+azul y color celeste claro).
+
+Aquí se encuentran los países que miden el Turismo Nacional a través de
+encuestas específicas de turismo y presentan, además, un relevamiento
+periódico con una frecuencia como mínimo anual. Alguno de los países que
+se encuentran dentro de este grupo son Argentina, Gran Bretaña, España y
+Japón. La categoría restante, agrupa los países que no presentan
+(publican) mediciones sobre Turismo Nacional.
+
+Como se observa, entonces, esta Encuesta de Viajes y Turismo de los Hogares encargada por el Organismo Contratante coloca a la Argentina entre un conjunto de países selectos que han implementado encuestas específicas para medir y caracterizar el Turismo Nacional con una periodicidad mínima anual. Es relevante destacar que este esfuerzo por parte del Organismo Contratante, permite contar con información crucial para diseñar y evaluar la implementación de políticas de desarrollo turístico, al tiempo que constituye una valiosa información para los distintos actores del sector.
+
+**Cuadro 1: Países que relevan Encuestas de Turismo Doméstico**
+
+
+
+
