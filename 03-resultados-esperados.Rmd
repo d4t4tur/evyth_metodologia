@@ -1,10 +1,6 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
-# RESULTADOS ESPERADOS DE LA CONSULTORIA {.unnumbered}
+
+# **RESULTADOS ESPERADOS DE LA CONSULTORIA**
 
 Esquemáticamente, a lo largo de las distintas ediciones de la EVyTH, se
 han producido un conjunto de resultados como ser informes (de

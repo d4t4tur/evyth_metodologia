@@ -1,0 +1,73 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# **Bibliografía**
+
+-   Deville, J-C. y Särndal, C-E (1992). Calibration Estimators in
+    Survey Sampling. Journal of the American Statistical Association,
+    87, 376-382.
+
+-   Deville J-C, Sarndal C-E, Sautory O. (1993) Generalized Raking
+    Procedures in Survey Sampling. JASA 88:1013-1020
+
+-   Lepkowski, J.M., De Leeuw, E. et.al. (2008) Advances in Telephone
+    Survey Methodology. John Wiley & Sons
+
+-   Särndal, C.E., Swenson, B., Wretman, J.H., (1992). Model Assisted
+    Survey Sampling, New York, Springer-Verlag.
+
+-   Little, R.J.A. y Rubin, D.B. (1987) Statistical Analysis with
+    Missing Data. Wiley.
+
+-   Agresti, A. (1990) Categorical Data Analysis. New York. John Wiley &
+    Sons.
+
+-   Johnson R.A. y Wichern D.W. 1992 Applied Multivariate Statistical
+    Análisis. Prentice- Hall International Inc.
+
+-   Stokes, M.; Davis, C. and Koch, G. (1995). Categorical Data Analysis
+    using the SAS® System. Cary Nc: SAS Institute Inc.
+
+-   Khattre R. y Naik D. 1999 Applied Multivariate Statistics with SAS
+    Software. SAS. Institute Inc. Cary, NC. USA
+
+-   Khattre R. y Naik D. 2000 Multivariate Data Reduction and
+    Discriminatio with SAS Software. SAS Institute Inc. Cary, NC. USA 
+    SAS Institute Inc. 2000 SAS OnlineDoc, Version 8, HTML Format, SAS
+    Institute Inc, Cary. North Carolina
+
+-   Yang C. Yuan (2002) Multiple Imputation for Missing Data: Concepts
+    and new development. SAS Institute Inc.
+
+-   Gómez García, J. y Palarea Albaladejo, J. (2003) Inferencia basada
+    en imputación múltiple en problemas con información incompleta. IX
+    Conferencia Española de Biometría.
+
+-   Medina, F. y Galván, M. (2007) Imputación de datos: teoría y
+    práctica. Publicación de las Naciones Unidas.
+
+-   Cuadras, C.M. 2008 NUEVOS MÉTODOS DE ANÁLISIS MULTIVARIANTE. CMC
+    Editions. Barcelona, España.
+
+-   Ponderación de la muestra y tratamiento de valores faltantes en las
+    variables de ingreso en la Encuesta Permanente de Hogares.
+    Metodología N°15. Dirección de Metodología Estadística y Dirección
+    de Encuesta Permanente de Hogares. Instituto Nacional de Estadística
+    y Censos.
+
+-   Encuesta de Viajes y Turismo en Hogares Residentes; Informe de
+    Resultados; Secretaría de Turismo de la Nación; 2007;
+    ([http://2016.turismo.gov.ar/wp_turismo/wp-content/uploads/2008/08/evyth-13](http://2016.turismo.gov.ar/wp_turismo/wp-content/uploads/2008/08/evyth-13-08.pdf){target="_blank"}   **revisar link que no lleva a ningun lado**
+
+-   La nueva Encuesta Permanente de Hogares de Argentina; 2003; INDEC
+    (ir a www.indec.gov.ar  Trabajo e Ingreso  Empleo y Desempleo 
+    Metodología).
+
+-   INSEE INSTITUT NATIONAL ÉCONOMIQUES (1993). "La macro Calmar,
+    Redressement d'un échantillon par calage sur marges", Document no
+    F9310 25/11/1993, Olivier Sautory. Série des documents de travail de
+    la Direction des Statistiques Démographiques et Sociales. Insee - La
+    macro SAS Calmar.
