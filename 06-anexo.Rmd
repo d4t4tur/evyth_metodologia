@@ -468,20 +468,239 @@ Los **viajes turísticos** pueden ser **viajes** propiamente dichos o **visitas 
 
 Tenga en cuenta que un viaje turístico:
 
--   Debe tener una duración **inferior a un año** y quien viajó no **debe haber fijado su residencia**
-    en el lugar de **destino.**
+-   Debe tener una duración **inferior a un año** y quien viajó no **debe haber fijado su residencia** en el lugar de **destino.**
 
--   Comprende los **traslados, estancias y todas las actividades** que las personas realizan en el
-    lugar de destino.
+-   Comprende los **traslados, estancias y todas las actividades** que las personas realizan en el lugar de destino.
 
 -   Puede haber sido a **un solo destino o haber tenido varias etapas.**
 
 -   Los **motivos** del viaje pueden ser esparcimiento, ocio o recreación; visita a familiares y amigos; negocios o motivos profesionales; estudios y formación; razones de salud, religión u otros (trámites, compras, etc.).
 
--   Se incluyen tanto los viajes en los que el viajero pernocta al menos una noche en el lugar
-    visitado, como las visitas de un día (sin pernocte).
-
+-   Se incluyen tanto los viajes en los que el viajero pernocta al menos una noche en el lugar visitado, como las visitas de un día (sin pernocte).
 
 ::: {.note}
 **El ENTORNO HABITUAL consiste en una zona cercana al lugar de residencia del hogar más todos los lugares visitados con asiduidad.**
 :::
+
+```{r Cuadr, echo=FALSE, fig.cap="Cuadro" }
+knitr::include_graphics('imagenes/figura6-21.png')
+```
+
+Por lo tanto, **los viajes** que aquí consideramos son los realizados a **destinos ubicados a más de 20/40 Km**. de la localidad donde está la vivienda principal y que fueron visitados con una **frecuencia no semanal**.
+
+```{r Cuadro, echo=FALSE, fig.cap="Cuadro 2" }
+knitr::include_graphics('imagenes/figura6-22.png')
+```
+
+::: {.note}
+**EXCLUSIONES: Un desplazamiento a un lugar fuera del entorno habitual**, en términos de distancia y frecuencia, **puede no ser un viaje**. Esto rige en todos los casos, **incluso cuando el viaje se realice a una segunda vivienda del hogar.**
+:::
+
+::: {.note}
+**Exclusión 1. Empleado de alguna empresa o institución del lugar visitado:**
+:::
+
+Si una persona realizó un desplazamiento cuyo **motivo principal fue trabajar como empleado de una empresa o institución residente en el lugar visitado** (a cambio de un **salario**, se trate de un empleo registrado o no) no se considerará visitante de ese lugar y por tanto no se registrará el viaje.
+
+No se considera **"empleado"** si quien viaja por trabajo brinda un servicio por el cual percibe honorarios, o bien si recibe dinero en concepto de "viáticos", es decir, una asignación para cubrir los gastos del viaje (pasajes, alojamiento, alimentación, etc.).
+
+Por ejemplo, **NO se consideran viajeros cuando son empleados en el lugar de destino:**
+
+-   trabajadores en temporada en hoteles, explotaciones agropecuarias, etc.;
+
+-   trabajadores temporarios en internados, hospitales y similares;
+
+-   estudiantes que viajan por períodos inferiores a 12 meses y trabajan para mantenerse (tanto quienes reciben un salario por su trabajo como quienes ayudan a una familia en las labores de la casa y el cuidado de los niños a cambio de la estancia y el mantenimiento);
+
+-   quienes viajan como acompañantes (familiares, servicio doméstico, etc.) de aquellos que lo hacen por cualquiera de los motivos ya enunciados, aunque hayan realizado actividades turísticas.
+
+En cambio, SÍ se consideran que realizaron viajes aquellas personas que viajaron por trabajo, pero no fueron empleados en el lugar de destino, por ejemplo:
+
+-   conferenciantes, artistas de espectáculos y consultores;
+
+-   un abogado que defiende en un juicio a una persona o empresa del lugar visitado;
+
+-   un cirujano que viaja a realizar una operación por única vez.
+
+::: {.note}
+**Exclusión 2. Traslado como parte del trabajo:**
+:::
+
+**No** se consideran viajes aquellos desplazamientos realizados por las personas para quienes el **traslado es parte de su trabajo.** Por ejemplo, los pilotos de avión, conductores de camión o de ómnibus de larga distancia, viajantes de comercio y similares (incluyendo personal de seguridad, de asistencia -- azafatas-, etc.).
+
+##### **PERIODOS DE REFERENCIA DE LA EVYTH**
+
+::: {.note}
+Esta Encuesta, indagará por la realización de viajes turísticos en los últimos dos meses. Por lo tanto, el período de referencia comprende los últimos dos meses anteriores a partir del último día del mes anterior al mes de realización de la Encuesta.
+:::
+
+Por ejemplo, si la Encuesta se realiza el 10 de noviembre de 2012, el período de referencia abarca del 1° de septiembre de 2011 al 31 de octubre de 2012, por lo que Usted deberá indagar por los viajes que el hogar realizó en esos dos meses.
+
+**tabla pag 106 - 107**
+
+Un viaje puede comenzar en un mes y finalizar en otro, inmediatamente posterior o no. Por definición el viaje se registra de acuerdo a la fecha de regreso. Por tanto, Usted deberá indagar por los viajes en los que la fecha de regreso corresponda a los dos meses incluidos en el periodo de referencia.
+
+Por ejemplo, si una familia inicia su viaje el 20 de agosto y regresa el 2 de septiembre, se considera que ese viaje corresponde a septiembre, y sólo será registrado si este mes forma parte del periodo de referencia vigente al momento de realizar la encuesta.
+
+##### **PAUTAS GENERALES PARA LA REALIZACIÓN DE LA ENTREVISTA TELEFÓNICA.**
+
+Ud. va a comunicarse telefónicamente con hogares cuyos miembros tienen características muy diferentes en cuanto a: edad, nivel socio-económico, nivel educativo, personalidad, carácter, información, capacidad de comprensión, región de residencia, etc. De modo que Usted se entrenará para reconocer estas diferencias y acondicionará las estrategias de relevamiento de acuerdo a las mismas. Pero siempre deberá guiarse por las siguientes pautas:
+
+-   Es necesario que ponga toda su atención y compresión en la tarea de relevamiento. Evite distracciones que entorpezcan su trabajo y que puedan llevarlo a una incorrecta captación de los datos. Mantener la concentración es fundamental tanto para realizar las preguntas como para registrar las respuestas, ya que los errores de digitación son difíciles de captar y la información perdida difícil de recuperar.
+
+-   Lea las preguntas tal y como aparecen en la pantalla. Esto garantiza que todos los operadores procedan de la misma forma.
+
+-   Asegúrese que el entrevistado haya comprendido la pregunta. Repita la pregunta tantas veces como sea necesario hasta que el entrevistado la haya entendido. Si es necesario, utilice ejemplos para facilitar la comprensión, teniendo en cuenta las particularidades del hogar entrevistado.
+
+-   Mantenga un tono de voz firme pero cordial y agradable que favorezca un clima de confianza y de distensión con el entrevistado. Es fundamental establecer un lazo de confianza, por eso debe brindar todas las garantías de anonimato, privacidad y seguridad de la información. Recuerde al entrevistado que la confidencialidad y anonimato de los datos que brinde está protegida por leyes nacionales.
+
+-   No apure innecesariamente los tiempos de la entrevista. En algunos casos hay miembros del hogar que recuerdan rápidamente las características de sus viajes y de los otros miembros del hogar. En otros casos esto lleva más tiempo, por lo tanto, es necesaria toda su paciencia para poder obtener la información de manera correcta.
+
+-   Si la persona que atiende el llamado no cuenta con el tiempo suficiente para realizar la entrevista, pida hablar con otro miembro del hogar o, si no es posible, concierte una nueva entrevista para otro momento. Si un hogar responde la encuesta a desgano esa información suele ser incompleta y deficiente.
+
+<!-- -->
+
+-   No aliente la no respuesta del entrevistado. Evite mencionar ciertas frases, tales como: "me veo en la obligación de preguntarle los ingresos", "si usted quiere responde, si no quiere no responde", etc. Tiene que dar su máximo esfuerzo para evitar los registros con Ns/Nr, dado que esta categoría debe usarse sólo excepcionalmente: esta opción sólo aparece en la encuesta por la necesidad de darle continuidad al flujo de preguntas.
+
+-   No induzca respuestas, ni dé por supuestas respuestas que el entrevistado no haya brindado.
+
+-   En muchas preguntas Usted deberá "traducir" una respuesta coloquial del entrevistado a una de las categorías previstas en el cuestionario. Si bien en la mayoría de los casos esto suele ser sencillo, algunas veces encontrará situaciones de cierta complejidad que requieren una definición de su parte, para lo cual deberá haber asimilado cada uno de los conceptos relacionados con esta encuesta, tanto en lo que hace a su definición general como a las excepciones y casos infrecuentes. En general, en el sistema de ingreso, luego del enunciado de la pregunta, encontrará las definiciones conceptuales y otras aclaraciones a las cuales recurrir en caso de dudas.
+
+-   Si persisten dudas en las respuestas brindadas por los entrevistados, antes de enviar la encuesta consulte con el supervisor o jefe de campo para resolverlas.
+
+#### **MÓDULO 2: INICIO Y OPERACIONES BÁSICAS DEL SISTEMA DE INGRESO DE DATOS**
+
+##### **INICIO DEL SISTEMA DE INGRESO ONLINE DE LA INFORMACIÓN**
+
+Deberá encender su computadora y realizar las siguientes operaciones:
+
+```{r detal, echo=FALSE, fig.cap="Detalles" }
+knitr::include_graphics('imagenes/figura6-23.png')
+```
+
+Ahora veremos cómo se completa la carátula que contiene el resumen del resultado del llamado realizado a cada domicilio.
+
+##### **COMPLETAMIENTO DE LA CARÁTULA: "RESUMEN DEL LLAMADO"**
+
+La Carátula de este Cuestionario debe ser completada en el momento en que se realiza el llamado telefónico, consignando las distintas situaciones que se presenten. Esta carátula constituye un resumen lógico de la llamada telefónica. En ella volcará información que surja de la realización de preguntas o del desarrollo de la entrevista.
+
+En la pantalla aparecerá el número al que debe a llamar. Pero antes de efectuar el llamado deberá observar la información correspondiente al número que sale en pantalla (Provincia, detalle de llamadas, etc.), ya que la misma facilitará el dialogo con el entrevistado. Si el llamado que está por realizar no es el primero a ese hogar, en la pantalla le aparecerá el detalle de llamadas realizadas con anterioridad, con lo que dispondrá de información sobre lo que ocurrió previamente con ese hogar. Por ejemplo, si en el detalle de último llamado dice "Se cortó y no se pudo volver a encuestar", Ud. sabe que está por comunicarse con un hogar que ya fue contactado previamente, y es información adicional que le puede servir para lograr, esta vez, realizar la encuesta. Una vez concluido el llamado y enviado el "registro de llamado" le aparecerá el número al que deberá llamar a continuación.
+
+```{r registr, echo=FALSE, fig.cap="registro de llamado" }
+knitr::include_graphics('imagenes/figura6-24.png')
+```
+
+Observe la Historia del número telefónico ("Datos del llamado"): El historial le brindará información para afrontar la nueva llamada. Le permitirá saber si la encuesta ya ha sido iniciada, pero por algún motivo no fue terminada (si la vez anterior respondió un menor, si se pidió volver a llamar a esa hora, etc.). Podrá ser usada en la presentación para generar confianza con el encuestado. Si no aparece el historial implica que es la primera vez que se llama a ese hogar.
+
+```{r i, echo=FALSE, fig.cap="Interfaz" }
+knitr::include_graphics('imagenes/figura6-25.png')
+```
+
+```{r interfa1, echo=FALSE, fig.cap="Interfaz" }
+knitr::include_graphics('imagenes/figura6-26.png')
+```
+
+Si el llamado es respondido, deberá presentarse de la siguiente forma:
+
+::: {.note}
+Hola, mi nombre es ........ y hablo de parte del Ministerio de Turismo de la Nación, ¿podría hacerle unas preguntas sobre viajes?
+:::
+
+En caso de ser requerida, Usted le brindará mayor información:
+
+::: {.note}
+"Su hogar fue seleccionado al azar para responder una encuesta sobre si realizaron o no viajes y, en caso de haber hecho viajes, sobre sus características". "Su colaboración es muy importante y la información que nos brinde está protegida por la Ley Nacional de Secreto Estadístico. Sus datos son anónimos y confidenciales y sólo serán utilizados con fines estadísticos."
+:::
+
+Usted puede brindarle todas las explicaciones que el entrevistado requiera, de forma clara y sencilla. Puede seguir las aquí explicitadas o decirlas de otra forma, siempre y cuando se ajusten a la realidad.
+
+-   Debe evitar mencionar la palabra "turismo", para no sesgar la comprensión del entrevistado, puesto que en esta Encuesta se indaga por viajes que pudieron haber sido por motivos no estrictamente ligados a lo que la gente entiende por "turismo".
+
+-   Además, debe hacer hincapié en que es importante que responda la Encuesta aún si no han realizado viajes, puesto que conocer esto es tan importante como saber si han realizado viajes y sus características. Por ejemplo, puede argumentar lo siguiente:
+
+::: {.note}
+"Es importante que responda la Encuesta aún si no ha realizado viajes puesto que al Ministerio de Turismo le interesa conocer las razones por las que las personas no viajan, con el objetivo de implementar políticas activas que permitan que más gente pueda viajar".
+:::
+
+-   Si la persona contactada desea verificar la existencia de la encuesta o su identidad, Usted deberá informarle el número telefónico de la coordinación de campo y el horario en que pueden comunicarse, la dirección de correo electrónico a la que pueden escribir y/o el sitio web del Ministerio donde se informa sobre la realización de esta Encuesta.
+
+-   Luego de la presentación, si es que el llamado telefónico fue respondido, y de la respuesta dada por la persona contactada, Usted deberá marcar una opción que corresponda al "Resultado inicial del llamado":
+
+```{r interfa1, echo=FALSE, fig.cap="Interfaz" }
+knitr::include_graphics('imagenes/figura6-27.png')
+```
+
+Deberá seleccionar una categoría dependiendo del resultado del llamado
+
+**Ausente:** Marcará esta opción si nadie atiende el llamado y luego presionará “Generar Registro”. Este número volverá a aparecer minutos después.
+
+```{r estado_de, echo=FALSE, fig.cap="Estado de inicio" }
+knitr::include_graphics('imagenes/figura6-28.png')
+```
+
+**Acepto ser encuestado:** Si la persona contactada forma parte de un hogar particular que reside en el domicilio contactado y acepta responder, abrirá la encuesta y procederá a su administración. Luego presionará “Encuestar”, de ese modo se habilitará el formulario de la encuesta para ser completado.
+
+```{r encuest, echo=FALSE, fig.cap="Encuestar" }
+knitr::include_graphics('imagenes/figura6-29.png')
+```
+
+Luego de realizar la encuesta Usted deberá completar el resultado final del llamado (Estado de finalización):
+
+**Completa:** La entrevista culminó exitosamente, con todas las respuestas completas hasta el final.
+
+```{r encues, echo=FALSE, fig.cap="Aceptacion" }
+knitr::include_graphics('imagenes/figura6-30.png')
+```
+
+**Incompleta:** La entrevista se interrumpió antes de completar las preguntas sobre el jefe de hogar, pero la persona contactada acepta seguir contestando en otro momento. En tal caso se pacta un nuevo horario y/o día para completar la encuesta. Debe cortar y SIN generar Registro debe proceder de la siguiente manera:
+
+
+```{r enc, echo=FALSE, fig.cap="Inicio a encuesta" }
+knitr::include_graphics('imagenes/figura6-31.png')
+```
+
+
+```{r en, echo=FALSE, fig.cap="guardar" }
+knitr::include_graphics('imagenes/figura6-32.png')
+```
+
+Seleccionara la opción “Guardar y Volver en otro momento”.
+
+```{r en_no_ter, echo=FALSE, fig.cap="guardar una encuesta no termonada" }
+knitr::include_graphics('imagenes/figura6-33.png')
+```
+
+En el “Nombre”, “Contraseña” y “Repita la contraseña” ingrese el número de teléfono al que se llamó.
+
+
+```{r en_no_termi, echo=FALSE, fig.cap="Completar datos" }
+knitr::include_graphics('imagenes/figura6-34.png')
+```
+
+En el campo “Su correo electrónico” debe ingresar incompletas2011@gmail.com
+
+```{r en_no_termina, echo=FALSE, fig.cap="Correo electronico" }
+knitr::include_graphics('imagenes/figura6-35.png')
+```
+
+En el campo “Pregunta de seguridad” debe ingresar el resultado de la operación matemática indicada
+
+```{r en_no_terminada, echo=FALSE, fig.cap="Pregunta de seguridad" }
+knitr::include_graphics('imagenes/figura6-36.png')
+```
+
+Presione “Guardar ahora”.
+
+```{r guard, echo=FALSE, fig.cap="Guargar ahora" }
+knitr::include_graphics('imagenes/figura6-37.png')
+```
+Una vez hecho esto, se debe seleccionar el “Estado de finalización” (ubicado en el lado izquierdo de la pantalla), la opción “Incompleta” y seleccionara “Día” y “Hora” en que concertó una nueva entrevista. Luego presione “Generar Registro”.
+
+```{r fin, echo=FALSE, fig.cap="Estado de finalizacion" }
+knitr::include_graphics('imagenes/figura6-38.png')
+```
+
+
+
+**Incompleta Rechazo:* La entrevista se interrumpió antes de completar las preguntas sobre el jefe de hogar porque la persona contactada se negó a continuar con la encuesta. En ese caso, la encuesta se da por finalizada ese día. Luego procederá de la misma forma que cuando se trató de una encuesta “Incompleta”. Finalmente seleccionara la opción “Incompleta Rechazo” y presionara “Generar Registro”.
+

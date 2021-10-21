@@ -125,3 +125,14 @@ manualdelencuestadoryguíadeejerciciosautilizarduranteelrelevamiento
 manual-del-encuestador
 módulo-1-presentación-de-la-evyth
 estructura-de-la-encuesta-y-principales-conceptos-de-la-evyth
+fig:Cuadr
+fig:Cuadro
+fig:detal
+fig:registr
+fig:i
+fig:interfa1
+periodos-de-referencia-de-la-evyth
+pautas-generales-para-la-realización-de-la-entrevista-telefónica.
+modulo-2-inicio-y-operaciones-basicas-del-sistema-de-ingreso-de-datos
+inicio-del-sistema-de-ingreso-online-de-la-información
+completamiento-de-la-carátula-resumen-del-llamado
