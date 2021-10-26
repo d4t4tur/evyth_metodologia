@@ -4503,6 +4503,458 @@ Leer todas las opciones. Anotar en cada una alguno de los siguientes códigos: S
 knitr::include_graphics('imagenes/figura6-259.png')
 ```
 
+**“AHORA LE VOY A PREGUNTAR POR EL ÚLTIMO DE LOS VIAJES QUE REALIZARON A ESTE LUGAR”**
+
+**P806** ¿QUÉ INTEGRANTES DE SU HOGAR PARTICIPARON DEL VIAJE?
+
+Marque todas las opciones que correspondan. Dejar en blanco el espacio de los miembros que no viajaron.
+
+```{r 260, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-260.png')
+```
+
+
+**P807.1** ¿CUÁL FUE LA DURACIÓN DEL VIAJE, DESDE QUE SALIERON HASTA QUE REGRESARON A SU HOGAR?
+
+Anotar la cantidad de NOCHES o marcar el código de NS/NR.
+
+```{r 261, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-261.png')
+```
+
+**P808** ¿DÓNDE SE ALOJARON?
+
+Marcar una sola opción.
+
+```{r 262, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-262.png')
+```
+
+**P809** ¿QUÉ MEDIO DE TRANSPORTE USARON PARA IR HASTA ALLÁ?
+
+Marque una sola opción.
+
+```{r 263, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-263.png')
+```
+
+**P810.1** ¿CUÁL FUE EL MOTIVO DEL VIAJE?
+
+Marque una sola opción
+
+```{r 264, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-264.png')
+```
+
+**P810.2** ¿EL TRABAJO REALIZADO FUE COMO EMPLEADO DE UNA EMPRESA DEL LUGAR DE DESTINO?
+
+¿EL DESPLAZAMIENTO O TRASLADO AL LUGAR DE DESTINO FORMÓ PARTE DE SU OFICIO (AZAFATA, VIAJANTE, CHOFER, TRANSPORTISTA, ETC.)?
+
+Realizar la primera pregunta, si responde “No” formular la siguiente. Marcar “Si” cuando responda afirmativamente a cualquiera de las dos preguntas.
+
+```{r 265, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-265.png')
+```
+
+**P811** ¿CONTRATARON UN PAQUETE TURÍSTICO PARA REALIZAR EL VIAJE?
+
+```{r 266, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-266.png')
+```
+
+**P812** ¿QUÉ SERVICIOS INCLUYÓ EL PAQUETE TURÍSTICO?
+
+Leer todas las opciones. Anotar en cada una alguno de los siguientes códigos: Si=1, No=2, NS/NR=9.
+
+```{r 267, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-267.png')
+```
+
+**P813** ¿CON CUÁNTO TIEMPO DE ANTICIPACIÓN DECIDIERON REALIZAR EL VIAJE?
+
+Esperar a que el encuestado responda. Si no lo hace, leer las opciones. Marcar una sola opción.
+
+```{r 268, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-268.png')
+```
+
+**P814** ¿UTILIZARON INTERNET PARA CONSULTAR INFORMACIÓN O CONTRATAR SERVICIOS PARA SU VIAJE (SOBRE TRANSPORTE, ALOJAMIENTOS, ATRACTIVOS TURÍSTICOS DEL DESTINO, ¿ETC.)?
+
+```{r 269, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-269.png')
+```
+
+**P815.** POR FAVOR, DÍGAME SI PARA ESTE VIAJE, POR MEDIO DE INTERNET...
+
+Leer todas las opciones. Anotar en cada una alguno de los siguientes códigos: Si=1, No=2, NS/NR=9.
+
+```{r 270, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-270.png')
+```
+
+**P816.1.** ¿POR QUÉ RAZONES ELIGEN VISITAR **CIUDAD/LOCALIDAD?**
+
+No leer las opciones y esperar a que el entrevistado responda. Sólo en caso de que no lo haga, leer las opciones.
+
+Marcar sólo las opciones señaladas por el entrevistado y dejar en blanco las restantes. Si hay marca en NS/NR no puede haber marca en ninguna otra opción, y viceversa, si marca cualquier otra opción no puede haber marca en NS/NR.
+
+```{r 271, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-271.png')
+```
+
+**P816.2.** EN SU DESICIÓN DE VIAJAR A CIUDAD/**LOCALIDAD**, ¿INFLUYÓ ALGUNA PROPAGANDA O PROMOCIÓN DE LA TELEVISIÓN, LA RADIO O ALGÚN OTRO MEDIO?
+
+```{r 272, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-272.png')
+```
+
+**P817.1.** PESE A NO SER UN VIAJE QUE HICIERON POR ESPARCIMIENTO ¿EN ESTE VIAJE REALIZARON ALGUNA ACTIVIDAD TURÍSTICA O RECREATIVA COMO VISITAR ATRACTIVOS NATURALES O HISTÓRICOS, PRACTICAR DEPORTES NO CONVENCIONALES, IR A LA PLAYA, AL CINE, AL CASINO, U OTRAS ACTIVIDADES SIMILARES?
+
+```{r 273, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-273.png')
+```
+
+**P817.2.** ¿CUÁLES DE LAS SIGUIENTES ACTIVIDADES TURÍSTICAS REALIZARON EN ESTE VIAJE? NO IMPORTA SI EN ELLAS PARTICIPARON TODOS O ALGUNO/S DE USTEDES
+
+Leer una a una las opciones y esperar a que el entrevistado responda antes de pasar a la siguiente. Anotar en cada una alguno de los siguientes códigos: Si=1, No=2, NS/NR=9.
+
+```{r 274, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-274.png')
+```
+
+**P818.** DE ACUERDO A LO QUE USTED ESPERABA, POR FAVOR, CALIFIQUE DE 1 A 10 PUNTOS LOS SIGUIENTES ASPECTOS DE SU VIAJE:
+
+Leer cada uno de los aspectos y esperar a que el encuestado otorgue una calificación, luego pasar al siguiente. Registrar valor de 1 (pésimo) a 10 (excelente). Si no utilizó, anotar 88; si NS/NR, anotar 99.
+
+```{r 275, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-275.png')
+```
+
+**P819** ¿LOS GASTOS DEL VIAJE FUERON PAGADOS TOTALMENTE POR EL HOGAR?
+
+```{r 276, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-276.png')
+```
+
+**P820** ¿DE QUÉ PARTE DE LOS GASTOS SE HIZO CARGO EL HOGAR?
+
+Marque una sola opción
+
+```{r 277, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-277.png')
+```
+
+**P821.1** ¿CUÁNTO GASTARON EN EL PAQUETE TURÍSTICO?
+
+Si NS/NR marcar el código. Si el hogar no pagó el PT, anotar 0 (sólo válido en los casos que el hogar haya pagado sólo una parte de los gastos del viaje).
+
+```{r 278, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-278.png')
+```
+
+**P822.1.1.** APROXIMADAMENTE, ¿CUÁNTO GASTARON EN TOTAL EN EL VIAJE, INCLUYENDO LOS GASTOS DE TODOS LOS MIEMBROS DEL HOGAR EN TRANSPORTE, ALOJAMIENTO, COMIDAS, EXCURSIONES, ETC.?
+
+Si utilizaron paquete, incluirlo como ejemplo dentro de la pregunta. Si NS/NR marque el código.
+
+```{r 279, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-279.png')
+```
+
+**P822.1.2.8.** ¿PODRÍA DECIRME EN CUÁL DE LOS SIGUIENTES TRAMOS CREE QUE SE UBICA EL GASTO TOTAL DEL VIAJE PAGADO POR EL HOGAR?
+
+Leer las opciones listadas y marcar la que señale el entrevistado.
+
+```{r 280, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-280.png')
+```
+
+**P823.** OBSERVACIONES REFERIDAS AL VIAJE
+
+Completar sólo en caso de ser necesario.
+
+```{r 281, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-281.png')
+```
+
+
+### **BLOQUE 9. VISITAS DE UN DÍA**
+
+**P901.** ¿EN MES 1 y MES 2, UD O ALGÚN INTEGRANTE DE SU HOGAR FUERON A PASAR EL DÍA A ALGÚN LUGAR UBICADO A MAS DE 20/40 KM, PERO SIN QUEDARSE A DORMIR? POR EJEMPLO, A PASAR UN DÍA DE PASEO O CAMPING SIN QUEDARSE A DORMIR, A VISITAR ALGÚN FAMILIAR, POR TRABAJO O PARA HACER TRÁMITES YENDO Y VIVIENDO EN EL DÍA, ETC?
+
+```{r 282, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-282.png')
+```
+
+**P902** ¿CUÁNTOS LUGARES VISITARON EN MES 1 Y MES 2 SIN QUEDARSE A DORMIR ALLÍ? 
+
+Anotar la cantidad de viajes con fecha en los meses incluidos en el bimestre de referencia.
+
+```{r 283, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-283.png')
+```
+
+**P903.1** POR FAVOR DÍGAME LA/S PROVINCIA/S Y LA/S CIUDAD/ES A DONDE VIAJARON, O EL NOMBRE DEL PAÍS SI EL LUGAR NO ESTÁ EN ARGENTINA.
+
+Anotar el nombre en el espacio en blanco correspondiente. Si no sabe o no recuerda, escribir NS/NR.
+
+```{r 284, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-284.png')
+```
+
+**P904.2.** ¿CUÁNTAS VECES FUERON A PASAR EL DÍA A **PAÍS/CIUDAD/LOCALIDAD** EN **MES 1 Y CUÁNTAS EN MES 2**?
+
+Anotar la cantidad. Si en uno de los meses no realizaron viajes registrar 0 (cero).
+
+```{r 285, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-285.png')
+```
+
+**P905.2** ¿ALGUNA DE ESTAS VISITAS DE UN DÍA COINCIDIÓ CON....
+
+Leer todas las opciones. Anotar en cada una alguno de los siguientes códigos: Si=1, No=2, NS/NR=9.
+
+```{r 286, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-286.png')
+```
+
+**P906** ¿QUÉ INTEGRANTES DE SU HOGAR PARTICIPARON DEL VIAJE?
+
+Marque todas las opciones que correspondan. Dejar en blanco el espacio de los miembros que no viajaron.
+
+```{r 287, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-287.png')
+```
+
+**P909** ¿QUÉ MEDIO DE TRANSPORTE UTILIZARON PARA IR HASTA ALLÁ?
+
+Marque una sola opción.
+
+```{r 288, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-288.png')
+```
+
+**P910.1** ¿CUÁL FUE EL MOTIVO DEL VIAJE?
+
+Marque una sola opción
+
+```{r 289, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-289.png')
+```
+
+**P910.2** ¿EL TRABAJO REALIZADO FUE COMO EMPLEADO DE UNA EMPRESA DEL LUGAR DE DESTINO?
+
+¿EL DESPLAZAMIENTO O TRASLADO AL LUGAR DE DESTINO FORMÓ PARTE DE SU OFICIO (AZAFATA, VIAJANTE, CHOFER, TRANSPORTISTA, ETC.)?
+
+Realizar la primera pregunta, si responde “No” formular la siguiente. Marcar “Si” cuando responda afirmativamente a cualquiera de las dos preguntas.
+
+```{r 290, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-290.png')
+```
+
+**P914** ¿UTILIZARON INTERNET PARA CONSULTAR INFORMACIÓN O CONTRATAR SERVICIOS PARA SU VISITA DE UN DÍA (SOBRE TRANSPORTE, ALOJAMIENTOS, ATRACTIVOS TURÍSTICOS DEL DESTINO, ETC.)?
+
+```{r 291, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-291.png')
+```
+
+**P917.1.** PESE A QUE NO HICIERON ESTA VISITA POR ESPARCIMIENTO, ¿EN ESTA VISITA REALIZARON ALGUNA ACTIVIDAD TURÍSTICA O RECREATIVA COMO VISITAR ATRACTIVOS NATURALES O HISTÓRICOS, PRACTICAR DEPORTES NO CONVENCIONALES, IR A LA PLAYA, AL CINE, AL CASINO, U OTRAS ACTIVIDADES SIMILARES?
+
+```{r 292, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-292.png')
+```
+
+**P917.2** ¿CUÁLES DE LAS SIGUIENTES ACTIVIDADES TURÍSTICAS REALIZARON DURANTE LA VISITA? NO IMPORTA SI EN ELLAS PARTICIPARON TODOS O ALGUNO/S DE USTEDES.
+
+Leer una a una las opciones y esperar a que el entrevistado responda antes de pasar a la siguiente. Anotar en cada una alguno de los siguientes códigos: Si=1, No=2, NS/NR=9.
+
+```{r 293, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-293.png')
+```
+
+**P919** ¿LOS GASTOS DEL VIAJE FUERON PAGADOS TOTALMENTE POR EL HOGAR?
+
+```{r 294, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-294.png')
+```
+
+**P920** ¿DE QUÉ PARTE DE LOS GASTOS SE HIZO CARGO EL HOGAR?
+
+Marque una sola opción
+
+```{r 295, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-295.png')
+```
+
+**P922.1.1** APROXIMADAMENTE, ¿CUÁNTO GASTARON EN TOTAL EN LA VISITA DE UN DÍA, INCLUYENDO LOS GASTOS DE TODOS LOS MIEMBROS DEL HOGAR EN TRANSPORTE, COMIDAS, EXCURSIONES, ETC.?
+
+Si NS/NR marque el código.
+
+```{r 296, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-296.png')
+```
+
+**P922.1.2.9.** ¿PODRÍA DECIRME EN CUÁL DE LOS SIGUIENTES TRAMOS CREE QUE SE UBICA EL GASTO TOTAL DEL VIAJE PAGADO POR EL HOGAR?
+
+Leer las opciones listadas y marcar la que señale el entrevistado.
+
+```{r 297, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-297.png')
+```
+
+**P923.** OBSERVACIONES REFERIDAS A LA VISITA DE UN DÍA
+
+Completar sólo en caso de ser necesario.
+
+```{r 298, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-298.png')
+```
+
+### **BLOQUE 1.2. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR**
+
+```{r 299, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-299.png')
+```
+```{r 300, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-300.png')
+```
+
+### **BLOQUE 1.3. INGRESO TOTAL DEL HOGAR EN EL ÚLTIMO MES**
+
+**P20.1.** ¿PODRÍA DECIRME APROXIMADAMENTE CUÁL FUE LA SUMA DE LOS INGRESOS, LABORALES O DE CUALQUIER TIPO, DE TODOS LOS MIEMBROS DEL HOGAR EN EL **MES DE MES 2**?
+
+```{r 301, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-301.png')
+```
+
+**P20.2.** ¿SI LE DIJERA UN TRAMO, PODRÍA DECIRME EN CUÁL SE UBICA LA SUMA DE LOS INGRESOS DEL HOGAR? ¿SUS INGRESOS SON...
+
+Rápidamente y sin esperar la respuesta del encuestado, leer los tramos y pedirle que se ubique en uno de acuerdo a los ingresos totales de su hogar.
+
+```{r 302, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-302.png')
+```
+
+**P20.3. OBSERVACIONES BLOQUE 1.3.** Completar sólo si es necesario.
+
+**A. INDICAR QUE MIEMBRO DEL HOGAR RESPONDIÓ LA ENCUESTA.**
+Marcar una sola opción
+
+```{r 303, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-303.png')
+```
+
+**B. OBSERVACIONES GENERALES DE LA ENCUESTA.**
+Completar sólo si es necesario (por ejemplo, si la encuesta no fue respondida en su totalidad indique hasta que bloque y pregunta llegó y el motivo por el que el entrevistado rechazó continuar con la Encuesta)
+
+## **ANEXO AL FORMULARIO BASE: EXPECTATIVAS INVIERNO-VERANO**
+
+A continuación, se transcribe el Bloque “ad hoc” a seguir durante el relevamiento de expectativas de viajes durante fechas relevantes turísticamente (temporadas estival e invernal). El cuestionario a continuación sigue lo pautado por El Pliego.
+
+### **EXPECTATIVAS DE VIAJES PARA LA TEMPORADA DE INVIERNO DEL AÑO 2021**
+
+```{r 304, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-304.png')
+```
+
+Debe anotar que viajará si algún miembro del hogar pernoctará en algún tipo de alojamiento del lugar de destino al menos una de las noches comprendidas **entre el 1ro de julio y el 31 de agosto**. El viaje puede ser realizado por cualquier motivo (ocio, visita a familiares, trabajo, etc.) e incluso debe ser registrado si no ha sido motivado por dicho periodo. También debe ser registrado si algún miembro del hogar comenzó su viaje con anterioridad y/o si permanecerá con posterioridad a la conclusión del feriado.
+
+```{r 305, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-305.png')
+```
+
+El encuestador debe intentar que el encuestado logre dar una respuesta con **la mayor certeza posible**. Esto es muy importante porque va a definir la cantidad de posibles viajeros. Por eso, cuando se presente una situación de dudas para el entrevistado, debe repreguntar diciendo “que es lo más probable, que viaje o que no viaje” o “es remota la posibilidad de viajar o es concreta”.
+
+```{r 306, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-306.png')
+```
+
+Si alguno de los integrantes del hogar encuestado va a viajar debe definir **si el viaje se va a iniciar en julio o en agosto**. En el caso en que el viaje comience en un mes y finalice en otro deberá marcar la opción ambos.
+
+Si alguno de los integrantes del hogar encuestado va a viajar debe definir si el viaje se va a iniciar en julio o en agosto. En el caso en que el viaje comience en un mes y finalice en otro deberá marcar la opción ambos.
+
+
+```{r 307, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-307.png')
+```
+
+Si hay miembros que van a realizar viajes a diferentes lugares debe sumar la cantidad de integrantes que realizaran viajes, independientemente de que el lugar de destino que debe marcar es aquel con mayor certeza de realización, en el que participaran mayor cantidad de miembros o el más lejano. Esto es así porque solo se puede marcar un solo lugar de destino.
+
+```{r 308, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-308.png')
+```
+
+En los casos en que los miembros del hogar realicen viajes a diferentes lugares, el encuestador debe definir el lugar de destino de acuerdo a los siguientes criterios: 1) el viaje con mayor grado de certeza de realización; 2) el viaje en el que participen la mayor cantidad de miembros del hogar; 3) el viaje en el que se recorra la mayor distancia desde la vivienda de uso permanente del hogar hasta el lugar de destino.
+
+En los casos en que el hogar nombrara más de una provincia o país se le repreguntara cuál de ellas es la que con mayor probabilidad visitaría. En caso de similar certeza era aquella en la que tendría mayor estadía y por último la que fue nombrada en primera instancia (porque partimos del supuesto de que era la que el hogar tenía principalmente en mente). En estos casos debía abril la solapa y seleccionar la provincia.
+
+```{r 309, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-309.png')
+```
+
+El encuestador debía obtener como respuesta una ciudad o localidad. Si no fuera posible, debe obtener una respuesta lo más específica posible. Por ejemplo, si la respuesta era “toda la provincia” entonces debía preguntarse por algún lugar específico dentro de ella: cordillera, sierras, valle, etc. Solo en aquellos casos en que es imposible obtener una respuesta más específica, debe anotarse “a toda la provincia”. Pero nunca debe repetirse el nombre de la provincia en cuestión. Y cuando la ciudad que se menciona sea la capital de provincia, si el nombre de la capital es igual que el de la provincia (Córdoba, Salta, Corrientes, Neuquén, Santa Fe, etc.) debe anotar “CAPITAL”. Si el nombre de la capital no coincide con el de la provincia (Posadas, Paraná, Viedma, etc.) debe anotar el nombre de esa ciudad.
+
+```{r 310, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-310.png')
+```
+
+Deberá preguntar si alguno de los integrantes del hogar que va a realizar el viaje ya estuvo en esa ciudad en los 4 años anteriores en el periodo invernal (es decir, desde 2017 a 2020). Tenga presente que se refiere **solo miembros que participaran del viaje en cuestión y que si lo visitaron en el periodo estival/invernal**. Si solo lo hicieron en un periodo distinto al invernal.
+
+```{r 311, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-311.png')
+```
+
+Deberá marcar el motivo que el hogar indique como disparador del viaje. Puede haber sido por ocio, visitar a familiares y/o amigos, trabajo, etc. Recuerdo que en caso de existir más de un motivo deberá seleccionar aquel que determino el viaje, es decir, que sin ese motivo el viaje no se producirá.
+
+```{r 312, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-312.png')
+```
+
+El encuestador debía señalar el tipo de alojamiento principal que sería utilizado por los miembros del hogar. En caso de que haya más de un tipo de alojamiento debía señalar aquel: 1) en el que iba a pasar la mayor cantidad de noches; 2) mayor tarifa o nivel; 3) el último que sería utilizado.
+
+```{r 313, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-313.png')
+```
+
+Se debieron contabilizar todos los días que duró el viaje, incluso aquellos que pudieran estar por fuera del periodo en cuestión. En caso que el hogar no pudiera determinar la duración, debía colocar el código 99. Pero en cualquier caso la consigna es evitar la no respuesta e intentar que el hogar respondiera, al menos, una duración estimada.
+
+```{r 314, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-314.png')
+```
+
+Deberá señalar si alguno de los integrantes del hogar (todos, algunos o alguno de ellos) hicieron, al menos, un viaje durante el invierno (julio y/o agosto) del año 2020 (año inmediato anterior).
+
+```{r 315, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-315.png')
+```
+
+Coloque la cantidad de integrantes del hogar que realizaron al menos un viaje durante el periodo invernal del año 2020 (año inmediato anterior).
+
+```{r 316, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-316.png')
+```
+
+Deberá indicar si al menos uno de los integrantes del hogar realizo al menos un viaje durante los inviernos de 2017, 2018 o 2019.
+
+### **EXPECTATIVAS DE VIAJES PARA LA TEMPORADA DE VERANO DE 2021-2022**
+
+```{r 317, echo=FALSE, fig.cap="" }
+knitr::include_graphics('imagenes/figura6-317.png')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
