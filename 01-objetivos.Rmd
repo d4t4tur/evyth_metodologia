@@ -50,7 +50,7 @@ del Formulario Base, Metodología de Imputación, Manual del Encuestador,
 Cuadernillo de Ejercicios -para el instructor o los encuestadores-,
 Curriculums Vitae del personal clave, etc.).
 
-## **OBJETIVOS DE LA EVYTHY: SUS ANTECEDENTES**
+## **OBJETIVOS DE LA EVYTH: SUS ANTECEDENTES**
 
 Para definir adecuadamente el marco metodológico de la EVyTH deben
 considerarse claramente sus objetivos y antecedentes. Con el fin de

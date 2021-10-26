@@ -16,7 +16,7 @@ description: "CONCURSO PÚBLICO NACIONAL ETAPA ÚNICA PRORROGA No 28-0004-CPU19 
 
 
 
-### Documento Técnico Nº1 - Resumen {.unnumbered}
+### {.unnumbered}
 
 
 

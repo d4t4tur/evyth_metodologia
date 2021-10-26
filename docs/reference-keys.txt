@@ -285,3 +285,15 @@ estructura-del-formulario-base
 cuestionario-1
 bloque-2.-segunda-vivienda
 bloque-3.-viajes-de-corta-duración-a-segundas-viviendas
+bloque-4.-viajes-de-larga-duración-a-segundas-viviendas
+bloque-5.-visitas-de-un-día-a-segundas-viviendas
+bloque-6.-viajes-no-reiterados-en-argentina
+bloque-7.-viajes-no-reiterados-al-extranjero
+bloque-8.-viajes-a-destinos-reiterados
+bloque-9.-visitas-de-un-día
+bloque-1.2.-características-de-los-miembros-del-hogar
+bloque-1.3.-ingreso-total-del-hogar-en-el-último-mes
+anexo-al-formulario-base-expectativas-invierno-verano
+expectativas-de-viajes-para-la-temporada-de-invierno-del-año-2021
+expectativas-de-viajes-para-la-temporada-de-verano-de-2021-2022
+objetivos-de-la-evyth-sus-antecedentes
