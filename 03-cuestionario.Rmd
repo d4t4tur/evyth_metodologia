@@ -4,18 +4,19 @@ editor_options:
     wrap: sentence
 ---
 
-# **CUESTIONARIO**
+# **Cuestionario**
 
 A continuación, se expone el Cuestionario que se implementó en la EVyTH.
 El mismo consiste en un Cuestionario Base (o sección "pétrea") que, básicamente, pretende relevar los viajes realizados en los últimos dos meses y un Cuestionario "ad-hoc" que tiene la función de captar eventuales viajes futuros para fechas especiales como son los periodos de Verano/Invierno.
 
-## **ANTECEDENTE DE LA ACTUAL EDICIÓN DE LA EVYTH**
+## Antecedente de la actual edición de la EVyTH
 
 El Cuestionario implementado en la EVyTH-06, constituyó el modelo sobre el cual se trabajó para llegar al cuestionario aplicado en la Prueba Piloto, en la EVyTH telefónica de los años 2012 en adelante.
 Al observarse el Formulario, se puede notar que la estructura conceptual del cuestionario ha perdurado desde su comienzo, sin embargo, seguramente fue preciso realizar algunas modificaciones atendiendo a situaciones de diversa índole [\^-9] .
 Los cambios que ha sufrido el cuestionario se resumen a continuación y resultan en el Formulario Base anexado a este informe [\^-10].
 
-## **DESCRIPCIÓN DEL FORMULARIO** 
+
+## Descripción del formulario
 
 En la presente sección, se describe el cuestionario, que se utiliza para la presente edición de la EVyTH.
 Este puede ser dividido en dos grandes secciones: un bloque "pétreo" (cuyo contenido solo esporádicamente sufre alguna alteración menor) y otro bloque conformado por preguntas que cambian en función de relevamientos "ad-hoc" que resultan de interés según el período y la ocasión.
@@ -25,25 +26,35 @@ Si bien esta sección es utilizada para indagar sobre la expectativa que los enc
 [\^-10] Este Formulario Base ya incorpora la actualización de los tramos de gastos (según tipo de viaje) y de ingreso (así como también los cambios necesarios a las preguntas de comportamiento turístico).
 [\^-11]   Su característica básica es que es completamente flexible permitiendo realizar relevamientos “ad-hoc” de forma fácil.
 
-### **CUESTIONARIO BASE (SECCIÓN "PÉTREA")** 
+### Cuestionario base (sección "pétrea")
 
 Como se indicó anteriormente, la sección del cuestionario que se describe a continuación prácticamente no ha sufrido alteraciones desde el comienzo de la primera edición de la EVyTH.
 La idea es minimizar los cambios de contenido a esta parte del cuestionario con el fin de lograr la mayor compatibilidad entre los datos relevados en distintos momentos del tiempo y, de esta forma, generar una serie de tiempo lo más extensa posible.
+
 Esta sección se compone de 9 Bloques; a saber:
 
-• Bloque "Características de los miembros del hogar".
+    - Bloque "Características de los miembros del hogar".
+
 Este bloque está subdivido en tres.
 (i) Al inicio de la encuesta, sólo se indaga por la cantidad de personas que integran el hogar y las iniciales (de forma tal de mantener el anonimato) de cada uno de los miembros del hogar.
 (ii) Al final del cuestionario, luego de indagar por la realización de viajes y visitas y sus características, se indaga por las características de los miembros del hogar, bajo el supuesto de que, con el devenir de la encuesta, el entrevistado gana confianza y se muestra menos renuente a responder estas preguntas.
 En este mismo sub-bloque se indaga por el comportamiento turístico en el año calendario anterior a la encuesta [\^-12]; (iii) La indagación por los ingresos totales del hogar, que cierra la encuesta, se incluye como otro sub-bloque también al finalizar el Formulario Base.
-• Bloque "Segundas Viviendas".
+
+    - Bloque "Segundas Viviendas".
 Se indaga únicamente por las segundas viviendas que el hogar dispuso y utilizó durante el periodo de referencia.
-• Bloque "Viajes de corta duración a segundas viviendas": 1 a 3 noches (VCDS).
-• Bloque "Viajes de larga duración a segundas viviendas": 4 noches o más (LDSV).
-• Bloque "Visitas de un día a segundas viviendas" (VDSV).
-• Bloque "Viajes no reiterados en Argentina" (VA).
-• Bloque "Viajes no reiterados al exterior" (VE).
-• Bloque "Viajes a destinos reiterados" (DR).
+
+    - Bloque "Viajes de corta duración a segundas viviendas": 1 a 3 noches (VCDS).
+
+    - Bloque "Viajes de larga duración a segundas viviendas": 4 noches o más (LDSV).
+
+    - Bloque "Visitas de un día a segundas viviendas" (VDSV).
+
+    - Bloque "Viajes no reiterados en Argentina" (VA).
+
+    - Bloque "Viajes no reiterados al exterior" (VE).
+
+    - Bloque "Viajes a destinos reiterados" (DR).
+    
 Este bloque funciona como "reserva", es decir, no se pregunta directamente al entrevistado si realizaron viajes de este tipo, sino que el encuestador lo completa en caso de detectar la existencia de este tipo de viajes en la indagación de los bloques anteriores (VA y VE).
 • Bloque "Visitas de un día".
 • Bloque sobre viaje en períodos turísticos especiales.

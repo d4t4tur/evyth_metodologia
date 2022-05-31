@@ -76,7 +76,7 @@ El marco conceptual antes definido permite obtener conclusiones a partir de dive
 
 ## Universo bajo estudio
 
-El universo bajo estudio de la encuesta son los grandes aglomerados urbanos definidos en la EPH del INDEC. Por lo tanto, se consideran 32 aglomerados (para mayor detalle ver el cuadro en el Anexo). Los aglomerados se agrupan en las siguientes Regiones: [^aspectos-metodologicos-y-tecnicos-1]
+El universo bajo estudio de la encuesta son los grandes aglomerados urbanos definidos en la EPH del INDEC. Por lo tanto, se consideran 32 aglomerados (para mayor detalle ver el cuadro en el Anexo). Los aglomerados se agrupan en las siguientes Regiones: [^aspectos-metodologicos-y-tecnicos-3]
 
 
         1.	Región Ciudad de Buenos Aires.
@@ -95,7 +95,7 @@ El universo bajo estudio de la encuesta son los grandes aglomerados urbanos defi
         
         8.	Región Patagónica: compuesto por todos los aglomerados pertenecientes a las provincias de La Pampa, Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del Fuego.
 
-[^aspectos-metodologicos-y-tecnicos-1]: Se debió decidir en qué regiones incluir los aglomerados urbanos “San Nicolás – Villa Constitución” y “Viedma – Carmen de Patagones” puesto que las ciudades se encuentran en distintas provincias y, por ende, en diferentes regiones (según la definición que sigue). Se incluye al primer aglomerado (San Nicolás – Villa Constitución) en la Región Buenos Aires, mientras que el segundo (Viedma – Carmen de Patagones), en la Región Patagonia.
+[^aspectos-metodologicos-y-tecnicos-3]: Se debió decidir en qué regiones incluir los aglomerados urbanos “San Nicolás – Villa Constitución” y “Viedma – Carmen de Patagones” puesto que las ciudades se encuentran en distintas provincias y, por ende, en diferentes regiones (según la definición que sigue). Se incluye al primer aglomerado (San Nicolás – Villa Constitución) en la Región Buenos Aires, mientras que el segundo (Viedma – Carmen de Patagones), en la Región Patagonia.
 
 A continuación, se presenta un mapa que, a modo ilustrativo, indica los aglomerados que son relevados:
 
@@ -148,9 +148,9 @@ La GTN está compuesta por los siguientes campos:
 
 Para llevar adelante el campo de la EVyTH, se utiliza una periodicidad de muestreo mensual; es decir, todos los meses se releva una muestra seleccionada de acuerdo a la metodología descripta anteriormente.
 
-Además, se contempla una ventana de observación [^aspectos-metodologicos-y-tecnicos-2] bimestral para los meses a ser relevados, es decir, períodos de recordación de dos meses consecutivos. Las ventanas de observación de períodos cortos, como este caso, eliminan la necesidad de recordación por tiempos prolongados, lo que favorece la veracidad de la información.
+Además, se contempla una ventana de observación [^aspectos-metodologicos-y-tecnicos-4] bimestral para los meses a ser relevados, es decir, períodos de recordación de dos meses consecutivos. Las ventanas de observación de períodos cortos, como este caso, eliminan la necesidad de recordación por tiempos prolongados, lo que favorece la veracidad de la información.
 
-[^aspectos-metodologicos-y-tecnicos-2]: El período para el cual se brinda información se denomina ventana de observación.
+[^aspectos-metodologicos-y-tecnicos-4]: El período para el cual se brinda información se denomina ventana de observación.
 
 Para dar mayor detalle del mecanismo de ventanas de observación y solapamiento implementado, se presenta el siguiente esquema:
 
@@ -166,7 +166,7 @@ De este modo se garantiza que, las estimaciones contenidas en los informes corre
 
 ## Esquema de Rotación muestral
 
-Con el objetivo de mejorar la comparación interanual de las principales variables relevadas, se renueva periódicamente el conjunto de hogares encuestados (panel de respondentes) [^aspectos-metodologicos-y-tecnicos-3]. Conceptualmente, el esquema de rotación de una encuesta tiene incidencia sobre los siguientes aspectos:
+Con el objetivo de mejorar la comparación interanual de las principales variables relevadas, se renueva periódicamente el conjunto de hogares encuestados (panel de respondentes) [^aspectos-metodologicos-y-tecnicos-5]. Conceptualmente, el esquema de rotación de una encuesta tiene incidencia sobre los siguientes aspectos:
 
     1.	Precisión de las estimaciones del cambio entre dos períodos diferentes.
     
@@ -175,17 +175,17 @@ Con el objetivo de mejorar la comparación interanual de las principales variabl
     3.	Nivel de no respuesta (por cansancio del panel).
 
 
-[^aspectos-metodologicos-y-tecnicos-3]: La forma en que se produce esta renovación se denomina esquema de rotación. 
+[^aspectos-metodologicos-y-tecnicos-5]: La forma en que se produce esta renovación se denomina esquema de rotación. 
 
 El objetivo primordial de la EVyTH es medir la evolución de los viajes que, es sabido, es una variable que presenta una gran estacionalidad. Consecuentemente, la medición de la evolución no se realiza a partir de comparar dos meses consecutivos (excepto algunos meses en particular), sino que anualmente o agregando períodos (estival, invernal, etc.). 
 
 Tal como se describió anteriormente, el manejo muestral exige escoger la muestra antes de cada mes de relevamiento de modo tal de obtener muestras independientes, pero solapadas. El esquema de rotación que se implementó consiste en incluir en la muestra del mes 1 del año t, la muestra titular de los hogares respondentes del mismo periodo (mes 1) del año anterior (t-1), no con el objetivo de estudiar el comportamiento de esos hogares en particular, sino de modo tal de hacer que las variaciones interanuales no presenten diferencias extremas. De esta forma se maximiza la precisión en cuanto a los cambios suscitados entre un año y otro. Un sistema de rotación muestral como este, permite evitar el cansancio del panel respondente ya que se repiten los hogares luego de doce meses. De esta manera, se logra una mejor ponderación entre ganancia en precisión (al rotar la muestra) y medición del cambio entre dos períodos (dos años).
 
-Es relevante señalar que durante la EVyTH-12 se llevó a cabo una prueba piloto de esta metodología “de panel” entre los meses de abril y mayo (ondas 3 y 4). Los resultados fueron positivos ya que no se encontraron sesgos en las características de los respondentes [^aspectos-metodologicos-y-tecnicos-4] , a la vez que se aumentó la tasa de efectividad de las encuestas [^aspectos-metodologicos-y-tecnicos-5]. En efecto, en comparación con las ondas en las que no fue implementada esta metodología de panel (es decir, para las ondas 1 a 4 de la EVyTH-11 y ondas 1 y 2 de la EVyTH-12), la tasa de efectividad de encuesta para los hogares titulares durante las ondas en las que sí se adoptó, (es decir, ondas 3 y 4) fue del doble. Mientras que se halló que poco más de dos de cada diez hogares de la muestra titular decidieron responder la encuesta en las primeras ondas, casi cinco de cada diez decidieron hacerlo en las ondas 3 y 4 durante el relevamiento de la EVyTH-12.
+Es relevante señalar que durante la EVyTH-12 se llevó a cabo una prueba piloto de esta metodología “de panel” entre los meses de abril y mayo (ondas 3 y 4). Los resultados fueron positivos ya que no se encontraron sesgos en las características de los respondentes [^aspectos-metodologicos-y-tecnicos-6] , a la vez que se aumentó la tasa de efectividad de las encuestas [^aspectos-metodologicos-y-tecnicos-7]. En efecto, en comparación con las ondas en las que no fue implementada esta metodología de panel (es decir, para las ondas 1 a 4 de la EVyTH-11 y ondas 1 y 2 de la EVyTH-12), la tasa de efectividad de encuesta para los hogares titulares durante las ondas en las que sí se adoptó, (es decir, ondas 3 y 4) fue del doble. Mientras que se halló que poco más de dos de cada diez hogares de la muestra titular decidieron responder la encuesta en las primeras ondas, casi cinco de cada diez decidieron hacerlo en las ondas 3 y 4 durante el relevamiento de la EVyTH-12.
 
-[^aspectos-metodologicos-y-tecnicos-4]: El control consistió en evaluar las características principales de los respondentes de la encuesta durante las primeras cuatro ondas de relevamiento del año 2011 y del año 2012. El objetivo fue estudiar si se producía algún sesgo demográfico al utilizar muestras panel. Los relevamientos de las ondas 3 y 4 (relevamientos de abril y mayo) de la EVyTH-12 fueron panel (incluyeron a los hogares respondentes del mismo periodo del año anterior), mientras que las ondas 1 y 2 (febrero y marzo) no lo fueron. Los resultados del estudio demostraron que no se encontraron variaciones significativas en ningunas de las variables estudiadas (edad promedio edad en tramos, relación de parentesco del miembro respondente con el jefe de hogar, asistencia a establecimiento educativo, máximo nivel educativo alcanzado, situación ocupacional) entre los meses con muestra panel y los meses sin muestra panel.
+[^aspectos-metodologicos-y-tecnicos-6]: El control consistió en evaluar las características principales de los respondentes de la encuesta durante las primeras cuatro ondas de relevamiento del año 2011 y del año 2012. El objetivo fue estudiar si se producía algún sesgo demográfico al utilizar muestras panel. Los relevamientos de las ondas 3 y 4 (relevamientos de abril y mayo) de la EVyTH-12 fueron panel (incluyeron a los hogares respondentes del mismo periodo del año anterior), mientras que las ondas 1 y 2 (febrero y marzo) no lo fueron. Los resultados del estudio demostraron que no se encontraron variaciones significativas en ningunas de las variables estudiadas (edad promedio edad en tramos, relación de parentesco del miembro respondente con el jefe de hogar, asistencia a establecimiento educativo, máximo nivel educativo alcanzado, situación ocupacional) entre los meses con muestra panel y los meses sin muestra panel.
 
-[^aspectos-metodologicos-y-tecnicos-5]: Se estudiaron las características de los respondentes no notándose diferencias estadísticamente significativas entre los respondentes que aceptaron ser encuestados el año anterior respecto del mismo grupo que aceptó ser encuestado en el 2012.
+[^aspectos-metodologicos-y-tecnicos-7]: Se estudiaron las características de los respondentes no notándose diferencias estadísticamente significativas entre los respondentes que aceptaron ser encuestados el año anterior respecto del mismo grupo que aceptó ser encuestado en el 2012.
 
 
 Además, se realizó un control por características sociodemográficas del miembro respondente para verificar que no se hubiera sesgado la muestra. Las variables consideradas fueron:
@@ -254,7 +254,7 @@ El empleo adecuado de la técnica de calibración permite:
 
 La calibración consiste básicamente en la resolución de un problema de minimización numérica. Dicho problema queda planteado con la elección de una distancia, entre los nuevos ponderadores y los originales, y la utilización de un conjunto de restricciones impuestas sobre las variables auxiliares que intervienen en el ajuste.
 
-Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodologicos-y-tecnicos-6], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias. La macro mencionada trabaja con cuatro funciones, de las cuales para la EVyTH se trabaja sólo con tres. A continuación, se brinda una pequeña descripción de cada una de ellas.
+Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodologicos-y-tecnicos-8], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias. La macro mencionada trabaja con cuatro funciones, de las cuales para la EVyTH se trabaja sólo con tres. A continuación, se brinda una pequeña descripción de cada una de ellas.
 
 
     1.	Método Lineal:  knitr::include_graphics("salidas/tabla1.png")
@@ -264,7 +264,7 @@ Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodolo
     3.	Método logit: Fijar dos constantes L y U, tal que L<1<U, y sea knitr::include_graphics("salidas/tabla1.png") . Luego knitr::include_graphics("salidas/tabla1.png")
  
  
-[^aspectos-metodologicos-y-tecnicos-6]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
+[^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
 
 
 si L<x<U, y knitr::include_graphics("salidas/tabla1.png")  en otro caso. La función F correspondiente es:
