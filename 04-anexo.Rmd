@@ -3115,7 +3115,7 @@ Respuesta: Gabriel es OCUPADO ya que se trata de una suspensión con pago. Es EM
 
 Respuesta: Walter es OCUPADO. La ayudantía ad honorem (con reglas de trabajo) se considera trabajo. Su condición de ocupación es OTRA: TRABAJADOR AD HONOREM.
 
-##### **EJERCICIO 6. INGRESO TOTAL DEL HOGAR**
+##### Ejercicio 6. Ingreso total del hogar
 
 1 **Hogar 1.** Compuesto por el matrimonio de Darío y Verónica y su hijo Marcelo de 22 años. Darío cobró \$1.500 pesos de sueldo más \$500 en tickets, mientras que a Verónica le pagaron \$1.000 en efectivo. Marcelo cobró \$300 de una beca que le da mensualmente la Universidad en la que estudia (pero ese dinero Marcelo lo está ahorrando para las vacaciones).
 
@@ -3129,7 +3129,7 @@ Respuesta: el hogar NO TUVO INGRESOS CORRIENTES en el último mes. El dinero que
 
 Respuesta: el ingreso total del hogar fue de \$2.400. En este caso se deben sumar los \$700 que mensualmente le envían a Berta sus padres y los \$500 que recibe en concepto de alquiler por una propiedad suya. De Marita solo se deben sumar los ingresos que provienen de su trabajo (\$1.200), ya que se excluyen los ingresos por ventas de activos del hogar (como lo era el auto) porque se trata de una modificación en la composición del patrimonio del hogar y no un ingreso corriente.
 
-##### **EJERCICIO 7. SEGUNDAS VIVIENDAS**
+##### Ejercicio 7. Segundas viviendas
 
 ::: {.note}
 **Consigna: Indique en cada caso si debe registrarse Si o No en la pregunta 201. Justifique.**
@@ -3159,7 +3159,7 @@ Respuesta: NO. Las viviendas de familiares o amigos --residan o no ellos en las 
 
 Respuesta: SÍ. Para el caso de los inquilinos se considera que deben haber dispuesto de una segunda vivienda más de 6 meses, y en este caso la tuvieron por 11 meses, y la utilizaron en el bimestre de referencia.
 
-##### **EJERCICIO 8. ENTORNO HABITUAL**
+##### Ejericicio 8. Entorno habitual.
 
 ::: {.note}
 **Consigna: indicar si cada desplazamiento debe ser considerado un viaje fuera del entorno habitual. Justificar**
@@ -3237,7 +3237,7 @@ Respuesta: NO. Porque, aunque haya sido no semanal y a más de 20/40 Km., no se 
 
 Respuesta: NO. Se excluyen los viajes de los diplomáticos, funcionarios, militares, etc. desde y hacia el lugar donde fueron asignados (tampoco se cuentan los viajes de sus acompañantes y servicio doméstico).
 
-##### **EJERCICIO 9. TIPOS DE VIAJES**
+##### Ejercicio 9. Tipos de viajes
 
 ::: {.note}
 **Consigna: de acuerdo a los desplazamientos realizados en los últimos dos meses por cada uno de los siguientes hogares deberá completar el cuadro, marcando con una cruz la celda correspondiente a los tipos de viaje que cada hogar realizó.**
@@ -3300,7 +3300,7 @@ knitr::include_graphics('imagenes/figura6-150.png')
 ```
 
 
-##### **EJERCICIO 10. PERÍODO DE REFERENCIA Y MES DE REGRESO DEL VIAJE**
+##### Ejercicio 10. Período de referencia y mes de regreso del viaje
 
 ::: {.note}
 **Consigna: José Cardozo fue encuestado en Buenos Aires el 9 de febrero de 2011 y declaró haber hecho viajes.**
@@ -3323,7 +3323,7 @@ Respuesta: SI debe consignarse porque el mes de regreso fue DICIEMBRE, dentro de
 Respuesta: NO debe consignarse porque el mes de regreso fue FEBRERO, fuera del período de referencia.
 
 
-##### **EJERCICIO 11. TIPO Y FORMA DE REGISTRO DE VIAJES**
+##### Ejercicio 11. Tipo y forma de registro de viajes
 
 ::: {.note}
 **Consigna: indique el bloque correspondiente al tipo de viaje en que deben registrarse los siguientes viajes.**
@@ -3350,7 +3350,7 @@ Respuesta: Son 4 Viajes en Argentina. Si bien la cantidad es de 4 y la duración
 
 
 
-##### **EJERCICIO 12. VISITAS DE UN DÍA (BLOQUE 9)**
+##### Ejercicio 12. Visita de un día (bloque 9)
 
 
 ::: {.note}
@@ -3376,7 +3376,7 @@ Respuesta: NO. Las visitas o excursiones realizadas dentro de un viaje (es decir
 Respuesta: SI. La visita de un día tuvo una duración mayor a 3 horas, no se alojó en algún tipo de alojamiento en el lugar visitado y se encuentra fuera del entorno habitual.
 
 
-##### **EJERCICIO 13. DESTINO PRINCIPAL DEL VIAJE**
+##### Ejercicio 13. Destino principal del viaje
 
 
 ::: {.note}
@@ -3409,7 +3409,7 @@ Respuesta: El destino principal fue un lugar de ARGENTINA: CIUDAD DE BUENOS AIRE
 
 
 
-##### **EJERCICIO 14. TIPO DE ALOJAMIENTO PRINCIPAL**
+##### Ejercicio 14. Tipo de alojamiento principal.
 
 ::: {.note}
 **Consigna: el hogar de los Basualdo (Nicolás y Yamila) reside en Bahía Blanca, Buenos Aires. Durante los últimos dos meses hicieron 6 viajes.**
@@ -3442,7 +3442,7 @@ Respuesta: OTRO. Casa rodante al aire libre, sin pagar nada.
 Respuesta: Vivienda alquilada por temporada. Si pagaron algo, no importa que sea un familiar.
 
 
-##### **EJERCICIO 15. MEDIO DE TRANSPORTE PRINCIPAL UTILIZADO**
+##### Ejercicio 15. Medio de transporte principal utilizado
 
 ::: {.note}
 **Consigna: señale y justifique, para cada viaje, cuál fue el medio de transporte principal utilizado.**
@@ -3478,7 +3478,7 @@ Respuesta: AUTOMÓVIL O SIMILAR. Fue el que utilizó para recorrer mayor cantida
 Respuesta: ÓMNIBUS. Es el medio que utilizó para recorrer una mayor cantidad de kilómetros.
 
 
-##### **EJERCICIO 16. MOTIVO PRINCIPAL DEL VIAJE**
+##### Ejercicoi 16. Motivo principal del viaje
 
 ::: {.note}
 **Consigna: señale cuál es el motivo principal del viaje en los siguientes casos.**
@@ -3553,7 +3553,7 @@ Respuesta: ESTUDIOS O FORMACIÓN.
 Respuesta: ESPARCIMIENTO, OCIO, RECREACIÓN. El motivo principal fue recorrer ciudades y museos. Del curso se enteró durante el viaje y si no lo hubiera hecho nada se hubiera modificado (no hizo el viaje para participar del curso).
 
 
-##### **EJERCICIO 17. PAQUETES TURÍSTICOS**
+##### Ejercicio 17. Paquetes turísticos
 
 ::: {.note}
 **Consigna: lea atentamente la situación que se presenta e indique si la sentencia posterior es verdadera (V) o falsa (F)**
@@ -3585,7 +3585,7 @@ Respuesta: FALSO. No se considera a la pensión completa (o a la media pensión)
 
 Respuesta: FALSO. Para que se considere un paquete debe tratarse de un conjunto de servicios e incluir siempre transporte origen – destino y/o alojamiento. Deberá registrar la contratación de estos servicios en las preguntas que indagan sobre los servicios adquiridos en agencias que no forman parte de un paquete.
 
-##### **EJERCICIO 18. GASTOS DEL VIAJE**
+##### Ejercicio 18. Gastos del viaje
 
 ::: {.note}
 **Consigna: lea atentamente la situación que se presenta e indique si la sentencia posterior es verdadera (V) o falsa (F).**
@@ -3666,12 +3666,12 @@ Respuesta: FALSO. Cuando al hogar le regalan dinero, se deben registrar todos lo
 
 
 
-## **EL FORMULARIO BASE**
+## El formulario base
 
 Se incluye en esta sección el Formulario Base (o Cuestionario) de acuerdo a lo preestablecido en El Pliego. Previo a ello, se brinda una breve descripción de la estructura del Formulario y las principales variables relevadas.
 
 
-### **ESTRUCTURA DEL FORMULARIO BASE**
+### Estructura del formulario base
 
 Con el fin de brindar una descripción resumida del Formulario Base a aplicar durante la EVyTH-21, a continuación, se presenta su estructura y las variables relevadas.
 
@@ -3683,7 +3683,7 @@ knitr::include_graphics('imagenes/figura6-151.png')
 Fuente: MacroConsulting
 
 
-### **CUESTIONARIO**
+### Cuestionario
 
 Se transcribe a continuación el cuestionario que fue implementado en la EVyTH-13, con las modificaciones mencionadas en la sección 2.7.1.
 
@@ -3718,7 +3718,7 @@ knitr::include_graphics('imagenes/figura6-154.png')
 ```
 
 
-### **BLOQUE 2. SEGUNDA VIVIENDA**
+### Bloque 2. Segunda vivienda
 
 ```{r 155, echo=FALSE, fig.cap="" }
 knitr::include_graphics('imagenes/figura6-155.png')
@@ -3731,7 +3731,7 @@ knitr::include_graphics('imagenes/figura6-157.png')
 ```
 
 
-### **BLOQUE 3. VIAJES DE CORTA DURACIÓN A SEGUNDAS VIVIENDAS**
+### Bloque 3. Viajes de corta duración a segundas viviendas
 
 “AHORA LE VOY A PREGUNTAR POR LOS VIAJES A ESAS VIVIENDAS”
 
@@ -3854,7 +3854,7 @@ Completar sólo en caso de ser necesario.
 knitr::include_graphics('imagenes/figura6-173.png')
 ```
 
-### **BLOQUE 4. VIAJES DE LARGA DURACIÓN A SEGUNDAS VIVIENDAS**
+### Bloque 4. Viajes de larga duración a segundas viviendas
 
 **P401.** ¿EN LOS MESES DE **MES 1 y MES 2**, UD. O ALGÚN INTEGRANTE DEL HOGAR HICIERON VIAJES A ALGUNAS DE ESTA/S VIVIENDA/S PASANDO ALLÍ 4 NOCHES O MÁS?
 
@@ -3978,7 +3978,7 @@ Completar sólo en caso de ser necesario.
 knitr::include_graphics('imagenes/figura6-190.png')
 ```
 
-### **BLOQUE 5. VISITAS DE UN DÍA A SEGUNDAS VIVIENDAS**
+### Bloque 5. Visitas de un día a segundas viviendas.
 
 **P501.** ¿EN LOS MESES DE **MES 1 y MES 2**, UD. O ALGÚN INTEGRANTE DEL HOGAR FUERON A PASAR EL DÍA, SIN QUEDARSE A DORMIR, A ESTA / ALGUNAS DE ESTAS VIVIENDA/S?
 
@@ -4094,7 +4094,7 @@ Completar sólo en caso de ser necesario.
 knitr::include_graphics('imagenes/figura6-205.png')
 ```
 
-### **BLOQUE 6. VIAJES NO REITERADOS EN ARGENTINA**
+### Bloque 6. Viajes no reiterados en argentina.
 
 **“AHORA LE VOY A PREGUNTAR POR VIAJES O EXCURSIONES QUE HAYAN REALIZADO EN LOS MESES DE MES 1 Y MES 2 POR CUALQUIER MOTIVO (OCIO, VACACIONES, VISITAS A FAMILIARES O AMIGOS, TRABAJO O CUALQUIER OTRO)”**
 
@@ -4329,7 +4329,7 @@ knitr::include_graphics('imagenes/figura6-234.png')
 ```
 
 
-### **BLOQUE 7. VIAJES NO REITERADOS AL EXTRANJERO**
+### Bloque 7. Viajes no reiterados al extranjero.
 
 **P701.** ¿EN MES 1 y MES 2 VIAJARON A ALGUN PAÍS EXTRANJERO?
 
@@ -4475,7 +4475,7 @@ knitr::include_graphics('imagenes/figura6-252.png')
 ```
 
 
-### **BLOQUE 8. VIAJES A DESTINOS REITERADOS**
+### Bloque 8. Viajes a destinos reiterados
 
 **P801.** ¿EN LOS MESES DE **MES 1 Y MES 2**, VIAJARON TRES O MÁS VECES A UN MISMO LUGAR UBICADO A MÁS DE 20/40 KM DE SU CIUDAD, ¿POR EL MISMO MOTIVO Y PERMANECIENDO SIEMPRE UNA CANTIDAD SIMILAR DE NOCHES?
 
@@ -4704,7 +4704,7 @@ knitr::include_graphics('imagenes/figura6-281.png')
 ```
 
 
-### **BLOQUE 9. VISITAS DE UN DÍA**
+### Bloque 9. Visitas de un día
 
 **P901.** ¿EN MES 1 y MES 2, UD O ALGÚN INTEGRANTE DE SU HOGAR FUERON A PASAR EL DÍA A ALGÚN LUGAR UBICADO A MAS DE 20/40 KM, PERO SIN QUEDARSE A DORMIR? POR EJEMPLO, A PASAR UN DÍA DE PASEO O CAMPING SIN QUEDARSE A DORMIR, A VISITAR ALGÚN FAMILIAR, POR TRABAJO O PARA HACER TRÁMITES YENDO Y VIVIENDO EN EL DÍA, ETC?
 
@@ -4836,7 +4836,7 @@ Completar sólo en caso de ser necesario.
 knitr::include_graphics('imagenes/figura6-298.png')
 ```
 
-### **BLOQUE 1.2. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR**
+### Bloque 1.2. Características de los miembros del hogar
 
 ```{r 299, echo=FALSE, fig.cap="" }
 knitr::include_graphics('imagenes/figura6-299.png')
@@ -4845,7 +4845,7 @@ knitr::include_graphics('imagenes/figura6-299.png')
 knitr::include_graphics('imagenes/figura6-300.png')
 ```
 
-### **BLOQUE 1.3. INGRESO TOTAL DEL HOGAR EN EL ÚLTIMO MES**
+### Bloque 1.3. Ingreso total del hogar en el último mes
 
 **P20.1.** ¿PODRÍA DECIRME APROXIMADAMENTE CUÁL FUE LA SUMA DE LOS INGRESOS, LABORALES O DE CUALQUIER TIPO, DE TODOS LOS MIEMBROS DEL HOGAR EN EL **MES DE MES 2**?
 
@@ -4873,11 +4873,11 @@ knitr::include_graphics('imagenes/figura6-303.png')
 **B. OBSERVACIONES GENERALES DE LA ENCUESTA.**
 Completar sólo si es necesario (por ejemplo, si la encuesta no fue respondida en su totalidad indique hasta que bloque y pregunta llegó y el motivo por el que el entrevistado rechazó continuar con la Encuesta)
 
-## **ANEXO AL FORMULARIO BASE: EXPECTATIVAS INVIERNO-VERANO**
+## Anexo al formulario base: Expectativas invierno-verano
 
 A continuación, se transcribe el Bloque “ad hoc” a seguir durante el relevamiento de expectativas de viajes durante fechas relevantes turísticamente (temporadas estival e invernal). El cuestionario a continuación sigue lo pautado por El Pliego.
 
-### **EXPECTATIVAS DE VIAJES PARA LA TEMPORADA DE INVIERNO DEL AÑO 2021**
+### Expectativas de viajes para la temporada de invierno del año 2021
 
 ```{r 304, echo=FALSE, fig.cap="" }
 knitr::include_graphics('imagenes/figura6-304.png')
@@ -4962,7 +4962,7 @@ knitr::include_graphics('imagenes/figura6-316.png')
 
 Deberá indicar si al menos uno de los integrantes del hogar realizo al menos un viaje durante los inviernos de 2017, 2018 o 2019.
 
-### **EXPECTATIVAS DE VIAJES PARA LA TEMPORADA DE VERANO DE 2021-2022**
+### Expectativas de viajes para la temporada de verano 2021-2022
 
 ```{r 317, echo=FALSE, fig.cap="" }
 knitr::include_graphics('imagenes/figura6-317.png')
