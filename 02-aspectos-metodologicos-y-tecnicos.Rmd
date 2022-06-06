@@ -99,7 +99,7 @@ El universo bajo estudio de la encuesta son los grandes aglomerados urbanos defi
 
 A continuación, se presenta un mapa que, a modo ilustrativo, indica los aglomerados que son relevados:
 
-**Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
+[AGREGAR] **Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
 
 
 
@@ -155,7 +155,7 @@ Además, se contempla una ventana de observación [^aspectos-metodologicos-y-tec
 Para dar mayor detalle del mecanismo de ventanas de observación y solapamiento implementado, se presenta el siguiente esquema:
 
 
-**Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
+[AGREGAR] **Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
 
 
 
@@ -266,6 +266,7 @@ Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodolo
  
 [^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
 
+[AGREGAR] fórmulas en markdown
 
 si L<x<U, y knitr::include_graphics("salidas/tabla1.png")  en otro caso. La función F correspondiente es:
 knitr::include_graphics("salidas/tabla1.png") 
@@ -334,12 +335,11 @@ El Cuadro a continuación destalla los Coeficientes de Variación que son calcul
 
 
 
-
-**Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
+[AGREGAR] **Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
 
 Para comprender fácilmente la forma en que se implementó la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV.
 
-**Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
+[AGREGAR] **Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
 
 
-**Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
+[AGREGAR] **Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
