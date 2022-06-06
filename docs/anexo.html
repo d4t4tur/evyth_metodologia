@@ -71,10 +71,6 @@
 <li class="toc-logo"><a href="./"><img src="imagenes/escudo_mintur.png"></a></li>
 
 <li class="divider"></li>
-<li><a href="index.html#presentación">Presentación<span></span></a>
-<ul>
-<li><a href="index.html#section"></a></li>
-</ul></li>
 <li class="chapter" data-level="1" data-path="presentacion-objetivos.html"><a href="presentacion-objetivos.html"><i class="fa fa-check"></i><b>1</b> <strong>Presentación y Objetivos</strong><span></span></a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="presentacion-objetivos.html"><a href="presentacion-objetivos.html#introducción"><i class="fa fa-check"></i><b>1.1</b> Introducción<span></span></a></li>
@@ -292,7 +288,7 @@
 <div id="imputación-de-ingreso-total-del-hogar" class="section level5 hasAnchor" number="4.2.3.3.2">
 <h5><span class="header-section-number">4.2.3.3.2</span> Imputación de ingreso total del hogar<a href="anexo.html#imputación-de-ingreso-total-del-hogar" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>En la base correspondiente a los hogares seleccionados en la muestra (Base hogares) se determinarán las variables que poseen la información referida a los Ingresos de los hogares encuestados. Al igual que en el caso de la imputación de la variable GSTTTL, el procedimiento para imputar la variable Ingreso del Hogar (Monto) se iniciará con aquellos hogares que no responden el MONTO pero que sí pudieron localizar al ingreso en un TRAMO determinado.</p>
-<p>Para aquellos hogares que declararon el Ingreso, se calculará la media del Ingreso del hogar total en cada combinación de TRAMO y cantidad de “preceptores de ingreso.” Esta última variable se obtendrá de la base de Personas y estará conformada por los ocupados y jubilados de cada hogar que participó en la encuesta.</p>
+<p>Para aquellos hogares que declararon el Ingreso, se calculará la media del Ingreso del hogar total en cada combinación de TRAMO y cantidad de “preceptores de ingreso”. Esta última variable se obtendrá de la base de Personas y estará conformada por los ocupados y jubilados de cada hogar que participó en la encuesta.</p>
 <p>Luego, dichos valores serán imputados en las combinaciones referidas en el párrafo anterior, para los hogares que sólo respondieron el TRAMO del Ingreso del Hogar.</p>
 <p>A continuación, se procederá a imputar el Ingreso del hogar para aquellos hogares que no respondieron ni el MONTO ni el TRAMO.</p>
 <p>Como primer paso, se incorporará al conjunto de respondentes, a aquellos hogares imputados en el paso previo; es decir, hogares que habían respondido sólo el TRAMO del Ingreso del Hogar.</p>
@@ -381,14 +377,14 @@ Figura 4.2: Administradores
 Figura 4.3: Solapa operadores
 </p>
 </div>
-<p>La asignación de regiones puede realizarse manualmente (escribiendo el nombre de la región), o bien seleccionando las regiones correspondientes que se despliegan del menú al que se accede en “modificar regiones.” La ventaja que esta última modalidad conlleva es que evita errores al escribir las regiones (para cada onda surgirán las regiones que fueron cargadas en la importación de la base de números de teléfono). Por otra parte, la ventaja del formato manual es que acelera el proceso de asignación de regiones; una vez que se han pasado las regiones a asignar en la base (por ejemplo, en el procesador de textos o en el editor de regiones de otros Operadores), sólo es cuestión de pegarlas en el espacio correspondiente.</p>
+<p>La asignación de regiones puede realizarse manualmente (escribiendo el nombre de la región), o bien seleccionando las regiones correspondientes que se despliegan del menú al que se accede en “modificar regiones”. La ventaja que esta última modalidad conlleva es que evita errores al escribir las regiones (para cada onda surgirán las regiones que fueron cargadas en la importación de la base de números de teléfono). Por otra parte, la ventaja del formato manual es que acelera el proceso de asignación de regiones; una vez que se han pasado las regiones a asignar en la base (por ejemplo, en el procesador de textos o en el editor de regiones de otros Operadores), sólo es cuestión de pegarlas en el espacio correspondiente.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Ope"></span>
 <img src="imagenes/figura6-04.png" alt="Operadores" width="100%" />
 <p class="caption">
 Figura 4.4: Operadores
 </p>
 </div>
-<p>La tercera solapa, Teléfonos, es desde donde se importan y exportan las bases de datos de números de teléfonos. La importación se hace a través de un archivo .CSV donde en cada línea se completan los campos número de teléfono, número de onda, nombre, región y su código, envío o no de carta y tipo de prioridad del número. Desde aquí el Administrador puede modificar individualmente cada número y habilitarlo o deshabilitarlo. La deshabilitación se produce automáticamente en función del registro del número de teléfono que genera el Operador y de los puntajes asignados por el Administrador a ese “estado.”</p>
+<p>La tercera solapa, Teléfonos, es desde donde se importan y exportan las bases de datos de números de teléfonos. La importación se hace a través de un archivo .CSV donde en cada línea se completan los campos número de teléfono, número de onda, nombre, región y su código, envío o no de carta y tipo de prioridad del número. Desde aquí el Administrador puede modificar individualmente cada número y habilitarlo o deshabilitarlo. La deshabilitación se produce automáticamente en función del registro del número de teléfono que genera el Operador y de los puntajes asignados por el Administrador a ese “estado”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Tel"></span>
 <img src="imagenes/figura6-05.png" alt="Teléfonos" width="100%" />
 <p class="caption">
@@ -402,21 +398,21 @@ Figura 4.5: Teléfonos
 Figura 4.6: Registro
 </p>
 </div>
-<p>Las solapas de Estado de Inicio y Estado Final sirven para determinar cuáles son las condiciones de registro que pueden generar los Operadores. El sistema permite generar y editar estados de registro, por ejemplo “Aceptó ser encuestado” o “Ausente.” Los Operadores generan registros en función del estado final de la llamada. Según cómo haya sido este estado el número volverá a aparecer (con condicionantes de tiempo en minutos) o no. Por ejemplo, en la imagen a continuación se ve que un número cuyo estado es “Ocupado” reaparece a los 20 minutos de generado el registro. Además, es necesario asignar puntos a cada estado siendo que cuando se suman 12 puntos el número queda inhabilitado. Así, como muestra el ejemplo, si el estado “Rechazó ser encuestado” suma 12 puntos, un teléfono al que se le haya asignado ese estado queda inhabilitado. En cambio, un llamado cuyo registro es “Ocupado” no suma ningún punto y no queda inhabilitado hasta tanto no se le asignen otros registros que acumulen 12 puntos.</p>
+<p>Las solapas de Estado de Inicio y Estado Final sirven para determinar cuáles son las condiciones de registro que pueden generar los Operadores. El sistema permite generar y editar estados de registro, por ejemplo “Aceptó ser encuestado” o “Ausente”. Los Operadores generan registros en función del estado final de la llamada. Según cómo haya sido este estado el número volverá a aparecer (con condicionantes de tiempo en minutos) o no. Por ejemplo, en la imagen a continuación se ve que un número cuyo estado es “Ocupado” reaparece a los 20 minutos de generado el registro. Además, es necesario asignar puntos a cada estado siendo que cuando se suman 12 puntos el número queda inhabilitado. Así, como muestra el ejemplo, si el estado “Rechazó ser encuestado” suma 12 puntos, un teléfono al que se le haya asignado ese estado queda inhabilitado. En cambio, un llamado cuyo registro es “Ocupado” no suma ningún punto y no queda inhabilitado hasta tanto no se le asignen otros registros que acumulen 12 puntos.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Estado"></span>
 <img src="imagenes/figura6-07.png" alt="Estado de inicio" width="100%" />
 <p class="caption">
 Figura 4.7: Estado de inicio
 </p>
 </div>
-<p>En la solapa “Ondas,” el Administrador modifica las fechas de inicio y final de cada onda de relevamiento. Esto permite incorporar nuevas ondas y modificar la fecha de inicio y fin en función de cómo sea el desempeño del campo. Por ejemplo, si la onda 1 comenzara el 1° de febrero y finalizara el 3 de marzo, todos los números que hayan sido importados con la onda 1 aparecerán sólo entre el 1 de febrero y el 3 de marzo. Si el campo tuviese una baja tasa de respuesta y fuese necesario continuar hasta el 4 de marzo, será posible realizar el cambio el mismo 4 de marzo sin mayores complicaciones.</p>
+<p>En la solapa “Ondas”, el Administrador modifica las fechas de inicio y final de cada onda de relevamiento. Esto permite incorporar nuevas ondas y modificar la fecha de inicio y fin en función de cómo sea el desempeño del campo. Por ejemplo, si la onda 1 comenzara el 1° de febrero y finalizara el 3 de marzo, todos los números que hayan sido importados con la onda 1 aparecerán sólo entre el 1 de febrero y el 3 de marzo. Si el campo tuviese una baja tasa de respuesta y fuese necesario continuar hasta el 4 de marzo, será posible realizar el cambio el mismo 4 de marzo sin mayores complicaciones.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Ond"></span>
 <img src="imagenes/figura6-08.png" alt="Ondas" width="100%" />
 <p class="caption">
 Figura 4.8: Ondas
 </p>
 </div>
-<p>El sistema también permite modificar un registro que han realizado los Operadores. Para esto el supervisor debe seleccionar la opción “Cambiar” en la columna “Modificar estados” del registro correspondiente y marcar el registro correcto teniendo en cuenta que el Estado de Inicio y el Estado de finalización. El sistema no permite el cambio si no hay coherencia entre ambos estados. Por ejemplo, si en el Estado de Inicio se marca la opción “Ausente” y en el Estado de Finalización se selecciona “Completa,” el sisema no permitirá el cambio. En caso de seleccionar la opción “Cancelar,” el registro vuelve a ser el original.</p>
+<p>El sistema también permite modificar un registro que han realizado los Operadores. Para esto el supervisor debe seleccionar la opción “Cambiar” en la columna “Modificar estados” del registro correspondiente y marcar el registro correcto teniendo en cuenta que el Estado de Inicio y el Estado de finalización. El sistema no permite el cambio si no hay coherencia entre ambos estados. Por ejemplo, si en el Estado de Inicio se marca la opción “Ausente” y en el Estado de Finalización se selecciona “Completa”, el sisema no permitirá el cambio. En caso de seleccionar la opción “Cancelar”, el registro vuelve a ser el original.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Canc"></span>
 <img src="imagenes/figura6-09.png" alt="Cancelar" width="100%" />
 <p class="caption">
@@ -435,7 +431,7 @@ Figura 4.9: Cancelar
 Figura 4.10: Lime Survey
 </p>
 </div>
-<p>El Lime Survey, dispone de un aplicativo que permite hacer un análisis estadístico de las respuestas por cada pregunta en tiempo real. Por ejemplo, es posible observar cuántas encuestas fueron respondidas hasta el final o cuántas encuestas resultaron completas o respondieron “1” a “Cantidad de viajes por Argentina.” Las estadísticas pueden exportarse en Excel, PDF o verse en la misma página web.</p>
+<p>El Lime Survey, dispone de un aplicativo que permite hacer un análisis estadístico de las respuestas por cada pregunta en tiempo real. Por ejemplo, es posible observar cuántas encuestas fueron respondidas hasta el final o cuántas encuestas resultaron completas o respondieron “1” a “Cantidad de viajes por Argentina”. Las estadísticas pueden exportarse en Excel, PDF o verse en la misma página web.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:SPSS"></span>
 <img src="imagenes/figura6-11.png" alt="Formato SPSS" width="100%" />
 <p class="caption">
@@ -465,7 +461,7 @@ Figura 4.13: Audios
 <div id="operador" class="section level4 hasAnchor" number="4.4.1.2">
 <h4><span class="header-section-number">4.4.1.2</span> Operador<a href="anexo.html#operador" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>El sistema informático permite desdoblar el campo entre Operadores en las instalaciones previstas de relevamiento (Operador “in-house”) y Operadores instalados desde sus hogares (“Operadores remotos”). En general, al relevamiento remoto son asignados encuestadores de extrema confianza y con experiencia acumulada. De todas formas, el software permite una supervisión diaria (en tiempo real) sobre cada encuestador remoto.</p>
-<p>El relevamiento con Operadores remotos se utiliza para casos especiales o para realizar una cantidad pequeña de encuestas diarias con el fin de aliviar el trabajo a los encuestadores “in-house.”</p>
+<p>El relevamiento con Operadores remotos se utiliza para casos especiales o para realizar una cantidad pequeña de encuestas diarias con el fin de aliviar el trabajo a los encuestadores “in-house”.</p>
 <div id="operaador-in-house" class="section level5 hasAnchor" number="4.4.1.2.1">
 <h5><span class="header-section-number">4.4.1.2.1</span> Operaador “IN-HOUSE”<a href="anexo.html#operaador-in-house" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>El Operador utiliza únicamente una ventana del navegador web desde donde realiza las llamadas y registra las respuestas de la encuesta. El procedimiento que se realiza es el siguiente: ingresar al sistema, realizar la llamada, eventualmente recabar los datos de las respuestas y registrar el resultado de la llamada.</p>
@@ -597,7 +593,7 @@ Figura 4.22: Cuadro 2
 <p><strong>Exclusión 1</strong>. Empleado de alguna empresa o institución del lugar visitado:</p>
 </div>
 <p>Si una persona realizó un desplazamiento cuyo <strong>motivo principal fue trabajar como empleado de una empresa o institución residente en el lugar visitado</strong> (a cambio de un <strong>salario</strong>, se trate de un empleo registrado o no) no se considerará visitante de ese lugar y por tanto no se registrará el viaje.</p>
-<p>No se considera <strong>“empleado”</strong> si quien viaja por trabajo brinda un servicio por el cual percibe honorarios, o bien si recibe dinero en concepto de “viáticos,” es decir, una asignación para cubrir los gastos del viaje (pasajes, alojamiento, alimentación, etc.).</p>
+<p>No se considera <strong>“empleado”</strong> si quien viaja por trabajo brinda un servicio por el cual percibe honorarios, o bien si recibe dinero en concepto de “viáticos”, es decir, una asignación para cubrir los gastos del viaje (pasajes, alojamiento, alimentación, etc.).</p>
 <p>Por ejemplo, <strong>NO se consideran viajeros cuando son empleados en el lugar de destino:</strong></p>
 <ul>
 <li><p>trabajadores en temporada en hoteles, explotaciones agropecuarias, etc.;</p></li>
@@ -639,7 +635,7 @@ Figura 4.22: Cuadro 2
 </ul>
 <!-- -->
 <ul>
-<li><p>No aliente la no respuesta del entrevistado. Evite mencionar ciertas frases, tales como: “me veo en la obligación de preguntarle los ingresos,” “si usted quiere responde, si no quiere no responde,” etc. Tiene que dar su máximo esfuerzo para evitar los registros con Ns/Nr, dado que esta categoría debe usarse sólo excepcionalmente: esta opción sólo aparece en la encuesta por la necesidad de darle continuidad al flujo de preguntas.</p></li>
+<li><p>No aliente la no respuesta del entrevistado. Evite mencionar ciertas frases, tales como: “me veo en la obligación de preguntarle los ingresos”, “si usted quiere responde, si no quiere no responde”, etc. Tiene que dar su máximo esfuerzo para evitar los registros con Ns/Nr, dado que esta categoría debe usarse sólo excepcionalmente: esta opción sólo aparece en la encuesta por la necesidad de darle continuidad al flujo de preguntas.</p></li>
 <li><p>No induzca respuestas, ni dé por supuestas respuestas que el entrevistado no haya brindado.</p></li>
 <li><p>En muchas preguntas Usted deberá “traducir” una respuesta coloquial del entrevistado a una de las categorías previstas en el cuestionario. Si bien en la mayoría de los casos esto suele ser sencillo, algunas veces encontrará situaciones de cierta complejidad que requieren una definición de su parte, para lo cual deberá haber asimilado cada uno de los conceptos relacionados con esta encuesta, tanto en lo que hace a su definición general como a las excepciones y casos infrecuentes. En general, en el sistema de ingreso, luego del enunciado de la pregunta, encontrará las definiciones conceptuales y otras aclaraciones a las cuales recurrir en caso de dudas.</p></li>
 <li><p>Si persisten dudas en las respuestas brindadas por los entrevistados, antes de enviar la encuesta consulte con el supervisor o jefe de campo para resolverlas.</p></li>
@@ -662,7 +658,7 @@ Figura 4.23: Detalles
 <div id="completamiento-de-la-carátula-resúmen-del-llamado" class="section level5 hasAnchor" number="4.5.1.2.2">
 <h5><span class="header-section-number">4.5.1.2.2</span> Completamiento de la carátula: resúmen del llamado<a href="anexo.html#completamiento-de-la-carátula-resúmen-del-llamado" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>La Carátula de este Cuestionario debe ser completada en el momento en que se realiza el llamado telefónico, consignando las distintas situaciones que se presenten. Esta carátula constituye un resumen lógico de la llamada telefónica. En ella volcará información que surja de la realización de preguntas o del desarrollo de la entrevista.</p>
-<p>En la pantalla aparecerá el número al que debe a llamar. Pero antes de efectuar el llamado deberá observar la información correspondiente al número que sale en pantalla (Provincia, detalle de llamadas, etc.), ya que la misma facilitará el dialogo con el entrevistado. Si el llamado que está por realizar no es el primero a ese hogar, en la pantalla le aparecerá el detalle de llamadas realizadas con anterioridad, con lo que dispondrá de información sobre lo que ocurrió previamente con ese hogar. Por ejemplo, si en el detalle de último llamado dice “Se cortó y no se pudo volver a encuestar,” Ud. sabe que está por comunicarse con un hogar que ya fue contactado previamente, y es información adicional que le puede servir para lograr, esta vez, realizar la encuesta. Una vez concluido el llamado y enviado el “registro de llamado” le aparecerá el número al que deberá llamar a continuación.</p>
+<p>En la pantalla aparecerá el número al que debe a llamar. Pero antes de efectuar el llamado deberá observar la información correspondiente al número que sale en pantalla (Provincia, detalle de llamadas, etc.), ya que la misma facilitará el dialogo con el entrevistado. Si el llamado que está por realizar no es el primero a ese hogar, en la pantalla le aparecerá el detalle de llamadas realizadas con anterioridad, con lo que dispondrá de información sobre lo que ocurrió previamente con ese hogar. Por ejemplo, si en el detalle de último llamado dice “Se cortó y no se pudo volver a encuestar”, Ud. sabe que está por comunicarse con un hogar que ya fue contactado previamente, y es información adicional que le puede servir para lograr, esta vez, realizar la encuesta. Una vez concluido el llamado y enviado el “registro de llamado” le aparecerá el número al que deberá llamar a continuación.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:registr"></span>
 <img src="imagenes/figura6-24.png" alt="registro de llamado" width="100%" />
 <p class="caption">
@@ -688,15 +684,15 @@ Figura 4.26: Interfaz
 </div>
 <p>En caso de ser requerida, Usted le brindará mayor información:</p>
 <div class="note">
-<p>“Su hogar fue seleccionado al azar para responder una encuesta sobre si realizaron o no viajes y, en caso de haber hecho viajes, sobre sus características.” “Su colaboración es muy importante y la información que nos brinde está protegida por la Ley Nacional de Secreto Estadístico. Sus datos son anónimos y confidenciales y sólo serán utilizados con fines estadísticos.”</p>
+<p>“Su hogar fue seleccionado al azar para responder una encuesta sobre si realizaron o no viajes y, en caso de haber hecho viajes, sobre sus características”. “Su colaboración es muy importante y la información que nos brinde está protegida por la Ley Nacional de Secreto Estadístico. Sus datos son anónimos y confidenciales y sólo serán utilizados con fines estadísticos.”</p>
 </div>
 <p>Usted puede brindarle todas las explicaciones que el entrevistado requiera, de forma clara y sencilla. Puede seguir las aquí explicitadas o decirlas de otra forma, siempre y cuando se ajusten a la realidad.</p>
 <ul>
-<li><p>Debe evitar mencionar la palabra “turismo,” para no sesgar la comprensión del entrevistado, puesto que en esta Encuesta se indaga por viajes que pudieron haber sido por motivos no estrictamente ligados a lo que la gente entiende por “turismo.”</p></li>
+<li><p>Debe evitar mencionar la palabra “turismo”, para no sesgar la comprensión del entrevistado, puesto que en esta Encuesta se indaga por viajes que pudieron haber sido por motivos no estrictamente ligados a lo que la gente entiende por “turismo”.</p></li>
 <li><p>Además, debe hacer hincapié en que es importante que responda la Encuesta aún si no han realizado viajes, puesto que conocer esto es tan importante como saber si han realizado viajes y sus características. Por ejemplo, puede argumentar lo siguiente:</p></li>
 </ul>
 <div class="note">
-<p>“Es importante que responda la Encuesta aún si no ha realizado viajes puesto que al Ministerio de Turismo le interesa conocer las razones por las que las personas no viajan, con el objetivo de implementar políticas activas que permitan que más gente pueda viajar.”</p>
+<p>“Es importante que responda la Encuesta aún si no ha realizado viajes puesto que al Ministerio de Turismo le interesa conocer las razones por las que las personas no viajan, con el objetivo de implementar políticas activas que permitan que más gente pueda viajar”.</p>
 </div>
 <ul>
 <li><p>Si la persona contactada desea verificar la existencia de la encuesta o su identidad, Usted deberá informarle el número telefónico de la coordinación de campo y el horario en que pueden comunicarse, la dirección de correo electrónico a la que pueden escribir y/o el sitio web del Ministerio donde se informa sobre la realización de esta Encuesta.</p></li>
@@ -709,14 +705,14 @@ Figura 4.27: Interfaz
 </p>
 </div>
 <p>Deberá seleccionar una categoría dependiendo del resultado del llamado</p>
-<p><strong>Ausente:</strong> Marcará esta opción si nadie atiende el llamado y luego presionará “Generar Registro.” Este número volverá a aparecer minutos después.</p>
+<p><strong>Ausente:</strong> Marcará esta opción si nadie atiende el llamado y luego presionará “Generar Registro”. Este número volverá a aparecer minutos después.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:estadode3"></span>
 <img src="imagenes/figura6-28.png" alt="Estado de inicio" width="100%" />
 <p class="caption">
 Figura 4.28: Estado de inicio
 </p>
 </div>
-<p><strong>Acepto ser encuestado:</strong> Si la persona contactada forma parte de un hogar particular que reside en el domicilio contactado y acepta responder, abrirá la encuesta y procederá a su administración. Luego presionará “Encuestar,” de ese modo se habilitará el formulario de la encuesta para ser completado.</p>
+<p><strong>Acepto ser encuestado:</strong> Si la persona contactada forma parte de un hogar particular que reside en el domicilio contactado y acepta responder, abrirá la encuesta y procederá a su administración. Luego presionará “Encuestar”, de ese modo se habilitará el formulario de la encuesta para ser completado.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:encuest"></span>
 <img src="imagenes/figura6-29.png" alt="Encuestar" width="100%" />
 <p class="caption">
@@ -744,14 +740,14 @@ Figura 4.31: Inicio a encuesta
 Figura 4.32: guardar
 </p>
 </div>
-<p>Seleccionara la opción “Guardar y Volver en otro momento.”</p>
+<p>Seleccionara la opción “Guardar y Volver en otro momento”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ennoter4"></span>
 <img src="imagenes/figura6-33.png" alt="guardar una encuesta no termonada" width="100%" />
 <p class="caption">
 Figura 4.33: guardar una encuesta no termonada
 </p>
 </div>
-<p>En el “Nombre,” “Contraseña” y “Repita la contraseña” ingrese el número de teléfono al que se llamó.</p>
+<p>En el “Nombre”, “Contraseña” y “Repita la contraseña” ingrese el número de teléfono al que se llamó.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ennotermi6"></span>
 <img src="imagenes/figura6-34.png" alt="Completar datos" width="100%" />
 <p class="caption">
@@ -772,28 +768,28 @@ Figura 4.35: Correo electronico
 Figura 4.36: Pregunta de seguridad
 </p>
 </div>
-<p>Presione “Guardar ahora.”</p>
+<p>Presione “Guardar ahora”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:guard"></span>
 <img src="imagenes/figura6-37.png" alt="Guargar ahora" width="100%" />
 <p class="caption">
 Figura 4.37: Guargar ahora
 </p>
 </div>
-<p>Una vez hecho esto, se debe seleccionar el “Estado de finalización” (ubicado en el lado izquierdo de la pantalla), la opción “Incompleta” y seleccionara “Día” y “Hora” en que concertó una nueva entrevista. Luego presione “Generar Registro.”</p>
+<p>Una vez hecho esto, se debe seleccionar el “Estado de finalización” (ubicado en el lado izquierdo de la pantalla), la opción “Incompleta” y seleccionara “Día” y “Hora” en que concertó una nueva entrevista. Luego presione “Generar Registro”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:fin"></span>
 <img src="imagenes/figura6-38.png" alt="Estado de finalizacion" width="100%" />
 <p class="caption">
 Figura 4.38: Estado de finalizacion
 </p>
 </div>
-<p>**Incompleta Rechazo:* La entrevista se interrumpió antes de completar las preguntas sobre el jefe de hogar porque la persona contactada se negó a continuar con la encuesta. En ese caso, la encuesta se da por finalizada ese día. Luego procederá de la misma forma que cuando se trató de una encuesta “Incompleta.” Finalmente seleccionara la opción “Incompleta Rechazo” y presionara “Generar Registro.”</p>
+<p>**Incompleta Rechazo:* La entrevista se interrumpió antes de completar las preguntas sobre el jefe de hogar porque la persona contactada se negó a continuar con la encuesta. En ese caso, la encuesta se da por finalizada ese día. Luego procederá de la misma forma que cuando se trató de una encuesta “Incompleta”. Finalmente seleccionara la opción “Incompleta Rechazo” y presionara “Generar Registro”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:fin1"></span>
 <img src="imagenes/figura6-39.png" alt="Incompleta" width="100%" />
 <p class="caption">
 Figura 4.39: Incompleta
 </p>
 </div>
-<p><strong>Incompleta con Jefe de Hogar:</strong> La entrevista se interrumpió (por falta de tiempo o por rechazo a continuar) luego de haber recabado, al menos, los datos del jefe del hogar. En este caso se continúa completando las preguntas siguientes hasta llegar al final de la encuesta, con valores validos que pueda llegar a conocer el encuestador (sexo, edad, etc. que hayan sido mencionados en otro momento de la entrevista) y NS/NR en los restantes. En las observaciones finales de cada miembro del que no se saben los datos anotar “999.”</p>
+<p><strong>Incompleta con Jefe de Hogar:</strong> La entrevista se interrumpió (por falta de tiempo o por rechazo a continuar) luego de haber recabado, al menos, los datos del jefe del hogar. En este caso se continúa completando las preguntas siguientes hasta llegar al final de la encuesta, con valores validos que pueda llegar a conocer el encuestador (sexo, edad, etc. que hayan sido mencionados en otro momento de la entrevista) y NS/NR en los restantes. En las observaciones finales de cada miembro del que no se saben los datos anotar “999”.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:fin2"></span>
 <img src="imagenes/figura6-40.png" alt="Incompleta cpn Jefe de Hogar" width="100%" />
 <p class="caption">
@@ -818,7 +814,7 @@ Figura 4.41: Generar registro
 Figura 4.42: Rechazo ser encuestado
 </p>
 </div>
-<p><strong>Línea Ocupada:</strong> Si no es posible comunicarse porque la señal telefónica indica “ocupado,” marcará esta opción y el sistema automáticamente hará que aparezca nuevamente este número a los pocos minutos.</p>
+<p><strong>Línea Ocupada:</strong> Si no es posible comunicarse porque la señal telefónica indica “ocupado”, marcará esta opción y el sistema automáticamente hará que aparezca nuevamente este número a los pocos minutos.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ocupado1"></span>
 <img src="imagenes/figura6-43.png" alt="Ocupado" width="100%" />
 <p class="caption">
@@ -893,7 +889,7 @@ Figura 4.45: Local comercial / Oficina pública
 Figura 4.46: Número de hogar
 </p>
 </div>
-<p>La primera información que usted deberá completar es el número de hogar (P1), en el que por definición registrará “1.”</p>
+<p>La primera información que usted deberá completar es el número de hogar (P1), en el que por definición registrará “1”.</p>
 <p><strong>P2. ¿CUÁNTAS PERSONAS FORMAN PARTE DE SU HOGAR?</strong></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:Localcomer56"></span>
 <img src="imagenes/figura6-47.png" alt="Número de hogar" width="100%" />
@@ -934,7 +930,7 @@ Figura 4.49: Bloque 1
 </div>
 <p>En primer lugar, se administrará todo el set de preguntas para el jefe del hogar luego, si corresponde, continuará por el miembro número 2 y así sucesivamente.</p>
 <div id="características-socio-demográficas" class="section level7" number="4.5.1.3.2.2.1">
-<p class="heading" number="4.5.1.3.2.2.1"><span class="header-section-number">4.5.1.3.2.2.1</span> características socio-demográficas</p>
+<p class="heading"><span class="header-section-number">4.5.1.3.2.2.1</span> características socio-demográficas</p>
 <p>Se recabará información sobre: - Relación de parentesco con el jefe - Sexo - Edad - Estado conyugal - Máximo nivel de instrucción formal alcanzado (sólo a personas de 14 años o más) - Situación ocupacional (sólo a personas de 14 años o más) - Cobertura de salud</p>
 <p><strong>P3. ¿QUÉ RELACIÓN TIENE CON EL JEFE/A DEL HOGAR?</strong></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:bloque1a"></span>
@@ -959,7 +955,7 @@ Figura 4.52: Edad
 </p>
 </div>
 <p>Deberá registrar el número de años cumplidos de cada uno de los miembros del hogar al momento de realizarse la Encuesta.</p>
-<p>En el caso de miembros del hogar menores de 1 año, Usted deberá registrar el valor “00.” Para aquellos miembros que tienen 98 o más años registrará el valor “98” y para aquellos que el informante declare desconocer o no desee responder, consignará el valor “99.”</p>
+<p>En el caso de miembros del hogar menores de 1 año, Usted deberá registrar el valor “00”. Para aquellos miembros que tienen 98 o más años registrará el valor “98” y para aquellos que el informante declare desconocer o no desee responder, consignará el valor “99”.</p>
 <p>Recuerde que interesa saber si es mayor o menor de 14 años, por el flujo de preguntas referidas al nivel de instrucción y a su situación ocupacional.</p>
 <div class="note">
 <p><strong>Las preguntas P6 a P12 deben ser completadas sólo para aquellas personas de 14 años o más. En el caso de las personas menores de 14 años, el flujo de la Encuesta lo llevará a la pregunta P13.</strong></p>
@@ -1068,7 +1064,7 @@ Figura 4.56: Busco trabajo
 <div class="note">
 <p><strong>«Buscar trabajo»</strong> es estar dispuesto a incorporarse al mercado de trabajo, llevando a cabo una búsqueda activa que incluye responder o publicar avisos en diarios u otros medios solicitando empleo, registrarse en bolsas de trabajo, buscar recursos financieros o materiales para establecer una empresa, gestionar permisos y licencias para iniciar una actividad laboral, solicitar empleo en los lugares de trabajo, fábricas u otros lugares de reunión, etc.</p>
 </div>
-<p>Si respondió que “Si,” pasará a la pregunta P12. Si contestó que “No,” seguirá en la pregunta siguiente.</p>
+<p>Si respondió que “Si”, pasará a la pregunta P12. Si contestó que “No”, seguirá en la pregunta siguiente.</p>
 <p><strong>P10. ¿USTED ES…</strong></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ustedes"></span>
 <img src="imagenes/figura6-57.png" alt="Usted es" width="100%" />
@@ -1114,11 +1110,11 @@ Figura 4.59: Cobertura de salud
 <li><p>Obra social (incluye PAMI y obras sociales provinciales y municipales)</p></li>
 <li><p>Sistema Público / Ninguno</p></li>
 </ul>
-<p>Si posee “Prepaga…” y “Obra Social…,” deberá marcar sólo la primer opción, es decir, “Prepaga….”</p>
+<p>Si posee “Prepaga…” y “Obra Social…”, deberá marcar sólo la primer opción, es decir, “Prepaga….”.</p>
 <p>Si el respondente no sabe en qué categoría incluir a su prestadora de salud, Usted marcará la opción “Otro” (que no debe leer) y especificará el nombre de la prestadora u otra información que le brinde.</p>
 </div>
 <div id="comportamiento-turístico-en-el-año-calendario-anterior" class="section level7" number="4.5.1.3.2.2.2">
-<p class="heading" number="4.5.1.3.2.2.2"><span class="header-section-number">4.5.1.3.2.2.2</span> Comportamiento turístico en el año calendario anterior</p>
+<p class="heading"><span class="header-section-number">4.5.1.3.2.2.2</span> Comportamiento turístico en el año calendario anterior</p>
 <p>Las preguntas P101 a P104 tienen por objetivo conocer el comportamiento turístico de cada integrante del hogar en el año calendario anterior al año en que se está llevando a cabo la encuesta.</p>
 <p><strong>Este conjunto de preguntas se realizará solamente en las encuestas que se realicen en los meses de febrero a mayo de cada año (el resto del año NO se realiza).</strong></p>
 <div class="note">
@@ -1238,7 +1234,7 @@ Figura 4.65: Segunda vivienda
 <p>Recuerde que el hogar <strong>pudo haber dispuesto</strong> de una segunda vivienda, pero no <strong>haberla utilizado</strong> en el período de referencia. En este último caso, deberá <strong>marcar No</strong>.</p>
 </div>
 <p>Tenga en cuenta que la mención a casas de fines de semana, en un country o en algún lugar turístico es sólo a los fines de ejemplificar sobre lo que se está indagando. Por ejemplo, un hogar puede tener un departamento en una ciudad importante -que no necesariamente sea considerada un destino turístico- para quedarse allí cuando viaja a realizar trámites, a visitar familiares, etc. En este caso, u otro similar, si debe registrar que el hogar tiene una segunda vivienda (siempre y cuando hayan realizado algún viaje o visita hasta allí en el bimestre de referencia).</p>
-<p>Si el hogar responde <strong>“Sí”</strong>, Usted <strong>continuará</strong> con la administración de las preguntas de este Bloque; si responde <strong>“No,” finalizará</strong> aquí la indagación y pasará directamente al Bloque 6.</p>
+<p>Si el hogar responde <strong>“Sí”</strong>, Usted <strong>continuará</strong> con la administración de las preguntas de este Bloque; si responde <strong>“No”, finalizará</strong> aquí la indagación y pasará directamente al Bloque 6.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:respuesfinal2"></span>
 <img src="imagenes/figura6-66.png" alt="Cantidad de segunda vivienda" width="100%" />
 <p class="caption">
@@ -1400,7 +1396,7 @@ Figura 4.80: País principal
 <p>Si el destino principal fue un lugar en <strong>Argentina</strong>, debe considerar a la ciudad/localidad en la que se alojaron más noches o pasaron más horas. Por lo tanto, aquí deberá señalar la provincia y escribir el nombre de la ciudad/localidad.</p>
 <p>Por ejemplo, si estuvieron primero 6 noches en Cafayate (a 100 pesos la noche), luego 6 noches en La Quiaca (a 60 pesos la noche), y finalmente 3 en Tilcara (a 120 pesos la noche) consignará como destino principal a “Cafayate” por haber sido el de mayor tarifa en alojamiento entre las ciudades o localidades en que estuviera más noches. En el caso en que los alojamientos utilizados tengan tarifas y categorías similares (o desconocer el costo de la tarifa del alojamiento, por estar incluido dentro de un Paquete Turístico, por ejemplo), debería haber anotado “La Quiaca” por ser la última ciudad/localidad visitada entre las que tenían una cantidad mayor de noches de alojamiento.</p>
 <p>Si el destino principal del viaje fue un lugar en el <strong>extranjero</strong>, se considerará como destino principal el país en el que se alojaron más noches.</p>
-<p>Si los miembros del hogar se hubieran alojado en distintas ciudades de diferentes países deberá verificar en qué país (sumando las noches que pasó en distintas ciudades del mismo) pasaron más noches y consignar al mismo como destino principal del viaje. Por ejemplo, si realizaron un tour por Europa y se alojaron 2 noches en Paris, 3 en Marsella, 4 en Roma y 4 en Madrid; deberá consignar como destino del viaje “Francia,” porque allí se alojaron 5 noches.</p>
+<p>Si los miembros del hogar se hubieran alojado en distintas ciudades de diferentes países deberá verificar en qué país (sumando las noches que pasó en distintas ciudades del mismo) pasaron más noches y consignar al mismo como destino principal del viaje. Por ejemplo, si realizaron un tour por Europa y se alojaron 2 noches en Paris, 3 en Marsella, 4 en Roma y 4 en Madrid; deberá consignar como destino del viaje “Francia”, porque allí se alojaron 5 noches.</p>
 <p>En caso de haber pasado igual cantidad de noches en 2 o más países, deberá consignar como destino principal aquel en que el tipo de alojamiento utilizado haya sido de mayor tarifa o de mejor categoría. Si no es posible determinarlo según este criterio y tratándose de alojamientos de tarifas y categorías similares, considerará como destino principal al país al que llegó en último término (entre los países que pasó igual cantidad de noches).</p>
 <p>Por ejemplo, si estuvieron primero 4 noches en Francia (a 200 euros la noche), luego 4 noches en España (a 100 euros la noche), y finalmente 1 en Portugal (300 euros la noche) consignará como destino principal a “Francia” por haber sido el de mayor tarifa en alojamiento entre los países en que estuvo más noches. En el caso de haber gastado la misma cantidad de dinero en alojamientos de categorías similares, debería anotar “España” por ser el último país visitado entre los que tenían una cantidad mayor de noches.</p>
 <p>Si durante el mismo viaje pasaron <strong>algunas noches en Argentina y otras en el extranjero</strong>, deberá <strong>tener en cuenta</strong> si la <strong>cantidad de noches</strong> pasadas fue mayor en <strong>Argentina</strong> o en <strong>la totalidad de los destinos del exterior</strong>.</p>
@@ -1472,7 +1468,7 @@ Figura 4.85: Calendario de feriados
 Figura 4.86: Coincidencia del viajes
 </p>
 </div>
-<p>Aquí debe leer todas las fechas o periodos que aparezcan listados (a excepción de “Ninguno” y NS/NR) y marcar siempre una sola opción. Si el viaje o la visita no coincidió con ninguna de las fechas, debe marcar la opción “Ninguno.”</p>
+<p>Aquí debe leer todas las fechas o periodos que aparezcan listados (a excepción de “Ninguno” y NS/NR) y marcar siempre una sola opción. Si el viaje o la visita no coincidió con ninguna de las fechas, debe marcar la opción “Ninguno”.</p>
 <p>Usted debe tener especial recaudo con esta pregunta. Si el hogar tiene dudas, re-pregunte y dele tiempo que sea necesario para obtener una respuesta segura. Tenga presente que aparecen listados todos los feriados correspondientes a los dos meses del periodo de referencia. En general, si el viaje coincidió con algún feriado, este feriado debería corresponder al mes de referencia. Puede suceder que no sea así, por ejemplo, si un hogar inicio un viaje el 16 de agosto y el mismo finalizó el 1 de septiembre (suponiendo que el periodo de referencia es agosto y septiembre), el mes de referencia es septiembre y coincidió con el feriado del 17 de agosto.</p>
 <p><strong>PX05.2. ¿ALGUNO DE ESTOS VIAJES / VISITAS COINCIDIÓ CON…</strong></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:coincidencias2"></span>
@@ -1513,7 +1509,7 @@ Figura 4.89: Duración del viajes
 <div class="note">
 <p>Más allá que la cantidad de noches que pasaron viajando, tenga en cuenta que para que el viaje sea considerado como tal, deben haber pasado al menos una noche en cualquier tipo de aojamiento del lugar de destino.</p>
 </div>
-<p>La cantidad de noches puede variar entre una y 364 (por definición, un viaje debe tener una duración inferior al año). Si el hogar NS/NR la cantidad de noches, deberá anotar “999.”</p>
+<p>La cantidad de noches puede variar entre una y 364 (por definición, un viaje debe tener una duración inferior al año). Si el hogar NS/NR la cantidad de noches, deberá anotar “999”.</p>
 <p>Si se trata de un viaje con más de una etapa, la duración del mismo debe ser mayor que la cantidad de etapas señaladas en PX03.1.5.</p>
 <p>En el caso de los viajes CDSV aparecerá un listado en el cual tendrá que señalar la cantidad de noches: una, dos o tres.</p>
 </div>
@@ -1531,13 +1527,13 @@ Figura 4.90: Lugar de hospedaje
 <p>1. El más utilizado, en términos de la cantidad de noches que pernoctaron en cada tipo de alojamiento durante todas las etapas del viaje.</p>
 <p>2. El de mayor tarifa o mayor categoría.</p>
 <p>3. El último tipo de alojamiento entre los utilizados durante igual cantidad de noches de similar categoría.</p>
-<p>Por ejemplo: “Un hogar residente en San Miguel de Tucumán realizó un viaje durante 9 días por distintas localidades de Córdoba: se alojó en la Ciudad de Córdoba durante 3 noches en un hotel 5 estrellas. De allí pasó a Cosquín donde estuvo parando 4 noches en un hotel 3 estrellas, y finalmente viajó a Cruz del Eje, hospedándose durante 2 noches en una casa donde vivían amigos suyos.” Debe registrarse como alojamiento principal utilizado en este viaje “Hotel u hostería hasta 3 estrellas….”</p>
+<p>Por ejemplo: “Un hogar residente en San Miguel de Tucumán realizó un viaje durante 9 días por distintas localidades de Córdoba: se alojó en la Ciudad de Córdoba durante 3 noches en un hotel 5 estrellas. De allí pasó a Cosquín donde estuvo parando 4 noches en un hotel 3 estrellas, y finalmente viajó a Cruz del Eje, hospedándose durante 2 noches en una casa donde vivían amigos suyos”. Debe registrarse como alojamiento principal utilizado en este viaje “Hotel u hostería hasta 3 estrellas…”.</p>
 <p>A continuación, se presenta una breve descripción de los tipos de alojamientos listados:</p>
 <ul>
 <li><p><strong>Vivienda de familiares y amigos que residen en ella:</strong> Cualquier tipo de inmueble en que residen familiares o amigos del hogar y, por tanto, quienes viajan no deben pagar nada por alojarse allí.</p></li>
 <li><p><strong>Vivienda de familiares y amigos que no residen en ella:</strong> En este caso se trata de segundas viviendas de otro hogar que la presta o cede en forma gratuita a los miembros del hogar encuestado. Si pagó algo debe marcar la categoría siguiente.</p></li>
 <li><p><strong>Vivienda alquilada por temporada:</strong> Casa, departamento, cabaña, etc. alquilada por un período de tiempo breve (una semana, quince días, un mes, etc.). En este caso, el alquiler no supone ningún servicio extra (seguridad, desayuno, limpieza, etc.); si lo incluyera debe registrarse, de acuerdo a la categoría, en algunas de las opciones correspondientes a establecimientos hoteleros.</p></li>
-<li><p><strong>Camping (casa rodante, carpa, etc.):</strong> El tipo de alojamiento “camping,” es un establecimiento en el que se paga para ocupar un determinado espacio (para la carpa, casa rodante, etc.) y que puede ofrecer distintos servicios (seguridad, luz eléctrica, espacios para practicar deporte, piscina, parrillas, etc.). Si acamparon en un lugar público, sin pagar por el espacio, deberá registrar como tipo de alojamiento la opción “Otros” y especificarlo. Si se alojaron en dormis, cabañas o piezas ubicadas dentro de un camping, deberá registrar las noches pasadas allí en la categoría “Hotel u hostería hasta 3 estrellas….”</p></li>
+<li><p><strong>Camping (casa rodante, carpa, etc.):</strong> El tipo de alojamiento “camping”, es un establecimiento en el que se paga para ocupar un determinado espacio (para la carpa, casa rodante, etc.) y que puede ofrecer distintos servicios (seguridad, luz eléctrica, espacios para practicar deporte, piscina, parrillas, etc.). Si acamparon en un lugar público, sin pagar por el espacio, deberá registrar como tipo de alojamiento la opción “Otros” y especificarlo. Si se alojaron en dormis, cabañas o piezas ubicadas dentro de un camping, deberá registrar las noches pasadas allí en la categoría “Hotel u hostería hasta 3 estrellas…”.</p></li>
 <li><p><strong>Hotel u hostería hasta 3 estrellas (o categoría desconocida), hospedaje, residencial, cabaña o bungalow, albergue, hostel o similares:</strong> Además se incluyen hoteles sindicales, habitaciones alquiladas en casas de familia y alojamientos similares con servicios hoteleros incluidos en estas categorías. También deben incluirse los departamentos, bungalows, dormis, etc. que, además del espacio para pernoctar, proveen servicios hoteleros (desayuno, servicio doméstico, etc.).</p></li>
 <li><p><strong>Hotel 4 y 5 estrellas, apart hotel o similares:</strong> Incluye hoteles de playa, clubes residenciales y establecimientos similares con servicios hoteleros incluidos en estas categorías.</p></li>
 <li><p><strong>Estancia o casa rural:</strong> Se trata de establecimientos que brindan servicios hoteleros que tienen la particularidad de ubicarse en ámbitos rurales. Pueden orientarse hacia la realización actividades características a ese ámbito (cabalgatas, comidas típicas, caza, etc.), y/o al descanso y relax en un ambiente natural. No se debe confundir con casas de amigos o familiares (que residen o no allí) ubicadas en un entorno rural. Esos casos deberán registrarse en las categorías vivienda de familiares y amigos que residen en ella / que no residen en ella, según corresponda.</p></li>
@@ -1606,22 +1602,22 @@ Figura 4.92: Motivo del viaje
 <li><p><strong>Compras:</strong> Adquirir bienes de consumo comunes o que respondan a intereses especiales (ropa, joyería de diseño, obras de arte, artesanías) para uso personal o como regalos, excepto cuando sea para la reventa o para su uso en un proceso productivo (en este caso, el motivo es “trabajo, negocios, motivos profesionales”).</p></li>
 <li><p><strong>Otros (trámites, etc.). Especificar:</strong> Cuando el motivo no pueda englobarse en ninguno de los ítems mencionados, debe ser especificado detalladamente (participar en manifestaciones políticas, buscar vivienda o empleo para radicarse allí en el futuro, emprender cualquier actividad no remunerada, etc.)</p></li>
 </ul>
-<p>Cuando haya dos o más razones por las que se realizó un viaje, debe tener en cuenta que aquí corresponde registrar sólo uno, el “motivo principal.” Es frecuente encontrar situaciones en las que se combinan más de un motivo (ocio y negocios, visita a familiares y estudio, etc.). En estos casos deberá indagar cuál fue el motivo más importante para el encuestado.</p>
+<p>Cuando haya dos o más razones por las que se realizó un viaje, debe tener en cuenta que aquí corresponde registrar sólo uno, el “motivo principal”. Es frecuente encontrar situaciones en las que se combinan más de un motivo (ocio y negocios, visita a familiares y estudio, etc.). En estos casos deberá indagar cuál fue el motivo más importante para el encuestado.</p>
 <p>Cuando el viaje se realizó por un motivo (por ejemplo, trabajo) pero también con otras finalidades (esparcimiento o visita a familiares, por ejemplo), el encuestado deberá discernir cual fue el motivo principal, es decir, aquel que si no habría existido no se hubiera realizado el viaje.</p>
 <p>Veamos algunos ejemplos:</p>
 <ul>
-<li><p>Un empleado es enviado por su empresa a realizar tareas de mantenimiento de la red informática en una sucursal de otra provincia. Allí, el empleado tiene familiares, por lo que aprovecha para visitarlos, quedándose un par de días más de lo previsto alojado en la casa de los mismos: el motivo principal es “trabajo.”</p></li>
-<li><p>Una persona viaja a una ciudad con fines de ocio y recreación, pero un día lo dedica a hacer un tratamiento de belleza en un centro especializado: el motivo principal es “ocio, recreación, esparcimiento.”</p></li>
-<li><p>Una pareja de jubilados viaja a una ciudad que posee un complejo termal, porque ir allí alivia sus dolores reumáticos; sin embargo, también salen a caminar, a cenar afuera, asisten a espectáculos culturales, etc.: la razón principal es “salud.”</p></li>
-<li><p>Una persona viaja al lugar donde residen sus padres porque hacía mucho tiempo que no los visitaba; ya en el lugar va a pescar con amigos y a visitar algunos lugares de interés turístico: el motivo principal es “visitar a familiares y amigos.”</p></li>
-<li><p>Una persona aprovecha que un tío suyo vive en Córdoba y se aloja en su casa durante sus vacaciones, en las que recorre lugares de su interés que hay en la zona, descansa, etc.: el motivo principal es “esparcimiento, ocio, recreación.”</p></li>
+<li><p>Un empleado es enviado por su empresa a realizar tareas de mantenimiento de la red informática en una sucursal de otra provincia. Allí, el empleado tiene familiares, por lo que aprovecha para visitarlos, quedándose un par de días más de lo previsto alojado en la casa de los mismos: el motivo principal es “trabajo”.</p></li>
+<li><p>Una persona viaja a una ciudad con fines de ocio y recreación, pero un día lo dedica a hacer un tratamiento de belleza en un centro especializado: el motivo principal es “ocio, recreación, esparcimiento”.</p></li>
+<li><p>Una pareja de jubilados viaja a una ciudad que posee un complejo termal, porque ir allí alivia sus dolores reumáticos; sin embargo, también salen a caminar, a cenar afuera, asisten a espectáculos culturales, etc.: la razón principal es “salud”.</p></li>
+<li><p>Una persona viaja al lugar donde residen sus padres porque hacía mucho tiempo que no los visitaba; ya en el lugar va a pescar con amigos y a visitar algunos lugares de interés turístico: el motivo principal es “visitar a familiares y amigos”.</p></li>
+<li><p>Una persona aprovecha que un tío suyo vive en Córdoba y se aloja en su casa durante sus vacaciones, en las que recorre lugares de su interés que hay en la zona, descansa, etc.: el motivo principal es “esparcimiento, ocio, recreación”.</p></li>
 </ul>
 <p>Sin embargo, en ejemplos como estos últimos, la línea para definir cuál es el motivo principal es muy tenue, por lo que Usted deberá indagar y anotar lo que el encuestado indique como motivo principal.</p>
 <p><strong>PX10.2 ¿EL TRABAJO REALIZADO FUE COMO EMPLEADO DE UNA EMPRESA DEL LUGAR DE DESTINO?</strong></p>
 <p>¿EL DESPLAZAMIENTO O TRASLADO AL LUGAR DE DESTINO FORMÓ PARTE DE SU OFICIO (AZAFATA, VIAJANTE, CHOFER, TRANSPORTISTA, ETC.)?</p>
 <p><img src="imagenes/figura6-101.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>Esta pregunta se realizará sólo en los casos que el encuestado declaró que el motivo principal del viaje o la visita fue “Trabajo, negocios, motivos profesionales.” Tiene por objetivo detectar aquellos desplazamientos están excluidos de la definición de viaje adoptada por esta Encuesta, tal como fue explicitado más arriba (ver apartado 6.5.1.5.9).</p>
-<p>Debe leerla de forma pausada, cómo si se tratará de dos preguntas independientes. Si responde afirmativamente en cualquiera de las dos preguntas, marcará “Si.” En este caso, finalizará la indagación sobre el viaje o la visita respectiva.</p>
+<p>Esta pregunta se realizará sólo en los casos que el encuestado declaró que el motivo principal del viaje o la visita fue “Trabajo, negocios, motivos profesionales”. Tiene por objetivo detectar aquellos desplazamientos están excluidos de la definición de viaje adoptada por esta Encuesta, tal como fue explicitado más arriba (ver apartado 6.5.1.5.9).</p>
+<p>Debe leerla de forma pausada, cómo si se tratará de dos preguntas independientes. Si responde afirmativamente en cualquiera de las dos preguntas, marcará “Si”. En este caso, finalizará la indagación sobre el viaje o la visita respectiva.</p>
 </div>
 <div id="paquete-turístico" class="section level5 hasAnchor" number="4.5.1.5.10">
 <h5><span class="header-section-number">4.5.1.5.10</span> Paquete turístico<a href="anexo.html#paquete-turístico" class="anchor-section" aria-label="Anchor link to header"></a></h5>
@@ -1629,14 +1625,14 @@ Figura 4.92: Motivo del viaje
 <p>Se consideran paquetes turísticos, por ejemplo:</p>
 <ul>
 <li><p>Viajes largos en crucero (incluye viaje, alojamiento, comidas, entretenimientos).</p></li>
-<li><p>Viajes con la modalidad “All inclusive.”</p></li>
+<li><p>Viajes con la modalidad “All inclusive”.</p></li>
 <li><p>Pasaje en avión o micro y alojamiento.</p></li>
 <li><p>Pasaje en avión o micro, alojamiento y cena.</p></li>
 <li><p>Alojamiento, almuerzo y cena y visitas a museos.</p></li>
 <li><p>Hotel más algunas -media pensión- o todas las comidas -pensión completa- más excursiones.</p></li>
 </ul>
 <div class="note">
-<p><strong>NO se considera "paquete turístico</strong>" cuando se contrata el** alojamiento con media pensión (algunas comidas) o pensión completa (todas las comidas) – tanto si se contrata en forma directa al hotel como si es por intermedio de agencias de viajes- y no incluye ningún otro servicio.</p>
+<p><strong>NO se considera “paquete turístico</strong>” cuando se contrata el** alojamiento con media pensión (algunas comidas) o pensión completa (todas las comidas) – tanto si se contrata en forma directa al hotel como si es por intermedio de agencias de viajes- y no incluye ningún otro servicio.</p>
 </div>
 <p>Habitualmente, los paquetes turísticos son comercializados por <strong>agencias de viajes y turismo</strong>, empresas que ofician de <strong>intermediarias</strong> entre los <strong>prestadores de los distintos servicios turísticos</strong> (hoteles, empresas de transporte, etc.) y <strong>quienes realizan los viajes</strong>. Estas agencias u operadores turísticos ofrecen servicios turísticos del lugar en que residen, así como de otros lugares, y operan en forma directa (a través de locales de atención al público), telefónicamente y, en forma creciente, por Internet. Sin embargo, también hay instituciones, de diversos tipos, que ofician de hecho como agencias de viaje, al subcontratar servicios y ofrecerlos en un “paquete” para organizar viajes con distintos motivos, por ejemplo, clubes de jubilados o de pesca, grupos de Boys Scout, etc.</p>
 <p>Las preguntas relativas a la contratación de un paquete turístico son las siguientes:</p>
@@ -1704,7 +1700,7 @@ Figura 4.92: Motivo del viaje
 <p><strong>P616.2. ¿EN SU DESICIÓN DE VIAJAR A… INFLUYÓ ALGUNA PROPAGANDA O PROMOCIÓN DE LA TELEVISIÓN, LA RADIO O ALGÚN OTRO MEDIO?</strong></p>
 <p><img src="imagenes/figura6-110.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Marcará “Si” cuando el entrevistado responda que el interés por ir a visitar ese lugar se suscitó totalmente o en parte a partir de haber conocido campañas de promoción de cualquier tipo (públicas o privadas, con acento en los atractivos naturales, en la tradición, en tratarse de una opción económica, etc.) a través de uno o varios medios (TV, radio, periódicos, publicidad callejera).</p>
-<p>En el caso que respondan que la campaña de promoción la conocieron a través de Internet, marcará que “No.”</p>
+<p>En el caso que respondan que la campaña de promoción la conocieron a través de Internet, marcará que “No”.</p>
 <p>Deberá cada una de las opciones y marcarla en caso en que el entrevistado conteste que sí. En caso que responda que no o que no sabe, deberá dejar el espacio en blanco. Las opciones son las siguientes:</p>
 <p>Conocer o visitar los atractivos naturales del destino (paisajes, etc.): En la elección del destino fue determinante la posibilidad de visitar parques nacionales, parques provinciales, paisajes, etc.</p>
 <p>Conocer o visitar atractivos históricos o disfrutar de la oferta cultural del lugar: La oferta de museos, casas históricas, monumentos, bibliotecas, fue importante para la elección del destino.</p>
@@ -1715,7 +1711,7 @@ Figura 4.92: Motivo del viaje
 <p><strong>PX17.1. PESE A NO SER UN VIAJE QUE HICIERON POR ESPARCIMIENTO ¿EN ESTE VIAJE REALIZARON ALGUNA ACTIVIDAD TURÍSTICA O RECREATIVA COMO VISITAR ATRACTIVOS NATURALES O HISTÓRICOS, PRACTICAR DEPORTES NO CONVENCIONALES, IR A LA PLAYA, AL CINE, AL CASINO, U OTRAS ACTIVIDADES SIMILARES?</strong></p>
 <p><img src="imagenes/figura6-111.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="imagenes/figura6-112.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>Esta pregunta se realizará para todos los viajes CDSV y VDSV, en tanto que en el resto de los tipos de viajes sólo se indagará si el motivo del viaje no fue “Esparcimiento, ocio, recreación.” Por otra parte, sólo se realizará si el destino de viaje fue una ciudad o localidad argentina, en cambio, si el destino fue otro país, está pregunta se salteará.</p>
+<p>Esta pregunta se realizará para todos los viajes CDSV y VDSV, en tanto que en el resto de los tipos de viajes sólo se indagará si el motivo del viaje no fue “Esparcimiento, ocio, recreación”. Por otra parte, sólo se realizará si el destino de viaje fue una ciudad o localidad argentina, en cambio, si el destino fue otro país, está pregunta se salteará.</p>
 <p>En el enunciado de la pregunta se citan algunos de los ejemplos que se consideran actividades turísticas, en base a lo que el encuestado pudo haberle comentado o a su perfil, puede alterar estos ejemplos, agregando unos y quitando otros, según lo evalúe conveniente.</p>
 <p><strong>PX17.2 ¿CUÁLES DE LAS SIGUIENTES ACTIVIDADES TURÍSTICAS REALIZARON EN ESTE VIAJE? NO IMPORTA SI EN ELLAS PARTICIPARON TODOS O ALGUNO/S DE USTEDES.</strong></p>
 <p><img src="imagenes/figura6-113.png" width="100%" style="display: block; margin: auto;" /></p>
@@ -1804,18 +1800,18 @@ Figura 4.92: Motivo del viaje
 <p><img src="imagenes/figura6-117.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="imagenes/figura6-118.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Esta pregunta tiene como objetivo conocer si todos los gastos del viaje fueron pagados por el hogar. Se considera que el hogar pagó totalmente los gastos del viaje cuando lo financió con recursos propios o le regalaron el dinero para hacer el viaje.</p>
-<p>Por lo tanto, si al hogar le regalan un monto de dinero para que realice el viaje marcará la opción “Si,” pues se considera que el viaje fue pagado totalmente por el hogar. En cambio, marcará la opción “No” si le regalaron vauchers, los tickets, etc. ya pagados.</p>
+<p>Por lo tanto, si al hogar le regalan un monto de dinero para que realice el viaje marcará la opción “Si”, pues se considera que el viaje fue pagado totalmente por el hogar. En cambio, marcará la opción “No” si le regalaron vauchers, los tickets, etc. ya pagados.</p>
 <p>Si una persona viaja por trabajo y la empresa o institución le da una suma de dinero para adquirir los pasajes, pagar el hotel y hacer frente a demás gastos (independientemente que esa suma sea inferior o superior al gasto total), deberá consignar que el hogar “No” pagó totalmente el viaje: en la pregunta por el monto de los gastos sólo responderá por los que fueron financiados con ingresos del hogar (si es que los hubo).</p>
 <p>Cuando el hogar encuestado se aloja en una segunda vivienda de un hogar de familiares o amigos o de una vivienda donde residen familiares o amigos no considerará que le pagaron parte de los gastos del viaje. En estos casos, sólo registrará que le pagaron parte del viaje cuando le hayan pagado el transporte, las comidas, etc. En cambio, si el alojamiento no fue pagado por el hogar, pero significó un gasto para otro hogar, empresa, etc. (por ejemplo, una habitación de hotel) sí deberá consignar que le pagaron algo (es decir que el hogar no pagó todos sus gastos).</p>
 <p>En el caso que quien viajó no haya gastado en traslado porque se “acopló” al viaje de otro hogar (y luego se separó) deberá consignar que le pagaron algo. En cambio, si los gastos fueron compartidos (por ejemplo, dividieron el costo del viaje entre quienes viajaron, o bien unos pagaron el gasto del traslado –combustible, peajes- y otros pagaron las comidas durante el mismo), no deberá registrar que le pagaron algo al hogar.</p>
 <p>Tenga en cuenta que en todos los viajes en que los gastos fueron compartidos por dos o más hogares, pero cada hogar pagó su parte proporcional, no se considerará que un hogar le pagó una parte de sus gastos a otro (tanto cuando pagó su parte correspondiente del traslado, del alojamiento, de la comida, etc., como cuando un hogar pagó unas cosas –por ejemplo el traslado y la comida- y otro hogar pagó otras cosas –por ejemplo, el alojamiento-).</p>
-<p>Si el hogar responde “Si,” salteará la pregunta referida a que parte de los gastos pagaron, que sólo contestarán los que “No” hayan afrontado todos los gastos del viaje con fondos del hogar.</p>
+<p>Si el hogar responde “Si”, salteará la pregunta referida a que parte de los gastos pagaron, que sólo contestarán los que “No” hayan afrontado todos los gastos del viaje con fondos del hogar.</p>
 <p><strong>PX20 ¿DE QUÉ PARTE DE LOS GASTOS SE HIZO CARGO EL HOGAR?</strong></p>
 <p><img src="imagenes/figura6-119.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="imagenes/figura6-120.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Se pedirá al hogar que estime qué parte del gasto total del viaje pagó, sin importar quién se hizo cargo de los gastos que no pagó (otro hogar, una empresa o institución, etc.). Si bien en algunos casos estimar de qué parte de los gastos se hizo cargo el hogar puede resultar difícil, las opciones son lo suficientemente amplias como para que pueda hacerlo: Usted debe insistir y ayudarlo a que recuerde de la forma más exacta posible.</p>
 <p>Las opciones de respuesta, entre las cuales debe marcar una, son: La mayor parte (más del 60%) Aproximadamente la mitad (entre el 40% y el 60%) La menor parte (menos del 40%)</p>
-<p>No pagó nada. Esta opción se marcará cuando los gastos hayan sido pagados totalmente por otra persona no miembro del hogar, por una institución o una empresa (de la cual es empleado, o bien socio/dueño/patrón). Deberá asegurarse que realmente el hogar no haya realizado ningún gasto. Por ejemplo, tenga en cuenta que hay viajes en donde los gastos más significativos (transporte, alojamiento, alimentación) no son pagados por el hogar, pero el hogar sí incurre en gastos menores, como ser recuerdos o productos típicos del lugar visitado, alguna excursión, etc. En este caso, deberá marcar que el hogar pagó “la menor parte.” Si confirma que el hogar no afrontó ningún gasto del viaje, aquí finaliza la indagación sobre el viaje.</p>
+<p>No pagó nada. Esta opción se marcará cuando los gastos hayan sido pagados totalmente por otra persona no miembro del hogar, por una institución o una empresa (de la cual es empleado, o bien socio/dueño/patrón). Deberá asegurarse que realmente el hogar no haya realizado ningún gasto. Por ejemplo, tenga en cuenta que hay viajes en donde los gastos más significativos (transporte, alojamiento, alimentación) no son pagados por el hogar, pero el hogar sí incurre en gastos menores, como ser recuerdos o productos típicos del lugar visitado, alguna excursión, etc. En este caso, deberá marcar que el hogar pagó “la menor parte”. Si confirma que el hogar no afrontó ningún gasto del viaje, aquí finaliza la indagación sobre el viaje.</p>
 <p>A continuación, se indagará por el monto del gasto afrontado por el hogar en el viaje o la visita. En primer lugar, se relevará el gasto en paquete turístico (sólo si declararon haber contratado uno en PX11) y luego por el gasto total del viaje.</p>
 <p><strong>PX21. ¿CUÁNTO GASTARON EN EL PAQUETE TURÍSTICO?</strong></p>
 <p><img src="imagenes/figura6-121.png" width="100%" style="display: block; margin: auto;" /></p>
@@ -1864,7 +1860,7 @@ Figura 4.92: Motivo del viaje
 </div>
 <p>El criterio para incluir como turista del fin de semana a una persona es que pase al menos una de las noches del periodo en cuestión, incluyendo la noche anterior al inicio de ese periodo. La respuesta que se espera es <strong>“Sí”</strong> (si al menos uno de sus integrantes viajará) o <strong>“No”</strong>. Sin embargo, dado que es una pregunta sobre el futuro, es posible que el entrevistado no pueda responder con certeza. Solo en estos casos, se deberá reformular la pregunta, considerando las opciones que aparecen grisadas: <strong>“Aunque aún no me lo pueda decir con certeza, ¿Cree que probablemente viajen todos o alguno de ustedes en esa fecha?”</strong>. Si responde que es probable que viajen, marcará la opción <strong>“Probablemente viajarán”</strong>, si responde que lo están pensando, pero lo más probable es que no, marcará la opción <strong>“Probablemente no viajarán”</strong>. Solo marcará la opción <strong>“Aún no lo definió”</strong> si están evaluando viajar, pero no puede decir si probablemente lo harán o no. La opción <strong>“No sabe”</strong>, que nunca debe leerse, la marcará solo cuando el entrevistado responda que aún no han evaluado la posibilidad de viajar y por tanto no puede dar una respuesta, aunque sea provisoria, aún. La opción “No responde” la marcará solo cuando el entrevistado se niegue a responder la pregunta. En los casos que la respuesta a esta pregunta sea <strong>“Sí”</strong> o <strong>“Probablemente viajarán”</strong> continuará administrando el módulo. <strong>En cualquier otro caso, aquí finaliza el módulo</strong>.</p>
 <div class="note">
-<p>De aquí en adelante, las preguntas deben ser formuladas en modo condicional en aquellos casos en los que “probablemente viajarán.”</p>
+<p>De aquí en adelante, las preguntas deben ser formuladas en modo condicional en aquellos casos en los que “probablemente viajarán”.</p>
 </div>
 <p><strong>P2. ¿El viaje será realizado en JULIO o en AGOSTO?</strong></p>
 <p><img src="imagenes/figura6-129.png" width="100%" style="display: block; margin: auto;" /></p>
@@ -1876,14 +1872,14 @@ Figura 4.92: Motivo del viaje
 </div>
 <p><strong>P4. ¿Irán/Irían a algún lugar en Argentina o al Exterior? Argentina: ¿A qué provincia?</strong></p>
 <p><img src="imagenes/figura6-131.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>Si la respuesta es a un país extranjero, anotará “Exterior.” Si es un lugar en Argentina, indagará por la provincia. Preste especial atención a distinguir los “Partidos del GBA” del “Resto de la Provincia de Buenos Aires” (costa atlántica, sierras de Tandil o de la Ventana, Chascomús, San Miguel del Monte, etc.), y en ambos casos de CABA. También debe anotar el nombre de la ciudad o localidad que visitarán.</p>
+<p>Si la respuesta es a un país extranjero, anotará “Exterior”. Si es un lugar en Argentina, indagará por la provincia. Preste especial atención a distinguir los “Partidos del GBA” del “Resto de la Provincia de Buenos Aires” (costa atlántica, sierras de Tandil o de la Ventana, Chascomús, San Miguel del Monte, etc.), y en ambos casos de CABA. También debe anotar el nombre de la ciudad o localidad que visitarán.</p>
 <p><strong>P4.C. ¿Visitaron esa ciudad/localidad en los últimos 4 años (desde el invierno 2016), durante el periodo invernal (por cualquier motivo, todos o algunos de los integrantes del hogar)?</strong></p>
 <p><strong>P5. ¿Viajarán/viajarían por…</strong></p>
 <p><img src="imagenes/figura6-132.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>En esta pregunta se indaga por el motivo principal del viaje. Si al leer las opciones listadas (esparcimiento, visita a familiares o amigos, trabajo), responde cualquier otro motivo marque la opción “Otros.”</p>
+<p>En esta pregunta se indaga por el motivo principal del viaje. Si al leer las opciones listadas (esparcimiento, visita a familiares o amigos, trabajo), responde cualquier otro motivo marque la opción “Otros”.</p>
 <p><strong>P6. ¿Se alojarán / alojarían en una…</strong></p>
 <p><img src="imagenes/figura6-133.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>Leerá las opciones que aparecen listadas y marcará una. Si al leer las opciones listadas responde cualquier otro alojamiento marque la opción “Otros.” Si al inicio de la Encuesta el hogar no declaró disponer de Segunda Vivienda, no lea esta opción. La opción “Vivienda de familiares o amigos” incluye tanto viviendas ocupadas por un hogar como segundas viviendas pertenecientes a familiares o amigos.</p>
+<p>Leerá las opciones que aparecen listadas y marcará una. Si al leer las opciones listadas responde cualquier otro alojamiento marque la opción “Otros”. Si al inicio de la Encuesta el hogar no declaró disponer de Segunda Vivienda, no lea esta opción. La opción “Vivienda de familiares o amigos” incluye tanto viviendas ocupadas por un hogar como segundas viviendas pertenecientes a familiares o amigos.</p>
 <p><strong>P7. ¿Cuánto tiempo estima que durará/duraría el viaje, desde que salen hasta que regresan al hogar?</strong></p>
 <p><img src="imagenes/figura6-134.png" width="100%" style="display: block; margin: auto;" /></p>
 <div class="note">
@@ -1914,9 +1910,9 @@ Figura 4.92: Motivo del viaje
 <div class="note">
 <p>Por ejemplo, considerando el periodo de verano, debe considerarse que sí viajarán las personas incluidas en los siguientes casos: -Una persona que viajará el lunes 25 de noviembre y que regresará el lunes 10 de diciembre. -Una persona que viajará el martes 21 de marzo y regresará el 4 de abril.</p>
 </div>
-<p>El criterio para incluir como turista del fin de semana a una persona es que pase al menos una de las noches del periodo en cuestión, incluyendo la noche anterior al inicio de ese periodo. La respuesta que se espera es “Sí” (si al menos uno de sus integrantes viajará) o “No.” Sin embargo, dado que es una pregunta sobre el futuro, es posible que el entrevistado no pueda responder con certeza. Solo en estos casos, se deberá reformular la pregunta, considerando las opciones que aparecen griseadas: “Aunque aún no me lo pueda decir con certeza, ¿Cree que probablemente viajen todos o alguno de ustedes en esa fecha?” Si responde que es probable que viajen, marcará la opción “Probablemente viajarán,” si responde que lo están pensando, pero lo más probable es que no, marcará la opción “Probablemente no viajarán.” Solo marcará la opción “Aún no lo definió” si están evaluando viajar, pero no puede decir si probablemente lo harán o no. La opción “No sabe,” que nunca debe leerse, la marcará solo cuando el entrevistado responda que aún no han evaluado la posibilidad de viajar y por tanto no puede dar una respuesta, aunque sea provisoria, aún. La opción “No responde” la marcará solo cuando el entrevistado se niegue a responder la pregunta. En los casos que la respuesta a esta pregunta sea “Sí” o “Probablemente viajarán” continuará administrando el módulo. En cualquier otro caso, aquí finaliza el módulo.</p>
+<p>El criterio para incluir como turista del fin de semana a una persona es que pase al menos una de las noches del periodo en cuestión, incluyendo la noche anterior al inicio de ese periodo. La respuesta que se espera es “Sí” (si al menos uno de sus integrantes viajará) o “No”. Sin embargo, dado que es una pregunta sobre el futuro, es posible que el entrevistado no pueda responder con certeza. Solo en estos casos, se deberá reformular la pregunta, considerando las opciones que aparecen griseadas: “Aunque aún no me lo pueda decir con certeza, ¿Cree que probablemente viajen todos o alguno de ustedes en esa fecha?”. Si responde que es probable que viajen, marcará la opción “Probablemente viajarán”, si responde que lo están pensando, pero lo más probable es que no, marcará la opción “Probablemente no viajarán”. Solo marcará la opción “Aún no lo definió” si están evaluando viajar, pero no puede decir si probablemente lo harán o no. La opción “No sabe”, que nunca debe leerse, la marcará solo cuando el entrevistado responda que aún no han evaluado la posibilidad de viajar y por tanto no puede dar una respuesta, aunque sea provisoria, aún. La opción “No responde” la marcará solo cuando el entrevistado se niegue a responder la pregunta. En los casos que la respuesta a esta pregunta sea “Sí” o “Probablemente viajarán” continuará administrando el módulo. En cualquier otro caso, aquí finaliza el módulo.</p>
 <div class="note">
-<p>De aquí en adelante, las preguntas deben ser formuladas en modo condicional en aquellos casos en los que “probablemente viajarán.”</p>
+<p>De aquí en adelante, las preguntas deben ser formuladas en modo condicional en aquellos casos en los que “probablemente viajarán”.</p>
 </div>
 <p><strong>P2. ¿Cuántos miembros del Hogar viajarán para el verano próximo?</strong></p>
 <p><img src="imagenes/figura6-139.png" width="100%" style="display: block; margin: auto;" /></p>
@@ -1926,7 +1922,7 @@ Figura 4.92: Motivo del viaje
 </div>
 <p><strong>P3. ¿Irán/Irían a algún lugar en Argentina o al Exterior?</strong></p>
 <p><img src="imagenes/figura6-140.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>Si la respuesta es a un país extranjero, anotará “Exterior.” Si es un lugar en Argentina, indagará por la provincia. Preste especial atención a distinguir los “Partidos del GBA” del “Resto de la Provincia de Buenos Aires” (costa atlántica, sierras de Tandil o de la Ventana, Chascomús, San Miguel del Monte, etc.), y en ambos casos de CABA. También debe anotar el nombre de la ciudad o localidad que visitarán.</p>
+<p>Si la respuesta es a un país extranjero, anotará “Exterior”. Si es un lugar en Argentina, indagará por la provincia. Preste especial atención a distinguir los “Partidos del GBA” del “Resto de la Provincia de Buenos Aires” (costa atlántica, sierras de Tandil o de la Ventana, Chascomús, San Miguel del Monte, etc.), y en ambos casos de CABA. También debe anotar el nombre de la ciudad o localidad que visitarán.</p>
 <p><strong>P6. ¿Alguno de los integrantes del Hogar que van a viajar, conoce ese destino o es la primera vez que viajaran allí?</strong></p>
 <p><img src="imagenes/figura6-141.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><strong>P7.A. ¿Realizaron algún viaje durante el verano en los últimos 4 años (entre 2017 y 2020), por cualquier motivo, todos o algunos de los integrantes del hogar?</strong></p>
@@ -1976,15 +1972,15 @@ Figura 4.92: Motivo del viaje
 <div class="note">
 <p><strong>Consigna: Determinar si las siguientes personas asisten o asistieron a un establecimiento educativo y justificar la respuesta.</strong></p>
 </div>
-<p>6 Lucía de 25 años vive en una comunidad mapuche y asistió sólo a un curso organizado por la cooperativa de los misioneros salesianos “Don Bosco,” donde aprendió a manejar el telar.</p>
+<p>6 Lucía de 25 años vive en una comunidad mapuche y asistió sólo a un curso organizado por la cooperativa de los misioneros salesianos “Don Bosco”, donde aprendió a manejar el telar.</p>
 <p>Respuesta:</p>
-<p>7 Marcela de 16 años cursa el segundo año del bachillerato en el Instituto Integral “San Marón,” dependiente de la Iglesia Cristiana Maronita del Líbano.</p>
+<p>7 Marcela de 16 años cursa el segundo año del bachillerato en el Instituto Integral “San Marón”, dependiente de la Iglesia Cristiana Maronita del Líbano.</p>
 <p>Respuesta:</p>
 <p>8 Mariano terminó de cursar la escuela secundaria, pagó la inscripción y está esperando a que finalice el receso de verano en la Universidad Kennedy para iniciar sus estudios de analista de sistemas.</p>
 <p>Respuesta:</p>
 <p>9 Juan se recibió de contador en 1984 en la Universidad de Buenos Aires, y desde ese momento no volvió a realizar ningún estudio.</p>
 <p>Respuesta:</p>
-<p>10 Nicolás de 15 años cursa el 3° año de Secundaria en el Instituto Municipal “José Hernández.”</p>
+<p>10 Nicolás de 15 años cursa el 3° año de Secundaria en el Instituto Municipal “José Hernández”.</p>
 <p>Respuesta:</p>
 <p>11 Héctor asiste al profesorado de Danza de la Escuela Municipal de Danzas.</p>
 <p>Respuesta:</p>
@@ -2173,7 +2169,7 @@ Figura 4.92: Motivo del viaje
 <div id="ejercicio-12.-visitas-de-un-día-bloque-9" class="section level5 hasAnchor" number="4.5.2.1.12">
 <h5><span class="header-section-number">4.5.2.1.12</span> Ejercicio 12. Visitas de un día (bloque 9)<a href="anexo.html#ejercicio-12.-visitas-de-un-día-bloque-9" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <div class="note">
-<p><strong>Consigna: Indique si los siguientes viajes deben considerarse “visitas de un día.” Justificar en todos los casos.</strong></p>
+<p><strong>Consigna: Indique si los siguientes viajes deben considerarse “visitas de un día”. Justificar en todos los casos.</strong></p>
 </div>
 <p>69 El fin de semana largo del 8 de diciembre último, Juan se fue a pescar a la laguna de Chasicó, distante a 500 Km. de su domicilio, en San Martín, Buenos Aires. La salida la organizó la peña de pesca de su barrio y por un monto total de $200 incluyó: traslado, comida, bote y carnada. Salieron el sábado a las 11 de la noche, para llegar a Chasicó con las primeras horas del amanecer y pescar todo el domingo. Luego de la cena, emprendieron el regreso, llegando a San Martín el lunes a las 5 de la mañana.</p>
 <p>Respuesta:</p>
@@ -2283,15 +2279,15 @@ Figura 4.92: Motivo del viaje
 <div class="note">
 <p><strong>Consigna: Lea atentamente la situación que se presenta e indique si la sentencia posterior es verdadera (V) o falsa (F). Justifique cuando la sentencia sea falsa.</strong></p>
 </div>
-<p>109 Pedro viajó a Brasil por trabajo y su empresa le contrató, por medio de una agencia, un paquete turístico que incluía: pasajes en avión, estadía y comidas. “Si se encuesta a Pedro, no se debe registrar que se contrató un paquete turístico por intermedio de una agencia de viajes porque el paquete no fue pagado por el hogar.”</p>
+<p>109 Pedro viajó a Brasil por trabajo y su empresa le contrató, por medio de una agencia, un paquete turístico que incluía: pasajes en avión, estadía y comidas. “Si se encuesta a Pedro, no se debe registrar que se contrató un paquete turístico por intermedio de una agencia de viajes porque el paquete no fue pagado por el hogar”.</p>
 <p>Respuesta:</p>
 <p>110 Daniel participó de un campamento organizado por la escuela a la cual concurre. Pagó $100 por dos días de camping, el traslado hacia el lugar y todas las comidas. “No se considera un paquete turístico, si bien es un conjunto de bienes por los que se paga un monto global, porque no fue contratado por intermedio de una agencia de viajes cuyo fin es obtener un rédito económico por la intermediación.”</p>
 <p>Respuesta:</p>
-<p>111 Lidia viajó a Francia por trabajo y su empresa le dio un monto de dinero para que afronte todos los gastos del viaje. Ella fue a una agencia donde contrató un paquete turístico que incluía: vuelos con media pensión. “Si se encuesta a Lidia, no se debe registrar que se contrató un paquete turístico porque éste no fue pagado con ingresos del hogar sino de la empresa para la cual trabaja.”</p>
+<p>111 Lidia viajó a Francia por trabajo y su empresa le dio un monto de dinero para que afronte todos los gastos del viaje. Ella fue a una agencia donde contrató un paquete turístico que incluía: vuelos con media pensión. “Si se encuesta a Lidia, no se debe registrar que se contrató un paquete turístico porque éste no fue pagado con ingresos del hogar sino de la empresa para la cual trabaja”.</p>
 <p>Respuesta:</p>
-<p>112 Julia contrató, por intermedio de una agencia de viajes, 7 noches de estadía con pensión completa en un hotel de Venezuela. “La estadía con pensión completa, contratada por intermedio de agencia de viajes, es un paquete turístico.”</p>
+<p>112 Julia contrató, por intermedio de una agencia de viajes, 7 noches de estadía con pensión completa en un hotel de Venezuela. “La estadía con pensión completa, contratada por intermedio de agencia de viajes, es un paquete turístico”.</p>
 <p>Respuesta:</p>
-<p>113 Laura viajó a Bolivia. Una vez allí, en una agencia de viajes, adquirió una promoción que incluía 6 comidas en distintos restaurantes, seguro de accidentes personales por 15 días y 3 excursiones. “Como se trata de un conjunto de servicios turísticos deben consignarse que se contrató un paquete turístico.”</p>
+<p>113 Laura viajó a Bolivia. Una vez allí, en una agencia de viajes, adquirió una promoción que incluía 6 comidas en distintos restaurantes, seguro de accidentes personales por 15 días y 3 excursiones. “Como se trata de un conjunto de servicios turísticos deben consignarse que se contrató un paquete turístico”.</p>
 <p>Respuesta:</p>
 </div>
 <div id="ejercicio-18.-gastos-del-viaje" class="section level5 hasAnchor" number="4.5.2.1.18">
@@ -2299,32 +2295,32 @@ Figura 4.92: Motivo del viaje
 <div class="note">
 <p><strong>Consigna: Lea atentamente la situación que se presenta e indique si la sentencia posterior es verdadera (V) o falsa (F). Justifique cuando la sentencia sea falsa.</strong></p>
 </div>
-<p>114 Cecilia realizó un viaje que entra en el período de referencia de la encuesta, pero terminó de pagar el paquete turístico que había adquirido fuera de dicho período (en los meses que no son parte del período de referencia deberá pagar 2 cuotas de $200 -de un total de 4-). “Sólo deben registrarse los $400 que el hogar pagó por el paquete en los 2 meses que están dentro del período de referencia, porque se excluyen los gastos pagados fuera de él.”</p>
+<p>114 Cecilia realizó un viaje que entra en el período de referencia de la encuesta, pero terminó de pagar el paquete turístico que había adquirido fuera de dicho período (en los meses que no son parte del período de referencia deberá pagar 2 cuotas de $200 -de un total de 4-). “Sólo deben registrarse los $400 que el hogar pagó por el paquete en los 2 meses que están dentro del período de referencia, porque se excluyen los gastos pagados fuera de él”.</p>
 <p>Respuesta:</p>
-<p>115 Lorenzo viajó de Córdoba a Buenos Aires para comprar ropa en Once y revenderla en su ciudad. Gastó $300 en pasajes, estadía y alimentación y $1200 para comprar la mercadería que revenderá. “El gasto total del viaje fue de $300. Los $1200 de compra de mercadería no se deben registrar porque la misma se destina a la actividad económica y no al consumo del hogar.”</p>
+<p>115 Lorenzo viajó de Córdoba a Buenos Aires para comprar ropa en Once y revenderla en su ciudad. Gastó $300 en pasajes, estadía y alimentación y $1200 para comprar la mercadería que revenderá. “El gasto total del viaje fue de $300. Los $1200 de compra de mercadería no se deben registrar porque la misma se destina a la actividad económica y no al consumo del hogar”.</p>
 <p>Respuesta:</p>
-<p>116 Hernán vive en Buenos Aires y debía viajar a México. Como no tenía valija, antes de viajar se compró una a $100. “El costo de la valija no se debe registrar como gasto del viaje porque es un bien adquirido en el lugar de residencia y su utilización no se agota en el viaje.”</p>
+<p>116 Hernán vive en Buenos Aires y debía viajar a México. Como no tenía valija, antes de viajar se compró una a $100. “El costo de la valija no se debe registrar como gasto del viaje porque es un bien adquirido en el lugar de residencia y su utilización no se agota en el viaje”.</p>
 <p>Respuesta:</p>
-<p>117 Andrea vive en General Roca, Río Negro, y viajó con sus abuelos, que conforman otro hogar, a conocer las Cataratas del Iguazú en Misiones. Sus abuelos le pagaron los viajes y la estadía con pensión completa (en total $700), mientras que ella se pagó algunas salidas y recuerdos para sus amigas (gastó $ 80). “Si el hogar encuestado es el de Andrea, sólo debe registrar los $80 como gasto total, pues se consideran únicamente los gastos que fueron pagados por el hogar encuestado.”</p>
+<p>117 Andrea vive en General Roca, Río Negro, y viajó con sus abuelos, que conforman otro hogar, a conocer las Cataratas del Iguazú en Misiones. Sus abuelos le pagaron los viajes y la estadía con pensión completa (en total $700), mientras que ella se pagó algunas salidas y recuerdos para sus amigas (gastó $ 80). “Si el hogar encuestado es el de Andrea, sólo debe registrar los $80 como gasto total, pues se consideran únicamente los gastos que fueron pagados por el hogar encuestado”.</p>
 <p>Respuesta:</p>
-<p>118 Pedro contrató un paquete turístico para viajar a Brasil por el que pagó $1000 gracias al 20% de descuento que obtuvo por ser socio de una biblioteca de su barrio. “El gasto que se debe registrar por la compra del paquete turístico son los $1000 que pagó Pedro, pues se considera el valor de contado neto de descuentos.”</p>
+<p>118 Pedro contrató un paquete turístico para viajar a Brasil por el que pagó $1000 gracias al 20% de descuento que obtuvo por ser socio de una biblioteca de su barrio. “El gasto que se debe registrar por la compra del paquete turístico son los $1000 que pagó Pedro, pues se considera el valor de contado neto de descuentos”.</p>
 <p>Respuesta:</p>
-<p>119 Néstor reside en La Plata y viajó a San Miguel de Tucumán a visitar a su madre. Allí le compró un traje de regalo a su esposa. “El gasto en el traje para regalar a su esposa es un consumo del hogar, por lo que debe incluirse dentro del gasto del viaje.”</p>
+<p>119 Néstor reside en La Plata y viajó a San Miguel de Tucumán a visitar a su madre. Allí le compró un traje de regalo a su esposa. “El gasto en el traje para regalar a su esposa es un consumo del hogar, por lo que debe incluirse dentro del gasto del viaje”.</p>
 <p>Respuesta:</p>
-<p>120 María viajó de Salta a Pocitos, Bolivia, para comprar ropa. Gastó $100 en pasajes y alimentación y $2000 para comprar mercadería. De esta mercadería, la tres cuarta parte era para revender y el cuarto restante para regalar a familiares y amigos y para consumo del hogar. “El gasto total del viaje fue de $100. Los $2000 de compra de mercadería no se deben registrar porque la misma se destina principalmente a la actividad económica y no al consumo del hogar.”</p>
+<p>120 María viajó de Salta a Pocitos, Bolivia, para comprar ropa. Gastó $100 en pasajes y alimentación y $2000 para comprar mercadería. De esta mercadería, la tres cuarta parte era para revender y el cuarto restante para regalar a familiares y amigos y para consumo del hogar. “El gasto total del viaje fue de $100. Los $2000 de compra de mercadería no se deben registrar porque la misma se destina principalmente a la actividad económica y no al consumo del hogar”.</p>
 <p>Respuesta</p>
-<p>121 Guillermo fue a visitar a su tía en Uruguay, quien le obsequió un pulóver que costaba $100. “Los $100 del pulóver se incluyen como gasto del viaje de Guillermo.”</p>
+<p>121 Guillermo fue a visitar a su tía en Uruguay, quien le obsequió un pulóver que costaba $100. “Los $100 del pulóver se incluyen como gasto del viaje de Guillermo”.</p>
 <p>Respuesta:</p>
-<p>122 Carlos realizó un viaje que no entra en el período de referencia de la encuesta, pero lo terminó de pagar dentro del mismo (en los meses que eran parte del período de referencia pagó 3 cuotas de $200). “No se registran los gastos de los viajes realizados fuera del periodo de referencia, independientemente de cuándo hayan sido pagados los mismos.”</p>
-<p>Respuesta: 123 Marta viajó a Brasil y durante el viaje compró una máquina de fotos a $200. “El gasto en la cámara de fotos se debe registrar como parte del gasto del viaje porque en él se incluye la compra de todo tipo de bienes y servicios adquiridos durante el viaje para el consumo del hogar, se extingan o no durante el mismo.”</p>
+<p>122 Carlos realizó un viaje que no entra en el período de referencia de la encuesta, pero lo terminó de pagar dentro del mismo (en los meses que eran parte del período de referencia pagó 3 cuotas de $200). “No se registran los gastos de los viajes realizados fuera del periodo de referencia, independientemente de cuándo hayan sido pagados los mismos”.</p>
+<p>Respuesta: 123 Marta viajó a Brasil y durante el viaje compró una máquina de fotos a $200. “El gasto en la cámara de fotos se debe registrar como parte del gasto del viaje porque en él se incluye la compra de todo tipo de bienes y servicios adquiridos durante el viaje para el consumo del hogar, se extingan o no durante el mismo”.</p>
 <p>Respuesta:</p>
-<p>124 Leila reside en Mercedes, San Luis, y en un viaje que hizo por Europa le compró un perfume a su novio, que no vive con ella. “El gasto en el perfume para regalar a su novio no debe incluirse porque el destinatario del regalo no era un miembro del hogar.”</p>
+<p>124 Leila reside en Mercedes, San Luis, y en un viaje que hizo por Europa le compró un perfume a su novio, que no vive con ella. “El gasto en el perfume para regalar a su novio no debe incluirse porque el destinatario del regalo no era un miembro del hogar”.</p>
 <p>Respuesta:</p>
-<p>125 Raúl compró un pasaje en avión. El costo del mismo era de $3000, pero como se lo financiaron en 12 cuotas termino pagando $3300, porque tuvo que pagar un 10% de intereses. “El gasto que se debe registrar por la compra del pasaje son los $3300 porque es lo que Pedro terminó pagando por el mismo.”</p>
+<p>125 Raúl compró un pasaje en avión. El costo del mismo era de $3000, pero como se lo financiaron en 12 cuotas termino pagando $3300, porque tuvo que pagar un 10% de intereses. “El gasto que se debe registrar por la compra del pasaje son los $3300 porque es lo que Pedro terminó pagando por el mismo”.</p>
 <p>Respuesta:</p>
-<p>126 Fernando vive en San Martín, provincia de Buenos Aires y se fue de vacaciones a Villa Gesell, en la Costa Atlántica. Antes de viajar, en la carnicería de su barrio, compró 12 kilos de asado y 18 chorizos, que llevó a Villa Gesell para comer el día de su cumpleaños con 6 amigos. “No se debe registrar el gasto en la carne como gasto del viaje porque la misma fue adquirida en el lugar de residencia de quien viajó y no en el lugar de destino del viaje.”</p>
+<p>126 Fernando vive en San Martín, provincia de Buenos Aires y se fue de vacaciones a Villa Gesell, en la Costa Atlántica. Antes de viajar, en la carnicería de su barrio, compró 12 kilos de asado y 18 chorizos, que llevó a Villa Gesell para comer el día de su cumpleaños con 6 amigos. “No se debe registrar el gasto en la carne como gasto del viaje porque la misma fue adquirida en el lugar de residencia de quien viajó y no en el lugar de destino del viaje”.</p>
 <p>Respuesta:</p>
-<p>127 Liliana y Luis viven en Zarate, provincia de Buenos Aires, cumplieron 25 años de casados y sus hijos (que no viven con ellos) les regalaron $3000 para que hagan un viaje por el norte argentino. “El hogar no tuvo ningún gasto porque le regalaron el dinero para realizar el viaje, es decir que el viaje fue pagado por”familiares o amigos no miembros del hogar".</p>
+<p>127 Liliana y Luis viven en Zarate, provincia de Buenos Aires, cumplieron 25 años de casados y sus hijos (que no viven con ellos) les regalaron $3000 para que hagan un viaje por el norte argentino. “El hogar no tuvo ningún gasto porque le regalaron el dinero para realizar el viaje, es decir que el viaje fue pagado por”familiares o amigos no miembros del hogar”.</p>
 <p>Respuesta:</p>
 </div>
 </div>
@@ -2371,15 +2367,15 @@ Figura 4.92: Motivo del viaje
 <div class="note">
 <p><strong>Consigna: determinar si las siguientes personas asisten o asistieron a un establecimiento educativo y justificar la respuesta.</strong></p>
 </div>
-<p>1 Lucía de 25 años vive en una comunidad mapuche y asistió sólo a un curso organizado por la cooperativa de los misioneros salesianos “Don Bosco,” donde aprendió a manejar el telar.</p>
+<p>1 Lucía de 25 años vive en una comunidad mapuche y asistió sólo a un curso organizado por la cooperativa de los misioneros salesianos “Don Bosco”, donde aprendió a manejar el telar.</p>
 <p>Respuesta: Lucía NO ASISTIÓ a un establecimiento educativo, ya que dicho curso no corresponde a ningún nivel de enseñanza formal.</p>
-<p>2 Marcela de 16 años cursa el segundo año del bachillerato en el Instituto Integral “San Marón,” dependiente de la Iglesia Cristiana Maronita del Líbano.</p>
+<p>2 Marcela de 16 años cursa el segundo año del bachillerato en el Instituto Integral “San Marón”, dependiente de la Iglesia Cristiana Maronita del Líbano.</p>
 <p>Respuesta: Marcela ASISTE A UN ESTABLECIMIENTO, que pertenece al sistema de enseñanza formal y está administrado por una orden religiosa.</p>
 <p>3 Mariano terminó de cursar la escuela secundaria, pagó la inscripción y está esperando a que finalice el receso de verano en la Universidad Kennedy para iniciar sus estudios de analista de sistemas.</p>
 <p>Respuesta: Mariano ASISTE A UN ESTABLECIMIENTO, porque se considera que ya que está esperando para comenzar el ciclo tras la finalización del receso vacacional.</p>
 <p>4 Juan se recibió de contador en 1984 en la Universidad de Buenos Aires, y desde ese momento no volvió a realizar ningún estudio.</p>
 <p>Respuesta: Juan NO ASISTE, PERO ASISTIÓ.</p>
-<p>5 Nicolás de 15 años cursa el 3° año de Secundaria en el Instituto Municipal “José Hernández.”</p>
+<p>5 Nicolás de 15 años cursa el 3° año de Secundaria en el Instituto Municipal “José Hernández”.</p>
 <p>Respuesta: Nicolás ASISTE A UN ESTABLECIMIENTO.</p>
 <p>6 Héctor asiste al profesorado de Danza de la Escuela Municipal de Danzas.</p>
 <p>Respuesta: Héctor ASISTE A UN ESTABLECIMIENTO.</p>
@@ -2567,7 +2563,7 @@ Figura 4.92: Motivo del viaje
 <div id="ejercicio-12.-visita-de-un-día-bloque-9" class="section level5 hasAnchor" number="4.5.2.2.12">
 <h5><span class="header-section-number">4.5.2.2.12</span> Ejercicio 12. Visita de un día (bloque 9)<a href="anexo.html#ejercicio-12.-visita-de-un-día-bloque-9" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <div class="note">
-<p><strong>Consigna: indique si los siguientes viajes deben considerarse “visitas de un día.”</strong></p>
+<p><strong>Consigna: indique si los siguientes viajes deben considerarse “visitas de un día”.</strong></p>
 </div>
 <p><strong>Justificar en todos los casos</strong></p>
 <p>1 El fin de semana largo del 8 de diciembre último, Juan se fue a pescar a la laguna de Chasicó, distante a 500 Km. de su domicilio, en San Martín, Buenos Aires. La salida la organizó la peña de pesca de su barrio y por un monto total de $200 incluyó: traslado, comida, bote y carnada. Salieron el sábado a las 11 de la noche, para llegar a Chasicó con las primeras horas del amanecer y pescar todo el domingo. Luego de la cena, emprendieron el regreso, llegando a San Martín el lunes a las 5 de la mañana.</p>
@@ -2575,7 +2571,7 @@ Figura 4.92: Motivo del viaje
 <p>2 Laura y su amiga Isabel viven en Córdoba Capital. En enero realizaron una travesía en bicicleta por las sierras, en La Falda (80KMm). Salieron en tren al atardecer y a las 22hs dieron comienzo a la travesía, que consistía en recorrer las sierras de noche. A las 6 de la mañana finalizaron el recorrido, desayunaron en La Falda y tomaron el tren de regreso a Córdoba Capital.</p>
 <p>Respuesta: SI. Es una visita de un día porque no se alojaron en algún tipo de alojamiento en el lugar visitado, La Falda, y, si bien estuvieron allí durante la noche, su intención era hacer una excursión (el criterio de “pasar el día” no refiere específicamente a los horarios diurnos, sino que, como en este caso, puede aplicarse a una excursión nocturna).</p>
 <p>3 Juana nació en Wanda, Misiones, pero hace 10 años vive en Paraná, Entre Ríos. Durante la segunda quincena de enero estuvo de vacaciones en su ciudad natal, hospedándose en la casa familiar. El 22 de enero participó de una visita guiada en el Parque Nacional Iguazú (duró 6 horas), distante a 70 Km. de Wanda.</p>
-<p>Respuesta: NO. Las visitas o excursiones realizadas dentro de un viaje (es decir desde uno de los destinos en que se alojaron) no se consideran “visitas de un día,” ya que estas siempre tienen que tener como origen la ciudad o localidad de residencia habitual del hogar encuestado.</p>
+<p>Respuesta: NO. Las visitas o excursiones realizadas dentro de un viaje (es decir desde uno de los destinos en que se alojaron) no se consideran “visitas de un día”, ya que estas siempre tienen que tener como origen la ciudad o localidad de residencia habitual del hogar encuestado.</p>
 <p>4 María reside en Córdoba Capital y en enero fue a presenciar una noche del Festival de Cosquín (ciudad distante a 50 Km.), quedándose luego a cenar (en total pasó 7 horas en Cosquín).</p>
 <p>Respuesta: SI. La visita de un día tuvo una duración mayor a 3 horas, no se alojó en algún tipo de alojamiento en el lugar visitado y se encuentra fuera del entorno habitual.</p>
 </div>
@@ -2604,13 +2600,13 @@ Figura 4.92: Motivo del viaje
 </div>
 <p><strong>Señale, para cada viaje, el tipo de alojamiento principal utilizado.</strong></p>
 <p>1 <strong>Viaje 1:</strong> Fueron a Córdoba y se alojaron 3 noches en un hotel 4 estrellas. De allí fueron a Merlo, San Luis, donde estuvieron 6 noches en una cabaña alquilada (que incluía desayuno y servicio doméstico).</p>
-<p>Respuesta: “Hotel u hostería hasta 3 estrellas (o categoría desconocida) hospedaje, residencial, cabaña o bungalow, albergue, hotel o similares.”</p>
+<p>Respuesta: “Hotel u hostería hasta 3 estrellas (o categoría desconocida) hospedaje, residencial, cabaña o bungalow, albergue, hotel o similares”.</p>
 <p>2 <strong>Viaje 2:</strong> Luego viajaron a Mendoza Capital y se alojaron en la casa de los padres de Nicolás por 3 noches. Otras 2 noches pasaron en San Rafael, donde los padres de Nicolás habían alquilado casa por todo el mes.</p>
-<p>Respuesta: “Vivienda de familiares o amigos que residen allí.”</p>
+<p>Respuesta: “Vivienda de familiares o amigos que residen allí”.</p>
 <p>3 <strong>Viaje 3:</strong> En los días siguientes fueron a pasear por Uruguay. Pasaron 3 noches en un hotel 3 estrellas de Montevideo y luego otras 6 en un hotel de Punta del Este del que no recuerdan la categoría.</p>
-<p>Respuesta: “Hotel u hostería hasta 3 estrellas (o categoría desconocida) hospedaje, residencial, cabaña o bungalow, albergue, hostel o similares.”</p>
+<p>Respuesta: “Hotel u hostería hasta 3 estrellas (o categoría desconocida) hospedaje, residencial, cabaña o bungalow, albergue, hostel o similares”.</p>
 <p>4 <strong>Viaje 4:</strong> Unos días más tarde pasaron 4 noches en un departamento de Mar del Plata, que es una segunda vivienda de la madre de Lorena y a la vuelta, aprovechando el fin de semana, se quedaron 2 noches en una estancia turística cercana a la localidad de General Belgrano (a 400 km. de Bahía Blanca).</p>
-<p>Respuesta: “Vivienda de familiares o amigos que residen allí.”</p>
+<p>Respuesta: “Vivienda de familiares o amigos que residen allí”.</p>
 <p>5 <strong>Viaje 5:</strong> Nicolás alquiló junto con sus amigos una casa rodante y se fueron a pescar a Corrientes; pasaron tres noches durmiendo al costado del río, en la costanera pública. Al regresar, se quedaron una noche en Gualeguaychú, hospedándose en un hotel 3 estrellas.</p>
 <p>Respuesta: OTRO. Casa rodante al aire libre, sin pagar nada.</p>
 <p>6 <strong>Viaje 6:</strong> Finalmente alquilaron por dos semanas una casa de campo alquilada a un tío abuelo (se las dejó a mitad de precio), donde se quedaron 15 noches e invitaron a varios amigos a pasar algunos días con ellos.</p>
@@ -2683,18 +2679,18 @@ Figura 4.92: Motivo del viaje
 </div>
 <p><strong>Justifique cuando la sentencia sea falsa.</strong></p>
 <p>1 Pedro viajó a Brasil por trabajo y su empresa le contrató, por medio de una agencia, un paquete turístico que incluía: pasajes en avión, estadía y comidas.
-“Si se encuesta a Pedro, no se debe registrar que se contrató un paquete turístico por intermedio de una agencia de viajes porque el paquete no fue pagado por el hogar.”</p>
+“Si se encuesta a Pedro, no se debe registrar que se contrató un paquete turístico por intermedio de una agencia de viajes porque el paquete no fue pagado por el hogar”.</p>
 <p>Respuesta: FALSO. Se debe registrar que se contrató un paquete turístico, porque aquí se indaga por la contratación del mismo por intermedio de agencias de viajes, independientemente de si lo pagó o no el hogar que realizó el viaje.</p>
 <p>2 Daniel participó de un campamento organizado por la escuela a la cual concurre. Pagó $100 por dos días de camping, el traslado hacia el lugar y todas las comidas. “No se considera un paquete turístico, si bien es un conjunto de bienes por los que se paga un monto global, porque no fue contratado por intermedio de una agencia de viajes cuyo fin es obtener un rédito económico por la intermediación.”</p>
 <p>Respuesta: FALSO. Sí es un paquete turístico, porque lo que prima para considerarlo como tal es que se trate de un conjunto de servicios contratado por medio de algún tipo de intermediario que organizó el viaje (no el prestador directo del servicio), independientemente de si éste es una agencia de viajes u otro tipo de institución (escuela, Boys Scout, peña de pesca, etc.).</p>
 <p>3 Lidia viajó a Francia por trabajo y su empresa le dio un monto de dinero para que afronte todos los gastos del viaje. Ella fue a una agencia donde contrató un paquete turístico que incluía: vuelos con media pensión.
-“Si se encuesta a Lidia, no se debe registrar que se contrató un paquete turístico porque éste no fue pagado con ingresos del hogar sino de la empresa para la cual trabaja.”</p>
+“Si se encuesta a Lidia, no se debe registrar que se contrató un paquete turístico porque éste no fue pagado con ingresos del hogar sino de la empresa para la cual trabaja”.</p>
 <p>Respuesta: FALSO. Sí debe registrarlo, porque se indaga por la contratación de paquete turístico independientemente de si los pagó o no el hogar que realizó el viaje.</p>
 <p>4 Julia contrató, por intermedio de una agencia de viajes, 7 noches de estadía con pensión completa en un hotel de Venezuela.
-“La estadía con pensión completa, contratada por intermedio de agencia de viajes, es un paquete turístico.”</p>
+“La estadía con pensión completa, contratada por intermedio de agencia de viajes, es un paquete turístico”.</p>
 <p>Respuesta: FALSO. No se considera a la pensión completa (o a la media pensión) como un paquete turístico si no incluye algún otro servicio.</p>
 <p>5 Laura viajó a Bolivia. Una vez allí, en una agencia de viajes, adquirió una promoción que incluía 6 comidas en distintos restaurantes, seguro de accidentes personales por 15 días y 3 excursiones.
-“Como se trata de un conjunto de servicios turísticos deben consignarse que se contrató un paquete turístico.”</p>
+“Como se trata de un conjunto de servicios turísticos deben consignarse que se contrató un paquete turístico”.</p>
 <p>Respuesta: FALSO. Para que se considere un paquete debe tratarse de un conjunto de servicios e incluir siempre transporte origen – destino y/o alojamiento. Deberá registrar la contratación de estos servicios en las preguntas que indagan sobre los servicios adquiridos en agencias que no forman parte de un paquete.</p>
 </div>
 <div id="ejercicio-18.-gastos-del-viaje-1" class="section level5 hasAnchor" number="4.5.2.2.18">
@@ -2704,43 +2700,43 @@ Figura 4.92: Motivo del viaje
 </div>
 <p><strong>Justifique cuando la sentencia sea falsa.</strong></p>
 <p>1 Cecilia realizó un viaje que entra en el período de referencia de la encuesta, pero terminó de pagar el paquete turístico que había adquirido fuera de dicho período (en los meses que no son parte del período de referencia deberá pagar 2 cuotas de $200 -de un total de 4-).
-“Sólo deben registrarse los $400 que el hogar pagó por el paquete en los 2 meses que están dentro del período de referencia, porque se excluyen los gastos pagados fuera de él.”</p>
+“Sólo deben registrarse los $400 que el hogar pagó por el paquete en los 2 meses que están dentro del período de referencia, porque se excluyen los gastos pagados fuera de él”.</p>
 <p>Respuesta: FALSO. Se deben registrar todos los gastos de los viajes realizados dentro del período de referencia de la encuesta, independientemente de la forma y el momento en que se paguen, por lo cual en este caso debería registrarse en el monto del gasto $ 800.</p>
 <p>2 Lorenzo viajó de Córdoba a Buenos Aires para comprar ropa en Once y revenderla en su ciudad. Gastó $300 en pasajes, estadía y alimentación y $1200 para comprar la mercadería que revenderá.
-“El gasto total del viaje fue de $300. Los $1200 de compra de mercadería no se deben registrar porque la misma se destina a la actividad económica y no al consumo del hogar.”</p>
+“El gasto total del viaje fue de $300. Los $1200 de compra de mercadería no se deben registrar porque la misma se destina a la actividad económica y no al consumo del hogar”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>3 Hernán vive en Buenos Aires y debía viajar a México. Como no tenía valija, antes de viajar se compró una a $100.
-“El costo de la valija no se debe registrar como gasto del viaje porque es un bien adquirido en el lugar de residencia y su utilización no se agota en el viaje.”</p>
+“El costo de la valija no se debe registrar como gasto del viaje porque es un bien adquirido en el lugar de residencia y su utilización no se agota en el viaje”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>4 Andrea vive en General Roca, Río Negro, y viajó con sus abuelos, que conforman otro hogar, a conocer las Cataratas del Iguazú en Misiones. Sus abuelos le pagaron los viajes y la estadía con pensión completa (en total $700), mientras que ella se pagó algunas salidas y recuerdos para sus amigas (gastó $ 80).
-“Si el hogar encuestado es el de Andrea, sólo debe registrar los $80 como gasto total, pues se consideran únicamente los gastos que fueron pagados por el hogar encuestado.”</p>
+“Si el hogar encuestado es el de Andrea, sólo debe registrar los $80 como gasto total, pues se consideran únicamente los gastos que fueron pagados por el hogar encuestado”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>5 Pedro contrató un paquete turístico para viajar a Brasil por el que pagó $1000 gracias al 20% de descuento que obtuvo por ser socio de una biblioteca de su barrio.
-“El gasto que se debe registrar por la compra del paquete turístico son los $1000 que pagó Pedro, pues se considera el valor de contado neto de descuentos.”</p>
+“El gasto que se debe registrar por la compra del paquete turístico son los $1000 que pagó Pedro, pues se considera el valor de contado neto de descuentos”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>6 Néstor reside en La Plata y viajó a San Miguel de Tucumán a visitar a su madre. Allí le compró un traje de regalo a su esposa.
-“El gasto en el traje para regalar a su esposa es un consumo del hogar, por lo que debe incluirse dentro del gasto del viaje.”</p>
+“El gasto en el traje para regalar a su esposa es un consumo del hogar, por lo que debe incluirse dentro del gasto del viaje”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>7 María viajó de Salta a Pocitos, Bolivia, para comprar ropa. Gastó $100 en pasajes y alimentación y $2000 para comprar mercadería. De esta mercadería, la tres cuarta parte era para revender y el cuarto restante para regalar a familiares y amigos y para consumo del hogar.
-“El gasto total del viaje fue de $100. Los $2000 de compra de mercadería no se deben registrar porque la misma se destina principalmente a la actividad económica y no al consumo del hogar.”</p>
-<p>Respuesta: FALSO. En los casos “mixtos,” cuando se compra una parte de la mercadería para revender u otra actividad y otra para consumo del hogar, esta última parte deberá ser consignada como gasto del viaje, por lo que en este caso el monto del mismo fue de $600 ($100 en pasajes y alimentación y $500 en compra de bienes en el lugar visitado para consumo del hogar).</p>
+“El gasto total del viaje fue de $100. Los $2000 de compra de mercadería no se deben registrar porque la misma se destina principalmente a la actividad económica y no al consumo del hogar”.</p>
+<p>Respuesta: FALSO. En los casos “mixtos”, cuando se compra una parte de la mercadería para revender u otra actividad y otra para consumo del hogar, esta última parte deberá ser consignada como gasto del viaje, por lo que en este caso el monto del mismo fue de $600 ($100 en pasajes y alimentación y $500 en compra de bienes en el lugar visitado para consumo del hogar).</p>
 <p>8 Guillermo fue a visitar a su tía en Uruguay, quien le obsequió un pulóver que costaba $100.
-“Los $100 del pulóver se incluyen como gasto del viaje de Guillermo.”</p>
+“Los $100 del pulóver se incluyen como gasto del viaje de Guillermo”.</p>
 <p>Respuesta: FALSO. Los bienes y servicios que el hogar recibe de regalo durante el viaje no se consideran como gastos del hogar.</p>
 <p>9 Carlos realizó un viaje que no entra en el período de referencia de la encuesta, pero lo terminó de pagar dentro del mismo (en los meses que eran parte del período de referencia pagó 3 cuotas de $200).
-“No se registran los gastos de los viajes realizados fuera del periodo de referencia, independientemente de cuándo hayan sido pagados los mismos.”</p>
+“No se registran los gastos de los viajes realizados fuera del periodo de referencia, independientemente de cuándo hayan sido pagados los mismos”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>10 Marta viajó a Brasil y durante el viaje compró una máquina de fotos a $200.
-“El gasto en la cámara de fotos se debe registrar como parte del gasto del viaje porque en él se incluye la compra de todo tipo de bienes y servicios adquiridos durante el viaje para el consumo del hogar, se extingan o no durante el mismo.”</p>
+“El gasto en la cámara de fotos se debe registrar como parte del gasto del viaje porque en él se incluye la compra de todo tipo de bienes y servicios adquiridos durante el viaje para el consumo del hogar, se extingan o no durante el mismo”.</p>
 <p>Respuesta: VERDADERO.</p>
 <p>11 Leila reside en Mercedes, San Luis, y en un viaje que hizo por Europa le compró un perfume a su novio, que no vive con ella.
-“El gasto en el perfume para regalar a su novio no debe incluirse porque el destinatario del regalo no era un miembro del hogar.”</p>
+“El gasto en el perfume para regalar a su novio no debe incluirse porque el destinatario del regalo no era un miembro del hogar”.</p>
 <p>Respuesta: FALSO. Los bienes que el hogar adquiere durante su viaje para regalar, a personas que forman o no parte de su hogar, no deben incluirse como gastos del viaje.</p>
 <p>12 Raúl compró un pasaje en avión. El costo del mismo era de $3000, pero como se lo financiaron en 12 cuotas termino pagando $3300, porque tuvo que pagar un 10% de intereses.
-“El gasto que se debe registrar por la compra del pasaje son los $3300 porque es lo que Pedro terminó pagando por el mismo.”</p>
+“El gasto que se debe registrar por la compra del pasaje son los $3300 porque es lo que Pedro terminó pagando por el mismo”.</p>
 <p>Respuesta: FALSO. El valor que debe registrarse es el neto de contado, por lo que deben excluirse los intereses; en este caso se deben registrar $3000.</p>
 <p>13 Fernando vive en San Martín, provincia de Buenos Aires y se fue de vacaciones a Villa Gesell, en la Costa Atlántica. Antes de viajar, en la carnicería de su barrio, compró 12 kilos de asado y 18 chorizos, que llevó a Villa Gesell para comer el día de su cumpleaños con 6 amigos.
-“No se debe registrar el gasto en la carne como gasto del viaje porque la misma fue adquirida en el lugar de residencia de quien viajó y no en el lugar de destino del viaje.”</p>
+“No se debe registrar el gasto en la carne como gasto del viaje porque la misma fue adquirida en el lugar de residencia de quien viajó y no en el lugar de destino del viaje”.</p>
 <p>Respuesta: FALSO. Se deben registrar como gasto del viaje todos aquellos bienes y servicios que son adquiridos en el lugar de residencia de quien viaja y que se agotan durante el viaje (son adquiridos exclusivamente para consumir en el viaje).</p>
 <p>14 Liliana y Luis viven en Zarate, provincia de Buenos Aires, cumplieron 25 años de casados y sus hijos (que no viven con ellos) les regalaron $3000 para que hagan un viaje por el norte argentino.
 “El hogar no tuvo ningún gasto porque le regalaron el dinero para realizar el viaje, es decir que el viaje fue pagado por “familiares o amigos no miembros del hogar””.</p>
@@ -3249,7 +3245,7 @@ Completar sólo si es necesario (por ejemplo, si la encuesta no fue respondida e
 <p><img src="imagenes/figura6-304.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Debe anotar que viajará si algún miembro del hogar pernoctará en algún tipo de alojamiento del lugar de destino al menos una de las noches comprendidas <strong>entre el 1ro de julio y el 31 de agosto</strong>. El viaje puede ser realizado por cualquier motivo (ocio, visita a familiares, trabajo, etc.) e incluso debe ser registrado si no ha sido motivado por dicho periodo. También debe ser registrado si algún miembro del hogar comenzó su viaje con anterioridad y/o si permanecerá con posterioridad a la conclusión del feriado.</p>
 <p><img src="imagenes/figura6-305.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>El encuestador debe intentar que el encuestado logre dar una respuesta con <strong>la mayor certeza posible</strong>. Esto es muy importante porque va a definir la cantidad de posibles viajeros. Por eso, cuando se presente una situación de dudas para el entrevistado, debe repreguntar diciendo “que es lo más probable, que viaje o que no viaje” o “es remota la posibilidad de viajar o es concreta.”</p>
+<p>El encuestador debe intentar que el encuestado logre dar una respuesta con <strong>la mayor certeza posible</strong>. Esto es muy importante porque va a definir la cantidad de posibles viajeros. Por eso, cuando se presente una situación de dudas para el entrevistado, debe repreguntar diciendo “que es lo más probable, que viaje o que no viaje” o “es remota la posibilidad de viajar o es concreta”.</p>
 <p><img src="imagenes/figura6-306.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Si alguno de los integrantes del hogar encuestado va a viajar debe definir <strong>si el viaje se va a iniciar en julio o en agosto</strong>. En el caso en que el viaje comience en un mes y finalice en otro deberá marcar la opción ambos.</p>
 <p>Si alguno de los integrantes del hogar encuestado va a viajar debe definir si el viaje se va a iniciar en julio o en agosto. En el caso en que el viaje comience en un mes y finalice en otro deberá marcar la opción ambos.</p>
@@ -3259,7 +3255,7 @@ Completar sólo si es necesario (por ejemplo, si la encuesta no fue respondida e
 <p>En los casos en que los miembros del hogar realicen viajes a diferentes lugares, el encuestador debe definir el lugar de destino de acuerdo a los siguientes criterios: 1) el viaje con mayor grado de certeza de realización; 2) el viaje en el que participen la mayor cantidad de miembros del hogar; 3) el viaje en el que se recorra la mayor distancia desde la vivienda de uso permanente del hogar hasta el lugar de destino.</p>
 <p>En los casos en que el hogar nombrara más de una provincia o país se le repreguntara cuál de ellas es la que con mayor probabilidad visitaría. En caso de similar certeza era aquella en la que tendría mayor estadía y por último la que fue nombrada en primera instancia (porque partimos del supuesto de que era la que el hogar tenía principalmente en mente). En estos casos debía abril la solapa y seleccionar la provincia.</p>
 <p><img src="imagenes/figura6-309.png" width="100%" style="display: block; margin: auto;" /></p>
-<p>El encuestador debía obtener como respuesta una ciudad o localidad. Si no fuera posible, debe obtener una respuesta lo más específica posible. Por ejemplo, si la respuesta era “toda la provincia” entonces debía preguntarse por algún lugar específico dentro de ella: cordillera, sierras, valle, etc. Solo en aquellos casos en que es imposible obtener una respuesta más específica, debe anotarse “a toda la provincia.” Pero nunca debe repetirse el nombre de la provincia en cuestión. Y cuando la ciudad que se menciona sea la capital de provincia, si el nombre de la capital es igual que el de la provincia (Córdoba, Salta, Corrientes, Neuquén, Santa Fe, etc.) debe anotar “CAPITAL.” Si el nombre de la capital no coincide con el de la provincia (Posadas, Paraná, Viedma, etc.) debe anotar el nombre de esa ciudad.</p>
+<p>El encuestador debía obtener como respuesta una ciudad o localidad. Si no fuera posible, debe obtener una respuesta lo más específica posible. Por ejemplo, si la respuesta era “toda la provincia” entonces debía preguntarse por algún lugar específico dentro de ella: cordillera, sierras, valle, etc. Solo en aquellos casos en que es imposible obtener una respuesta más específica, debe anotarse “a toda la provincia”. Pero nunca debe repetirse el nombre de la provincia en cuestión. Y cuando la ciudad que se menciona sea la capital de provincia, si el nombre de la capital es igual que el de la provincia (Córdoba, Salta, Corrientes, Neuquén, Santa Fe, etc.) debe anotar “CAPITAL”. Si el nombre de la capital no coincide con el de la provincia (Posadas, Paraná, Viedma, etc.) debe anotar el nombre de esa ciudad.</p>
 <p><img src="imagenes/figura6-310.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>Deberá preguntar si alguno de los integrantes del hogar que va a realizar el viaje ya estuvo en esa ciudad en los 4 años anteriores en el periodo invernal (es decir, desde 2017 a 2020). Tenga presente que se refiere <strong>solo miembros que participaran del viaje en cuestión y que si lo visitaron en el periodo estival/invernal</strong>. Si solo lo hicieron en un periodo distinto al invernal.</p>
 <p><img src="imagenes/figura6-311.png" width="100%" style="display: block; margin: auto;" /></p>
