@@ -130,21 +130,21 @@ La EVyTH se instrumenta a través de un sistema C.A.T.I. (Computer Assisted Tele
 
 La GTN está compuesta por los siguientes campos:
 
-    1.	Rubro/Actividad
-    
-    2.	Apellido y Nombre
-    
-    3.	Domicilio
-    
-    4.	Teléfono
-    
-    5.	CP
-    
-    6.	Ciudad
-    
-    7.	Localidad
-    
-    8.	Provincia
+  1.	Rubro/Actividad
+  
+  2. Apellido y Nombre
+ 
+  3. Domicilio
+ 
+  4. Teléfono
+ 
+  5. CP
+ 
+  6. Ciudad
+ 
+  7. Localidad
+ 
+  8. Provincia
 
 ## Periodicidad, ventana de observación y período de referencia
 
@@ -170,11 +170,11 @@ De este modo se garantiza que, las estimaciones contenidas en los informes corre
 
 Con el objetivo de mejorar la comparación interanual de las principales variables relevadas, se renueva periódicamente el conjunto de hogares encuestados (panel de respondentes) [^aspectos-metodologicos-y-tecnicos-5]. Conceptualmente, el esquema de rotación de una encuesta tiene incidencia sobre los siguientes aspectos:
 
-    1.	Precisión de las estimaciones del cambio entre dos períodos diferentes.
-    
-    2.	Precisión de las estimaciones obtenidas al agregar muestra.
-    
-    3.	Nivel de no respuesta (por cansancio del panel).
+  1.	Precisión de las estimaciones del cambio entre dos períodos diferentes.
+  
+  2.	Precisión de las estimaciones obtenidas al agregar muestra.
+  
+  3.	Nivel de no respuesta (por cansancio del panel).
 
 
 [^aspectos-metodologicos-y-tecnicos-5]: La forma en que se produce esta renovación se denomina esquema de rotación. 
@@ -192,15 +192,15 @@ Es relevante señalar que durante la EVyTH-12 se llevó a cabo una prueba piloto
 
 Además, se realizó un control por características sociodemográficas del miembro respondente para verificar que no se hubiera sesgado la muestra. Las variables consideradas fueron:
 
-    1.	edad promedio del miembro respondente
-    
-    2.	jefe de hogar o relación de parentesco con el jefe de hogar
-    
-    3.	asistencia a establecimiento educativo
-    
-    4.	máximo nivel educativo alcanzado
-    
-    5.	situación ocupacional
+  1.	edad promedio del miembro respondente
+  
+  2.	jefe de hogar o relación de parentesco con el jefe de hogar
+  
+  3.	asistencia a establecimiento educativo
+  
+  4.	máximo nivel educativo alcanzado
+  
+  5.	situación ocupacional
 
 El estudio arrojó el resultado antes comentado: no se encontraron mayores diferencias socio-económicas entre aquellos que accedieron a contestar las preguntas de esta edición de la encuesta con aquellos que lo hicieron en las ondas con distinta metodología.
 
@@ -246,24 +246,24 @@ Para corregir esto, en la práctica es habitual corregir los pesos o factores de
 
 El empleo adecuado de la técnica de calibración permite:
 
-    1.	Reducir el error cuadrático medio de las estimaciones.
-    
-    2.	Corregir posibles sesgos en la etapa de selección.
-    
-    3.	Dar una solución al problema de “no-respuesta”.
-    
-    4.	Lograr, a partir de las restricciones impuestas, una deseable consistencia, o concordancia, entre los totales conocidos y los obtenidos a través de la muestra, de las variables auxiliares.
+  1.	Reducir el error cuadrático medio de las estimaciones.
+  
+  2.	Corregir posibles sesgos en la etapa de selección.
+  
+  3.	Dar una solución al problema de “no-respuesta”.
+  
+  4.	Lograr, a partir de las restricciones impuestas, una deseable consistencia, o concordancia, entre los totales conocidos y los obtenidos a través de la muestra, de las variables auxiliares.
 
 La calibración consiste básicamente en la resolución de un problema de minimización numérica. Dicho problema queda planteado con la elección de una distancia, entre los nuevos ponderadores y los originales, y la utilización de un conjunto de restricciones impuestas sobre las variables auxiliares que intervienen en el ajuste.
 
 Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodologicos-y-tecnicos-8], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias. La macro mencionada trabaja con cuatro funciones, de las cuales para la EVyTH se trabaja sólo con tres. A continuación, se brinda una pequeña descripción de cada una de ellas.
 
 
-    1.	Método Lineal:  knitr::include_graphics("salidas/tabla1.png")
-    
-    2.	Método multiplicativo (o método ranking):  knitr::include_graphics("salidas/tabla1.png")  
-    
-    3.	Método logit: Fijar dos constantes L y U, tal que L<1<U, y sea knitr::include_graphics("salidas/tabla1.png") . Luego knitr::include_graphics("salidas/tabla1.png")
+  1.	Método Lineal:  knitr::include_graphics("salidas/tabla1.png")
+  
+  2.	Método multiplicativo (o método ranking):  knitr::include_graphics("salidas/tabla1.png")  
+  
+  3.	Método logit: Fijar dos constantes L y U, tal que L<1<U, y sea knitr::include_graphics("salidas/tabla1.png") . Luego knitr::include_graphics("salidas/tabla1.png")
  
  
 [^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
@@ -285,33 +285,33 @@ Se realiza la calibración en forma independiente en cada Región dado que las m
 
 Con respecto a la información auxiliar empleada para la calibración y el ajuste de las estructuras internas de la muestra, se recurrió a proyecciones de población en base al INDEC. Se tiene en cuenta los siguientes totales a nivel de cada una de las siete Regiones:
 
-    1.	Total de personas por sexo.
-    
-    2.	Total de personas por grupos de edad. 
-    
-    3.	Total de personas por nivel educativo.
-    
-    4.	Total de viviendas.
+  1.	Total de personas por sexo.
+  
+  2.	Total de personas por grupos de edad. 
+  
+  3.	Total de personas por nivel educativo.
+  
+  4.	Total de viviendas.
 
 Los grupos de edad están compuestos de la siguiente manera: 
 
-    1.	0 – 17 años, 
-    
-    2.	18 – 34 años, 
-    
-    3.	35 – 54 años y 
-    
-    4.	mayores de 55 años. 
+  1.	0 – 17 años, 
+  
+  2.	18 – 34 años, 
+  
+  3.	35 – 54 años, y 
+  
+  4.	mayores de 55 años. 
 
 Nivel Educativo está conformado por cuatro grupos siendo los mismos: 
 
-    1.	“Sin Instrucción/Hasta Primario Incompleto”, 
-    
-    2.	“Primario Completo/Secundario Incompleto”, 
-    
-    3.	“Secundario Completo/Terciario Incompleto/Universitario Incompleto” y
-    
-    4.	“Terciario Completo/Universitario Completo/Posgrado/Maestría/Doctorado” 
+  1.	Sin Instrucción/Hasta Primario Incompleto,
+  
+  2.	Primario Completo/Secundario Incompleto, 
+  
+  3.	Secundario Completo/Terciario Incompleto/Universitario Incompleto, y
+  
+  4.	Terciario Completo/Universitario Completo/Posgrado/Maestría/Doctorado
 
 Importa aclarar que los Totales de Población y Viviendas utilizados en la calibración se obtienen de Proyecciones elaboradas por INDEC, las cuales actualiza a medida que se dispone de la información del Censo Nacional de Población, Hogares y Viviendas desarrollado en el 2010.
 

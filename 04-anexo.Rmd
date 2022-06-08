@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# **Anexo**
+# Anexo
 
 ## Composición de los aglomerados
 
