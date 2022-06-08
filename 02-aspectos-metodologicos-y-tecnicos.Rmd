@@ -157,7 +157,7 @@ Además, se contempla una ventana de observación [^aspectos-metodologicos-y-tec
 Para dar mayor detalle del mecanismo de ventanas de observación y solapamiento implementado, se presenta el siguiente esquema:
 
 
-[AGREGAR] **Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
+**Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
 
 ![](cuadros_graficos/03_periodo_de_referencia.png)
 
@@ -268,7 +268,7 @@ Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodolo
  
 [^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
 
-[AGREGAR] fórmulas en markdown
+fórmulas en markdown
 
 si L<x<U, y knitr::include_graphics("salidas/tabla1.png")  en otro caso. La función F correspondiente es:
 knitr::include_graphics("salidas/tabla1.png") 
@@ -337,17 +337,17 @@ El Cuadro a continuación destalla los Coeficientes de Variación que son calcul
 
 
 
-[AGREGAR] **Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
+**Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
 
 ![](cuadros_graficos/04_coeficiente_de_variacion.png)
 
 Para comprender fácilmente la forma en que se implementó la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV.
 
-[AGREGAR] **Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
+**Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
 
 
 ![](cuadros_graficos/05_analisis_margen_de_error.png)
 
-[AGREGAR] **Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
+**Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
 
 ![](cuadros_graficos/06_grafico_margen_de_error.png)
