@@ -101,7 +101,7 @@ El universo bajo estudio de la encuesta son los grandes aglomerados urbanos defi
 
 A continuación, se presenta un mapa que, a modo ilustrativo, indica los aglomerados que son relevados:
 
-[AGREGAR] **Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
+**Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
 
 
 
