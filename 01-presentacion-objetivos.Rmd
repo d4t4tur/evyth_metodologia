@@ -7,12 +7,6 @@ editor_options:
 
 # **Presentación y Objetivos** {#presentacion-objetivos}
 
-## Introducción
-
-Este informe tiene como fin presentar la metodología utilizada en la Encuesta de Viajes y Turismo (en adelante EVyTH). 
-
-El informe se ordena de la siguiente forma: en el apartado a continuación se repasan los objetivos generales y específicos de la EVyTH y sus antecedentes. Posteriormente se detallan los aspectos metodológicos y técnicos sobre los que se estructura el relevamiento encomendado. Finalmente, se mencionan algunos detalles adicionales como la descripción de la estructura del formulario base, la metodología de imputación, etc.
-
 
 ## Objetivos de la EVyTH y antecedentes
 
