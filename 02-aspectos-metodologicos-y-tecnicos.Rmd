@@ -18,11 +18,11 @@ Las unidades de observación de la EVyTH son las personas que residen en hogares
 
 Siguiendo las definiciones habituales y las recomendaciones internacionales de la Organización Mundial del Turismo, a los efectos del relevamiento de la EVyTH, se define como viaje de turismo a todo aquel desplazamiento realizado por todos, algunos o al menos uno de los miembros del hogar fuera de su entorno habitual (las segundas viviendas por definición no forman parte). Debe tenerse en cuenta que: 
 
-    1.	Debe tener una duración inferior a un año y quien viajó no haber fijado su residencia en el lugar de destino.
+  1.	Debe tener una duración inferior a un año y quien viajó no haber fijado su residencia en el lugar de destino.
 
-    2.	Comprende los traslados, estancias y todas las actividades que las personas realizan en el lugar de destino.
+  1.	Comprende los traslados, estancias y todas las actividades que las personas realizan en el lugar de destino.
 
-    3.	Puede haber ido a un sólo destino o haber tenido varias etapas.
+  1.	Puede haber ido a un sólo destino o haber tenido varias etapas.
 
 Los motivos del viaje pueden ser esparcimiento, ocio o recreación; visita a familiares y amigos; negocios o motivos profesionales; estudios y formación; razones de salud, religión u otros (trámites, compras, etc.) excepto ser empleado por una unidad residente del lugar visitado. Se incluyen tanto los viajes en los que el viajero pernocta al menos una noche en el lugar visitado como las visitas de un día (excusiones sin pernocte).
 
@@ -34,21 +34,21 @@ Un desplazamiento a un lugar fuera del entorno habitual, en términos de distanc
 
 Si una persona realizó un desplazamiento cuyo motivo principal fue trabajar como empleado de una empresa o institución residente en el lugar visitado (a cambio de un salario, se trate de un empleo en “blanco” o no) no se considerará visitante de ese lugar y, por tanto, no se registra como viaje turístico. No se considera “empleado” si quien viaja por trabajo brinda un servicio por el cual percibe honorarios, o bien si recibe dinero en concepto de “viáticos”, es decir, una asignación para cubrir los gastos del viaje (pasajes, alojamiento, alimentación, etc.). Por ejemplo, no se consideran viajeros cuando son empleados en el lugar de destino:
 
-    -	trabajadores en temporada en hoteles, explotaciones agropecuarias, etc.;
+  -	trabajadores en temporada en hoteles, explotaciones agropecuarias, etc.;
 
-    -	trabajadores temporarios en internados, hospitales y similares;
+  -	trabajadores temporarios en internados, hospitales y similares;
 
-    -	estudiantes que viajan por períodos inferiores a 12 meses y trabajan para mantenerse (tanto quienes reciben un salario por su trabajo como quienes ayudan a una familia en las labores de la casa y el cuidado de los niños a cambio de la estancia y el mantenimiento);
+  -	estudiantes que viajan por períodos inferiores a 12 meses y trabajan para mantenerse (tanto quienes reciben un salario por su trabajo como quienes ayudan a una familia en las labores de la casa y el cuidado de los niños a cambio de la estancia y el mantenimiento);
 
-    -	quienes viajan como acompañantes (familiares, servicio doméstico, etc.) de aquellos que lo hacen por cualquiera de los motivos ya enunciados, aunque hayan realizado actividades turísticas.
+  -	quienes viajan como acompañantes (familiares, servicio doméstico, etc.) de aquellos que lo hacen por cualquiera de los motivos ya enunciados, aunque hayan realizado actividades turísticas.
 
 En cambio, si se consideran que realizaron viajes aquellas personas que viajaron por trabajo, pero no fueron empleados en el lugar de destino, por ejemplo:
 
-    -	conferenciantes, artistas de espectáculos y consultores;
-
-    -	un abogado que defiende en un juicio a una persona o empresa del lugar visitado;
-
-    -	un cirujano que viaja a realizar una operación por única vez.
+  -	conferenciantes, artistas de espectáculos y consultores;
+  
+  -	un abogado que defiende en un juicio a una persona o empresa del lugar visitado;
+  
+  -	un cirujano que viaja a realizar una operación por única vez.
 
 No se consideran viajes aquellos desplazamientos realizados por las personas para quienes el traslado es parte de su trabajo. Por ejemplo, los pilotos de avión, conductores de camión o de ómnibus de larga distancia, viajantes de comercio y similares (incluyendo personal de seguridad, de asistencia – azafatas-, etc.).
 
@@ -63,15 +63,15 @@ El cuadro a continuación resume la definición de entorno habitual discutida an
 
 El marco conceptual antes definido permite obtener conclusiones a partir de diversas unidades de análisis. A continuación, se las repasan junto con una breve descripción de cada una de ellas:
 
-    1.	Hogar: es la persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación con cargo a un mismo presupuesto.
+  1. Hogar: es la persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación con cargo a un mismo presupuesto.
     
-    2.	Persona: cada uno de los individuos integrantes de un hogar.
+  1. Persona: cada uno de los individuos integrantes de un hogar.
     
-    3.	Turista: significa el desplazamiento que realiza una persona fuera del entorno habitual, con una duración inferior al año, pernoctando en el/los lugar/es de destino, por cualquier motivo excepto de ser empleado por una unidad residentes.
+  1. Turista: significa el desplazamiento que realiza una persona fuera del entorno habitual, con una duración inferior al año, pernoctando en el/los lugar/es de destino, por cualquier motivo excepto de ser empleado por una unidad residentes.
 
-    4.	Visita de un día: es el recorrido de una persona fuera del entorno habitual sin pernoctar en el lugar de destino.
+  1. Visita de un día: es el recorrido de una persona fuera del entorno habitual sin pernoctar en el lugar de destino.
 
-    5.	Pernoctación: se trata de una noche de alojamiento de una persona.
+  1. Pernoctación: se trata de una noche de alojamiento de una persona.
 
 
 
@@ -81,21 +81,21 @@ El marco conceptual antes definido permite obtener conclusiones a partir de dive
 El universo bajo estudio de la encuesta son los grandes aglomerados urbanos definidos en la EPH del INDEC. Por lo tanto, se consideran 32 aglomerados (para mayor detalle ver el cuadro en el Anexo). Los aglomerados se agrupan en las siguientes Regiones: [^aspectos-metodologicos-y-tecnicos-3]
 
 
-        1.	Región Ciudad de Buenos Aires.
+  1. Región Ciudad de Buenos Aires.
+
+  1. Partidos del Conurbano de la Provincia de Buenos Aires.
+
+  1. Región Interior de la Provincia de Buenos Aires: compuesto por todos los aglomerados pertenecientes a dicha Provincia, excepto Partidos del Conurbano de la Provincia de Buenos Aires.
         
-        2.	Partidos del Conurbano de la Provincia de Buenos Aires.
+  1. Región Córdoba: compuesto por todos los aglomerados pertenecientes a la Provincia de Córdoba.
         
-        3.	Región Interior de la Provincia de Buenos Aires: compuesto por todos los aglomerados pertenecientes a dicha Provincia, excepto Partidos del Conurbano de la Provincia de Buenos Aires.
+  1. Región Litoral: compuesto por todos los aglomerados pertenecientes a las Provincias de Santa Fe, Entre Ríos, Corrientes, Misiones, Formosa y Chaco.
         
-        4.	Región Córdoba: compuesto por todos los aglomerados pertenecientes a la Provincia de Córdoba.
+  1. Región Norte: compuesto por todos los aglomerados pertenecientes a las provincias de Jujuy, Salta, Tucumán, Santiago del Estero, Catamarca y La Rioja.
         
-        5.	Región Litoral: compuesto por todos los aglomerados pertenecientes a las Provincias de Santa Fe, Entre Ríos, Corrientes, Misiones, Formosa y Chaco.
+  1. Región Cuyo: compuesto por todos los aglomerados pertenecientes a las provincias de Mendoza, San Luis, San Juan.
         
-        6.	Región Norte: compuesto por todos los aglomerados pertenecientes a las provincias de Jujuy, Salta, Tucumán, Santiago del Estero, Catamarca y La Rioja.
-        
-        7.	Región Cuyo: compuesto por todos los aglomerados pertenecientes a las provincias de Mendoza, San Luis, San Juan.
-        
-        8.	Región Patagónica: compuesto por todos los aglomerados pertenecientes a las provincias de La Pampa, Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del Fuego.
+  1. Región Patagónica: compuesto por todos los aglomerados pertenecientes a las provincias de La Pampa, Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del Fuego.
 
 [^aspectos-metodologicos-y-tecnicos-3]: Se debió decidir en qué regiones incluir los aglomerados urbanos “San Nicolás – Villa Constitución” y “Viedma – Carmen de Patagones” puesto que las ciudades se encuentran en distintas provincias y, por ende, en diferentes regiones (según la definición que sigue). Se incluye al primer aglomerado (San Nicolás – Villa Constitución) en la Región Buenos Aires, mientras que el segundo (Viedma – Carmen de Patagones), en la Región Patagonia.
 
@@ -109,11 +109,11 @@ A continuación, se presenta un mapa que, a modo ilustrativo, indica los aglomer
 
 El diseño muestral a considerar durante el relevamiento de la EVyTH se estructura en las siguientes pautas:
 
-    1.	Cada una de las regiones definidas es considerada como estrato y se seleccionan muestras independientes en cada uno de ellos.
+  1. Cada una de las regiones definidas es considerada como estrato y se seleccionan muestras independientes en cada uno de ellos.
     
-    2.	El método de selección implementado es el sistemático.
+  1. El método de selección implementado es el sistemático.
     
-    3.	Cada región, se ordena por Aglomerado – Partido/Departamento – Localidad – Característica Telefónica.
+  1. Cada región, se ordena por Aglomerado – Partido/Departamento – Localidad – Característica Telefónica.
 
 
 ## Tamaño muestral y manejo de los reemplazos
