@@ -13,19 +13,19 @@ El mismo consiste en un Cuestionario Base (o sección "pétrea") que, básicamen
 ## Antecedente de la actual edición de la EVyTH
 
 El Cuestionario implementado en la EVyTH-06, constituyó el modelo sobre el cual se trabajó para llegar al cuestionario aplicado en la Prueba Piloto, en la EVyTH telefónica de los años 2012 en adelante.
-Al observarse el Formulario, se puede notar que la estructura conceptual del cuestionario ha perdurado desde su comienzo, sin embargo, seguramente fue preciso realizar algunas modificaciones atendiendo a situaciones de diversa índole [\^-9] .
-Los cambios que ha sufrido el cuestionario se resumen a continuación y resultan en el Formulario Base anexado a este informe [\^-10].
+Al observarse el Formulario, se puede notar que la estructura conceptual del cuestionario ha perdurado desde su comienzo, sin embargo, seguramente fue preciso realizar algunas modificaciones atendiendo a situaciones de diversa índole [^cuestionario-9] .
+Los cambios que ha sufrido el cuestionario se resumen a continuación y resultan en el Formulario Base anexado a este informe [^cuestionario-10].
 
 
 ## Descripción del formulario
 
 En la presente sección, se describe el cuestionario, que se utiliza para la presente edición de la EVyTH.
 Este puede ser dividido en dos grandes secciones: un bloque "pétreo" (cuyo contenido solo esporádicamente sufre alguna alteración menor) y otro bloque conformado por preguntas que cambian en función de relevamientos "ad-hoc" que resultan de interés según el período y la ocasión.
-Si bien esta sección es utilizada para indagar sobre la expectativa que los encuestados tienen en relación a la posibilidad de realizar algún viaje en un momento futuro (como los períodos de alta estacionalidad turística), puede ser utilizada, también, para llevar adelante encuestas de opinión u de otra índole [\^-11] (durante la EVyTH-20 se indago sobre los perjuicios que tuvo la pandemia a causa del virus COVID-19 y sobre futuros viajes pos pandemia).
+Si bien esta sección es utilizada para indagar sobre la expectativa que los encuestados tienen en relación a la posibilidad de realizar algún viaje en un momento futuro (como los períodos de alta estacionalidad turística), puede ser utilizada, también, para llevar adelante encuestas de opinión u de otra índole [^cuestionario-11] (durante la EVyTH-20 se indago sobre los perjuicios que tuvo la pandemia a causa del virus COVID-19 y sobre futuros viajes pos pandemia).
 
-[\^-9] Circunstancias a las que se le debe adicionar el hecho de que ahora el relevamiento es telefónico (a diferencia de la EVyTH-06, que se realizó cara a cara).
-[\^-10] Este Formulario Base ya incorpora la actualización de los tramos de gastos (según tipo de viaje) y de ingreso (así como también los cambios necesarios a las preguntas de comportamiento turístico).
-[\^-11]   Su característica básica es que es completamente flexible permitiendo realizar relevamientos “ad-hoc” de forma fácil.
+[^cuestionario-9]: Circunstancias a las que se le debe adicionar el hecho de que ahora el relevamiento es telefónico (a diferencia de la EVyTH-06, que se realizó cara a cara).
+[^cuestionario-10]: Este Formulario Base ya incorpora la actualización de los tramos de gastos (según tipo de viaje) y de ingreso (así como también los cambios necesarios a las preguntas de comportamiento turístico).
+[^cuestionario-11]: Su característica básica es que es completamente flexible permitiendo realizar relevamientos “ad-hoc” de forma fácil.
 
 ### Cuestionario base (sección "pétrea")
 
@@ -39,7 +39,7 @@ Esta sección se compone de 9 Bloques; a saber:
 Este bloque está subdivido en tres.
 (i) Al inicio de la encuesta, sólo se indaga por la cantidad de personas que integran el hogar y las iniciales (de forma tal de mantener el anonimato) de cada uno de los miembros del hogar.
 (ii) Al final del cuestionario, luego de indagar por la realización de viajes y visitas y sus características, se indaga por las características de los miembros del hogar, bajo el supuesto de que, con el devenir de la encuesta, el entrevistado gana confianza y se muestra menos renuente a responder estas preguntas.
-En este mismo sub-bloque se indaga por el comportamiento turístico en el año calendario anterior a la encuesta [\^-12]; (iii) La indagación por los ingresos totales del hogar, que cierra la encuesta, se incluye como otro sub-bloque también al finalizar el Formulario Base.
+En este mismo sub-bloque se indaga por el comportamiento turístico en el año calendario anterior a la encuesta [^cuestionario-12]; (iii) La indagación por los ingresos totales del hogar, que cierra la encuesta, se incluye como otro sub-bloque también al finalizar el Formulario Base.
 
     - Bloque "Segundas Viviendas".
 Se indaga únicamente por las segundas viviendas que el hogar dispuso y utilizó durante el periodo de referencia.
@@ -66,7 +66,7 @@ En función de ello, se consulta explícitamente si el encuestado ha viajado dur
 Finalmente, el formulario también incorpora, solo durante los meses de febrero a mayo, una sección donde se indaga por viajes realizados durante al año anterior a modo de conocer el comportamiento turístico de las personas.
 Con la información recabada en esta sección se confecciona el informe sobre Comportamiento Turístico de las Personas Sinópticamente, la lógica del Formulario Base puede resumirse a través del siguiente cuadro:
 
-[\^-12] Este aspecto se indaga durante los meses de febrero hasta mayo inclusive.
+[^cuestionario-12]: Este aspecto se indaga durante los meses de febrero hasta mayo inclusive.
 
 **Cuadro 5: Esquematización del Cuestionario utilizado durante la EVyTH**
 
