@@ -101,7 +101,7 @@ El universo bajo estudio de la encuesta son los grandes aglomerados urbanos defi
 
 A continuación, se presenta un mapa que, a modo ilustrativo, indica los aglomerados que son relevados:
 
-[AGREGAR] **Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
+**Mapa con los aglomerados capitales de provincia o aglomerados urbanos de más de 100.000 habitantes del universo bajo estudio** 
 
 
 
@@ -157,7 +157,7 @@ Además, se contempla una ventana de observación [^aspectos-metodologicos-y-tec
 Para dar mayor detalle del mecanismo de ventanas de observación y solapamiento implementado, se presenta el siguiente esquema:
 
 
-[AGREGAR] **Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
+**Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
 
 ![](cuadros_graficos/03_periodo_de_referencia.png)
 
@@ -259,21 +259,23 @@ La calibración consiste básicamente en la resolución de un problema de minimi
 Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodologicos-y-tecnicos-8], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias. La macro mencionada trabaja con cuatro funciones, de las cuales para la EVyTH se trabaja sólo con tres. A continuación, se brinda una pequeña descripción de cada una de ellas.
 
 
-  1.	Método Lineal:  knitr::include_graphics("salidas/tabla1.png")
+  1.	Método Lineal: $G(x)=(1/2)(x-1)^2; x\in R; F(u)=1+u\in R$
   
-  2.	Método multiplicativo (o método ranking):  knitr::include_graphics("salidas/tabla1.png")  
+  2.	Método multiplicativo (o método ranking): $G(x)=x log x-x+1; x>0; F(u)=exp(u)>0$
   
-  3.	Método logit: Fijar dos constantes L y U, tal que L<1<U, y sea knitr::include_graphics("salidas/tabla1.png") . Luego knitr::include_graphics("salidas/tabla1.png")
+  3.	Método logit: Fijar dos constantes $L$ y $U$, tal que $L<1<U$, y sea $A=(U-L)/\lbrace(1-L)(U-1)\rbrace$. Luego 
+ 
+$G(x) = \frac{1}{A}\begin{bmatrix}(x-L)log \frac{x-L}{1-L} + (U-x)log \frac{U-x}{U-1}\end{bmatrix}$
  
  
 [^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
 
-[AGREGAR] fórmulas en markdown
 
-si L<x<U, y knitr::include_graphics("salidas/tabla1.png")  en otro caso. La función F correspondiente es:
-knitr::include_graphics("salidas/tabla1.png") 
+si $L<x<U$, y $G(x)=\infty$  en otro caso. La función F correspondiente es:
+
+$F(u)=\frac{L(U-1)+U(1-L)exp(Au)}{U-1+(1-L)exp(Au)}$
  
-que toma valores entre L y U
+que toma valores entre $L$ y $U$
 
 La función logit descripta en el punto 3. constituye una función inusual que surge del deseo de restringir el rango de los nuevos pesos wk para evitar los pesos extremos, los cuales pueden ser eliminados a través de una apropiada elección de L y U. 
 
@@ -337,17 +339,17 @@ El Cuadro a continuación destalla los Coeficientes de Variación que son calcul
 
 
 
-[AGREGAR] **Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
+**Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
 
 ![](cuadros_graficos/04_coeficiente_de_variacion.png)
 
 Para comprender fácilmente la forma en que se implementó la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV.
 
-[AGREGAR] **Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
+**Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
 
 
 ![](cuadros_graficos/05_analisis_margen_de_error.png)
 
-[AGREGAR] **Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
+**Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
 
 ![](cuadros_graficos/06_grafico_margen_de_error.png)
