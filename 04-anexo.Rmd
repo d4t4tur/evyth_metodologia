@@ -13,7 +13,13 @@ A continuación, se describen los 32 aglomerados que se considerarán para estra
 
 **Cuadro 22: Composición de Aglomerados** 
 
-![](cuadros_graficos/10_aglomerados.png)
+![](cuadros_graficos/10_aglomerados_1.png)
+
+![](cuadros_graficos/10_aglomerados_2.png)
+
+![](cuadros_graficos/10_aglomerados_3.png)  
+
+![](cuadros_graficos/10_aglomerados_4.png) 
 
 En color rosa se ha marcado la zona geográfica que el Jefe de Campo seguirá para constatar que se ha relevado la cantidad de hogares necesarios para cada una estas áreas (hasta sumar tantos hogares relevados como el tamaño de la muestra exige --incorporando la metodología de reemplazo sugerida anteriormente).
 
