@@ -14,13 +14,13 @@ El objetivo de la EVyTH es medir la evolución de los viajes realizados por los 
 
 A partir de esta encuesta se obtiene información desagregada del comportamiento turístico de los hogares de nuestro país y permite el dimensionamiento, en términos económicos, del peso del turismo interno en el conjunto del consumo de bienes y servicios turísticos en la Argentina. Con dicha información se pueden efectuar estudios analíticos de los diferentes determinantes de la actividad turística de los residentes en nuestro país y, por tanto, diseñar e implementar políticas públicas sectoriales con mayor eficacia y eficiencia. En consecuencia, la información recolectada sirve para:
 
-    1.	Conocer y caracterizar al turismo nacional.
+  1.	Conocer y caracterizar al turismo nacional.
 
-    2.	Como insumo para estimaciones de los gastos de los hogares en viajes y turismo, esencialmente para la elaboración de la Cuenta Satélite de Turismo.
+  1.	Como insumo para estimaciones de los gastos de los hogares en viajes y turismo, esencialmente para la elaboración de la Cuenta Satélite de Turismo.
 
-    3.	Como instrumento de diseño de políticas de incentivo o fomento del turismo mediante el estudio de las características sociodemográficas de los hogares que viajan y los que no viajan, así como de las modalidades de los viajes.
+  1.	Como instrumento de diseño de políticas de incentivo o fomento del turismo mediante el estudio de las características sociodemográficas de los hogares que viajan y los que no viajan, así como de las modalidades de los viajes.
 
-    4.	Medir la repercusión de determinadas políticas de promoción del turismo.
+  1.	Medir la repercusión de determinadas políticas de promoción del turismo.
 
 El objetivo específico de la EVyTH es recolectar información a través de una encuesta estructurada sobre técnicas mundialmente aceptadas y sobre la experiencia acumulada en nuestro país. 
 
