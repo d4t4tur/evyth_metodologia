@@ -339,7 +339,7 @@ El Cuadro a continuación destalla los Coeficientes de Variación que son calcul
 
 [AGREGAR] **Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
 
-![](cuadros_graficos/04_coeficiente_de_variacion.pnj)
+![](cuadros_graficos/04_coeficiente_de_variacion.png)
 
 Para comprender fácilmente la forma en que se implementó la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV.
 
