@@ -2,6 +2,7 @@
 
 ## Composición de los aglomerados
 
+
 A continuación, se describen los 32 aglomerados que se considerarán para estratificar la muestra.
 
 **Cuadro 22: Composición de Aglomerados** 

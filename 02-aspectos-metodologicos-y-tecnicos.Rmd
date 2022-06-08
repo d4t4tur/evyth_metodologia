@@ -4,6 +4,7 @@ editor_options:
     wrap: sentence
 ---
 
+
 # **Aspectos metodológicos y técnicos**
 
 A continuación, se detallan los aspectos metodológicos sobre los cuales se estructura el relevamiento de la EVyTH. Por consiguiente, se brinda una descripción pormenorizada sobre la unidad de observación, el marco muestral, el diseño muestral y el proceso de calibración implementados.
