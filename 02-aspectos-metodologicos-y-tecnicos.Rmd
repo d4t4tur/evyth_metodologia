@@ -259,21 +259,23 @@ La calibración consiste básicamente en la resolución de un problema de minimi
 Para el presente trabajo se utiliza y adapta la macro CALMAR [^aspectos-metodologicos-y-tecnicos-8], escrita en lenguaje SAS por Sautory (1991), la cual calcula los pesos calibrados cuando la información auxiliar de una encuesta consiste de totales marginales conocidos dispuestos en una tabla de frecuencias de dimensiones arbitrarias. La macro mencionada trabaja con cuatro funciones, de las cuales para la EVyTH se trabaja sólo con tres. A continuación, se brinda una pequeña descripción de cada una de ellas.
 
 
-  1.	Método Lineal:  knitr::include_graphics("salidas/tabla1.png")
+  1.	Método Lineal: $G(x)=(1/2)(x-1)^2; x\in R; F(u)=1+u\in R$
   
-  2.	Método multiplicativo (o método ranking):  knitr::include_graphics("salidas/tabla1.png")  
+  2.	Método multiplicativo (o método ranking): $G(x)=x log x-x+1; x>0; F(u)=exp(u)>0$
   
-  3.	Método logit: Fijar dos constantes L y U, tal que L<1<U, y sea knitr::include_graphics("salidas/tabla1.png") . Luego knitr::include_graphics("salidas/tabla1.png")
+  3.	Método logit: Fijar dos constantes $L$ y $U$, tal que $L<1<U$, y sea $A=(U-L)/\lbrace(1-L)(U-1)\rbrace$. Luego 
+ 
+$G(x) = \frac{1}{A}\begin{bmatrix}(x-L)log \frac{x-L}{1-L} + (U-x)log \frac{U-x}{U-1}\end{bmatrix}$
  
  
 [^aspectos-metodologicos-y-tecnicos-8]: El algoritmo del Calmar a utilizar durante la calibración puede ser consultado en: http://www.restore.ac.uk/PEAS/saspackage.php
 
-fórmulas en markdown
 
-si L<x<U, y knitr::include_graphics("salidas/tabla1.png")  en otro caso. La función F correspondiente es:
-knitr::include_graphics("salidas/tabla1.png") 
+si $L<x<U$, y $G(x)=\infty$  en otro caso. La función F correspondiente es:
+
+$F(u)=\frac{L(U-1)+U(1-L)exp(Au)}{U-1+(1-L)exp(Au)}$
  
-que toma valores entre L y U
+que toma valores entre $L$ y $U$
 
 La función logit descripta en el punto 3. constituye una función inusual que surge del deseo de restringir el rango de los nuevos pesos wk para evitar los pesos extremos, los cuales pueden ser eliminados a través de una apropiada elección de L y U. 
 
