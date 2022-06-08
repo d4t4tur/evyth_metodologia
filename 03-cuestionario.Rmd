@@ -69,6 +69,8 @@ Con la información recabada en esta sección se confecciona el informe sobre Co
 
 **Cuadro 5: Esquematización del Cuestionario utilizado durante la EVyTH**
 
+![](cuadros_graficos/07_esquema_cuestionario.png)
+
 El cuestionario base contiene su propia terminología para caracterizar a los viajes (en sentido amplio).
 
 Así, por ejemplo, cuando el visitante pernocta al menos una noche en el lugar de destino, se especifica como "viajes" y "viajeros" propiamente dichos.
@@ -98,6 +100,8 @@ En función de las variables mencionadas, llegamos a la siguiente clasificación
 
 **Cuadro 6: Caracterización de los viajes a ser relevados y ubicación en el formulario base**
 
+![](cuadros_graficos/08_caracterizacion_de_los_viajes.png)
+
 En la última columna del cuadro precedente se señalan dos situaciones: (a) en ciertos tipos de viajes (CDSV, VDSV, VR, VD), dentro de cada bloque, se indaga por la cantidad de viajes o visitas realizadas a cada lugar visitado y luego se realizan algunas preguntas sobre el último de los viajes o visitas a cada lugar; (b) en otros tipos de viajes (LDSV, VA, VE) se consulta directamente por cada uno de los viajes realizados.
 Esto es así porque por la propia definición de los tipos de viaje que componen el primer grupo se trata de viajes muy parecidos entre sí; en cambio, en el segundo grupo, los viajes englobados dentro de un mismo tipo pueden ser totalmente distintos.
 
@@ -109,3 +113,5 @@ Por ejemplo, se consulta por destino, tipo de alojamiento, actividades, etc.
 Con el fin de brindar una descripción resumida del Formulario Base, se presenta su estructura y las variables relevadas.
 
 **Cuadro 7: Estrucura del Formulario Base según tipo de pregunta para cada viaje**
+
+![](cuadros_graficos/09_estructura_del_formulario.png)

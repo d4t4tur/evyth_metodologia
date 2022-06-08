@@ -56,6 +56,7 @@ El cuadro a continuación resume la definición de entorno habitual discutida an
 
 **Cuadro 1: Definición de Entorno Habitual**
 
+![](cuadros_graficos/01_entorno_habitual.png)
 
 ## Unidades de análisis
 
@@ -157,7 +158,7 @@ Para dar mayor detalle del mecanismo de ventanas de observación y solapamiento 
 
 [AGREGAR] **Cuadro 2: Periodicidad, Ventana de Observación y Períodos de Referencia**
 
-
+![](cuadros_graficos/03_periodo_de_referencia.png)
 
 La EVyTH se desarrolla “durante doce ondas consecutivas, a razón de una onda por mes calendario”. El mes calendario de comienzo del relevamiento es marzo. Por lo tanto, para ese mes (que sería la Onda 1 de la EVyTH), se encuesta la muestra (titular) de 2.600 hogares (con los remplazos que hicieran falta) y se consulta por los períodos de referencia correspondiente a los dos meses calendarios anteriores (enero y febrero). Durante el segundo mes de relevamiento, abril (Onda 2), se procede de forma similar para los viajes realizados en los dos meses anteriores (febrero y marzo). Consecuentemente el Mes 2 (abril) la muestra queda “solapada”, habiéndose encuestado 5.200 hogares para este mes (es decir, luego del segundo mes de relevamiento). 
 
@@ -337,9 +338,15 @@ El Cuadro a continuación destalla los Coeficientes de Variación que son calcul
 
 [AGREGAR] **Cuadro 3: Coeficientes de Variación calculados según cada Informe de la EVyTH**
 
+![](cuadros_graficos/04_coeficiente_de_variacion.pnj)
+
 Para comprender fácilmente la forma en que se implementó la metodología descripta anteriormente, se brindan a continuación algunos ejemplos de estimaciones de CV.
 
 [AGREGAR] **Cuadro 4: Análisis de margen de error para informes de adelanto y final. Resultados básicos para agosto 2013**
 
 
+![](cuadros_graficos/05_analisis_margen_de_error.png)
+
 [AGREGAR] **Gráfico 2: Análisis de margen de error para informes de adelanto y final. Visitantes (intervalo de confianza al 90%). Resultados para agosto 2013.**
+
+![](cuadros_graficos/06_grafico_margen_de_error.png)
